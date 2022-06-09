@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 23px 25px 5px 25px;
+
+  .item {
+    // font-family: "Abhaya Libre Medium";
+    // font-style: normal;
+    font-weight: 500;
+    // font-size: 24px;
+    line-height: 19px;
+    color: #303030;
+    margin-right: 8px;
+    vertical-align: center;
+    position: relative;
+    top: -12px;
+
+    text-decoration: none;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #999999;
+  }
+
+}
