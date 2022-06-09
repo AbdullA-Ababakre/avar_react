@@ -22,8 +22,16 @@ const About = ({ props }) => {
 
     useEffect(() => {
         // http://edit.atip.top/uploads/battle.glb
-        ViewModel('modelBox', Battle);
-        document.getElementsByClassName('gui-wrap')[0].remove();
+        // ViewModel('modelBox', Battle);
+        // document.getElementsByClassName('gui-wrap')[0].remove();
+
+        LoadScript('http://fs3.bimangle.net/js/three-gltf-viewer/gltf-viewer.js', () => {
+            // success
+            // remove loading
+            ViewModel('modelBox', Battle);
+            document.getElementsByClassName('gui-wrap')[0].remove();
+        });
+
     }, [item]);
 
 
