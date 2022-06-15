@@ -15,7 +15,6 @@ export const fetchGetConvert = (url, params) => {
 };
 
 export const ViewModel = (elementId, modelUrl) => {
-  // let modelUrl = "http://edit.atip.top/uploads/battle.glb";
   let element = document.getElementById(elementId);
   let viewer = new window.Viewer(element, {});
   viewer.load(modelUrl).then(onSuccess).catch(onError);
@@ -48,3 +47,5 @@ export const LoadScript = (url, success) => {
   script.onload = success;
   document.body.appendChild(script);
 };
+
+

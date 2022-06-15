@@ -8,8 +8,6 @@ import React, { useState, useEffect } from "react";
 import Footer from "../../components/footer/index";
 import HomePageCardGroup from "../../components/HomePageCardGroup/index";
 import { getList } from "../../utils/api/product";
-import { fetchGetConvert } from "../../utils/index";
-import getAvatar from "../../images/homePage/getAvatar.png";
 import introduction from "../../images/homePage/introduction.png"
 import styles from "./index.module.scss";
 import asc from "../../images/homePage/asc.png";
@@ -22,8 +20,8 @@ const Home = () => {
     count: "desc",
     price: "desc",
   });
-
   const [avars, setAvars] = useState([]);
+  const [curPage, setCurPage] = useState(1);
 
   const handleSort = (item, index, con) => {
     item = item.toLowerCase();
@@ -41,17 +39,30 @@ const Home = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  function fetchData() {
+    getList(sortCon).then((res) => {
+      setAvars(res.data.data);
+    });
+  }
+
+  function isScrolling() {
+    if (window.innerHeight + document.body.scrollTop !== window.innerHeight ) {
+      return;
+    }
+    else {
+      console.log("scrolling down");
+    }
+  }
+  useEffect(() => {
+    window.addEventListener("scroll", isScrolling);
+    return () => window.removeEventListener("scroll", isScrolling);
+  }, [])
+
+
+
   return (
     <div>
       <div className={styles.navImg}>
-        {/* <img
-          priority
-          src={getAvatar}
-          className=""
-          style={{ display: "block", width: "100vw", height: "385px" }}
-          alt="getAvatar"
-          layout="responsive"
-        /> */}
         <img
           priority
           src={introduction}
@@ -72,7 +83,7 @@ const Home = () => {
         <div className={styles.verticalLine}></div>
         {sortArr.map((item, index) => {
           return (
-            <>
+            <div key={index}>
               <div className={styles.sort}>
                 <div className={styles.sortName}>{item}</div>
                 <div
@@ -94,13 +105,13 @@ const Home = () => {
                   style={{ marginLeft: "24px" }}
                 ></div>
               )}
-            </>
+            </div>
           );
         })}
       </div>
       <HomePageCardGroup avars={avars} />
       <Footer />
-    </div>
+    </div >
   );
 };
 
