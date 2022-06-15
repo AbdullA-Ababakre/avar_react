@@ -10,6 +10,7 @@ import HomePageCardGroup from "../../components/HomePageCardGroup/index";
 import { getList } from "../../utils/api/product";
 import { fetchGetConvert } from "../../utils/index";
 import getAvatar from "../../images/homePage/getAvatar.png";
+import introduction from "../../images/homePage/introduction.png"
 import styles from "./index.module.scss";
 import asc from "../../images/homePage/asc.png";
 import desc from "../../images/homePage/desc.png";
@@ -42,14 +43,25 @@ const Home = () => {
 
   return (
     <div>
-      <img
-        priority
-        src={getAvatar}
-        className=""
-        style={{ display: "block", width: "100vw", height: "385px" }}
-        alt="getAvatar"
-        layout="responsive"
-      />
+      <div className={styles.navImg}>
+        {/* <img
+          priority
+          src={getAvatar}
+          className=""
+          style={{ display: "block", width: "100vw", height: "385px" }}
+          alt="getAvatar"
+          layout="responsive"
+        /> */}
+        <img
+          priority
+          src={introduction}
+          className={styles.navImgText}
+          style={{ display: "block" }}
+          alt="getAvatar"
+          layout="responsive"
+        />
+      </div>
+
       <div className={styles.sortContainer}>
         <div className={styles.tags}>
           <div className={styles.tag}>#Fashion</div>

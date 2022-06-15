@@ -1,6 +1,5 @@
 import styles from "./index.module.scss";
 import HomePageCard from "../homePageCard";
-import { avars } from "../../content/index";
 
 const HomePageCardGroup = ({ avars }) => {
   return (

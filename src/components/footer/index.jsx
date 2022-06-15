@@ -18,19 +18,6 @@ const Footer = () => {
             href: '/',
             title: 'Home'
         },
-        // {
-        //     href: '/avatar',
-        //     title: 'Avatar'
-        // },
-        // {
-        //     href: '/fashion',
-        //     title: 'Digital Fashion'
-        // },
-
-        // {
-        //     href: '/art',
-        //     title: 'Digital Art Toy'
-        // },
         {
             href: '/about',
             title: 'About US'
@@ -44,10 +31,8 @@ const Footer = () => {
                 {
                     linkArr.map((item, index) => {
                         return (
-                            <Link to={item.href} key={index}>
-                                {/* <a className={styles.item} href="#"> */}
+                            <Link to={item.href} key={index} className={styles.navItem}>
                                 {item.title}
-                                {/* </a> */}
                             </Link>
                         )
                     })

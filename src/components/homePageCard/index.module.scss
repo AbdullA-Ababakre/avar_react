@@ -1,5 +1,5 @@
 .card {
-  width: 280px;
+  width: 364px;
   height: 360px;
   left: 0%;
   right: -.36%;
@@ -12,17 +12,24 @@
   margin-right: 30px;
   margin-bottom: 60px;
 
+
   .imgWrapper {
     background: url("../../images/homePage/homePageCard/background.png") no-repeat center center;
-    width:316;
-    height:306px;
+    width: 316;
+    height: 306px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .img {
       display: inline-block;
-      width: 70%;
+      width: 60%;
       height: 70%;
-      padding: 42px;
+      border-radius: 5px;
       object-fit: fill;
+      margin-top: -5px;
+
     }
   }
 
@@ -82,4 +89,8 @@
       }
     }
   }
+}
+
+.card:nth-child(3) {
+  margin-right: 0;
 }
