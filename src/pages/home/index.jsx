@@ -21,7 +21,6 @@ const Home = () => {
     price: "desc",
   });
   const [avars, setAvars] = useState([]);
-  const [curPage, setCurPage] = useState(1);
 
   const handleSort = (item, index, con) => {
     item = item.toLowerCase();
@@ -39,24 +38,19 @@ const Home = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  function fetchData() {
-    getList(sortCon).then((res) => {
-      setAvars(res.data.data);
-    });
-  }
 
-  function isScrolling() {
-    if (window.innerHeight + document.body.scrollTop !== window.innerHeight ) {
-      return;
-    }
-    else {
-      console.log("scrolling down");
-    }
-  }
-  useEffect(() => {
-    window.addEventListener("scroll", isScrolling);
-    return () => window.removeEventListener("scroll", isScrolling);
-  }, [])
+  // function isScrolling() {
+  //   if (window.innerHeight + document.body.scrollTop !== window.innerHeight) {
+  //     return;
+  //   }
+  //   else {
+  //     console.log("scrolling down");
+  //   }
+  // }
+  // useEffect(() => {
+  //   window.addEventListener("scroll", isScrolling);
+  //   return () => window.removeEventListener("scroll", isScrolling);
+  // }, [])
 
 
 
@@ -83,7 +77,7 @@ const Home = () => {
         <div className={styles.verticalLine}></div>
         {sortArr.map((item, index) => {
           return (
-            <div key={index}>
+            <div key={index} className={styles.sortItem}>
               <div className={styles.sort}>
                 <div className={styles.sortName}>{item}</div>
                 <div

@@ -43,35 +43,35 @@
     }
   }
 
-  .sort {
+  .sortItem {
     display: flex;
-    align-items: center;
-    font-family: "Abhaya Libre SemiBold";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 38px;
-    color: #bbbbbb;
 
-    .asc {
-      cursor: pointer;
-      margin-left: 25px;
+    .sort {
+      display: flex;
+      align-items: center;
+      font-family: "Abhaya Libre SemiBold";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 38px;
+      color: #bbbbbb;
+
+      .asc {
+        cursor: pointer;
+        margin-left: 25px;
+      }
+
+      .desc {
+        cursor: pointer;
+        margin-left: 25px;
+      }
     }
 
-    .desc {
-      cursor: pointer;
-      margin-left: 25px;
-    }
   }
-
-  // :nth-child(2){
-  //    padding-right:35px;
-  // }
 
   .verticalLine {
     border: 1px solid #bbbbbb;
     height: 100%;
-    width: 1px;
     margin-left: 12px;
     margin-right: 24px;
   }
