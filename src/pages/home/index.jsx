@@ -4,7 +4,7 @@
  * @Date: 2022-06-10 20:23:32
  * @LastEditTime: 2022-06-13 08:27:17
  */
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Footer from "../../components/footer/index";
 import HomePageCardGroup from "../../components/HomePageCardGroup/index";
 import { getList } from "../../utils/api/product";
@@ -20,39 +20,12 @@ const Home = () => {
     count: "desc",
     price: "desc",
   });
-  const [avars, setAvars] = useState([]);
 
   const handleSort = (item, index, con) => {
     item = item.toLowerCase();
     if (item === "time") item = "created_at";
     setSortCon({ ...sortCon, [item]: con });
   };
-
-  useEffect(() => {
-    async function fetchData() {
-      getList(sortCon).then((res) => {
-        setAvars(res.data.data);
-      });
-    }
-    fetchData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-
-  // function isScrolling() {
-  //   if (window.innerHeight + document.body.scrollTop !== window.innerHeight) {
-  //     return;
-  //   }
-  //   else {
-  //     console.log("scrolling down");
-  //   }
-  // }
-  // useEffect(() => {
-  //   window.addEventListener("scroll", isScrolling);
-  //   return () => window.removeEventListener("scroll", isScrolling);
-  // }, [])
-
-
 
   return (
     <div>
@@ -103,7 +76,7 @@ const Home = () => {
           );
         })}
       </div>
-      <HomePageCardGroup avars={avars} />
+      <HomePageCardGroup sortCon={sortCon} />
       <Footer />
     </div >
   );
