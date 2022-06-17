@@ -2,13 +2,12 @@
  * @Descripttion:
  * @Author: 热伊木
  * @Date: 2022-06-10 20:23:32
- * @LastEditTime: 2022-06-13 08:27:17
+ * @LastEditTime: 2022-06-17 15:10:29
  */
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import Footer from "../../components/footer/index";
 import HomePageCardGroup from "../../components/HomePageCardGroup/index";
-import { getList } from "../../utils/api/product";
-import introduction from "../../images/homePage/introduction.png"
+import introduction from "../../images/homePage/introduction.png";
 import styles from "./index.module.scss";
 import asc from "../../images/homePage/asc.png";
 import desc from "../../images/homePage/desc.png";
@@ -24,7 +23,8 @@ const Home = () => {
   const handleSort = (item, index, con) => {
     item = item.toLowerCase();
     if (item === "time") item = "created_at";
-    setSortCon({ ...sortCon, [item]: con });
+    const newSortCon = { ...sortCon, [item]: con };
+    setSortCon(newSortCon);
   };
 
   return (
@@ -78,7 +78,7 @@ const Home = () => {
       </div>
       <HomePageCardGroup sortCon={sortCon} />
       <Footer />
-    </div >
+    </div>
   );
 };
 

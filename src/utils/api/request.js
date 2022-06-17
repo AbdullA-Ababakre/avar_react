@@ -2,10 +2,10 @@
  * @Descripttion:
  * @Author: 热伊木
  * @Date: 2022-06-13 04:42:27
- * @LastEditTime: 2022-06-13 08:01:57
+ * @LastEditTime: 2022-06-17 15:10:39
  */
 import axios from "axios";
-import { Setting, WithoutAuthorization } from "../../setting";
+import { Setting } from "../../setting";
 
 //创建一个axios实例对象
 const instance = axios.create({

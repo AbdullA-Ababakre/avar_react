@@ -1,3 +1,9 @@
+/*
+ * @Descripttion:
+ * @Author: 热伊木
+ * @Date: 2022-06-10 20:23:30
+ * @LastEditTime: 2022-06-17 17:58:35
+ */
 import styles from "./index.module.scss";
 import HomePageCard from "../homePageCard";
 import React, { useEffect, useState } from "react";
@@ -17,24 +23,22 @@ const HomePageCardGroup = ({ sortCon }) => {
     });
   }
 
-
   const isBottom = (el) => {
     return el.getBoundingClientRect().bottom <= window.innerHeight;
-  }
+  };
 
   useEffect(() => {
-    document.addEventListener('scroll', trackScrolling);
+    document.addEventListener("scroll", trackScrolling);
   }, []);
 
   const trackScrolling = () => {
-    const wrappedElement = document.getElementById('box');
+    const wrappedElement = document.getElementById("box");
     if (isBottom(wrappedElement)) {
-      setCurpage(prev => prev + 1);
-      document.removeEventListener('scroll', trackScrolling);
+      setCurpage((prev) => prev + 1);
+      // fetchData(curPage + 1);
+      document.removeEventListener("scroll", trackScrolling);
     }
   };
-
-
 
   return (
     <div id="box" className={styles.cardGroup}>
