@@ -2,7 +2,7 @@
  * @Descripttion:
  * @Author: 热伊木
  * @Date: 2022-06-10 20:23:30
- * @LastEditTime: 2022-06-17 15:18:50
+ * @LastEditTime: 2022-06-17 17:58:35
  */
 import styles from "./index.module.scss";
 import HomePageCard from "../homePageCard";
@@ -14,12 +14,11 @@ const HomePageCardGroup = ({ sortCon }) => {
   const [curPage, setCurpage] = useState(1);
 
   useEffect(() => {
-    console.log("curPage", curPage);
-    fetchData(curPage);
+    fetchData(sortCon, curPage);
   }, [curPage]);
 
-  async function fetchData(page) {
-    getList({ ...sortCon, page }).then((res) => {
+  async function fetchData(sortConParam, page) {
+    getList({ ...sortConParam, page }).then((res) => {
       setAvars([...res.data.data, ...avars]);
     });
   }
