@@ -8,12 +8,11 @@ const HomePageCardGroup = ({ sortCon }) => {
   const [curPage, setCurpage] = useState(1);
 
   useEffect(() => {
-    console.log("curPage", curPage);
-    fetchData(curPage);
+    fetchData(sortCon, curPage);
   }, [curPage]);
 
-  async function fetchData(page) {
-    getList({ ...sortCon, page }).then((res) => {
+  async function fetchData(sortConParam, page) {
+    getList({ ...sortConParam, page }).then((res) => {
       setAvars([...res.data.data, ...avars]);
     });
   }
@@ -31,7 +30,6 @@ const HomePageCardGroup = ({ sortCon }) => {
     const wrappedElement = document.getElementById('box');
     if (isBottom(wrappedElement)) {
       setCurpage(prev => prev + 1);
-      // fetchData(curPage + 1);
       document.removeEventListener('scroll', trackScrolling);
     }
   };
