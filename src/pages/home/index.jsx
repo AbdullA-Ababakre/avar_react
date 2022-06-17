@@ -2,7 +2,7 @@
  * @Descripttion:
  * @Author: 热伊木
  * @Date: 2022-06-10 20:23:32
- * @LastEditTime: 2022-06-13 08:27:17
+ * @LastEditTime: 2022-06-17 13:26:50
  */
 import React, { useState, useEffect } from "react";
 import Footer from "../../components/footer/index";
@@ -27,18 +27,21 @@ const Home = () => {
   const handleSort = (item, index, con) => {
     item = item.toLowerCase();
     if (item === "time") item = "created_at";
-    setSortCon({ ...sortCon, [item]: con });
+    const newSortCon = { ...sortCon, [item]: con };
+    setSortCon(newSortCon);
+    geData(newSortCon);
   };
 
   useEffect(() => {
-    async function fetchData() {
-      getList(sortCon).then((res) => {
-        setAvars(res.data.data);
-      });
-    }
-    fetchData();
+    geData(sortCon);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  const geData = (newSortCon) => {
+    getList(newSortCon).then((res) => {
+      setAvars(res.data.data);
+    });
+  };
 
   return (
     <div>
