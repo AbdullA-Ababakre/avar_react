@@ -18,7 +18,7 @@ const HomePageCard = (props) => {
           <div className={styles.imgWrapper}>
             <img
               className={styles.img}
-              priority
+              priority="true"
               src={item.cover}
               width={244}
               height={250}
@@ -31,7 +31,7 @@ const HomePageCard = (props) => {
         <div className={styles.imgWrapper}>
           <img
             className={styles.img}
-            priority
+            priority="true"
             src={item.cover}
             width={244}
             height={250}

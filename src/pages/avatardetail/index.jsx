@@ -78,7 +78,7 @@ const About = ({ props }) => {
               item.images.length > 0 &&
               item.images.map((item, index) => {
                 return (
-                  <div className={styles.imgWraper}>
+                  <div className={styles.imgWraper} key={index}>
                     <img
                       key={index}
                       src={item}

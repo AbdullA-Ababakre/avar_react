@@ -50,10 +50,10 @@ parcelRequire = (function (e, r, t, n) {
     "object" == typeof exports && "undefined" != typeof module
       ? (module.exports = l)
       : "function" == typeof define && define.amd
-      ? define(function () {
+        ? define(function () {
           return l;
         })
-      : n && (this[n] = l);
+        : n && (this[n] = l);
   }
   if (((parcelRequire = f), i)) throw i;
   return f;
@@ -87,12 +87,12 @@ parcelRequire = (function (e, r, t, n) {
             exports.AddOperation =
             exports.AddEquation =
             exports.ACESFilmicToneMapping =
-              void 0),
+            void 0),
           (exports.AxisHelper = kx),
           (exports.BasicShadowMap =
             exports.BasicDepthPacking =
             exports.BackSide =
-              void 0),
+            void 0),
           (exports.BinaryTextureLoader = Xx),
           (exports.BooleanKeyframeTrack = exports.Bone = void 0),
           (exports.BoundingBoxHelper = Vx),
@@ -109,7 +109,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.Box3Helper =
             exports.Box3 =
             exports.Box2 =
-              void 0),
+            void 0),
           (exports.CanvasRenderer = Zx),
           (exports.DstColorFactor =
             exports.DstAlphaFactor =
@@ -164,13 +164,13 @@ parcelRequire = (function (e, r, t, n) {
             exports.CineonToneMapping =
             exports.CatmullRomCurve3 =
             exports.CanvasTexture =
-              void 0),
+            void 0),
           (exports.DynamicBufferAttribute = Dx),
           (exports.EdgesGeometry =
             exports.DynamicReadUsage =
             exports.DynamicDrawUsage =
             exports.DynamicCopyUsage =
-              void 0),
+            void 0),
           (exports.EdgesHelper = Wx),
           (exports.Float16BufferAttribute =
             exports.FlatShading =
@@ -185,7 +185,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.EqualStencilFunc =
             exports.EqualDepth =
             exports.EllipseCurve =
-              void 0),
+            void 0),
           (exports.Float32Attribute = Hx),
           (exports.Float32BufferAttribute = void 0),
           (exports.Float64Attribute = Ux),
@@ -223,7 +223,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.Fog =
             exports.FloatType =
             exports.Float64BufferAttribute =
-              void 0),
+            void 0),
           (exports.Int16Attribute = Nx),
           (exports.Int16BufferAttribute = void 0),
           (exports.Int32Attribute = zx),
@@ -238,7 +238,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.InterleavedBuffer =
             exports.IntType =
             exports.Int8BufferAttribute =
-              void 0),
+            void 0),
           (exports.JSONLoader = Jx),
           (exports.Layers =
             exports.LatheGeometry =
@@ -246,7 +246,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.LOD =
             exports.KeyframeTrack =
             exports.KeepStencilOp =
-              void 0),
+            void 0),
           (exports.LensFlare = Kx),
           (exports.LinearMipmapNearestFilter =
             exports.LinearMipmapLinearFilter =
@@ -271,7 +271,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.LessEqualStencilFunc =
             exports.LessEqualDepth =
             exports.LessDepth =
-              void 0),
+            void 0),
           (exports.MeshDistanceMaterial =
             exports.MeshDepthMaterial =
             exports.MeshBasicMaterial =
@@ -317,7 +317,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.LessEqualStencilFunc =
             exports.LessEqualDepth =
             exports.LessDepth =
-              void 0),
+            void 0),
           (exports.MeshFaceMaterial = bx),
           (exports.MixOperation =
             exports.MirroredRepeatWrapping =
@@ -329,7 +329,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.MeshNormalMaterial =
             exports.MeshMatcapMaterial =
             exports.MeshLambertMaterial =
-              void 0),
+            void 0),
           (exports.MultiMaterial = Sx),
           (exports.ParametricGeometry =
             exports.ParametricBufferGeometry =
@@ -364,7 +364,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.NearestFilter =
             exports.MultiplyOperation =
             exports.MultiplyBlending =
-              void 0),
+            void 0),
           (exports.Particle = Ex),
           (exports.ParticleBasicMaterial = Rx),
           (exports.ParticleSystem = Ax),
@@ -375,7 +375,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.Plane =
             exports.PerspectiveCamera =
             exports.Path =
-              void 0),
+            void 0),
           (exports.PointCloud = Tx),
           (exports.PointCloudMaterial = Lx),
           (exports.RGBA_ASTC_10x5_Format =
@@ -399,7 +399,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.Points =
             exports.PointLightHelper =
             exports.PointLight =
-              void 0),
+            void 0),
           (exports.TangentSpaceNormalMap =
             exports.TOUCH =
             exports.SubtractiveBlending =
@@ -521,7 +521,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.Points =
             exports.PointLightHelper =
             exports.PointLight =
-              void 0),
+            void 0),
           (exports.UVMapping =
             exports.TubeGeometry =
             exports.TubeBufferGeometry =
@@ -660,7 +660,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.Points =
             exports.PointLightHelper =
             exports.PointLight =
-              void 0),
+            void 0),
           (exports.Uint16Attribute = Gx),
           (exports.Uint16BufferAttribute = void 0),
           (exports.Uint32Attribute = Ox),
@@ -684,7 +684,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.UniformsLib =
             exports.Uniform =
             exports.Uint8ClampedBufferAttribute =
-              void 0),
+            void 0),
           (exports.Vertex = Px),
           (exports.WebGLRenderTarget =
             exports.WebGLMultisampleRenderTarget =
@@ -693,7 +693,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.WebGL1Renderer =
             exports.VideoTexture =
             exports.VertexColors =
-              void 0),
+            void 0),
           (exports.WebGLRenderTargetCube = Yx),
           (exports.WebGLRenderer = Yh),
           (exports.WebGLUtils = Hh),
@@ -706,7 +706,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.ZeroSlopeEnding =
             exports.ZeroFactor =
             exports.ZeroCurvatureEnding =
-              void 0);
+            void 0);
         const t = "129";
         exports.REVISION = "129";
         const e = { LEFT: 0, MIDDLE: 1, RIGHT: 2, ROTATE: 0, DOLLY: 1, PAN: 2 };
@@ -1186,15 +1186,15 @@ parcelRequire = (function (e, r, t, n) {
           return t <= e
             ? 0
             : t >= n
-            ? 1
-            : (t = (t - e) / (n - e)) * t * (3 - 2 * t);
+              ? 1
+              : (t = (t - e) / (n - e)) * t * (3 - 2 * t);
         }
         function Xn(t, e, n) {
           return t <= e
             ? 0
             : t >= n
-            ? 1
-            : (t = (t - e) / (n - e)) * t * t * (t * (6 * t - 15) + 10);
+              ? 1
+              : (t = (t - e) / (n - e)) * t * t * (t * (6 * t - 15) + 10);
         }
         function Yn(t, e) {
           return t + Math.floor(Math.random() * (e - t + 1));
@@ -1259,7 +1259,7 @@ parcelRequire = (function (e, r, t, n) {
             default:
               console.warn(
                 "THREE.MathUtils: .setQuaternionFromProperEuler() encountered an unknown order: " +
-                  i
+                i
               );
           }
         }
@@ -1349,8 +1349,8 @@ parcelRequire = (function (e, r, t, n) {
           add(t, e) {
             return void 0 !== e
               ? (console.warn(
-                  "THREE.Vector2: .add() now only accepts one argument. Use .addVectors( a, b ) instead."
-                ),
+                "THREE.Vector2: .add() now only accepts one argument. Use .addVectors( a, b ) instead."
+              ),
                 this.addVectors(t, e))
               : ((this.x += t.x), (this.y += t.y), this);
           }
@@ -1366,8 +1366,8 @@ parcelRequire = (function (e, r, t, n) {
           sub(t, e) {
             return void 0 !== e
               ? (console.warn(
-                  "THREE.Vector2: .sub() now only accepts one argument. Use .subVectors( a, b ) instead."
-                ),
+                "THREE.Vector2: .sub() now only accepts one argument. Use .subVectors( a, b ) instead."
+              ),
                 this.subVectors(t, e))
               : ((this.x -= t.x), (this.y -= t.y), this);
           }
@@ -1519,9 +1519,9 @@ parcelRequire = (function (e, r, t, n) {
           fromBufferAttribute(t, e, n) {
             return (
               void 0 !== n &&
-                console.warn(
-                  "THREE.Vector2: offset has been removed from .fromBufferAttribute()."
-                ),
+              console.warn(
+                "THREE.Vector2: offset has been removed from .fromBufferAttribute()."
+              ),
               (this.x = t.getX(e)),
               (this.y = t.getY(e)),
               this
@@ -1547,9 +1547,9 @@ parcelRequire = (function (e, r, t, n) {
           constructor() {
             (this.elements = [1, 0, 0, 0, 1, 0, 0, 0, 1]),
               arguments.length > 0 &&
-                console.error(
-                  "THREE.Matrix3: the constructor no longer reads arguments. use .set() instead."
-                );
+              console.error(
+                "THREE.Matrix3: the constructor no longer reads arguments. use .set() instead."
+              );
           }
           set(t, e, n, r, i, s, o, a, l) {
             const c = this.elements;
@@ -1855,9 +1855,9 @@ parcelRequire = (function (e, r, t, n) {
             }
             return e.width > 2048 || e.height > 2048
               ? (console.warn(
-                  "THREE.ImageUtils.getDataURL: Image converted to jpg for performance reasons",
-                  t
-                ),
+                "THREE.ImageUtils.getDataURL: Image converted to jpg for performance reasons",
+                t
+              ),
                 e.toDataURL("image/jpeg", 0.6))
               : e.toDataURL("image/png");
           }
@@ -1980,7 +1980,7 @@ parcelRequire = (function (e, r, t, n) {
               const r = this.image;
               if (
                 (void 0 === r.uuid && (r.uuid = zn()),
-                !e && void 0 === t.images[r.uuid])
+                  !e && void 0 === t.images[r.uuid])
               ) {
                 let e;
                 if (Array.isArray(r)) {
@@ -2041,13 +2041,13 @@ parcelRequire = (function (e, r, t, n) {
             ("undefined" != typeof ImageBitmap && t instanceof ImageBitmap)
             ? lr.getDataURL(t)
             : t.data
-            ? {
+              ? {
                 data: Array.prototype.slice.call(t.data),
                 width: t.width,
                 height: t.height,
                 type: t.data.constructor.name,
               }
-            : (console.warn("THREE.Texture: Unable to serialize Texture."), {});
+              : (console.warn("THREE.Texture: Unable to serialize Texture."), {});
         }
         (exports.Texture = hr),
           (hr.DEFAULT_IMAGE = void 0),
@@ -2135,8 +2135,8 @@ parcelRequire = (function (e, r, t, n) {
           add(t, e) {
             return void 0 !== e
               ? (console.warn(
-                  "THREE.Vector4: .add() now only accepts one argument. Use .addVectors( a, b ) instead."
-                ),
+                "THREE.Vector4: .add() now only accepts one argument. Use .addVectors( a, b ) instead."
+              ),
                 this.addVectors(t, e))
               : ((this.x += t.x),
                 (this.y += t.y),
@@ -2170,8 +2170,8 @@ parcelRequire = (function (e, r, t, n) {
           sub(t, e) {
             return void 0 !== e
               ? (console.warn(
-                  "THREE.Vector4: .sub() now only accepts one argument. Use .subVectors( a, b ) instead."
-                ),
+                "THREE.Vector4: .sub() now only accepts one argument. Use .subVectors( a, b ) instead."
+              ),
                 this.subVectors(t, e))
               : ((this.x -= t.x),
                 (this.y -= t.y),
@@ -2271,12 +2271,12 @@ parcelRequire = (function (e, r, t, n) {
                     ? ((n = 0), (r = 0.707106781), (i = 0.707106781))
                     : ((r = g / (n = Math.sqrt(t))), (i = x / n))
                   : s > f
-                  ? s < 0.01
-                    ? ((n = 0.707106781), (r = 0), (i = 0.707106781))
-                    : ((n = g / (r = Math.sqrt(s))), (i = v / r))
-                  : f < 0.01
-                  ? ((n = 0.707106781), (r = 0.707106781), (i = 0))
-                  : ((n = x / (i = Math.sqrt(f))), (r = v / i)),
+                    ? s < 0.01
+                      ? ((n = 0.707106781), (r = 0), (i = 0.707106781))
+                      : ((n = g / (r = Math.sqrt(s))), (i = v / r))
+                    : f < 0.01
+                      ? ((n = 0.707106781), (r = 0.707106781), (i = 0))
+                      : ((n = x / (i = Math.sqrt(f))), (r = v / i)),
                 this.set(n, r, i, e),
                 this
               );
@@ -2394,9 +2394,9 @@ parcelRequire = (function (e, r, t, n) {
           length() {
             return Math.sqrt(
               this.x * this.x +
-                this.y * this.y +
-                this.z * this.z +
-                this.w * this.w
+              this.y * this.y +
+              this.z * this.z +
+              this.w * this.w
             );
           }
           manhattanLength() {
@@ -2460,9 +2460,9 @@ parcelRequire = (function (e, r, t, n) {
           fromBufferAttribute(t, e, n) {
             return (
               void 0 !== n &&
-                console.warn(
-                  "THREE.Vector4: offset has been removed from .fromBufferAttribute()."
-                ),
+              console.warn(
+                "THREE.Vector4: offset has been removed from .fromBufferAttribute()."
+              ),
               (this.x = t.getX(e)),
               (this.y = t.getY(e)),
               (this.z = t.getZ(e)),
@@ -2528,12 +2528,12 @@ parcelRequire = (function (e, r, t, n) {
           setSize(t, e, n = 1) {
             (this.width === t && this.height === e && this.depth === n) ||
               ((this.width = t),
-              (this.height = e),
-              (this.depth = n),
-              (this.texture.image.width = t),
-              (this.texture.image.height = e),
-              (this.texture.image.depth = n),
-              this.dispose()),
+                (this.height = e),
+                (this.depth = n),
+                (this.texture.image.width = t),
+                (this.texture.image.height = e),
+                (this.texture.image.depth = n),
+                this.dispose()),
               this.viewport.set(0, 0, t, e),
               this.scissor.set(0, 0, t, e);
           }
@@ -2656,10 +2656,10 @@ parcelRequire = (function (e, r, t, n) {
               const i = o * n;
               if (
                 ((a = a * t + u * i),
-                (l = l * t + p * i),
-                (c = c * t + d * i),
-                (h = h * t + m * i),
-                t === 1 - o)
+                  (l = l * t + p * i),
+                  (c = c * t + d * i),
+                  (h = h * t + m * i),
+                  t === 1 - o)
               ) {
                 const t = 1 / Math.sqrt(a * a + l * l + c * c + h * h);
                 (a *= t), (l *= t), (c *= t), (h *= t);
@@ -2788,7 +2788,7 @@ parcelRequire = (function (e, r, t, n) {
               default:
                 console.warn(
                   "THREE.Quaternion: .setFromEuler() encountered an unknown order: " +
-                    s
+                  s
                 );
             }
             return !1 !== e && this._onChangeCallback(), this;
@@ -2905,9 +2905,9 @@ parcelRequire = (function (e, r, t, n) {
           length() {
             return Math.sqrt(
               this._x * this._x +
-                this._y * this._y +
-                this._z * this._z +
-                this._w * this._w
+              this._y * this._y +
+              this._z * this._z +
+              this._w * this._w
             );
           }
           normalize() {
@@ -2927,8 +2927,8 @@ parcelRequire = (function (e, r, t, n) {
           multiply(t, e) {
             return void 0 !== e
               ? (console.warn(
-                  "THREE.Quaternion: .multiply() now only accepts one argument. Use .multiplyQuaternions( a, b ) instead."
-                ),
+                "THREE.Quaternion: .multiply() now only accepts one argument. Use .multiplyQuaternions( a, b ) instead."
+              ),
                 this.multiplyQuaternions(t, e))
               : this.multiplyQuaternions(this, t);
           }
@@ -2969,7 +2969,7 @@ parcelRequire = (function (e, r, t, n) {
                   (this._z = -t._z),
                   (o = -o))
                 : this.copy(t),
-              o >= 1)
+                o >= 1)
             )
               return (
                 (this._w = s), (this._x = n), (this._y = r), (this._z = i), this
@@ -3042,7 +3042,7 @@ parcelRequire = (function (e, r, t, n) {
           _onChange(t) {
             return (this._onChangeCallback = t), this;
           }
-          _onChangeCallback() {}
+          _onChangeCallback() { }
         }
         (exports.Quaternion = gr), (gr.prototype.isQuaternion = !0);
         class xr {
@@ -3107,8 +3107,8 @@ parcelRequire = (function (e, r, t, n) {
           add(t, e) {
             return void 0 !== e
               ? (console.warn(
-                  "THREE.Vector3: .add() now only accepts one argument. Use .addVectors( a, b ) instead."
-                ),
+                "THREE.Vector3: .add() now only accepts one argument. Use .addVectors( a, b ) instead."
+              ),
                 this.addVectors(t, e))
               : ((this.x += t.x), (this.y += t.y), (this.z += t.z), this);
           }
@@ -3134,8 +3134,8 @@ parcelRequire = (function (e, r, t, n) {
           sub(t, e) {
             return void 0 !== e
               ? (console.warn(
-                  "THREE.Vector3: .sub() now only accepts one argument. Use .subVectors( a, b ) instead."
-                ),
+                "THREE.Vector3: .sub() now only accepts one argument. Use .subVectors( a, b ) instead."
+              ),
                 this.subVectors(t, e))
               : ((this.x -= t.x), (this.y -= t.y), (this.z -= t.z), this);
           }
@@ -3153,8 +3153,8 @@ parcelRequire = (function (e, r, t, n) {
           multiply(t, e) {
             return void 0 !== e
               ? (console.warn(
-                  "THREE.Vector3: .multiply() now only accepts one argument. Use .multiplyVectors( a, b ) instead."
-                ),
+                "THREE.Vector3: .multiply() now only accepts one argument. Use .multiplyVectors( a, b ) instead."
+              ),
                 this.multiplyVectors(t, e))
               : ((this.x *= t.x), (this.y *= t.y), (this.z *= t.z), this);
           }
@@ -3172,9 +3172,9 @@ parcelRequire = (function (e, r, t, n) {
           applyEuler(t) {
             return (
               (t && t.isEuler) ||
-                console.error(
-                  "THREE.Vector3: .applyEuler() now expects an Euler rotation rather than a Vector3 and order."
-                ),
+              console.error(
+                "THREE.Vector3: .applyEuler() now expects an Euler rotation rather than a Vector3 and order."
+              ),
               this.applyQuaternion(yr.setFromEuler(t))
             );
           }
@@ -3370,8 +3370,8 @@ parcelRequire = (function (e, r, t, n) {
           cross(t, e) {
             return void 0 !== e
               ? (console.warn(
-                  "THREE.Vector3: .cross() now only accepts one argument. Use .crossVectors( a, b ) instead."
-                ),
+                "THREE.Vector3: .cross() now only accepts one argument. Use .crossVectors( a, b ) instead."
+              ),
                 this.crossVectors(t, e))
               : this.crossVectors(this, t);
           }
@@ -3476,9 +3476,9 @@ parcelRequire = (function (e, r, t, n) {
           fromBufferAttribute(t, e, n) {
             return (
               void 0 !== n &&
-                console.warn(
-                  "THREE.Vector3: offset has been removed from .fromBufferAttribute()."
-                ),
+              console.warn(
+                "THREE.Vector3: offset has been removed from .fromBufferAttribute()."
+              ),
               (this.x = t.getX(e)),
               (this.y = t.getY(e)),
               (this.z = t.getZ(e)),
@@ -3582,9 +3582,9 @@ parcelRequire = (function (e, r, t, n) {
           getCenter(t) {
             return (
               void 0 === t &&
-                (console.warn(
-                  "THREE.Box3: .getCenter() target is now required"
-                ),
+              (console.warn(
+                "THREE.Box3: .getCenter() target is now required"
+              ),
                 (t = new xr())),
               this.isEmpty()
                 ? t.set(0, 0, 0)
@@ -3594,7 +3594,7 @@ parcelRequire = (function (e, r, t, n) {
           getSize(t) {
             return (
               void 0 === t &&
-                (console.warn("THREE.Box3: .getSize() target is now required"),
+              (console.warn("THREE.Box3: .getSize() target is now required"),
                 (t = new xr())),
               this.isEmpty() ? t.set(0, 0, 0) : t.subVectors(this.max, this.min)
             );
@@ -3613,9 +3613,9 @@ parcelRequire = (function (e, r, t, n) {
             const e = t.geometry;
             void 0 !== e &&
               (null === e.boundingBox && e.computeBoundingBox(),
-              br.copy(e.boundingBox),
-              br.applyMatrix4(t.matrixWorld),
-              this.union(br));
+                br.copy(e.boundingBox),
+                br.applyMatrix4(t.matrixWorld),
+                this.union(br));
             const n = t.children;
             for (let r = 0, i = n.length; r < i; r++) this.expandByObject(n[r]);
             return this;
@@ -3643,9 +3643,9 @@ parcelRequire = (function (e, r, t, n) {
           getParameter(t, e) {
             return (
               void 0 === e &&
-                (console.warn(
-                  "THREE.Box3: .getParameter() target is now required"
-                ),
+              (console.warn(
+                "THREE.Box3: .getParameter() target is now required"
+              ),
                 (e = new xr())),
               e.set(
                 (t.x - this.min.x) / (this.max.x - this.min.x),
@@ -3733,15 +3733,15 @@ parcelRequire = (function (e, r, t, n) {
               !!Br(e, Sr, Tr, Er, Pr) &&
               !!Br((e = [1, 0, 0, 0, 1, 0, 0, 0, 1]), Sr, Tr, Er, Pr) &&
               (Dr.crossVectors(Ar, Lr),
-              Br((e = [Dr.x, Dr.y, Dr.z]), Sr, Tr, Er, Pr))
+                Br((e = [Dr.x, Dr.y, Dr.z]), Sr, Tr, Er, Pr))
             );
           }
           clampPoint(t, e) {
             return (
               void 0 === e &&
-                (console.warn(
-                  "THREE.Box3: .clampPoint() target is now required"
-                ),
+              (console.warn(
+                "THREE.Box3: .clampPoint() target is now required"
+              ),
                 (e = new xr())),
               e.copy(t).clamp(this.min, this.max)
             );
@@ -3752,9 +3752,9 @@ parcelRequire = (function (e, r, t, n) {
           getBoundingSphere(t) {
             return (
               void 0 === t &&
-                console.error(
-                  "THREE.Box3: .getBoundingSphere() target is now required"
-                ),
+              console.error(
+                "THREE.Box3: .getBoundingSphere() target is now required"
+              ),
               this.getCenter(t.center),
               (t.radius = 0.5 * this.getSize(wr).length()),
               t
@@ -3794,15 +3794,15 @@ parcelRequire = (function (e, r, t, n) {
         }
         (exports.Box3 = _r), (_r.prototype.isBox3 = !0);
         const Mr = [
-            new xr(),
-            new xr(),
-            new xr(),
-            new xr(),
-            new xr(),
-            new xr(),
-            new xr(),
-            new xr(),
-          ],
+          new xr(),
+          new xr(),
+          new xr(),
+          new xr(),
+          new xr(),
+          new xr(),
+          new xr(),
+          new xr(),
+        ],
           wr = new xr(),
           br = new _r(),
           Sr = new xr(),
@@ -3819,9 +3819,9 @@ parcelRequire = (function (e, r, t, n) {
           for (let s = 0, o = t.length - 3; s <= o; s += 3) {
             Ir.fromArray(t, s);
             const o =
-                i.x * Math.abs(Ir.x) +
-                i.y * Math.abs(Ir.y) +
-                i.z * Math.abs(Ir.z),
+              i.x * Math.abs(Ir.x) +
+              i.y * Math.abs(Ir.y) +
+              i.z * Math.abs(Ir.z),
               a = e.dot(Ir),
               l = n.dot(Ir),
               c = r.dot(Ir);
@@ -3879,13 +3879,13 @@ parcelRequire = (function (e, r, t, n) {
             const n = this.center.distanceToSquared(t);
             return (
               void 0 === e &&
-                (console.warn(
-                  "THREE.Sphere: .clampPoint() target is now required"
-                ),
+              (console.warn(
+                "THREE.Sphere: .clampPoint() target is now required"
+              ),
                 (e = new xr())),
               e.copy(t),
               n > this.radius * this.radius &&
-                (e.sub(this.center).normalize(),
+              (e.sub(this.center).normalize(),
                 e.multiplyScalar(this.radius).add(this.center)),
               e
             );
@@ -3893,9 +3893,9 @@ parcelRequire = (function (e, r, t, n) {
           getBoundingBox(t) {
             return (
               void 0 === t &&
-                (console.warn(
-                  "THREE.Sphere: .getBoundingBox() target is now required"
-                ),
+              (console.warn(
+                "THREE.Sphere: .getBoundingBox() target is now required"
+              ),
                 (t = new _r())),
               this.isEmpty()
                 ? (t.makeEmpty(), t)
@@ -3964,7 +3964,7 @@ parcelRequire = (function (e, r, t, n) {
           at(t, e) {
             return (
               void 0 === e &&
-                (console.warn("THREE.Ray: .at() target is now required"),
+              (console.warn("THREE.Ray: .at() target is now required"),
                 (e = new xr())),
               e.copy(this.direction).multiplyScalar(t).add(this.origin)
             );
@@ -3980,7 +3980,7 @@ parcelRequire = (function (e, r, t, n) {
               (console.warn(
                 "THREE.Ray: .closestPointToPoint() target is now required"
               ),
-              (e = new xr())),
+                (e = new xr())),
               e.subVectors(t, this.origin);
             const n = e.dot(this.direction);
             return n < 0
@@ -4032,17 +4032,17 @@ parcelRequire = (function (e, r, t, n) {
               else
                 u <= -d
                   ? (p =
-                      -(h = Math.max(0, -(-s * i + o))) * h +
-                      (u = h > 0 ? -i : Math.min(Math.max(-i, -a), i)) *
-                        (u + 2 * a) +
-                      l)
+                    -(h = Math.max(0, -(-s * i + o))) * h +
+                    (u = h > 0 ? -i : Math.min(Math.max(-i, -a), i)) *
+                    (u + 2 * a) +
+                    l)
                   : u <= d
-                  ? ((h = 0),
-                    (p = (u = Math.min(Math.max(-i, -a), i)) * (u + 2 * a) + l))
-                  : (p =
+                    ? ((h = 0),
+                      (p = (u = Math.min(Math.max(-i, -a), i)) * (u + 2 * a) + l))
+                    : (p =
                       -(h = Math.max(0, -(s * i + o))) * h +
                       (u = h > 0 ? i : Math.min(Math.max(-i, -a), i)) *
-                        (u + 2 * a) +
+                      (u + 2 * a) +
                       l);
             else
               (u = s > 0 ? -i : i),
@@ -4066,8 +4066,8 @@ parcelRequire = (function (e, r, t, n) {
             return o < 0 && a < 0
               ? null
               : o < 0
-              ? this.at(a, e)
-              : this.at(o, e);
+                ? this.at(a, e)
+                : this.at(o, e);
           }
           intersectsSphere(t) {
             return this.distanceSqToPoint(t.center) <= t.radius * t.radius;
@@ -4157,9 +4157,9 @@ parcelRequire = (function (e, r, t, n) {
           constructor() {
             (this.elements = [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]),
               arguments.length > 0 &&
-                console.error(
-                  "THREE.Matrix4: the constructor no longer reads arguments. use .set() instead."
-                );
+              console.error(
+                "THREE.Matrix4: the constructor no longer reads arguments. use .set() instead."
+              );
           }
           set(t, e, n, r, i, s, o, a, l, c, h, u, p, d, m, f) {
             const g = this.elements;
@@ -4422,7 +4422,7 @@ parcelRequire = (function (e, r, t, n) {
               ei.normalize(),
               $r.crossVectors(n, ei),
               0 === $r.lengthSq() &&
-                (1 === Math.abs(n.z) ? (ei.x += 1e-4) : (ei.z += 1e-4),
+              (1 === Math.abs(n.z) ? (ei.x += 1e-4) : (ei.z += 1e-4),
                 ei.normalize(),
                 $r.crossVectors(n, ei)),
               $r.normalize(),
@@ -4442,8 +4442,8 @@ parcelRequire = (function (e, r, t, n) {
           multiply(t, e) {
             return void 0 !== e
               ? (console.warn(
-                  "THREE.Matrix4: .multiply() now only accepts one argument. Use .multiplyMatrices( a, b ) instead."
-                ),
+                "THREE.Matrix4: .multiply() now only accepts one argument. Use .multiplyMatrices( a, b ) instead."
+              ),
                 this.multiplyMatrices(t, e))
               : this.multiplyMatrices(this, t);
           }
@@ -4544,33 +4544,33 @@ parcelRequire = (function (e, r, t, n) {
               p = t[14];
             return (
               t[3] *
-                (+i * a * h -
-                  r * l * h -
-                  i * o * u +
-                  n * l * u +
-                  r * o * p -
-                  n * a * p) +
+              (+i * a * h -
+                r * l * h -
+                i * o * u +
+                n * l * u +
+                r * o * p -
+                n * a * p) +
               t[7] *
-                (+e * a * p -
-                  e * l * u +
-                  i * s * u -
-                  r * s * p +
-                  r * l * c -
-                  i * a * c) +
+              (+e * a * p -
+                e * l * u +
+                i * s * u -
+                r * s * p +
+                r * l * c -
+                i * a * c) +
               t[11] *
-                (+e * l * h -
-                  e * o * p -
-                  i * s * h +
-                  n * s * p +
-                  i * o * c -
-                  n * l * c) +
+              (+e * l * h -
+                e * o * p -
+                i * s * h +
+                n * s * p +
+                i * o * c -
+                n * l * c) +
               t[15] *
-                (-r * o * c -
-                  e * a * h +
-                  e * o * u +
-                  r * s * h -
-                  n * s * u +
-                  n * a * c)
+              (-r * o * c -
+                e * a * h +
+                e * o * u +
+                r * s * h -
+                n * s * u +
+                n * a * c)
             );
           }
           transpose() {
@@ -5138,7 +5138,7 @@ parcelRequire = (function (e, r, t, n) {
               default:
                 console.warn(
                   "THREE.Euler: .setFromRotationMatrix() encountered an unknown order: " +
-                    e
+                  e
                 );
             }
             return (
@@ -5192,7 +5192,7 @@ parcelRequire = (function (e, r, t, n) {
           _onChange(t) {
             return (this._onChangeCallback = t), this;
           }
-          _onChangeCallback() {}
+          _onChangeCallback() { }
         }
         (exports.Euler = ii),
           (ii.prototype.isEuler = !0),
@@ -5279,8 +5279,8 @@ parcelRequire = (function (e, r, t, n) {
               (this.animations = []),
               (this.userData = {});
           }
-          onBeforeRender() {}
-          onAfterRender() {}
+          onBeforeRender() { }
+          onAfterRender() { }
           applyMatrix4(t) {
             this.matrixAutoUpdate && this.updateMatrix(),
               this.matrix.premultiply(t),
@@ -5352,7 +5352,7 @@ parcelRequire = (function (e, r, t, n) {
                 : ci.lookAt(hi, ui, this.up),
               this.quaternion.setFromRotationMatrix(ci),
               r &&
-                (ci.extractRotation(r.matrixWorld),
+              (ci.extractRotation(r.matrixWorld),
                 li.setFromRotationMatrix(ci),
                 this.quaternion.premultiply(li.invert()));
           }
@@ -5363,19 +5363,19 @@ parcelRequire = (function (e, r, t, n) {
             }
             return t === this
               ? (console.error(
-                  "THREE.Object3D.add: object can't be added as a child of itself.",
-                  t
-                ),
+                "THREE.Object3D.add: object can't be added as a child of itself.",
+                t
+              ),
                 this)
               : (t && t.isObject3D
-                  ? (null !== t.parent && t.parent.remove(t),
-                    (t.parent = this),
-                    this.children.push(t),
-                    t.dispatchEvent(xi))
-                  : console.error(
-                      "THREE.Object3D.add: object not an instance of THREE.Object3D.",
-                      t
-                    ),
+                ? (null !== t.parent && t.parent.remove(t),
+                  (t.parent = this),
+                  this.children.push(t),
+                  t.dispatchEvent(xi))
+                : console.error(
+                  "THREE.Object3D.add: object not an instance of THREE.Object3D.",
+                  t
+                ),
                 this);
           }
           remove(t) {
@@ -5387,7 +5387,7 @@ parcelRequire = (function (e, r, t, n) {
             const e = this.children.indexOf(t);
             return (
               -1 !== e &&
-                ((t.parent = null),
+              ((t.parent = null),
                 this.children.splice(e, 1),
                 t.dispatchEvent(vi)),
               this
@@ -5409,7 +5409,7 @@ parcelRequire = (function (e, r, t, n) {
               this.updateWorldMatrix(!0, !1),
               ci.copy(this.matrixWorld).invert(),
               null !== t.parent &&
-                (t.parent.updateWorldMatrix(!0, !1),
+              (t.parent.updateWorldMatrix(!0, !1),
                 ci.multiply(t.parent.matrixWorld)),
               t.applyMatrix4(ci),
               this.add(t),
@@ -5433,9 +5433,9 @@ parcelRequire = (function (e, r, t, n) {
           getWorldPosition(t) {
             return (
               void 0 === t &&
-                (console.warn(
-                  "THREE.Object3D: .getWorldPosition() target is now required"
-                ),
+              (console.warn(
+                "THREE.Object3D: .getWorldPosition() target is now required"
+              ),
                 (t = new xr())),
               this.updateWorldMatrix(!0, !1),
               t.setFromMatrixPosition(this.matrixWorld)
@@ -5444,9 +5444,9 @@ parcelRequire = (function (e, r, t, n) {
           getWorldQuaternion(t) {
             return (
               void 0 === t &&
-                (console.warn(
-                  "THREE.Object3D: .getWorldQuaternion() target is now required"
-                ),
+              (console.warn(
+                "THREE.Object3D: .getWorldQuaternion() target is now required"
+              ),
                 (t = new gr())),
               this.updateWorldMatrix(!0, !1),
               this.matrixWorld.decompose(ui, t, pi),
@@ -5456,9 +5456,9 @@ parcelRequire = (function (e, r, t, n) {
           getWorldScale(t) {
             return (
               void 0 === t &&
-                (console.warn(
-                  "THREE.Object3D: .getWorldScale() target is now required"
-                ),
+              (console.warn(
+                "THREE.Object3D: .getWorldScale() target is now required"
+              ),
                 (t = new xr())),
               this.updateWorldMatrix(!0, !1),
               this.matrixWorld.decompose(ui, di, t),
@@ -5470,12 +5470,12 @@ parcelRequire = (function (e, r, t, n) {
               (console.warn(
                 "THREE.Object3D: .getWorldDirection() target is now required"
               ),
-              (t = new xr())),
+                (t = new xr())),
               this.updateWorldMatrix(!0, !1);
             const e = this.matrixWorld.elements;
             return t.set(e[8], e[9], e[10]).normalize();
           }
-          raycast() {}
+          raycast() { }
           traverse(t) {
             t(this);
             const e = this.children;
@@ -5498,12 +5498,12 @@ parcelRequire = (function (e, r, t, n) {
           updateMatrixWorld(t) {
             this.matrixAutoUpdate && this.updateMatrix(),
               (this.matrixWorldNeedsUpdate || t) &&
-                (null === this.parent
-                  ? this.matrixWorld.copy(this.matrix)
-                  : this.matrixWorld.multiplyMatrices(
-                      this.parent.matrixWorld,
-                      this.matrix
-                    ),
+              (null === this.parent
+                ? this.matrixWorld.copy(this.matrix)
+                : this.matrixWorld.multiplyMatrices(
+                  this.parent.matrixWorld,
+                  this.matrix
+                ),
                 (this.matrixWorldNeedsUpdate = !1),
                 (t = !0));
             const e = this.children;
@@ -5513,14 +5513,14 @@ parcelRequire = (function (e, r, t, n) {
             const n = this.parent;
             if (
               (!0 === t && null !== n && n.updateWorldMatrix(!0, !1),
-              this.matrixAutoUpdate && this.updateMatrix(),
-              null === this.parent
-                ? this.matrixWorld.copy(this.matrix)
-                : this.matrixWorld.multiplyMatrices(
+                this.matrixAutoUpdate && this.updateMatrix(),
+                null === this.parent
+                  ? this.matrixWorld.copy(this.matrix)
+                  : this.matrixWorld.multiplyMatrices(
                     this.parent.matrixWorld,
                     this.matrix
                   ),
-              !0 === e)
+                !0 === e)
             ) {
               const t = this.children;
               for (let e = 0, n = t.length; e < n; e++)
@@ -5540,36 +5540,36 @@ parcelRequire = (function (e, r, t, n) {
                 skeletons: {},
                 animations: {},
               }),
-              (n.metadata = {
-                version: 4.5,
-                type: "Object",
-                generator: "Object3D.toJSON",
-              }));
+                (n.metadata = {
+                  version: 4.5,
+                  type: "Object",
+                  generator: "Object3D.toJSON",
+                }));
             const r = {};
             function i(e, n) {
               return void 0 === e[n.uuid] && (e[n.uuid] = n.toJSON(t)), n.uuid;
             }
             if (
               ((r.uuid = this.uuid),
-              (r.type = this.type),
-              "" !== this.name && (r.name = this.name),
-              !0 === this.castShadow && (r.castShadow = !0),
-              !0 === this.receiveShadow && (r.receiveShadow = !0),
-              !1 === this.visible && (r.visible = !1),
-              !1 === this.frustumCulled && (r.frustumCulled = !1),
-              0 !== this.renderOrder && (r.renderOrder = this.renderOrder),
-              "{}" !== JSON.stringify(this.userData) &&
+                (r.type = this.type),
+                "" !== this.name && (r.name = this.name),
+                !0 === this.castShadow && (r.castShadow = !0),
+                !0 === this.receiveShadow && (r.receiveShadow = !0),
+                !1 === this.visible && (r.visible = !1),
+                !1 === this.frustumCulled && (r.frustumCulled = !1),
+                0 !== this.renderOrder && (r.renderOrder = this.renderOrder),
+                "{}" !== JSON.stringify(this.userData) &&
                 (r.userData = this.userData),
-              (r.layers = this.layers.mask),
-              (r.matrix = this.matrix.toArray()),
-              !1 === this.matrixAutoUpdate && (r.matrixAutoUpdate = !1),
-              this.isInstancedMesh &&
+                (r.layers = this.layers.mask),
+                (r.matrix = this.matrix.toArray()),
+                !1 === this.matrixAutoUpdate && (r.matrixAutoUpdate = !1),
+                this.isInstancedMesh &&
                 ((r.type = "InstancedMesh"),
-                (r.count = this.count),
-                (r.instanceMatrix = this.instanceMatrix.toJSON()),
-                null !== this.instanceColor &&
+                  (r.count = this.count),
+                  (r.instanceMatrix = this.instanceMatrix.toJSON()),
+                  null !== this.instanceColor &&
                   (r.instanceColor = this.instanceColor.toJSON())),
-              this.isMesh || this.isLine || this.isPoints)
+                this.isMesh || this.isLine || this.isPoints)
             ) {
               r.geometry = i(t.geometries, this.geometry);
               const e = this.geometry.parameters;
@@ -5586,11 +5586,11 @@ parcelRequire = (function (e, r, t, n) {
             if (
               (this.isSkinnedMesh &&
                 ((r.bindMode = this.bindMode),
-                (r.bindMatrix = this.bindMatrix.toArray()),
-                void 0 !== this.skeleton &&
+                  (r.bindMatrix = this.bindMatrix.toArray()),
+                  void 0 !== this.skeleton &&
                   (i(t.skeletons, this.skeleton),
-                  (r.skeleton = this.skeleton.uuid))),
-              void 0 !== this.material)
+                    (r.skeleton = this.skeleton.uuid))),
+                void 0 !== this.material)
             )
               if (Array.isArray(this.material)) {
                 const e = [];
@@ -5642,23 +5642,23 @@ parcelRequire = (function (e, r, t, n) {
           copy(t, e = !0) {
             if (
               ((this.name = t.name),
-              this.up.copy(t.up),
-              this.position.copy(t.position),
-              (this.rotation.order = t.rotation.order),
-              this.quaternion.copy(t.quaternion),
-              this.scale.copy(t.scale),
-              this.matrix.copy(t.matrix),
-              this.matrixWorld.copy(t.matrixWorld),
-              (this.matrixAutoUpdate = t.matrixAutoUpdate),
-              (this.matrixWorldNeedsUpdate = t.matrixWorldNeedsUpdate),
-              (this.layers.mask = t.layers.mask),
-              (this.visible = t.visible),
-              (this.castShadow = t.castShadow),
-              (this.receiveShadow = t.receiveShadow),
-              (this.frustumCulled = t.frustumCulled),
-              (this.renderOrder = t.renderOrder),
-              (this.userData = JSON.parse(JSON.stringify(t.userData))),
-              !0 === e)
+                this.up.copy(t.up),
+                this.position.copy(t.position),
+                (this.rotation.order = t.rotation.order),
+                this.quaternion.copy(t.quaternion),
+                this.scale.copy(t.scale),
+                this.matrix.copy(t.matrix),
+                this.matrixWorld.copy(t.matrixWorld),
+                (this.matrixAutoUpdate = t.matrixAutoUpdate),
+                (this.matrixWorldNeedsUpdate = t.matrixWorldNeedsUpdate),
+                (this.layers.mask = t.layers.mask),
+                (this.visible = t.visible),
+                (this.castShadow = t.castShadow),
+                (this.receiveShadow = t.receiveShadow),
+                (this.frustumCulled = t.frustumCulled),
+                (this.renderOrder = t.renderOrder),
+                (this.userData = JSON.parse(JSON.stringify(t.userData))),
+                !0 === e)
             )
               for (let n = 0; n < t.children.length; n++) {
                 const e = t.children[n];
@@ -5717,9 +5717,9 @@ parcelRequire = (function (e, r, t, n) {
           projectPoint(t, e) {
             return (
               void 0 === e &&
-                (console.warn(
-                  "THREE.Plane: .projectPoint() target is now required"
-                ),
+              (console.warn(
+                "THREE.Plane: .projectPoint() target is now required"
+              ),
                 (e = new xr())),
               e
                 .copy(this.normal)
@@ -5732,7 +5732,7 @@ parcelRequire = (function (e, r, t, n) {
               (console.warn(
                 "THREE.Plane: .intersectLine() target is now required"
               ),
-              (e = new xr()));
+                (e = new xr()));
             const n = t.delta(_i),
               r = this.normal.dot(n);
             if (0 === r)
@@ -5758,9 +5758,9 @@ parcelRequire = (function (e, r, t, n) {
           coplanarPoint(t) {
             return (
               void 0 === t &&
-                (console.warn(
-                  "THREE.Plane: .coplanarPoint() target is now required"
-                ),
+              (console.warn(
+                "THREE.Plane: .coplanarPoint() target is now required"
+              ),
                 (t = new xr())),
               t.copy(this.normal).multiplyScalar(-this.constant)
             );
@@ -5801,7 +5801,7 @@ parcelRequire = (function (e, r, t, n) {
               (console.warn(
                 "THREE.Triangle: .getNormal() target is now required"
               ),
-              (r = new xr())),
+                (r = new xr())),
               r.subVectors(n, e),
               Si.subVectors(t, e),
               r.cross(Si);
@@ -5821,8 +5821,8 @@ parcelRequire = (function (e, r, t, n) {
                 (console.warn(
                   "THREE.Triangle: .getBarycoord() target is now required"
                 ),
-                (i = new xr())),
-              0 === h)
+                  (i = new xr())),
+                0 === h)
             )
               return i.set(-2, -1, -1);
             const u = 1 / h,
@@ -5875,9 +5875,9 @@ parcelRequire = (function (e, r, t, n) {
           getMidpoint(t) {
             return (
               void 0 === t &&
-                (console.warn(
-                  "THREE.Triangle: .getMidpoint() target is now required"
-                ),
+              (console.warn(
+                "THREE.Triangle: .getMidpoint() target is now required"
+              ),
                 (t = new xr())),
               t
                 .addVectors(this.a, this.b)
@@ -5891,9 +5891,9 @@ parcelRequire = (function (e, r, t, n) {
           getPlane(t) {
             return (
               void 0 === t &&
-                (console.warn(
-                  "THREE.Triangle: .getPlane() target is now required"
-                ),
+              (console.warn(
+                "THREE.Triangle: .getPlane() target is now required"
+              ),
                 (t = new bi())),
               t.setFromCoplanarPoints(this.a, this.b, this.c)
             );
@@ -5918,7 +5918,7 @@ parcelRequire = (function (e, r, t, n) {
               (console.warn(
                 "THREE.Triangle: .closestPointToPoint() target is now required"
               ),
-              (e = new xr()));
+                (e = new xr()));
             const n = this.a,
               r = this.b,
               i = this.c;
@@ -6011,8 +6011,8 @@ parcelRequire = (function (e, r, t, n) {
               (this.userData = {}),
               (this.version = 0);
           }
-          onBuild() {}
-          onBeforeCompile() {}
+          onBuild() { }
+          onBeforeCompile() { }
           customProgramCacheKey() {
             return this.onBeforeCompile.toString();
           }
@@ -6029,8 +6029,8 @@ parcelRequire = (function (e, r, t, n) {
                 if ("shading" === e) {
                   console.warn(
                     "THREE." +
-                      this.type +
-                      ": .shading has been removed. Use the boolean .flatShading instead."
+                    this.type +
+                    ": .shading has been removed. Use the boolean .flatShading instead."
                   ),
                     (this.flatShading = n === m);
                   continue;
@@ -6040,15 +6040,15 @@ parcelRequire = (function (e, r, t, n) {
                   ? r && r.isColor
                     ? r.set(n)
                     : r && r.isVector3 && n && n.isVector3
-                    ? r.copy(n)
-                    : (this[e] = n)
+                      ? r.copy(n)
+                      : (this[e] = n)
                   : console.warn(
-                      "THREE." +
-                        this.type +
-                        ": '" +
-                        e +
-                        "' is not a property of this material."
-                    );
+                    "THREE." +
+                    this.type +
+                    ": '" +
+                    e +
+                    "' is not a property of this material."
+                  );
               }
           }
           toJSON(t) {
@@ -6071,166 +6071,166 @@ parcelRequire = (function (e, r, t, n) {
             }
             if (
               ((n.uuid = this.uuid),
-              (n.type = this.type),
-              "" !== this.name && (n.name = this.name),
-              this.color &&
+                (n.type = this.type),
+                "" !== this.name && (n.name = this.name),
+                this.color &&
                 this.color.isColor &&
                 (n.color = this.color.getHex()),
-              void 0 !== this.roughness && (n.roughness = this.roughness),
-              void 0 !== this.metalness && (n.metalness = this.metalness),
-              this.sheen &&
+                void 0 !== this.roughness && (n.roughness = this.roughness),
+                void 0 !== this.metalness && (n.metalness = this.metalness),
+                this.sheen &&
                 this.sheen.isColor &&
                 (n.sheen = this.sheen.getHex()),
-              this.emissive &&
+                this.emissive &&
                 this.emissive.isColor &&
                 (n.emissive = this.emissive.getHex()),
-              this.emissiveIntensity &&
+                this.emissiveIntensity &&
                 1 !== this.emissiveIntensity &&
                 (n.emissiveIntensity = this.emissiveIntensity),
-              this.specular &&
+                this.specular &&
                 this.specular.isColor &&
                 (n.specular = this.specular.getHex()),
-              void 0 !== this.shininess && (n.shininess = this.shininess),
-              void 0 !== this.clearcoat && (n.clearcoat = this.clearcoat),
-              void 0 !== this.clearcoatRoughness &&
+                void 0 !== this.shininess && (n.shininess = this.shininess),
+                void 0 !== this.clearcoat && (n.clearcoat = this.clearcoat),
+                void 0 !== this.clearcoatRoughness &&
                 (n.clearcoatRoughness = this.clearcoatRoughness),
-              this.clearcoatMap &&
+                this.clearcoatMap &&
                 this.clearcoatMap.isTexture &&
                 (n.clearcoatMap = this.clearcoatMap.toJSON(t).uuid),
-              this.clearcoatRoughnessMap &&
+                this.clearcoatRoughnessMap &&
                 this.clearcoatRoughnessMap.isTexture &&
                 (n.clearcoatRoughnessMap =
                   this.clearcoatRoughnessMap.toJSON(t).uuid),
-              this.clearcoatNormalMap &&
+                this.clearcoatNormalMap &&
                 this.clearcoatNormalMap.isTexture &&
                 ((n.clearcoatNormalMap =
                   this.clearcoatNormalMap.toJSON(t).uuid),
-                (n.clearcoatNormalScale = this.clearcoatNormalScale.toArray())),
-              this.map &&
+                  (n.clearcoatNormalScale = this.clearcoatNormalScale.toArray())),
+                this.map &&
                 this.map.isTexture &&
                 (n.map = this.map.toJSON(t).uuid),
-              this.matcap &&
+                this.matcap &&
                 this.matcap.isTexture &&
                 (n.matcap = this.matcap.toJSON(t).uuid),
-              this.alphaMap &&
+                this.alphaMap &&
                 this.alphaMap.isTexture &&
                 (n.alphaMap = this.alphaMap.toJSON(t).uuid),
-              this.lightMap &&
+                this.lightMap &&
                 this.lightMap.isTexture &&
                 ((n.lightMap = this.lightMap.toJSON(t).uuid),
-                (n.lightMapIntensity = this.lightMapIntensity)),
-              this.aoMap &&
+                  (n.lightMapIntensity = this.lightMapIntensity)),
+                this.aoMap &&
                 this.aoMap.isTexture &&
                 ((n.aoMap = this.aoMap.toJSON(t).uuid),
-                (n.aoMapIntensity = this.aoMapIntensity)),
-              this.bumpMap &&
+                  (n.aoMapIntensity = this.aoMapIntensity)),
+                this.bumpMap &&
                 this.bumpMap.isTexture &&
                 ((n.bumpMap = this.bumpMap.toJSON(t).uuid),
-                (n.bumpScale = this.bumpScale)),
-              this.normalMap &&
+                  (n.bumpScale = this.bumpScale)),
+                this.normalMap &&
                 this.normalMap.isTexture &&
                 ((n.normalMap = this.normalMap.toJSON(t).uuid),
-                (n.normalMapType = this.normalMapType),
-                (n.normalScale = this.normalScale.toArray())),
-              this.displacementMap &&
+                  (n.normalMapType = this.normalMapType),
+                  (n.normalScale = this.normalScale.toArray())),
+                this.displacementMap &&
                 this.displacementMap.isTexture &&
                 ((n.displacementMap = this.displacementMap.toJSON(t).uuid),
-                (n.displacementScale = this.displacementScale),
-                (n.displacementBias = this.displacementBias)),
-              this.roughnessMap &&
+                  (n.displacementScale = this.displacementScale),
+                  (n.displacementBias = this.displacementBias)),
+                this.roughnessMap &&
                 this.roughnessMap.isTexture &&
                 (n.roughnessMap = this.roughnessMap.toJSON(t).uuid),
-              this.metalnessMap &&
+                this.metalnessMap &&
                 this.metalnessMap.isTexture &&
                 (n.metalnessMap = this.metalnessMap.toJSON(t).uuid),
-              this.emissiveMap &&
+                this.emissiveMap &&
                 this.emissiveMap.isTexture &&
                 (n.emissiveMap = this.emissiveMap.toJSON(t).uuid),
-              this.specularMap &&
+                this.specularMap &&
                 this.specularMap.isTexture &&
                 (n.specularMap = this.specularMap.toJSON(t).uuid),
-              this.envMap &&
+                this.envMap &&
                 this.envMap.isTexture &&
                 ((n.envMap = this.envMap.toJSON(t).uuid),
-                void 0 !== this.combine && (n.combine = this.combine)),
-              void 0 !== this.envMapIntensity &&
+                  void 0 !== this.combine && (n.combine = this.combine)),
+                void 0 !== this.envMapIntensity &&
                 (n.envMapIntensity = this.envMapIntensity),
-              void 0 !== this.reflectivity &&
+                void 0 !== this.reflectivity &&
                 (n.reflectivity = this.reflectivity),
-              void 0 !== this.refractionRatio &&
+                void 0 !== this.refractionRatio &&
                 (n.refractionRatio = this.refractionRatio),
-              this.gradientMap &&
+                this.gradientMap &&
                 this.gradientMap.isTexture &&
                 (n.gradientMap = this.gradientMap.toJSON(t).uuid),
-              void 0 !== this.transmission &&
+                void 0 !== this.transmission &&
                 (n.transmission = this.transmission),
-              this.transmissionMap &&
+                this.transmissionMap &&
                 this.transmissionMap.isTexture &&
                 (n.transmissionMap = this.transmissionMap.toJSON(t).uuid),
-              void 0 !== this.thickness && (n.thickness = this.thickness),
-              this.thicknessMap &&
+                void 0 !== this.thickness && (n.thickness = this.thickness),
+                this.thicknessMap &&
                 this.thicknessMap.isTexture &&
                 (n.thicknessMap = this.thicknessMap.toJSON(t).uuid),
-              void 0 !== this.attenuationDistance &&
+                void 0 !== this.attenuationDistance &&
                 (n.attenuationDistance = this.attenuationDistance),
-              void 0 !== this.attenuationColor &&
+                void 0 !== this.attenuationColor &&
                 (n.attenuationColor = this.attenuationColor.getHex()),
-              void 0 !== this.size && (n.size = this.size),
-              null !== this.shadowSide && (n.shadowSide = this.shadowSide),
-              void 0 !== this.sizeAttenuation &&
+                void 0 !== this.size && (n.size = this.size),
+                null !== this.shadowSide && (n.shadowSide = this.shadowSide),
+                void 0 !== this.sizeAttenuation &&
                 (n.sizeAttenuation = this.sizeAttenuation),
-              this.blending !== x && (n.blending = this.blending),
-              this.side !== u && (n.side = this.side),
-              this.vertexColors && (n.vertexColors = !0),
-              this.opacity < 1 && (n.opacity = this.opacity),
-              !0 === this.transparent && (n.transparent = this.transparent),
-              (n.depthFunc = this.depthFunc),
-              (n.depthTest = this.depthTest),
-              (n.depthWrite = this.depthWrite),
-              (n.colorWrite = this.colorWrite),
-              (n.stencilWrite = this.stencilWrite),
-              (n.stencilWriteMask = this.stencilWriteMask),
-              (n.stencilFunc = this.stencilFunc),
-              (n.stencilRef = this.stencilRef),
-              (n.stencilFuncMask = this.stencilFuncMask),
-              (n.stencilFail = this.stencilFail),
-              (n.stencilZFail = this.stencilZFail),
-              (n.stencilZPass = this.stencilZPass),
-              this.rotation &&
+                this.blending !== x && (n.blending = this.blending),
+                this.side !== u && (n.side = this.side),
+                this.vertexColors && (n.vertexColors = !0),
+                this.opacity < 1 && (n.opacity = this.opacity),
+                !0 === this.transparent && (n.transparent = this.transparent),
+                (n.depthFunc = this.depthFunc),
+                (n.depthTest = this.depthTest),
+                (n.depthWrite = this.depthWrite),
+                (n.colorWrite = this.colorWrite),
+                (n.stencilWrite = this.stencilWrite),
+                (n.stencilWriteMask = this.stencilWriteMask),
+                (n.stencilFunc = this.stencilFunc),
+                (n.stencilRef = this.stencilRef),
+                (n.stencilFuncMask = this.stencilFuncMask),
+                (n.stencilFail = this.stencilFail),
+                (n.stencilZFail = this.stencilZFail),
+                (n.stencilZPass = this.stencilZPass),
+                this.rotation &&
                 0 !== this.rotation &&
                 (n.rotation = this.rotation),
-              !0 === this.polygonOffset && (n.polygonOffset = !0),
-              0 !== this.polygonOffsetFactor &&
+                !0 === this.polygonOffset && (n.polygonOffset = !0),
+                0 !== this.polygonOffsetFactor &&
                 (n.polygonOffsetFactor = this.polygonOffsetFactor),
-              0 !== this.polygonOffsetUnits &&
+                0 !== this.polygonOffsetUnits &&
                 (n.polygonOffsetUnits = this.polygonOffsetUnits),
-              this.linewidth &&
+                this.linewidth &&
                 1 !== this.linewidth &&
                 (n.linewidth = this.linewidth),
-              void 0 !== this.dashSize && (n.dashSize = this.dashSize),
-              void 0 !== this.gapSize && (n.gapSize = this.gapSize),
-              void 0 !== this.scale && (n.scale = this.scale),
-              !0 === this.dithering && (n.dithering = !0),
-              this.alphaTest > 0 && (n.alphaTest = this.alphaTest),
-              !0 === this.alphaToCoverage &&
+                void 0 !== this.dashSize && (n.dashSize = this.dashSize),
+                void 0 !== this.gapSize && (n.gapSize = this.gapSize),
+                void 0 !== this.scale && (n.scale = this.scale),
+                !0 === this.dithering && (n.dithering = !0),
+                this.alphaTest > 0 && (n.alphaTest = this.alphaTest),
+                !0 === this.alphaToCoverage &&
                 (n.alphaToCoverage = this.alphaToCoverage),
-              !0 === this.premultipliedAlpha &&
+                !0 === this.premultipliedAlpha &&
                 (n.premultipliedAlpha = this.premultipliedAlpha),
-              !0 === this.wireframe && (n.wireframe = this.wireframe),
-              this.wireframeLinewidth > 1 &&
+                !0 === this.wireframe && (n.wireframe = this.wireframe),
+                this.wireframeLinewidth > 1 &&
                 (n.wireframeLinewidth = this.wireframeLinewidth),
-              "round" !== this.wireframeLinecap &&
+                "round" !== this.wireframeLinecap &&
                 (n.wireframeLinecap = this.wireframeLinecap),
-              "round" !== this.wireframeLinejoin &&
+                "round" !== this.wireframeLinejoin &&
                 (n.wireframeLinejoin = this.wireframeLinejoin),
-              !0 === this.morphTargets && (n.morphTargets = !0),
-              !0 === this.morphNormals && (n.morphNormals = !0),
-              !0 === this.flatShading && (n.flatShading = this.flatShading),
-              !1 === this.visible && (n.visible = !1),
-              !1 === this.toneMapped && (n.toneMapped = !1),
-              "{}" !== JSON.stringify(this.userData) &&
+                !0 === this.morphTargets && (n.morphTargets = !0),
+                !0 === this.morphNormals && (n.morphNormals = !0),
+                !0 === this.flatShading && (n.flatShading = this.flatShading),
+                !1 === this.visible && (n.visible = !1),
+                !1 === this.toneMapped && (n.toneMapped = !1),
+                "{}" !== JSON.stringify(this.userData) &&
                 (n.userData = this.userData),
-              e)
+                e)
             ) {
               const e = r(t.textures),
                 i = r(t.images);
@@ -6302,155 +6302,155 @@ parcelRequire = (function (e, r, t, n) {
         }
         (exports.Material = Ni), (Ni.prototype.isMaterial = !0);
         const Gi = {
-            aliceblue: 15792383,
-            antiquewhite: 16444375,
-            aqua: 65535,
-            aquamarine: 8388564,
-            azure: 15794175,
-            beige: 16119260,
-            bisque: 16770244,
-            black: 0,
-            blanchedalmond: 16772045,
-            blue: 255,
-            blueviolet: 9055202,
-            brown: 10824234,
-            burlywood: 14596231,
-            cadetblue: 6266528,
-            chartreuse: 8388352,
-            chocolate: 13789470,
-            coral: 16744272,
-            cornflowerblue: 6591981,
-            cornsilk: 16775388,
-            crimson: 14423100,
-            cyan: 65535,
-            darkblue: 139,
-            darkcyan: 35723,
-            darkgoldenrod: 12092939,
-            darkgray: 11119017,
-            darkgreen: 25600,
-            darkgrey: 11119017,
-            darkkhaki: 12433259,
-            darkmagenta: 9109643,
-            darkolivegreen: 5597999,
-            darkorange: 16747520,
-            darkorchid: 10040012,
-            darkred: 9109504,
-            darksalmon: 15308410,
-            darkseagreen: 9419919,
-            darkslateblue: 4734347,
-            darkslategray: 3100495,
-            darkslategrey: 3100495,
-            darkturquoise: 52945,
-            darkviolet: 9699539,
-            deeppink: 16716947,
-            deepskyblue: 49151,
-            dimgray: 6908265,
-            dimgrey: 6908265,
-            dodgerblue: 2003199,
-            firebrick: 11674146,
-            floralwhite: 16775920,
-            forestgreen: 2263842,
-            fuchsia: 16711935,
-            gainsboro: 14474460,
-            ghostwhite: 16316671,
-            gold: 16766720,
-            goldenrod: 14329120,
-            gray: 8421504,
-            green: 32768,
-            greenyellow: 11403055,
-            grey: 8421504,
-            honeydew: 15794160,
-            hotpink: 16738740,
-            indianred: 13458524,
-            indigo: 4915330,
-            ivory: 16777200,
-            khaki: 15787660,
-            lavender: 15132410,
-            lavenderblush: 16773365,
-            lawngreen: 8190976,
-            lemonchiffon: 16775885,
-            lightblue: 11393254,
-            lightcoral: 15761536,
-            lightcyan: 14745599,
-            lightgoldenrodyellow: 16448210,
-            lightgray: 13882323,
-            lightgreen: 9498256,
-            lightgrey: 13882323,
-            lightpink: 16758465,
-            lightsalmon: 16752762,
-            lightseagreen: 2142890,
-            lightskyblue: 8900346,
-            lightslategray: 7833753,
-            lightslategrey: 7833753,
-            lightsteelblue: 11584734,
-            lightyellow: 16777184,
-            lime: 65280,
-            limegreen: 3329330,
-            linen: 16445670,
-            magenta: 16711935,
-            maroon: 8388608,
-            mediumaquamarine: 6737322,
-            mediumblue: 205,
-            mediumorchid: 12211667,
-            mediumpurple: 9662683,
-            mediumseagreen: 3978097,
-            mediumslateblue: 8087790,
-            mediumspringgreen: 64154,
-            mediumturquoise: 4772300,
-            mediumvioletred: 13047173,
-            midnightblue: 1644912,
-            mintcream: 16121850,
-            mistyrose: 16770273,
-            moccasin: 16770229,
-            navajowhite: 16768685,
-            navy: 128,
-            oldlace: 16643558,
-            olive: 8421376,
-            olivedrab: 7048739,
-            orange: 16753920,
-            orangered: 16729344,
-            orchid: 14315734,
-            palegoldenrod: 15657130,
-            palegreen: 10025880,
-            paleturquoise: 11529966,
-            palevioletred: 14381203,
-            papayawhip: 16773077,
-            peachpuff: 16767673,
-            peru: 13468991,
-            pink: 16761035,
-            plum: 14524637,
-            powderblue: 11591910,
-            purple: 8388736,
-            rebeccapurple: 6697881,
-            red: 16711680,
-            rosybrown: 12357519,
-            royalblue: 4286945,
-            saddlebrown: 9127187,
-            salmon: 16416882,
-            sandybrown: 16032864,
-            seagreen: 3050327,
-            seashell: 16774638,
-            sienna: 10506797,
-            silver: 12632256,
-            skyblue: 8900331,
-            slateblue: 6970061,
-            slategray: 7372944,
-            slategrey: 7372944,
-            snow: 16775930,
-            springgreen: 65407,
-            steelblue: 4620980,
-            tan: 13808780,
-            teal: 32896,
-            thistle: 14204888,
-            tomato: 16737095,
-            turquoise: 4251856,
-            violet: 15631086,
-            wheat: 16113331,
-            white: 16777215,
-            whitesmoke: 16119285,
-            yellow: 16776960,
-            yellowgreen: 10145074,
-          },
+          aliceblue: 15792383,
+          antiquewhite: 16444375,
+          aqua: 65535,
+          aquamarine: 8388564,
+          azure: 15794175,
+          beige: 16119260,
+          bisque: 16770244,
+          black: 0,
+          blanchedalmond: 16772045,
+          blue: 255,
+          blueviolet: 9055202,
+          brown: 10824234,
+          burlywood: 14596231,
+          cadetblue: 6266528,
+          chartreuse: 8388352,
+          chocolate: 13789470,
+          coral: 16744272,
+          cornflowerblue: 6591981,
+          cornsilk: 16775388,
+          crimson: 14423100,
+          cyan: 65535,
+          darkblue: 139,
+          darkcyan: 35723,
+          darkgoldenrod: 12092939,
+          darkgray: 11119017,
+          darkgreen: 25600,
+          darkgrey: 11119017,
+          darkkhaki: 12433259,
+          darkmagenta: 9109643,
+          darkolivegreen: 5597999,
+          darkorange: 16747520,
+          darkorchid: 10040012,
+          darkred: 9109504,
+          darksalmon: 15308410,
+          darkseagreen: 9419919,
+          darkslateblue: 4734347,
+          darkslategray: 3100495,
+          darkslategrey: 3100495,
+          darkturquoise: 52945,
+          darkviolet: 9699539,
+          deeppink: 16716947,
+          deepskyblue: 49151,
+          dimgray: 6908265,
+          dimgrey: 6908265,
+          dodgerblue: 2003199,
+          firebrick: 11674146,
+          floralwhite: 16775920,
+          forestgreen: 2263842,
+          fuchsia: 16711935,
+          gainsboro: 14474460,
+          ghostwhite: 16316671,
+          gold: 16766720,
+          goldenrod: 14329120,
+          gray: 8421504,
+          green: 32768,
+          greenyellow: 11403055,
+          grey: 8421504,
+          honeydew: 15794160,
+          hotpink: 16738740,
+          indianred: 13458524,
+          indigo: 4915330,
+          ivory: 16777200,
+          khaki: 15787660,
+          lavender: 15132410,
+          lavenderblush: 16773365,
+          lawngreen: 8190976,
+          lemonchiffon: 16775885,
+          lightblue: 11393254,
+          lightcoral: 15761536,
+          lightcyan: 14745599,
+          lightgoldenrodyellow: 16448210,
+          lightgray: 13882323,
+          lightgreen: 9498256,
+          lightgrey: 13882323,
+          lightpink: 16758465,
+          lightsalmon: 16752762,
+          lightseagreen: 2142890,
+          lightskyblue: 8900346,
+          lightslategray: 7833753,
+          lightslategrey: 7833753,
+          lightsteelblue: 11584734,
+          lightyellow: 16777184,
+          lime: 65280,
+          limegreen: 3329330,
+          linen: 16445670,
+          magenta: 16711935,
+          maroon: 8388608,
+          mediumaquamarine: 6737322,
+          mediumblue: 205,
+          mediumorchid: 12211667,
+          mediumpurple: 9662683,
+          mediumseagreen: 3978097,
+          mediumslateblue: 8087790,
+          mediumspringgreen: 64154,
+          mediumturquoise: 4772300,
+          mediumvioletred: 13047173,
+          midnightblue: 1644912,
+          mintcream: 16121850,
+          mistyrose: 16770273,
+          moccasin: 16770229,
+          navajowhite: 16768685,
+          navy: 128,
+          oldlace: 16643558,
+          olive: 8421376,
+          olivedrab: 7048739,
+          orange: 16753920,
+          orangered: 16729344,
+          orchid: 14315734,
+          palegoldenrod: 15657130,
+          palegreen: 10025880,
+          paleturquoise: 11529966,
+          palevioletred: 14381203,
+          papayawhip: 16773077,
+          peachpuff: 16767673,
+          peru: 13468991,
+          pink: 16761035,
+          plum: 14524637,
+          powderblue: 11591910,
+          purple: 8388736,
+          rebeccapurple: 6697881,
+          red: 16711680,
+          rosybrown: 12357519,
+          royalblue: 4286945,
+          saddlebrown: 9127187,
+          salmon: 16416882,
+          sandybrown: 16032864,
+          seagreen: 3050327,
+          seashell: 16774638,
+          sienna: 10506797,
+          silver: 12632256,
+          skyblue: 8900331,
+          slateblue: 6970061,
+          slategray: 7372944,
+          slategrey: 7372944,
+          snow: 16775930,
+          springgreen: 65407,
+          steelblue: 4620980,
+          tan: 13808780,
+          teal: 32896,
+          thistle: 14204888,
+          tomato: 16737095,
+          turquoise: 4251856,
+          violet: 15631086,
+          wheat: 16113331,
+          white: 16777215,
+          whitesmoke: 16119285,
+          yellow: 16776960,
+          yellowgreen: 10145074,
+        },
           zi = { h: 0, s: 0, l: 0 },
           Oi = { h: 0, s: 0, l: 0 };
         function Hi(t, e, n) {
@@ -6460,10 +6460,10 @@ parcelRequire = (function (e, r, t, n) {
             n < 1 / 6
               ? t + 6 * (e - t) * n
               : n < 0.5
-              ? e
-              : n < 2 / 3
-              ? t + 6 * (e - t) * (2 / 3 - n)
-              : t
+                ? e
+                : n < 2 / 3
+                  ? t + 6 * (e - t) * (2 / 3 - n)
+                  : t
           );
         }
         function Ui(t) {
@@ -6487,8 +6487,8 @@ parcelRequire = (function (e, r, t, n) {
               t && t.isColor
                 ? this.copy(t)
                 : "number" == typeof t
-                ? this.setHex(t)
-                : "string" == typeof t && this.setStyle(t),
+                  ? this.setHex(t)
+                  : "string" == typeof t && this.setStyle(t),
               this
             );
           }
@@ -6663,7 +6663,7 @@ parcelRequire = (function (e, r, t, n) {
           getHSL(t) {
             void 0 === t &&
               (console.warn("THREE.Color: .getHSL() target is now required"),
-              (t = { h: 0, s: 0, l: 0 }));
+                (t = { h: 0, s: 0, l: 0 }));
             const e = this.r,
               n = this.g,
               r = this.b,
@@ -6777,7 +6777,7 @@ parcelRequire = (function (e, r, t, n) {
               (this.g = t.getY(e)),
               (this.b = t.getZ(e)),
               !0 === t.normalized &&
-                ((this.r /= 255), (this.g /= 255), (this.b /= 255)),
+              ((this.r /= 255), (this.g /= 255), (this.b /= 255)),
               this
             );
           }
@@ -6857,7 +6857,7 @@ parcelRequire = (function (e, r, t, n) {
               (this.updateRange = { offset: 0, count: -1 }),
               (this.version = 0);
           }
-          onUploadCallback() {}
+          onUploadCallback() { }
           set needsUpdate(t) {
             !0 === t && this.version++;
           }
@@ -6894,7 +6894,7 @@ parcelRequire = (function (e, r, t, n) {
                   "THREE.BufferAttribute.copyColorsArray(): color is undefined",
                   r
                 ),
-                (i = new Vi())),
+                  (i = new Vi())),
                 (e[n++] = i.r),
                 (e[n++] = i.g),
                 (e[n++] = i.b);
@@ -6911,7 +6911,7 @@ parcelRequire = (function (e, r, t, n) {
                   "THREE.BufferAttribute.copyVector2sArray(): vector is undefined",
                   r
                 ),
-                (i = new sr())),
+                  (i = new sr())),
                 (e[n++] = i.x),
                 (e[n++] = i.y);
             }
@@ -6927,7 +6927,7 @@ parcelRequire = (function (e, r, t, n) {
                   "THREE.BufferAttribute.copyVector3sArray(): vector is undefined",
                   r
                 ),
-                (i = new xr())),
+                  (i = new xr())),
                 (e[n++] = i.x),
                 (e[n++] = i.y),
                 (e[n++] = i.z);
@@ -6944,7 +6944,7 @@ parcelRequire = (function (e, r, t, n) {
                   "THREE.BufferAttribute.copyVector4sArray(): vector is undefined",
                   r
                 ),
-                (i = new pr())),
+                  (i = new pr())),
                 (e[n++] = i.x),
                 (e[n++] = i.y),
                 (e[n++] = i.z),
@@ -7064,7 +7064,7 @@ parcelRequire = (function (e, r, t, n) {
               this.usage !== wn && (t.usage = this.usage),
               (0 === this.updateRange.offset &&
                 -1 === this.updateRange.count) ||
-                (t.updateRange = this.updateRange),
+              (t.updateRange = this.updateRange),
               t
             );
           }
@@ -7345,13 +7345,13 @@ parcelRequire = (function (e, r, t, n) {
                 }
               (this.boundingSphere.radius = Math.sqrt(r)),
                 isNaN(this.boundingSphere.radius) &&
-                  console.error(
-                    'THREE.BufferGeometry.computeBoundingSphere(): Computed radius is NaN. The "position" attribute is likely to have NaN values.',
-                    this
-                  );
+                console.error(
+                  'THREE.BufferGeometry.computeBoundingSphere(): Computed radius is NaN. The "position" attribute is likely to have NaN values.',
+                  this
+                );
             }
           }
-          computeFaceNormals() {}
+          computeFaceNormals() { }
           computeTangents() {
             const t = this.index,
               e = this.attributes;
@@ -7401,17 +7401,17 @@ parcelRequire = (function (e, r, t, n) {
                   .multiplyScalar(f.y)
                   .addScaledVector(p, -m.y)
                   .multiplyScalar(i),
-                x
-                  .copy(p)
-                  .multiplyScalar(m.x)
-                  .addScaledVector(u, -f.x)
-                  .multiplyScalar(i),
-                l[t].add(g),
-                l[e].add(g),
-                l[n].add(g),
-                c[t].add(x),
-                c[e].add(x),
-                c[n].add(x));
+                  x
+                    .copy(p)
+                    .multiplyScalar(m.x)
+                    .addScaledVector(u, -f.x)
+                    .multiplyScalar(i),
+                  l[t].add(g),
+                  l[e].add(g),
+                  l[n].add(g),
+                  c[t].add(x),
+                  c[e].add(x),
+                  c[n].add(x));
             }
             let y = this.groups;
             0 === y.length && (y = [{ start: 0, count: n.length }]);
@@ -7505,9 +7505,9 @@ parcelRequire = (function (e, r, t, n) {
               );
             void 0 === e &&
               ((e = 0),
-              console.warn(
-                "THREE.BufferGeometry.merge(): Overwriting original geometry, starting at offset=0. Use BufferGeometryUtils.mergeBufferGeometries() for lossless merge."
-              ));
+                console.warn(
+                  "THREE.BufferGeometry.merge(): Overwriting original geometry, starting at offset=0. Use BufferGeometryUtils.mergeBufferGeometries() for lossless merge."
+                ));
             const n = this.attributes;
             for (const r in n) {
               if (void 0 === t.attributes[r]) continue;
@@ -7583,11 +7583,11 @@ parcelRequire = (function (e, r, t, n) {
             };
             if (
               ((t.uuid = this.uuid),
-              (t.type = this.type),
-              "" !== this.name && (t.name = this.name),
-              Object.keys(this.userData).length > 0 &&
+                (t.type = this.type),
+                "" !== this.name && (t.name = this.name),
+                Object.keys(this.userData).length > 0 &&
                 (t.userData = this.userData),
-              void 0 !== this.parameters)
+                void 0 !== this.parameters)
             ) {
               const e = this.parameters;
               for (const n in e) void 0 !== e[n] && (t[n] = e[n]);
@@ -7618,16 +7618,16 @@ parcelRequire = (function (e, r, t, n) {
             }
             i &&
               ((t.data.morphAttributes = r),
-              (t.data.morphTargetsRelative = this.morphTargetsRelative));
+                (t.data.morphTargetsRelative = this.morphTargetsRelative));
             const s = this.groups;
             s.length > 0 && (t.data.groups = JSON.parse(JSON.stringify(s)));
             const o = this.boundingSphere;
             return (
               null !== o &&
-                (t.data.boundingSphere = {
-                  center: o.center.toArray(),
-                  radius: o.radius,
-                }),
+              (t.data.boundingSphere = {
+                center: o.center.toArray(),
+                radius: o.radius,
+              }),
               t
             );
           }
@@ -7708,12 +7708,12 @@ parcelRequire = (function (e, r, t, n) {
             return (
               super.copy(t),
               void 0 !== t.morphTargetInfluences &&
-                (this.morphTargetInfluences = t.morphTargetInfluences.slice()),
+              (this.morphTargetInfluences = t.morphTargetInfluences.slice()),
               void 0 !== t.morphTargetDictionary &&
-                (this.morphTargetDictionary = Object.assign(
-                  {},
-                  t.morphTargetDictionary
-                )),
+              (this.morphTargetDictionary = Object.assign(
+                {},
+                t.morphTargetDictionary
+              )),
               (this.material = t.material),
               (this.geometry = t.geometry),
               this
@@ -7752,15 +7752,15 @@ parcelRequire = (function (e, r, t, n) {
             if (void 0 === r) return;
             if (
               (null === n.boundingSphere && n.computeBoundingSphere(),
-              xs.copy(n.boundingSphere),
-              xs.applyMatrix4(i),
-              !1 === t.ray.intersectsSphere(xs))
+                xs.copy(n.boundingSphere),
+                xs.applyMatrix4(i),
+                !1 === t.ray.intersectsSphere(xs))
             )
               return;
             if (
               (fs.copy(i).invert(),
-              gs.copy(t.ray).applyMatrix4(fs),
-              null !== n.boundingBox && !1 === gs.intersectsBox(n.boundingBox))
+                gs.copy(t.ray).applyMatrix4(fs),
+                null !== n.boundingBox && !1 === gs.intersectsBox(n.boundingBox))
             )
               return;
             let s;
@@ -7780,7 +7780,7 @@ parcelRequire = (function (e, r, t, n) {
                       m = r[d.materialIndex];
                     for (
                       let n = Math.max(d.start, p.start),
-                        r = Math.min(d.start + d.count, p.start + p.count);
+                      r = Math.min(d.start + d.count, p.start + p.count);
                       n < r;
                       n += 3
                     ) {
@@ -7789,14 +7789,14 @@ parcelRequire = (function (e, r, t, n) {
                         p = i.getX(n + 2);
                       (s = Bs(this, m, t, gs, o, a, l, c, h, r, u, p)) &&
                         ((s.faceIndex = Math.floor(n / 3)),
-                        (s.face.materialIndex = d.materialIndex),
-                        e.push(s));
+                          (s.face.materialIndex = d.materialIndex),
+                          e.push(s));
                     }
                   }
                 else {
                   for (
                     let n = Math.max(0, p.start),
-                      u = Math.min(i.count, p.start + p.count);
+                    u = Math.min(i.count, p.start + p.count);
                     n < u;
                     n += 3
                   ) {
@@ -7814,7 +7814,7 @@ parcelRequire = (function (e, r, t, n) {
                       d = r[i.materialIndex];
                     for (
                       let n = Math.max(i.start, p.start),
-                        r = Math.min(i.start + i.count, p.start + p.count);
+                      r = Math.min(i.start + i.count, p.start + p.count);
                       n < r;
                       n += 3
                     ) {
@@ -7833,14 +7833,14 @@ parcelRequire = (function (e, r, t, n) {
                         n + 2
                       )) &&
                         ((s.faceIndex = Math.floor(n / 3)),
-                        (s.face.materialIndex = i.materialIndex),
-                        e.push(s));
+                          (s.face.materialIndex = i.materialIndex),
+                          e.push(s));
                     }
                   }
                 else {
                   for (
                     let n = Math.max(0, p.start),
-                      i = Math.min(o.count, p.start + p.count);
+                    i = Math.min(o.count, p.start + p.count);
                     n < i;
                     n += 3
                   ) {
@@ -7883,31 +7883,31 @@ parcelRequire = (function (e, r, t, n) {
                 n = s[t];
               0 !== e &&
                 (Ms.fromBufferAttribute(n, c),
-                ws.fromBufferAttribute(n, h),
-                bs.fromBufferAttribute(n, u),
-                o
-                  ? (Ss.addScaledVector(Ms, e),
-                    Ts.addScaledVector(ws, e),
-                    Es.addScaledVector(bs, e))
-                  : (Ss.addScaledVector(Ms.sub(vs), e),
-                    Ts.addScaledVector(ws.sub(ys), e),
-                    Es.addScaledVector(bs.sub(_s), e)));
+                  ws.fromBufferAttribute(n, h),
+                  bs.fromBufferAttribute(n, u),
+                  o
+                    ? (Ss.addScaledVector(Ms, e),
+                      Ts.addScaledVector(ws, e),
+                      Es.addScaledVector(bs, e))
+                    : (Ss.addScaledVector(Ms.sub(vs), e),
+                      Ts.addScaledVector(ws.sub(ys), e),
+                      Es.addScaledVector(bs.sub(_s), e)));
             }
             vs.add(Ss), ys.add(Ts), _s.add(Es);
           }
           t.isSkinnedMesh &&
             (t.boneTransform(c, vs),
-            t.boneTransform(h, ys),
-            t.boneTransform(u, _s));
+              t.boneTransform(h, ys),
+              t.boneTransform(u, _s));
           const d = Is(t, e, n, r, vs, ys, _s, Cs);
           if (d) {
             a &&
               (As.fromBufferAttribute(a, c),
-              Ls.fromBufferAttribute(a, h),
-              Rs.fromBufferAttribute(a, u),
-              (d.uv = Bi.getUV(Cs, vs, ys, _s, As, Ls, Rs, new sr()))),
+                Ls.fromBufferAttribute(a, h),
+                Rs.fromBufferAttribute(a, u),
+                (d.uv = Bi.getUV(Cs, vs, ys, _s, As, Ls, Rs, new sr()))),
               l &&
-                (As.fromBufferAttribute(l, c),
+              (As.fromBufferAttribute(l, c),
                 Ls.fromBufferAttribute(l, h),
                 Rs.fromBufferAttribute(l, u),
                 (d.uv2 = Bi.getUV(Cs, vs, ys, _s, As, Ls, Rs, new sr())));
@@ -7994,18 +7994,18 @@ parcelRequire = (function (e, r, t, n) {
             for (const r in t[n]) {
               const i = t[n][r];
               i &&
-              (i.isColor ||
-                i.isMatrix3 ||
-                i.isMatrix4 ||
-                i.isVector2 ||
-                i.isVector3 ||
-                i.isVector4 ||
-                i.isTexture ||
-                i.isQuaternion)
+                (i.isColor ||
+                  i.isMatrix3 ||
+                  i.isMatrix4 ||
+                  i.isVector2 ||
+                  i.isVector3 ||
+                  i.isVector4 ||
+                  i.isTexture ||
+                  i.isQuaternion)
                 ? (e[n][r] = i.clone())
                 : Array.isArray(i)
-                ? (e[n][r] = i.slice())
-                : (e[n][r] = i);
+                  ? (e[n][r] = i.slice())
+                  : (e[n][r] = i);
             }
           }
           return e;
@@ -8022,7 +8022,7 @@ parcelRequire = (function (e, r, t, n) {
         const zs = { clone: Ns, merge: Gs };
         exports.UniformsUtils = zs;
         var Os =
-            "void main() {\n\tgl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );\n}",
+          "void main() {\n\tgl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );\n}",
           Hs = "void main() {\n\tgl_FragColor = vec4( 1.0, 0.0, 0.0, 1.0 );\n}";
         class Us extends Ni {
           constructor(t) {
@@ -8055,10 +8055,10 @@ parcelRequire = (function (e, r, t, n) {
               (this.uniformsNeedUpdate = !1),
               (this.glslVersion = null),
               void 0 !== t &&
-                (void 0 !== t.attributes &&
-                  console.error(
-                    "THREE.ShaderMaterial: attributes should now be defined in THREE.BufferGeometry instead."
-                  ),
+              (void 0 !== t.attributes &&
+                console.error(
+                  "THREE.ShaderMaterial: attributes should now be defined in THREE.BufferGeometry instead."
+                ),
                 this.setValues(t));
           }
           copy(t) {
@@ -8087,18 +8087,18 @@ parcelRequire = (function (e, r, t, n) {
               n && n.isTexture
                 ? (e.uniforms[r] = { type: "t", value: n.toJSON(t).uuid })
                 : n && n.isColor
-                ? (e.uniforms[r] = { type: "c", value: n.getHex() })
-                : n && n.isVector2
-                ? (e.uniforms[r] = { type: "v2", value: n.toArray() })
-                : n && n.isVector3
-                ? (e.uniforms[r] = { type: "v3", value: n.toArray() })
-                : n && n.isVector4
-                ? (e.uniforms[r] = { type: "v4", value: n.toArray() })
-                : n && n.isMatrix3
-                ? (e.uniforms[r] = { type: "m3", value: n.toArray() })
-                : n && n.isMatrix4
-                ? (e.uniforms[r] = { type: "m4", value: n.toArray() })
-                : (e.uniforms[r] = { value: n });
+                  ? (e.uniforms[r] = { type: "c", value: n.getHex() })
+                  : n && n.isVector2
+                    ? (e.uniforms[r] = { type: "v2", value: n.toArray() })
+                    : n && n.isVector3
+                      ? (e.uniforms[r] = { type: "v3", value: n.toArray() })
+                      : n && n.isVector4
+                        ? (e.uniforms[r] = { type: "v4", value: n.toArray() })
+                        : n && n.isMatrix3
+                          ? (e.uniforms[r] = { type: "m3", value: n.toArray() })
+                          : n && n.isMatrix4
+                            ? (e.uniforms[r] = { type: "m4", value: n.toArray() })
+                            : (e.uniforms[r] = { value: n });
             }
             Object.keys(this.defines).length > 0 && (e.defines = this.defines),
               (e.vertexShader = this.vertexShader),
@@ -8132,7 +8132,7 @@ parcelRequire = (function (e, r, t, n) {
               (console.warn(
                 "THREE.Camera: .getWorldDirection() target is now required"
               ),
-              (t = new xr())),
+                (t = new xr())),
               this.updateWorldMatrix(!0, !1);
             const e = this.matrixWorld.elements;
             return t.set(-e[8], -e[9], -e[10]).normalize();
@@ -8202,15 +8202,15 @@ parcelRequire = (function (e, r, t, n) {
           setViewOffset(t, e, n, r, i, s) {
             (this.aspect = t / e),
               null === this.view &&
-                (this.view = {
-                  enabled: !0,
-                  fullWidth: 1,
-                  fullHeight: 1,
-                  offsetX: 0,
-                  offsetY: 0,
-                  width: 1,
-                  height: 1,
-                }),
+              (this.view = {
+                enabled: !0,
+                fullWidth: 1,
+                fullHeight: 1,
+                offsetX: 0,
+                offsetY: 0,
+                width: 1,
+                height: 1,
+              }),
               (this.view.enabled = !0),
               (this.view.fullWidth = t),
               (this.view.fullHeight = e),
@@ -8261,7 +8261,7 @@ parcelRequire = (function (e, r, t, n) {
               (e.object.focus = this.focus),
               (e.object.aspect = this.aspect),
               null !== this.view &&
-                (e.object.view = Object.assign({}, this.view)),
+              (e.object.view = Object.assign({}, this.view)),
               (e.object.filmGauge = this.filmGauge),
               (e.object.filmOffset = this.filmOffset),
               e
@@ -8276,8 +8276,8 @@ parcelRequire = (function (e, r, t, n) {
           constructor(t, e, n) {
             if (
               (super(),
-              (this.type = "CubeCamera"),
-              !0 !== n.isWebGLCubeRenderTarget)
+                (this.type = "CubeCamera"),
+                !0 !== n.isWebGLCubeRenderTarget)
             )
               return void console.error(
                 "THREE.CubeCamera: The constructor now expects an instance of WebGLCubeRenderTarget as third parameter."
@@ -8372,7 +8372,7 @@ parcelRequire = (function (e, r, t, n) {
               (console.warn(
                 "THREE.WebGLCubeRenderTarget: constructor signature is now WebGLCubeRenderTarget( size, options )"
               ),
-              (e = n)),
+                (e = n)),
               super(t, t, e),
               (e = e || {}),
               (this.texture = new Xs(
@@ -8401,12 +8401,12 @@ parcelRequire = (function (e, r, t, n) {
               (this.texture.minFilter = e.minFilter),
               (this.texture.magFilter = e.magFilter);
             const n = {
-                uniforms: { tEquirect: { value: null } },
-                vertexShader:
-                  "\n\n\t\t\t\tvarying vec3 vWorldDirection;\n\n\t\t\t\tvec3 transformDirection( in vec3 dir, in mat4 matrix ) {\n\n\t\t\t\t\treturn normalize( ( matrix * vec4( dir, 0.0 ) ).xyz );\n\n\t\t\t\t}\n\n\t\t\t\tvoid main() {\n\n\t\t\t\t\tvWorldDirection = transformDirection( position, modelMatrix );\n\n\t\t\t\t\t#include <begin_vertex>\n\t\t\t\t\t#include <project_vertex>\n\n\t\t\t\t}\n\t\t\t",
-                fragmentShader:
-                  "\n\n\t\t\t\tuniform sampler2D tEquirect;\n\n\t\t\t\tvarying vec3 vWorldDirection;\n\n\t\t\t\t#include <common>\n\n\t\t\t\tvoid main() {\n\n\t\t\t\t\tvec3 direction = normalize( vWorldDirection );\n\n\t\t\t\t\tvec2 sampleUV = equirectUv( direction );\n\n\t\t\t\t\tgl_FragColor = texture2D( tEquirect, sampleUV );\n\n\t\t\t\t}\n\t\t\t",
-              },
+              uniforms: { tEquirect: { value: null } },
+              vertexShader:
+                "\n\n\t\t\t\tvarying vec3 vWorldDirection;\n\n\t\t\t\tvec3 transformDirection( in vec3 dir, in mat4 matrix ) {\n\n\t\t\t\t\treturn normalize( ( matrix * vec4( dir, 0.0 ) ).xyz );\n\n\t\t\t\t}\n\n\t\t\t\tvoid main() {\n\n\t\t\t\t\tvWorldDirection = transformDirection( position, modelMatrix );\n\n\t\t\t\t\t#include <begin_vertex>\n\t\t\t\t\t#include <project_vertex>\n\n\t\t\t\t}\n\t\t\t",
+              fragmentShader:
+                "\n\n\t\t\t\tuniform sampler2D tEquirect;\n\n\t\t\t\tvarying vec3 vWorldDirection;\n\n\t\t\t\t#include <common>\n\n\t\t\t\tvoid main() {\n\n\t\t\t\t\tvec3 direction = normalize( vWorldDirection );\n\n\t\t\t\t\tvec2 sampleUV = equirectUv( direction );\n\n\t\t\t\t\tgl_FragColor = texture2D( tEquirect, sampleUV );\n\n\t\t\t\t}\n\t\t\t",
+            },
               r = new Fs(5, 5, 5),
               i = new Us({
                 name: "CubemapFromEquirect",
@@ -8527,9 +8527,9 @@ parcelRequire = (function (e, r, t, n) {
               const r = e[n];
               if (
                 ((Js.x = r.normal.x > 0 ? t.max.x : t.min.x),
-                (Js.y = r.normal.y > 0 ? t.max.y : t.min.y),
-                (Js.z = r.normal.z > 0 ? t.max.z : t.min.z),
-                r.distanceToPoint(Js) < 0)
+                  (Js.y = r.normal.y > 0 ? t.max.y : t.min.y),
+                  (Js.z = r.normal.z > 0 ? t.max.z : t.min.z),
+                  r.distanceToPoint(Js) < 0)
               )
                 return !1;
             }
@@ -8599,72 +8599,72 @@ parcelRequire = (function (e, r, t, n) {
               const s = r.get(e);
               void 0 === s
                 ? r.set(
-                    e,
-                    (function (e, r) {
-                      const i = e.array,
-                        s = e.usage,
-                        o = t.createBuffer();
-                      t.bindBuffer(r, o),
-                        t.bufferData(r, i, s),
-                        e.onUploadCallback();
-                      let a = 5126;
-                      return (
-                        i instanceof Float32Array
-                          ? (a = 5126)
-                          : i instanceof Float64Array
+                  e,
+                  (function (e, r) {
+                    const i = e.array,
+                      s = e.usage,
+                      o = t.createBuffer();
+                    t.bindBuffer(r, o),
+                      t.bufferData(r, i, s),
+                      e.onUploadCallback();
+                    let a = 5126;
+                    return (
+                      i instanceof Float32Array
+                        ? (a = 5126)
+                        : i instanceof Float64Array
                           ? console.warn(
-                              "THREE.WebGLAttributes: Unsupported data buffer format: Float64Array."
-                            )
+                            "THREE.WebGLAttributes: Unsupported data buffer format: Float64Array."
+                          )
                           : i instanceof Uint16Array
-                          ? e.isFloat16BufferAttribute
-                            ? n
-                              ? (a = 5131)
-                              : console.warn(
+                            ? e.isFloat16BufferAttribute
+                              ? n
+                                ? (a = 5131)
+                                : console.warn(
                                   "THREE.WebGLAttributes: Usage of Float16BufferAttribute requires WebGL2."
                                 )
-                            : (a = 5123)
-                          : i instanceof Int16Array
-                          ? (a = 5122)
-                          : i instanceof Uint32Array
-                          ? (a = 5125)
-                          : i instanceof Int32Array
-                          ? (a = 5124)
-                          : i instanceof Int8Array
-                          ? (a = 5120)
-                          : i instanceof Uint8Array
-                          ? (a = 5121)
-                          : i instanceof Uint8ClampedArray && (a = 5121),
-                        {
-                          buffer: o,
-                          type: a,
-                          bytesPerElement: i.BYTES_PER_ELEMENT,
-                          version: e.version,
-                        }
-                      );
-                    })(e, i)
-                  )
+                              : (a = 5123)
+                            : i instanceof Int16Array
+                              ? (a = 5122)
+                              : i instanceof Uint32Array
+                                ? (a = 5125)
+                                : i instanceof Int32Array
+                                  ? (a = 5124)
+                                  : i instanceof Int8Array
+                                    ? (a = 5120)
+                                    : i instanceof Uint8Array
+                                      ? (a = 5121)
+                                      : i instanceof Uint8ClampedArray && (a = 5121),
+                      {
+                        buffer: o,
+                        type: a,
+                        bytesPerElement: i.BYTES_PER_ELEMENT,
+                        version: e.version,
+                      }
+                    );
+                  })(e, i)
+                )
                 : s.version < e.version &&
-                  ((function (e, r, i) {
-                    const s = r.array,
-                      o = r.updateRange;
-                    t.bindBuffer(i, e),
-                      -1 === o.count
-                        ? t.bufferSubData(i, 0, s)
-                        : (n
-                            ? t.bufferSubData(
-                                i,
-                                o.offset * s.BYTES_PER_ELEMENT,
-                                s,
-                                o.offset,
-                                o.count
-                              )
-                            : t.bufferSubData(
-                                i,
-                                o.offset * s.BYTES_PER_ELEMENT,
-                                s.subarray(o.offset, o.offset + o.count)
-                              ),
-                          (o.count = -1));
-                  })(s.buffer, e, i),
+                ((function (e, r, i) {
+                  const s = r.array,
+                    o = r.updateRange;
+                  t.bindBuffer(i, e),
+                    -1 === o.count
+                      ? t.bufferSubData(i, 0, s)
+                      : (n
+                        ? t.bufferSubData(
+                          i,
+                          o.offset * s.BYTES_PER_ELEMENT,
+                          s,
+                          o.offset,
+                          o.count
+                        )
+                        : t.bufferSubData(
+                          i,
+                          o.offset * s.BYTES_PER_ELEMENT,
+                          s.subarray(o.offset, o.offset + o.count)
+                        ),
+                        (o.count = -1));
+                })(s.buffer, e, i),
                   (s.version = e.version));
             },
           };
@@ -8718,7 +8718,7 @@ parcelRequire = (function (e, r, t, n) {
         }
         exports.PlaneGeometry = exports.PlaneBufferGeometry = to;
         var eo =
-            "#ifdef USE_ALPHAMAP\n\tdiffuseColor.a *= texture2D( alphaMap, vUv ).g;\n#endif",
+          "#ifdef USE_ALPHAMAP\n\tdiffuseColor.a *= texture2D( alphaMap, vUv ).g;\n#endif",
           no = "#ifdef USE_ALPHAMAP\n\tuniform sampler2D alphaMap;\n#endif",
           ro =
             "#ifdef ALPHATEST\n\tif ( diffuseColor.a < ALPHATEST ) discard;\n#endif",
@@ -9448,26 +9448,26 @@ parcelRequire = (function (e, r, t, n) {
               v && "additive" === v.environmentBlendMode && (g = null),
                 null === g ? m(s, l) : g && g.isColor && (m(g, 1), (f = !0)),
                 (t.autoClear || f) &&
-                  t.clear(
-                    t.autoClearColor,
-                    t.autoClearDepth,
-                    t.autoClearStencil
-                  ),
+                t.clear(
+                  t.autoClearColor,
+                  t.autoClearDepth,
+                  t.autoClearStencil
+                ),
                 g && (g.isCubeTexture || g.mapping === ot)
                   ? (void 0 === a &&
-                      ((a = new Ds(
-                        new Fs(1, 1, 1),
-                        new Us({
-                          name: "BackgroundCubeMaterial",
-                          uniforms: Ns(Tl.cube.uniforms),
-                          vertexShader: Tl.cube.vertexShader,
-                          fragmentShader: Tl.cube.fragmentShader,
-                          side: p,
-                          depthTest: !1,
-                          depthWrite: !1,
-                          fog: !1,
-                        })
-                      )).geometry.deleteAttribute("normal"),
+                    ((a = new Ds(
+                      new Fs(1, 1, 1),
+                      new Us({
+                        name: "BackgroundCubeMaterial",
+                        uniforms: Ns(Tl.cube.uniforms),
+                        vertexShader: Tl.cube.vertexShader,
+                        fragmentShader: Tl.cube.fragmentShader,
+                        side: p,
+                        depthTest: !1,
+                        depthWrite: !1,
+                        fog: !1,
+                      })
+                    )).geometry.deleteAttribute("normal"),
                       a.geometry.deleteAttribute("uv"),
                       (a.onBeforeRender = function (t, e, n) {
                         this.matrixWorld.copyPosition(n.matrixWorld);
@@ -9482,27 +9482,27 @@ parcelRequire = (function (e, r, t, n) {
                     (a.material.uniforms.flipEnvMap.value =
                       g.isCubeTexture && g._needsFlipEnvMap ? -1 : 1),
                     (c === g && h === g.version && d === t.toneMapping) ||
-                      ((a.material.needsUpdate = !0),
+                    ((a.material.needsUpdate = !0),
                       (c = g),
                       (h = g.version),
                       (d = t.toneMapping)),
                     n.unshift(a, a.geometry, a.material, 0, 0, null))
                   : g &&
-                    g.isTexture &&
-                    (void 0 === o &&
-                      ((o = new Ds(
-                        new to(2, 2),
-                        new Us({
-                          name: "BackgroundMaterial",
-                          uniforms: Ns(Tl.background.uniforms),
-                          vertexShader: Tl.background.vertexShader,
-                          fragmentShader: Tl.background.fragmentShader,
-                          side: u,
-                          depthTest: !1,
-                          depthWrite: !1,
-                          fog: !1,
-                        })
-                      )).geometry.deleteAttribute("normal"),
+                  g.isTexture &&
+                  (void 0 === o &&
+                    ((o = new Ds(
+                      new to(2, 2),
+                      new Us({
+                        name: "BackgroundMaterial",
+                        uniforms: Ns(Tl.background.uniforms),
+                        vertexShader: Tl.background.vertexShader,
+                        fragmentShader: Tl.background.fragmentShader,
+                        side: u,
+                        depthTest: !1,
+                        depthWrite: !1,
+                        fog: !1,
+                      })
+                    )).geometry.deleteAttribute("normal"),
                       Object.defineProperty(o.material, "map", {
                         get: function () {
                           return this.uniforms.t2D.value;
@@ -9513,7 +9513,7 @@ parcelRequire = (function (e, r, t, n) {
                     !0 === g.matrixAutoUpdate && g.updateMatrix(),
                     o.material.uniforms.uvTransform.value.copy(g.matrix),
                     (c === g && h === g.version && d === t.toneMapping) ||
-                      ((o.material.needsUpdate = !0),
+                    ((o.material.needsUpdate = !0),
                       (c = g),
                       (h = g.version),
                       (d = t.toneMapping)),
@@ -9566,8 +9566,8 @@ parcelRequire = (function (e, r, t, n) {
               a = c.attributeDivisors;
             if (
               ((s[n] = 1),
-              0 === o[n] && (t.enableVertexAttribArray(n), (o[n] = 1)),
-              a[n] !== i)
+                0 === o[n] && (t.enableVertexAttribArray(n), (o[n] = 1)),
+                a[n] !== i)
             ) {
               (r.isWebGL2 ? t : e.get("ANGLE_instanced_arrays"))[
                 r.isWebGL2 ? "vertexAttribDivisor" : "vertexAttribDivisorANGLE"
@@ -9605,11 +9605,11 @@ parcelRequire = (function (e, r, t, n) {
                   let h = c[o];
                   return (
                     void 0 === h &&
-                      ((h = p(
-                        r.isWebGL2
-                          ? t.createVertexArray()
-                          : s.createVertexArrayOES()
-                      )),
+                    ((h = p(
+                      r.isWebGL2
+                        ? t.createVertexArray()
+                        : s.createVertexArrayOES()
+                    )),
                       (c[o] = h)),
                     h
                   );
@@ -9629,120 +9629,120 @@ parcelRequire = (function (e, r, t, n) {
                     }
                     return c.attributesNum !== i || c.index !== e;
                   })(v, y)) &&
-                    (function (t, e) {
-                      const n = {},
-                        r = t.attributes;
-                      let i = 0;
-                      for (const s in r) {
-                        const t = r[s],
-                          e = {};
-                        (e.attribute = t),
-                          t.data && (e.data = t.data),
-                          (n[s] = e),
-                          i++;
-                      }
-                      (c.attributes = n), (c.attributesNum = i), (c.index = e);
-                    })(v, y);
+                  (function (t, e) {
+                    const n = {},
+                      r = t.attributes;
+                    let i = 0;
+                    for (const s in r) {
+                      const t = r[s],
+                        e = {};
+                      (e.attribute = t),
+                        t.data && (e.data = t.data),
+                        (n[s] = e),
+                        i++;
+                    }
+                    (c.attributes = n), (c.attributesNum = i), (c.index = e);
+                  })(v, y);
               } else {
                 const t = !0 === l.wireframe;
                 (c.geometry === v.id &&
                   c.program === u.id &&
                   c.wireframe === t) ||
                   ((c.geometry = v.id),
-                  (c.program = u.id),
-                  (c.wireframe = t),
-                  (_ = !0));
+                    (c.program = u.id),
+                    (c.wireframe = t),
+                    (_ = !0));
               }
               !0 === i.isInstancedMesh && (_ = !0),
                 null !== y && n.update(y, 34963),
                 _ &&
-                  ((function (i, s, o, a) {
-                    if (
-                      !1 === r.isWebGL2 &&
-                      (i.isInstancedMesh || a.isInstancedBufferGeometry) &&
-                      null === e.get("ANGLE_instanced_arrays")
-                    )
-                      return;
-                    d();
-                    const l = a.attributes,
-                      c = o.getAttributes(),
-                      h = s.defaultAttributeValues;
-                    for (const e in c) {
-                      const r = c[e];
-                      if (r >= 0) {
-                        const s = l[e];
-                        if (void 0 !== s) {
-                          const e = s.normalized,
-                            i = s.itemSize,
-                            o = n.get(s);
-                          if (void 0 === o) continue;
-                          const l = o.buffer,
-                            c = o.type,
-                            h = o.bytesPerElement;
-                          if (s.isInterleavedBufferAttribute) {
-                            const n = s.data,
-                              o = n.stride,
-                              u = s.offset;
-                            n && n.isInstancedInterleavedBuffer
-                              ? (f(r, n.meshPerAttribute),
-                                void 0 === a._maxInstanceCount &&
-                                  (a._maxInstanceCount =
-                                    n.meshPerAttribute * n.count))
-                              : m(r),
-                              t.bindBuffer(34962, l),
-                              x(r, i, c, e, o * h, u * h);
-                          } else
-                            s.isInstancedBufferAttribute
-                              ? (f(r, s.meshPerAttribute),
-                                void 0 === a._maxInstanceCount &&
-                                  (a._maxInstanceCount =
-                                    s.meshPerAttribute * s.count))
-                              : m(r),
-                              t.bindBuffer(34962, l),
-                              x(r, i, c, e, 0, 0);
-                        } else if ("instanceMatrix" === e) {
-                          const e = n.get(i.instanceMatrix);
-                          if (void 0 === e) continue;
-                          const s = e.buffer,
-                            o = e.type;
-                          f(r + 0, 1),
-                            f(r + 1, 1),
-                            f(r + 2, 1),
-                            f(r + 3, 1),
-                            t.bindBuffer(34962, s),
-                            t.vertexAttribPointer(r + 0, 4, o, !1, 64, 0),
-                            t.vertexAttribPointer(r + 1, 4, o, !1, 64, 16),
-                            t.vertexAttribPointer(r + 2, 4, o, !1, 64, 32),
-                            t.vertexAttribPointer(r + 3, 4, o, !1, 64, 48);
-                        } else if ("instanceColor" === e) {
-                          const e = n.get(i.instanceColor);
-                          if (void 0 === e) continue;
-                          const s = e.buffer,
-                            o = e.type;
-                          f(r, 1),
-                            t.bindBuffer(34962, s),
-                            t.vertexAttribPointer(r, 3, o, !1, 12, 0);
-                        } else if (void 0 !== h) {
-                          const n = h[e];
-                          if (void 0 !== n)
-                            switch (n.length) {
-                              case 2:
-                                t.vertexAttrib2fv(r, n);
-                                break;
-                              case 3:
-                                t.vertexAttrib3fv(r, n);
-                                break;
-                              case 4:
-                                t.vertexAttrib4fv(r, n);
-                                break;
-                              default:
-                                t.vertexAttrib1fv(r, n);
-                            }
-                        }
+                ((function (i, s, o, a) {
+                  if (
+                    !1 === r.isWebGL2 &&
+                    (i.isInstancedMesh || a.isInstancedBufferGeometry) &&
+                    null === e.get("ANGLE_instanced_arrays")
+                  )
+                    return;
+                  d();
+                  const l = a.attributes,
+                    c = o.getAttributes(),
+                    h = s.defaultAttributeValues;
+                  for (const e in c) {
+                    const r = c[e];
+                    if (r >= 0) {
+                      const s = l[e];
+                      if (void 0 !== s) {
+                        const e = s.normalized,
+                          i = s.itemSize,
+                          o = n.get(s);
+                        if (void 0 === o) continue;
+                        const l = o.buffer,
+                          c = o.type,
+                          h = o.bytesPerElement;
+                        if (s.isInterleavedBufferAttribute) {
+                          const n = s.data,
+                            o = n.stride,
+                            u = s.offset;
+                          n && n.isInstancedInterleavedBuffer
+                            ? (f(r, n.meshPerAttribute),
+                              void 0 === a._maxInstanceCount &&
+                              (a._maxInstanceCount =
+                                n.meshPerAttribute * n.count))
+                            : m(r),
+                            t.bindBuffer(34962, l),
+                            x(r, i, c, e, o * h, u * h);
+                        } else
+                          s.isInstancedBufferAttribute
+                            ? (f(r, s.meshPerAttribute),
+                              void 0 === a._maxInstanceCount &&
+                              (a._maxInstanceCount =
+                                s.meshPerAttribute * s.count))
+                            : m(r),
+                            t.bindBuffer(34962, l),
+                            x(r, i, c, e, 0, 0);
+                      } else if ("instanceMatrix" === e) {
+                        const e = n.get(i.instanceMatrix);
+                        if (void 0 === e) continue;
+                        const s = e.buffer,
+                          o = e.type;
+                        f(r + 0, 1),
+                          f(r + 1, 1),
+                          f(r + 2, 1),
+                          f(r + 3, 1),
+                          t.bindBuffer(34962, s),
+                          t.vertexAttribPointer(r + 0, 4, o, !1, 64, 0),
+                          t.vertexAttribPointer(r + 1, 4, o, !1, 64, 16),
+                          t.vertexAttribPointer(r + 2, 4, o, !1, 64, 32),
+                          t.vertexAttribPointer(r + 3, 4, o, !1, 64, 48);
+                      } else if ("instanceColor" === e) {
+                        const e = n.get(i.instanceColor);
+                        if (void 0 === e) continue;
+                        const s = e.buffer,
+                          o = e.type;
+                        f(r, 1),
+                          t.bindBuffer(34962, s),
+                          t.vertexAttribPointer(r, 3, o, !1, 12, 0);
+                      } else if (void 0 !== h) {
+                        const n = h[e];
+                        if (void 0 !== n)
+                          switch (n.length) {
+                            case 2:
+                              t.vertexAttrib2fv(r, n);
+                              break;
+                            case 3:
+                              t.vertexAttrib3fv(r, n);
+                              break;
+                            case 4:
+                              t.vertexAttrib4fv(r, n);
+                              break;
+                            default:
+                              t.vertexAttrib1fv(r, n);
+                          }
                       }
                     }
-                    g();
-                  })(i, l, u, v),
+                  }
+                  g();
+                })(i, l, u, v),
                   null !== y && t.bindBuffer(34963, n.get(y).buffer));
             },
             reset: v,
@@ -9798,7 +9798,7 @@ parcelRequire = (function (e, r, t, n) {
               if (i) (l = t), (c = "drawArraysInstanced");
               else if (
                 ((c = "drawArraysInstancedANGLE"),
-                null === (l = e.get("ANGLE_instanced_arrays")))
+                  null === (l = e.get("ANGLE_instanced_arrays")))
               )
                 return void console.error(
                   "THREE.WebGLBufferRenderer: using THREE.InstancedBufferGeometry but hardware does not support extension ANGLE_instanced_arrays."
@@ -9838,7 +9838,7 @@ parcelRequire = (function (e, r, t, n) {
               a,
               "instead."
             ),
-            (o = a));
+              (o = a));
           const l = s || e.has("WEBGL_draw_buffers"),
             c = !0 === n.logarithmicDepthBuffer,
             h = t.getParameter(34930),
@@ -10042,9 +10042,9 @@ parcelRequire = (function (e, r, t, n) {
               const e = n(t);
               return (
                 null === e &&
-                  console.warn(
-                    "THREE.WebGLRenderer: " + t + " extension not supported."
-                  ),
+                console.warn(
+                  "THREE.WebGLRenderer: " + t + " extension not supported."
+                ),
                 e
               );
             },
@@ -10139,7 +10139,7 @@ parcelRequire = (function (e, r, t, n) {
               if (i) (h = t), (u = "drawElementsInstanced");
               else if (
                 ((u = "drawElementsInstancedANGLE"),
-                null === (h = e.get("ANGLE_instanced_arrays")))
+                  null === (h = e.get("ANGLE_instanced_arrays")))
               )
                 return void console.error(
                   "THREE.WebGLIndexedBufferRenderer: using THREE.InstancedBufferGeometry but hardware does not support extension ANGLE_instanced_arrays."
@@ -10224,19 +10224,19 @@ parcelRequire = (function (e, r, t, n) {
                   o = e[1];
                 i !== Number.MAX_SAFE_INTEGER && o
                   ? (u &&
-                      s.getAttribute("morphTarget" + t) !== u[i] &&
-                      s.setAttribute("morphTarget" + t, u[i]),
+                    s.getAttribute("morphTarget" + t) !== u[i] &&
+                    s.setAttribute("morphTarget" + t, u[i]),
                     p &&
-                      s.getAttribute("morphNormal" + t) !== p[i] &&
-                      s.setAttribute("morphNormal" + t, p[i]),
+                    s.getAttribute("morphNormal" + t) !== p[i] &&
+                    s.setAttribute("morphNormal" + t, p[i]),
                     (n[t] = o),
                     (d += o))
                   : (u &&
-                      !0 === s.hasAttribute("morphTarget" + t) &&
-                      s.deleteAttribute("morphTarget" + t),
+                    !0 === s.hasAttribute("morphTarget" + t) &&
+                    s.deleteAttribute("morphTarget" + t),
                     p &&
-                      !0 === s.hasAttribute("morphNormal" + t) &&
-                      s.deleteAttribute("morphNormal" + t),
+                    !0 === s.hasAttribute("morphNormal" + t) &&
+                    s.deleteAttribute("morphNormal" + t),
                     (n[t] = 0));
               }
               const m = s.morphTargetsRelative ? 1 : 1 - d;
@@ -10261,8 +10261,8 @@ parcelRequire = (function (e, r, t, n) {
               return (
                 i.get(l) !== o && (e.update(l), i.set(l, o)),
                 t.isInstancedMesh &&
-                  (!1 === t.hasEventListener("dispose", s) &&
-                    t.addEventListener("dispose", s),
+                (!1 === t.hasEventListener("dispose", s) &&
+                  t.addEventListener("dispose", s),
                   n.update(t.instanceMatrix, 34962),
                   null !== t.instanceColor && n.update(t.instanceColor, 34962)),
                 l
@@ -10383,15 +10383,15 @@ parcelRequire = (function (e, r, t, n) {
           if (void 0 !== e.x)
             (n[0] === e.x && n[1] === e.y && n[2] === e.z) ||
               (t.uniform3f(this.addr, e.x, e.y, e.z),
-              (n[0] = e.x),
-              (n[1] = e.y),
-              (n[2] = e.z));
+                (n[0] = e.x),
+                (n[1] = e.y),
+                (n[2] = e.z));
           else if (void 0 !== e.r)
             (n[0] === e.r && n[1] === e.g && n[2] === e.b) ||
               (t.uniform3f(this.addr, e.r, e.g, e.b),
-              (n[0] = e.r),
-              (n[1] = e.g),
-              (n[2] = e.b));
+                (n[0] = e.r),
+                (n[1] = e.g),
+                (n[2] = e.b));
           else {
             if (Kl(n, e)) return;
             t.uniform3fv(this.addr, e), $l(n, e);
@@ -10402,10 +10402,10 @@ parcelRequire = (function (e, r, t, n) {
           if (void 0 !== e.x)
             (n[0] === e.x && n[1] === e.y && n[2] === e.z && n[3] === e.w) ||
               (t.uniform4f(this.addr, e.x, e.y, e.z, e.w),
-              (n[0] = e.x),
-              (n[1] = e.y),
-              (n[2] = e.z),
-              (n[3] = e.w));
+                (n[0] = e.x),
+                (n[1] = e.y),
+                (n[2] = e.z),
+                (n[3] = e.w));
           else {
             if (Kl(n, e)) return;
             t.uniform4fv(this.addr, e), $l(n, e);
@@ -10707,7 +10707,7 @@ parcelRequire = (function (e, r, t, n) {
         function Wc(t, e, n) {
           const r = t.name,
             i = r.length;
-          for (kc.lastIndex = 0; ; ) {
+          for (kc.lastIndex = 0; ;) {
             const s = kc.exec(r),
               o = kc.lastIndex;
             let a = s[1];
@@ -10795,10 +10795,10 @@ parcelRequire = (function (e, r, t, n) {
           return r && "" === i
             ? ""
             : "THREE.WebGLShader: gl.getShaderInfoLog() " +
-                n +
-                "\n" +
-                i +
-                Yc(t.getShaderSource(e));
+            n +
+            "\n" +
+            i +
+            Yc(t.getShaderSource(e));
         }
         function Qc(t, e) {
           const n = Zc(e);
@@ -10856,23 +10856,23 @@ parcelRequire = (function (e, r, t, n) {
         function th(t) {
           return [
             t.extensionDerivatives ||
-            t.envMapCubeUV ||
-            t.bumpMap ||
-            t.tangentSpaceNormalMap ||
-            t.clearcoatNormalMap ||
-            t.flatShading ||
-            "physical" === t.shaderID
+              t.envMapCubeUV ||
+              t.bumpMap ||
+              t.tangentSpaceNormalMap ||
+              t.clearcoatNormalMap ||
+              t.flatShading ||
+              "physical" === t.shaderID
               ? "#extension GL_OES_standard_derivatives : enable"
               : "",
             (t.extensionFragDepth || t.logarithmicDepthBuffer) &&
-            t.rendererExtensionFragDepth
+              t.rendererExtensionFragDepth
               ? "#extension GL_EXT_frag_depth : enable"
               : "",
             t.extensionDrawBuffers && t.rendererExtensionDrawBuffers
               ? "#extension GL_EXT_draw_buffers : require"
               : "",
             (t.extensionShaderTextureLOD || t.envMap || t.transmission > 0) &&
-            t.rendererExtensionShaderTextureLod
+              t.rendererExtensionShaderTextureLod
               ? "#extension GL_EXT_shader_texture_lod : enable"
               : "",
           ]
@@ -10929,7 +10929,7 @@ parcelRequire = (function (e, r, t, n) {
           return ah(n);
         }
         const ch =
-            /#pragma unroll_loop[\s]+?for \( int i \= (\d+)\; i < (\d+)\; i \+\+ \) \{([\s\S]+?)(?=\})\}/g,
+          /#pragma unroll_loop[\s]+?for \( int i \= (\d+)\; i < (\d+)\; i \+\+ \) \{([\s\S]+?)(?=\})\}/g,
           hh =
             /#pragma unroll_loop_start\s+for\s*\(\s*int\s+i\s*=\s*(\d+)\s*;\s*i\s*<\s*(\d+)\s*;\s*i\s*\+\+\s*\)\s*{([\s\S]+?)}\s+#pragma unroll_loop_end/g;
         function uh(t) {
@@ -10962,8 +10962,8 @@ parcelRequire = (function (e, r, t, n) {
             "highp" === t.precision
               ? (e += "\n#define HIGH_PRECISION")
               : "mediump" === t.precision
-              ? (e += "\n#define MEDIUM_PRECISION")
-              : "lowp" === t.precision && (e += "\n#define LOW_PRECISION"),
+                ? (e += "\n#define MEDIUM_PRECISION")
+                : "lowp" === t.precision && (e += "\n#define LOW_PRECISION"),
             e
           );
         }
@@ -10973,8 +10973,8 @@ parcelRequire = (function (e, r, t, n) {
             t.shadowMapType === l
               ? (e = "SHADOWMAP_TYPE_PCF")
               : t.shadowMapType === c
-              ? (e = "SHADOWMAP_TYPE_PCF_SOFT")
-              : t.shadowMapType === h && (e = "SHADOWMAP_TYPE_VSM"),
+                ? (e = "SHADOWMAP_TYPE_PCF_SOFT")
+                : t.shadowMapType === h && (e = "SHADOWMAP_TYPE_VSM"),
             e
           );
         }
@@ -11037,115 +11037,115 @@ parcelRequire = (function (e, r, t, n) {
             ? ((g = [m].filter(rh).join("\n")).length > 0 && (g += "\n"),
               (x = [d, m].filter(rh).join("\n")).length > 0 && (x += "\n"))
             : ((g = [
-                mh(n),
-                "#define SHADER_NAME " + n.shaderName,
-                m,
-                n.instancing ? "#define USE_INSTANCING" : "",
-                n.instancingColor ? "#define USE_INSTANCING_COLOR" : "",
-                n.supportsVertexTextures ? "#define VERTEX_TEXTURES" : "",
-                "#define GAMMA_FACTOR " + p,
-                "#define MAX_BONES " + n.maxBones,
-                n.useFog && n.fog ? "#define USE_FOG" : "",
-                n.useFog && n.fogExp2 ? "#define FOG_EXP2" : "",
-                n.map ? "#define USE_MAP" : "",
-                n.envMap ? "#define USE_ENVMAP" : "",
-                n.envMap ? "#define " + h : "",
-                n.lightMap ? "#define USE_LIGHTMAP" : "",
-                n.aoMap ? "#define USE_AOMAP" : "",
-                n.emissiveMap ? "#define USE_EMISSIVEMAP" : "",
-                n.bumpMap ? "#define USE_BUMPMAP" : "",
-                n.normalMap ? "#define USE_NORMALMAP" : "",
-                n.normalMap && n.objectSpaceNormalMap
-                  ? "#define OBJECTSPACE_NORMALMAP"
-                  : "",
-                n.normalMap && n.tangentSpaceNormalMap
-                  ? "#define TANGENTSPACE_NORMALMAP"
-                  : "",
-                n.clearcoatMap ? "#define USE_CLEARCOATMAP" : "",
-                n.clearcoatRoughnessMap
-                  ? "#define USE_CLEARCOAT_ROUGHNESSMAP"
-                  : "",
-                n.clearcoatNormalMap ? "#define USE_CLEARCOAT_NORMALMAP" : "",
-                n.displacementMap && n.supportsVertexTextures
-                  ? "#define USE_DISPLACEMENTMAP"
-                  : "",
-                n.specularMap ? "#define USE_SPECULARMAP" : "",
-                n.roughnessMap ? "#define USE_ROUGHNESSMAP" : "",
-                n.metalnessMap ? "#define USE_METALNESSMAP" : "",
-                n.alphaMap ? "#define USE_ALPHAMAP" : "",
-                n.transmission ? "#define USE_TRANSMISSION" : "",
-                n.transmissionMap ? "#define USE_TRANSMISSIONMAP" : "",
-                n.thicknessMap ? "#define USE_THICKNESSMAP" : "",
-                n.vertexTangents ? "#define USE_TANGENT" : "",
-                n.vertexColors ? "#define USE_COLOR" : "",
-                n.vertexAlphas ? "#define USE_COLOR_ALPHA" : "",
-                n.vertexUvs ? "#define USE_UV" : "",
-                n.uvsVertexOnly ? "#define UVS_VERTEX_ONLY" : "",
-                n.flatShading ? "#define FLAT_SHADED" : "",
-                n.skinning ? "#define USE_SKINNING" : "",
-                n.useVertexTexture ? "#define BONE_TEXTURE" : "",
-                n.morphTargets ? "#define USE_MORPHTARGETS" : "",
-                n.morphNormals && !1 === n.flatShading
-                  ? "#define USE_MORPHNORMALS"
-                  : "",
-                n.doubleSided ? "#define DOUBLE_SIDED" : "",
-                n.flipSided ? "#define FLIP_SIDED" : "",
-                n.shadowMapEnabled ? "#define USE_SHADOWMAP" : "",
-                n.shadowMapEnabled ? "#define " + l : "",
-                n.sizeAttenuation ? "#define USE_SIZEATTENUATION" : "",
-                n.logarithmicDepthBuffer ? "#define USE_LOGDEPTHBUF" : "",
-                n.logarithmicDepthBuffer && n.rendererExtensionFragDepth
-                  ? "#define USE_LOGDEPTHBUF_EXT"
-                  : "",
-                "uniform mat4 modelMatrix;",
-                "uniform mat4 modelViewMatrix;",
-                "uniform mat4 projectionMatrix;",
-                "uniform mat4 viewMatrix;",
-                "uniform mat3 normalMatrix;",
-                "uniform vec3 cameraPosition;",
-                "uniform bool isOrthographic;",
-                "#ifdef USE_INSTANCING",
-                "\tattribute mat4 instanceMatrix;",
-                "#endif",
-                "#ifdef USE_INSTANCING_COLOR",
-                "\tattribute vec3 instanceColor;",
-                "#endif",
-                "attribute vec3 position;",
-                "attribute vec3 normal;",
-                "attribute vec2 uv;",
-                "#ifdef USE_TANGENT",
-                "\tattribute vec4 tangent;",
-                "#endif",
-                "#if defined( USE_COLOR_ALPHA )",
-                "\tattribute vec4 color;",
-                "#elif defined( USE_COLOR )",
-                "\tattribute vec3 color;",
-                "#endif",
-                "#ifdef USE_MORPHTARGETS",
-                "\tattribute vec3 morphTarget0;",
-                "\tattribute vec3 morphTarget1;",
-                "\tattribute vec3 morphTarget2;",
-                "\tattribute vec3 morphTarget3;",
-                "\t#ifdef USE_MORPHNORMALS",
-                "\t\tattribute vec3 morphNormal0;",
-                "\t\tattribute vec3 morphNormal1;",
-                "\t\tattribute vec3 morphNormal2;",
-                "\t\tattribute vec3 morphNormal3;",
-                "\t#else",
-                "\t\tattribute vec3 morphTarget4;",
-                "\t\tattribute vec3 morphTarget5;",
-                "\t\tattribute vec3 morphTarget6;",
-                "\t\tattribute vec3 morphTarget7;",
-                "\t#endif",
-                "#endif",
-                "#ifdef USE_SKINNING",
-                "\tattribute vec4 skinIndex;",
-                "\tattribute vec4 skinWeight;",
-                "#endif",
-                "\n",
-              ]
-                .filter(rh)
-                .join("\n")),
+              mh(n),
+              "#define SHADER_NAME " + n.shaderName,
+              m,
+              n.instancing ? "#define USE_INSTANCING" : "",
+              n.instancingColor ? "#define USE_INSTANCING_COLOR" : "",
+              n.supportsVertexTextures ? "#define VERTEX_TEXTURES" : "",
+              "#define GAMMA_FACTOR " + p,
+              "#define MAX_BONES " + n.maxBones,
+              n.useFog && n.fog ? "#define USE_FOG" : "",
+              n.useFog && n.fogExp2 ? "#define FOG_EXP2" : "",
+              n.map ? "#define USE_MAP" : "",
+              n.envMap ? "#define USE_ENVMAP" : "",
+              n.envMap ? "#define " + h : "",
+              n.lightMap ? "#define USE_LIGHTMAP" : "",
+              n.aoMap ? "#define USE_AOMAP" : "",
+              n.emissiveMap ? "#define USE_EMISSIVEMAP" : "",
+              n.bumpMap ? "#define USE_BUMPMAP" : "",
+              n.normalMap ? "#define USE_NORMALMAP" : "",
+              n.normalMap && n.objectSpaceNormalMap
+                ? "#define OBJECTSPACE_NORMALMAP"
+                : "",
+              n.normalMap && n.tangentSpaceNormalMap
+                ? "#define TANGENTSPACE_NORMALMAP"
+                : "",
+              n.clearcoatMap ? "#define USE_CLEARCOATMAP" : "",
+              n.clearcoatRoughnessMap
+                ? "#define USE_CLEARCOAT_ROUGHNESSMAP"
+                : "",
+              n.clearcoatNormalMap ? "#define USE_CLEARCOAT_NORMALMAP" : "",
+              n.displacementMap && n.supportsVertexTextures
+                ? "#define USE_DISPLACEMENTMAP"
+                : "",
+              n.specularMap ? "#define USE_SPECULARMAP" : "",
+              n.roughnessMap ? "#define USE_ROUGHNESSMAP" : "",
+              n.metalnessMap ? "#define USE_METALNESSMAP" : "",
+              n.alphaMap ? "#define USE_ALPHAMAP" : "",
+              n.transmission ? "#define USE_TRANSMISSION" : "",
+              n.transmissionMap ? "#define USE_TRANSMISSIONMAP" : "",
+              n.thicknessMap ? "#define USE_THICKNESSMAP" : "",
+              n.vertexTangents ? "#define USE_TANGENT" : "",
+              n.vertexColors ? "#define USE_COLOR" : "",
+              n.vertexAlphas ? "#define USE_COLOR_ALPHA" : "",
+              n.vertexUvs ? "#define USE_UV" : "",
+              n.uvsVertexOnly ? "#define UVS_VERTEX_ONLY" : "",
+              n.flatShading ? "#define FLAT_SHADED" : "",
+              n.skinning ? "#define USE_SKINNING" : "",
+              n.useVertexTexture ? "#define BONE_TEXTURE" : "",
+              n.morphTargets ? "#define USE_MORPHTARGETS" : "",
+              n.morphNormals && !1 === n.flatShading
+                ? "#define USE_MORPHNORMALS"
+                : "",
+              n.doubleSided ? "#define DOUBLE_SIDED" : "",
+              n.flipSided ? "#define FLIP_SIDED" : "",
+              n.shadowMapEnabled ? "#define USE_SHADOWMAP" : "",
+              n.shadowMapEnabled ? "#define " + l : "",
+              n.sizeAttenuation ? "#define USE_SIZEATTENUATION" : "",
+              n.logarithmicDepthBuffer ? "#define USE_LOGDEPTHBUF" : "",
+              n.logarithmicDepthBuffer && n.rendererExtensionFragDepth
+                ? "#define USE_LOGDEPTHBUF_EXT"
+                : "",
+              "uniform mat4 modelMatrix;",
+              "uniform mat4 modelViewMatrix;",
+              "uniform mat4 projectionMatrix;",
+              "uniform mat4 viewMatrix;",
+              "uniform mat3 normalMatrix;",
+              "uniform vec3 cameraPosition;",
+              "uniform bool isOrthographic;",
+              "#ifdef USE_INSTANCING",
+              "\tattribute mat4 instanceMatrix;",
+              "#endif",
+              "#ifdef USE_INSTANCING_COLOR",
+              "\tattribute vec3 instanceColor;",
+              "#endif",
+              "attribute vec3 position;",
+              "attribute vec3 normal;",
+              "attribute vec2 uv;",
+              "#ifdef USE_TANGENT",
+              "\tattribute vec4 tangent;",
+              "#endif",
+              "#if defined( USE_COLOR_ALPHA )",
+              "\tattribute vec4 color;",
+              "#elif defined( USE_COLOR )",
+              "\tattribute vec3 color;",
+              "#endif",
+              "#ifdef USE_MORPHTARGETS",
+              "\tattribute vec3 morphTarget0;",
+              "\tattribute vec3 morphTarget1;",
+              "\tattribute vec3 morphTarget2;",
+              "\tattribute vec3 morphTarget3;",
+              "\t#ifdef USE_MORPHNORMALS",
+              "\t\tattribute vec3 morphNormal0;",
+              "\t\tattribute vec3 morphNormal1;",
+              "\t\tattribute vec3 morphNormal2;",
+              "\t\tattribute vec3 morphNormal3;",
+              "\t#else",
+              "\t\tattribute vec3 morphTarget4;",
+              "\t\tattribute vec3 morphTarget5;",
+              "\t\tattribute vec3 morphTarget6;",
+              "\t\tattribute vec3 morphTarget7;",
+              "\t#endif",
+              "#endif",
+              "#ifdef USE_SKINNING",
+              "\tattribute vec4 skinIndex;",
+              "\tattribute vec4 skinWeight;",
+              "#endif",
+              "\n",
+            ]
+              .filter(rh)
+              .join("\n")),
               (x = [
                 d,
                 mh(n),
@@ -11153,8 +11153,8 @@ parcelRequire = (function (e, r, t, n) {
                 m,
                 n.alphaTest
                   ? "#define ALPHATEST " +
-                    n.alphaTest +
-                    (n.alphaTest % 1 ? "" : ".0")
+                  n.alphaTest +
+                  (n.alphaTest % 1 ? "" : ".0")
                   : "",
                 "#define GAMMA_FACTOR " + p,
                 n.useFog && n.fog ? "#define USE_FOG" : "",
@@ -11209,7 +11209,7 @@ parcelRequire = (function (e, r, t, n) {
                   ? "#define USE_LOGDEPTHBUF_EXT"
                   : "",
                 (n.extensionShaderTextureLOD || n.envMap) &&
-                n.rendererExtensionShaderTextureLod
+                  n.rendererExtensionShaderTextureLod
                   ? "#define TEXTURE_LOD_EXT"
                   : "",
                 "uniform mat4 viewMatrix;",
@@ -11240,8 +11240,8 @@ parcelRequire = (function (e, r, t, n) {
             (o = uh(o)),
             (a = uh(a)),
             n.isWebGL2 &&
-              !0 !== n.isRawShaderMaterial &&
-              ((v = "#version 300 es\n"),
+            !0 !== n.isRawShaderMaterial &&
+            ((v = "#version 300 es\n"),
               (g =
                 [
                   "#define attribute in",
@@ -11275,12 +11275,12 @@ parcelRequire = (function (e, r, t, n) {
             M = qc(i, 35632, y);
           if (
             (i.attachShader(f, _),
-            i.attachShader(f, M),
-            void 0 !== n.index0AttributeName
-              ? i.bindAttribLocation(f, 0, n.index0AttributeName)
-              : !0 === n.morphTargets && i.bindAttribLocation(f, 0, "position"),
-            i.linkProgram(f),
-            t.debug.checkShaderErrors)
+              i.attachShader(f, M),
+              void 0 !== n.index0AttributeName
+                ? i.bindAttribLocation(f, 0, n.index0AttributeName)
+                : !0 === n.morphTargets && i.bindAttribLocation(f, 0, "position"),
+              i.linkProgram(f),
+              t.debug.checkShaderErrors)
           ) {
             const t = i.getProgramInfoLog(f).trim(),
               e = i.getShaderInfoLog(_).trim(),
@@ -11347,22 +11347,22 @@ parcelRequire = (function (e, r, t, n) {
             u = r.vertexTextures;
           let m = r.precision;
           const f = {
-              MeshDepthMaterial: "depth",
-              MeshDistanceMaterial: "distanceRGBA",
-              MeshNormalMaterial: "normal",
-              MeshBasicMaterial: "basic",
-              MeshLambertMaterial: "lambert",
-              MeshPhongMaterial: "phong",
-              MeshToonMaterial: "toon",
-              MeshStandardMaterial: "physical",
-              MeshPhysicalMaterial: "physical",
-              MeshMatcapMaterial: "matcap",
-              LineBasicMaterial: "basic",
-              LineDashedMaterial: "dashed",
-              PointsMaterial: "points",
-              ShadowMaterial: "shadow",
-              SpriteMaterial: "sprite",
-            },
+            MeshDepthMaterial: "depth",
+            MeshDistanceMaterial: "distanceRGBA",
+            MeshNormalMaterial: "normal",
+            MeshBasicMaterial: "basic",
+            MeshLambertMaterial: "lambert",
+            MeshPhongMaterial: "phong",
+            MeshToonMaterial: "toon",
+            MeshStandardMaterial: "physical",
+            MeshPhysicalMaterial: "physical",
+            MeshMatcapMaterial: "matcap",
+            LineBasicMaterial: "basic",
+            LineDashedMaterial: "dashed",
+            PointsMaterial: "points",
+            ShadowMaterial: "shadow",
+            SpriteMaterial: "sprite",
+          },
             g = [
               "precision",
               "isWebGL2",
@@ -11444,11 +11444,11 @@ parcelRequire = (function (e, r, t, n) {
               t && t.isTexture
                 ? (e = t.encoding)
                 : t && t.isWebGLRenderTarget
-                ? (console.warn(
+                  ? (console.warn(
                     "THREE.WebGLPrograms.getTextureEncodingFromMap: don't use render targets as textures. Use their .texture property instead."
                   ),
-                  (e = t.texture.encoding))
-                : (e = Xe),
+                    (e = t.texture.encoding))
+                  : (e = Xe),
               e
             );
           }
@@ -11460,24 +11460,24 @@ parcelRequire = (function (e, r, t, n) {
                 b = f[i.type],
                 S = y.isSkinnedMesh
                   ? (function (t) {
-                      const e = t.skeleton.bones;
-                      if (c) return 1024;
-                      {
-                        const t = h,
-                          n = Math.floor((t - 20) / 4),
-                          r = Math.min(n, e.length);
-                        return r < e.length
-                          ? (console.warn(
-                              "THREE.WebGLRenderer: Skeleton has " +
-                                e.length +
-                                " bones. This GPU supports " +
-                                r +
-                                "."
-                            ),
-                            0)
-                          : r;
-                      }
-                    })(y)
+                    const e = t.skeleton.bones;
+                    if (c) return 1024;
+                    {
+                      const t = h,
+                        n = Math.floor((t - 20) / 4),
+                        r = Math.min(n, e.length);
+                      return r < e.length
+                        ? (console.warn(
+                          "THREE.WebGLRenderer: Skeleton has " +
+                          e.length +
+                          " bones. This GPU supports " +
+                          r +
+                          "."
+                        ),
+                          0)
+                        : r;
+                    }
+                  })(y)
                   : 0;
               let T, E;
               if (
@@ -11490,7 +11490,7 @@ parcelRequire = (function (e, r, t, n) {
                     m,
                     "instead."
                   ),
-                b)
+                  b)
               ) {
                 const t = Tl[b];
                 (T = t.vertexShader), (E = t.fragmentShader);
@@ -11631,7 +11631,7 @@ parcelRequire = (function (e, r, t, n) {
                 (e.shaderID
                   ? n.push(e.shaderID)
                   : (n.push(e.fragmentShader), n.push(e.vertexShader)),
-                void 0 !== e.defines)
+                  void 0 !== e.defines)
               )
                 for (const t in e.defines) n.push(t), n.push(e.defines[t]);
               if (!1 === e.isRawShaderMaterial) {
@@ -11691,23 +11691,23 @@ parcelRequire = (function (e, r, t, n) {
           return t.groupOrder !== e.groupOrder
             ? t.groupOrder - e.groupOrder
             : t.renderOrder !== e.renderOrder
-            ? t.renderOrder - e.renderOrder
-            : t.program !== e.program
-            ? t.program.id - e.program.id
-            : t.material.id !== e.material.id
-            ? t.material.id - e.material.id
-            : t.z !== e.z
-            ? t.z - e.z
-            : t.id - e.id;
+              ? t.renderOrder - e.renderOrder
+              : t.program !== e.program
+                ? t.program.id - e.program.id
+                : t.material.id !== e.material.id
+                  ? t.material.id - e.material.id
+                  : t.z !== e.z
+                    ? t.z - e.z
+                    : t.id - e.id;
         }
         function bh(t, e) {
           return t.groupOrder !== e.groupOrder
             ? t.groupOrder - e.groupOrder
             : t.renderOrder !== e.renderOrder
-            ? t.renderOrder - e.renderOrder
-            : t.z !== e.z
-            ? e.z - t.z
-            : t.id - e.id;
+              ? t.renderOrder - e.renderOrder
+              : t.z !== e.z
+                ? e.z - t.z
+                : t.id - e.id;
         }
         function Sh(t) {
           const e = [];
@@ -11722,16 +11722,16 @@ parcelRequire = (function (e, r, t, n) {
             return (
               void 0 === h
                 ? ((h = {
-                    id: r.id,
-                    object: r,
-                    geometry: i,
-                    material: s,
-                    program: u.program || o,
-                    groupOrder: a,
-                    renderOrder: r.renderOrder,
-                    z: l,
-                    group: c,
-                  }),
+                  id: r.id,
+                  object: r,
+                  geometry: i,
+                  material: s,
+                  program: u.program || o,
+                  groupOrder: a,
+                  renderOrder: r.renderOrder,
+                  z: l,
+                  group: c,
+                }),
                   (e[n] = h))
                 : ((h.id = r.id),
                   (h.object = r),
@@ -11758,16 +11758,16 @@ parcelRequire = (function (e, r, t, n) {
               n.transmission > 0
                 ? i.push(h)
                 : !0 === n.transparent
-                ? s.push(h)
-                : r.push(h);
+                  ? s.push(h)
+                  : r.push(h);
             },
             unshift: function (t, e, n, o, l, c) {
               const h = a(t, e, n, o, l, c);
               n.transmission > 0
                 ? i.unshift(h)
                 : !0 === n.transparent
-                ? s.unshift(h)
-                : r.unshift(h);
+                  ? s.unshift(h)
+                  : r.unshift(h);
             },
             finish: function () {
               for (let t = n, r = e.length; t < r; t++) {
@@ -11797,8 +11797,8 @@ parcelRequire = (function (e, r, t, n) {
                 !1 === e.has(n)
                   ? ((i = new Sh(t)), e.set(n, [i]))
                   : r >= e.get(n).length
-                  ? ((i = new Sh(t)), e.get(n).push(i))
-                  : (i = e.get(n)[r]),
+                    ? ((i = new Sh(t)), e.get(n).push(i))
+                    : (i = e.get(n)[r]),
                 i
               );
             },
@@ -11957,7 +11957,7 @@ parcelRequire = (function (e, r, t, n) {
                   const t = n.get(e);
                   if (
                     (t.color.copy(e.color).multiplyScalar(e.intensity),
-                    e.castShadow)
+                      e.castShadow)
                   ) {
                     const t = e.shadow,
                       n = r.get(e);
@@ -11975,12 +11975,12 @@ parcelRequire = (function (e, r, t, n) {
                   const t = n.get(e);
                   if (
                     (t.position.setFromMatrixPosition(e.matrixWorld),
-                    t.color.copy(x).multiplyScalar(v),
-                    (t.distance = y),
-                    (t.coneCos = Math.cos(e.angle)),
-                    (t.penumbraCos = Math.cos(e.angle * (1 - e.penumbra))),
-                    (t.decay = e.decay),
-                    e.castShadow)
+                      t.color.copy(x).multiplyScalar(v),
+                      (t.distance = y),
+                      (t.coneCos = Math.cos(e.angle)),
+                      (t.penumbraCos = Math.cos(e.angle * (1 - e.penumbra))),
+                      (t.decay = e.decay),
+                      e.castShadow)
                   ) {
                     const t = e.shadow,
                       n = r.get(e);
@@ -12005,9 +12005,9 @@ parcelRequire = (function (e, r, t, n) {
                   const t = n.get(e);
                   if (
                     (t.color.copy(e.color).multiplyScalar(e.intensity),
-                    (t.distance = e.distance),
-                    (t.decay = e.decay),
-                    e.castShadow)
+                      (t.distance = e.distance),
+                      (t.decay = e.decay),
+                      e.castShadow)
                   ) {
                     const t = e.shadow,
                       n = r.get(e);
@@ -12036,14 +12036,14 @@ parcelRequire = (function (e, r, t, n) {
                   ? ((i.rectAreaLTC1 = Sl.LTC_FLOAT_1),
                     (i.rectAreaLTC2 = Sl.LTC_FLOAT_2))
                   : !0 === t.has("OES_texture_float_linear")
-                  ? ((i.rectAreaLTC1 = Sl.LTC_FLOAT_1),
-                    (i.rectAreaLTC2 = Sl.LTC_FLOAT_2))
-                  : !0 === t.has("OES_texture_half_float_linear")
-                  ? ((i.rectAreaLTC1 = Sl.LTC_HALF_1),
-                    (i.rectAreaLTC2 = Sl.LTC_HALF_2))
-                  : console.error(
-                      "THREE.WebGLRenderer: Unable to use RectAreaLight. Missing WebGL extensions."
-                    )),
+                    ? ((i.rectAreaLTC1 = Sl.LTC_FLOAT_1),
+                      (i.rectAreaLTC2 = Sl.LTC_FLOAT_2))
+                    : !0 === t.has("OES_texture_half_float_linear")
+                      ? ((i.rectAreaLTC1 = Sl.LTC_HALF_1),
+                        (i.rectAreaLTC2 = Sl.LTC_HALF_2))
+                      : console.error(
+                        "THREE.WebGLRenderer: Unable to use RectAreaLight. Missing WebGL extensions."
+                      )),
                 (i.ambient[0] = o),
                 (i.ambient[1] = a),
                 (i.ambient[2] = l);
@@ -12057,28 +12057,28 @@ parcelRequire = (function (e, r, t, n) {
                 x.numPointShadows === f &&
                 x.numSpotShadows === g) ||
                 ((i.directional.length = c),
-                (i.spot.length = u),
-                (i.rectArea.length = p),
-                (i.point.length = h),
-                (i.hemi.length = d),
-                (i.directionalShadow.length = m),
-                (i.directionalShadowMap.length = m),
-                (i.pointShadow.length = f),
-                (i.pointShadowMap.length = f),
-                (i.spotShadow.length = g),
-                (i.spotShadowMap.length = g),
-                (i.directionalShadowMatrix.length = m),
-                (i.pointShadowMatrix.length = f),
-                (i.spotShadowMatrix.length = g),
-                (x.directionalLength = c),
-                (x.pointLength = h),
-                (x.spotLength = u),
-                (x.rectAreaLength = p),
-                (x.hemiLength = d),
-                (x.numDirectionalShadows = m),
-                (x.numPointShadows = f),
-                (x.numSpotShadows = g),
-                (i.version = Lh++));
+                  (i.spot.length = u),
+                  (i.rectArea.length = p),
+                  (i.point.length = h),
+                  (i.hemi.length = d),
+                  (i.directionalShadow.length = m),
+                  (i.directionalShadowMap.length = m),
+                  (i.pointShadow.length = f),
+                  (i.pointShadowMap.length = f),
+                  (i.spotShadow.length = g),
+                  (i.spotShadowMap.length = g),
+                  (i.directionalShadowMatrix.length = m),
+                  (i.pointShadowMatrix.length = f),
+                  (i.spotShadowMatrix.length = g),
+                  (x.directionalLength = c),
+                  (x.pointLength = h),
+                  (x.spotLength = u),
+                  (x.rectAreaLength = p),
+                  (x.hemiLength = d),
+                  (x.numDirectionalShadows = m),
+                  (x.numPointShadows = f),
+                  (x.numSpotShadows = g),
+                  (i.version = Lh++));
             },
             setupView: function (t, e) {
               let n = 0,
@@ -12167,8 +12167,8 @@ parcelRequire = (function (e, r, t, n) {
                 !1 === n.has(r)
                   ? ((s = new Ph(t, e)), n.set(r, [s]))
                   : i >= n.get(r).length
-                  ? ((s = new Ph(t, e)), n.get(r).push(s))
-                  : (s = n.get(r)[i]),
+                    ? ((s = new Ph(t, e)), n.get(r).push(s))
+                    : (s = n.get(r)[i]),
                 s
               );
             },
@@ -12246,7 +12246,7 @@ parcelRequire = (function (e, r, t, n) {
         (exports.MeshDistanceMaterial = Bh),
           (Bh.prototype.isMeshDistanceMaterial = !0);
         var Fh =
-            "uniform sampler2D shadow_pass;\nuniform vec2 resolution;\nuniform float radius;\n#include <packing>\nvoid main() {\n\tfloat mean = 0.0;\n\tfloat squared_mean = 0.0;\n\tfloat depth = unpackRGBAToDepth( texture2D( shadow_pass, ( gl_FragCoord.xy ) / resolution ) );\n\tfor ( float i = -1.0; i < 1.0 ; i += SAMPLE_RATE) {\n\t\t#ifdef HORIZONTAL_PASS\n\t\t\tvec2 distribution = unpackRGBATo2Half( texture2D( shadow_pass, ( gl_FragCoord.xy + vec2( i, 0.0 ) * radius ) / resolution ) );\n\t\t\tmean += distribution.x;\n\t\t\tsquared_mean += distribution.y * distribution.y + distribution.x * distribution.x;\n\t\t#else\n\t\t\tfloat depth = unpackRGBAToDepth( texture2D( shadow_pass, ( gl_FragCoord.xy + vec2( 0.0, i ) * radius ) / resolution ) );\n\t\t\tmean += depth;\n\t\t\tsquared_mean += depth * depth;\n\t\t#endif\n\t}\n\tmean = mean * HALF_SAMPLE_RATE;\n\tsquared_mean = squared_mean * HALF_SAMPLE_RATE;\n\tfloat std_dev = sqrt( squared_mean - mean * mean );\n\tgl_FragColor = pack2HalfToRGBA( vec2( mean, std_dev ) );\n}",
+          "uniform sampler2D shadow_pass;\nuniform vec2 resolution;\nuniform float radius;\n#include <packing>\nvoid main() {\n\tfloat mean = 0.0;\n\tfloat squared_mean = 0.0;\n\tfloat depth = unpackRGBAToDepth( texture2D( shadow_pass, ( gl_FragCoord.xy ) / resolution ) );\n\tfor ( float i = -1.0; i < 1.0 ; i += SAMPLE_RATE) {\n\t\t#ifdef HORIZONTAL_PASS\n\t\t\tvec2 distribution = unpackRGBATo2Half( texture2D( shadow_pass, ( gl_FragCoord.xy + vec2( i, 0.0 ) * radius ) / resolution ) );\n\t\t\tmean += distribution.x;\n\t\t\tsquared_mean += distribution.y * distribution.y + distribution.x * distribution.x;\n\t\t#else\n\t\t\tfloat depth = unpackRGBAToDepth( texture2D( shadow_pass, ( gl_FragCoord.xy + vec2( 0.0, i ) * radius ) / resolution ) );\n\t\t\tmean += depth;\n\t\t\tsquared_mean += depth * depth;\n\t\t#endif\n\t}\n\tmean = mean * HALF_SAMPLE_RATE;\n\tsquared_mean = squared_mean * HALF_SAMPLE_RATE;\n\tfloat std_dev = sqrt( squared_mean - mean * mean );\n\tgl_FragColor = pack2HalfToRGBA( vec2( mean, std_dev ) );\n}",
           Nh = "void main() {\n\tgl_Position = vec4( position, 1.0 );\n}";
         function Gh(t, e, n) {
           let r = new Qs();
@@ -12297,7 +12297,7 @@ parcelRequire = (function (e, r, t, n) {
             let n = a[e];
             return (
               void 0 === n &&
-                ((n = new Ih({ depthPacking: nn, morphTargets: t })),
+              ((n = new Ih({ depthPacking: nn, morphTargets: t })),
                 (a[e] = n)),
               n
             );
@@ -12316,7 +12316,7 @@ parcelRequire = (function (e, r, t, n) {
             if (
               (!0 === i.isPointLight &&
                 ((c = T), (u = e.customDistanceMaterial)),
-              void 0 === u)
+                void 0 === u)
             ) {
               let t = !1;
               !0 === r.morphTargets &&
@@ -12347,16 +12347,16 @@ parcelRequire = (function (e, r, t, n) {
                     ? r.shadowSide
                     : r.side
                   : null !== r.shadowSide
-                  ? r.shadowSide
-                  : x[r.side]),
+                    ? r.shadowSide
+                    : x[r.side]),
               (l.clipShadows = r.clipShadows),
               (l.clippingPlanes = r.clippingPlanes),
               (l.clipIntersection = r.clipIntersection),
               (l.wireframeLinewidth = r.wireframeLinewidth),
               (l.linewidth = r.linewidth),
               !0 === i.isPointLight &&
-                !0 === l.isMeshDistanceMaterial &&
-                (l.referencePosition.setFromMatrixPosition(i.matrixWorld),
+              !0 === l.isMeshDistanceMaterial &&
+              (l.referencePosition.setFromMatrixPosition(i.matrixWorld),
                 (l.nearDistance = s),
                 (l.farDistance = o)),
               l
@@ -12422,17 +12422,17 @@ parcelRequire = (function (e, r, t, n) {
                 const u = c.getFrameExtents();
                 if (
                   (i.multiply(u),
-                  s.copy(c.mapSize),
-                  (i.x > f || i.y > f) &&
+                    s.copy(c.mapSize),
+                    (i.x > f || i.y > f) &&
                     (i.x > f &&
                       ((s.x = Math.floor(f / u.x)),
-                      (i.x = s.x * u.x),
-                      (c.mapSize.x = s.x)),
-                    i.y > f &&
+                        (i.x = s.x * u.x),
+                        (c.mapSize.x = s.x)),
+                      i.y > f &&
                       ((s.y = Math.floor(f / u.y)),
-                      (i.y = s.y * u.y),
-                      (c.mapSize.y = s.y))),
-                  null === c.map && !c.isPointLightShadow && this.type === h)
+                        (i.y = s.y * u.y),
+                        (c.mapSize.y = s.y))),
+                    null === c.map && !c.isPointLightShadow && this.type === h)
                 ) {
                   const t = { minFilter: gt, magFilter: gt, format: Ft };
                   (c.map = new dr(i.x, i.y, t)),
@@ -12465,27 +12465,27 @@ parcelRequire = (function (e, r, t, n) {
         function zh(t, e, n) {
           const o = n.isWebGL2;
           const a = new (function () {
-              let e = !1;
-              const n = new pr();
-              let r = null;
-              const i = new pr(0, 0, 0, 0);
-              return {
-                setMask: function (n) {
-                  r === n || e || (t.colorMask(n, n, n, n), (r = n));
-                },
-                setLocked: function (t) {
-                  e = t;
-                },
-                setClear: function (e, r, s, o, a) {
-                  !0 === a && ((e *= o), (r *= o), (s *= o)),
-                    n.set(e, r, s, o),
-                    !1 === i.equals(n) && (t.clearColor(e, r, s, o), i.copy(n));
-                },
-                reset: function () {
-                  (e = !1), (r = null), i.set(-1, 0, 0, 0);
-                },
-              };
-            })(),
+            let e = !1;
+            const n = new pr();
+            let r = null;
+            const i = new pr(0, 0, 0, 0);
+            return {
+              setMask: function (n) {
+                r === n || e || (t.colorMask(n, n, n, n), (r = n));
+              },
+              setLocked: function (t) {
+                e = t;
+              },
+              setClear: function (e, r, s, o, a) {
+                !0 === a && ((e *= o), (r *= o), (s *= o)),
+                  n.set(e, r, s, o),
+                  !1 === i.equals(n) && (t.clearColor(e, r, s, o), i.copy(n));
+              },
+              reset: function () {
+                (e = !1), (r = null), i.set(-1, 0, 0, 0);
+              },
+            };
+          })(),
             l = new (function () {
               let e = !1,
                 n = null,
@@ -12613,7 +12613,7 @@ parcelRequire = (function (e, r, t, n) {
           -1 !== ct.indexOf("WebGL")
             ? ((lt = parseFloat(/^WebGL (\d)/.exec(ct)[1])), (at = lt >= 1))
             : -1 !== ct.indexOf("OpenGL ES") &&
-              ((lt = parseFloat(/^OpenGL ES (\d)/.exec(ct)[1])),
+            ((lt = parseFloat(/^OpenGL ES (\d)/.exec(ct)[1])),
               (at = lt >= 2));
           let ht = null,
             ut = {};
@@ -12675,9 +12675,9 @@ parcelRequire = (function (e, r, t, n) {
                   (o = o || r),
                   (a = a || i),
                   (n === Y && s === Q) ||
-                    (t.blendEquationSeparate(_t[n], _t[s]), (Y = n), (Q = s)),
+                  (t.blendEquationSeparate(_t[n], _t[s]), (Y = n), (Q = s)),
                   (r === Z && i === J && o === K && a === $) ||
-                    (t.blendFuncSeparate(Mt[r], Mt[i], Mt[o], Mt[a]),
+                  (t.blendFuncSeparate(Mt[r], Mt[i], Mt[o], Mt[a]),
                     (Z = r),
                     (J = i),
                     (K = o),
@@ -12688,7 +12688,7 @@ parcelRequire = (function (e, r, t, n) {
                 if (
                   ((Y === w && Q === w) ||
                     (t.blendEquation(32774), (Y = w), (Q = w)),
-                  l)
+                    l)
                 )
                   switch (e) {
                     case x:
@@ -12739,9 +12739,9 @@ parcelRequire = (function (e, r, t, n) {
             e !== r
               ? (vt(2884),
                 e !== nt &&
-                  (e === i
-                    ? t.cullFace(1029)
-                    : e === s
+                (e === i
+                  ? t.cullFace(1029)
+                  : e === s
                     ? t.cullFace(1028)
                     : t.cullFace(1032)))
               : yt(2884),
@@ -12751,7 +12751,7 @@ parcelRequire = (function (e, r, t, n) {
             e
               ? (vt(32823),
                 (it === n && st === r) ||
-                  (t.polygonOffset(n, r), (it = n), (st = r)))
+                (t.polygonOffset(n, r), (it = n), (st = r)))
               : yt(32823);
           }
           function Et(e) {
@@ -12766,10 +12766,10 @@ parcelRequire = (function (e, r, t, n) {
               return (
                 null === n && null !== u && (n = u),
                 m[e] !== n &&
-                  (t.bindFramebuffer(e, n),
+                (t.bindFramebuffer(e, n),
                   (m[e] = n),
                   o &&
-                    (36009 === e && (m[36160] = n),
+                  (36009 === e && (m[36160] = n),
                     36160 === e && (m[36009] = n)),
                   !0)
               );
@@ -12789,15 +12789,15 @@ parcelRequire = (function (e, r, t, n) {
                 t.blending === x && !1 === t.transparent
                   ? wt(g)
                   : wt(
-                      t.blending,
-                      t.blendEquation,
-                      t.blendSrc,
-                      t.blendDst,
-                      t.blendEquationAlpha,
-                      t.blendSrcAlpha,
-                      t.blendDstAlpha,
-                      t.premultipliedAlpha
-                    ),
+                    t.blending,
+                    t.blendEquation,
+                    t.blendSrc,
+                    t.blendDst,
+                    t.blendEquationAlpha,
+                    t.blendSrcAlpha,
+                    t.blendDstAlpha,
+                    t.premultipliedAlpha
+                  ),
                 l.setFunc(t.depthFunc),
                 l.setTest(t.depthTest),
                 l.setMask(t.depthWrite),
@@ -12805,7 +12805,7 @@ parcelRequire = (function (e, r, t, n) {
               const r = t.stencilWrite;
               c.setTest(r),
                 r &&
-                  (c.setMask(t.stencilWriteMask),
+                (c.setMask(t.stencilWriteMask),
                   c.setFunc(t.stencilFunc, t.stencilRef, t.stencilFuncMask),
                   c.setOp(t.stencilFail, t.stencilZFail, t.stencilZPass)),
                 Tt(
@@ -12831,15 +12831,15 @@ parcelRequire = (function (e, r, t, n) {
               void 0 === r &&
                 ((r = { type: void 0, texture: void 0 }), (ut[ht] = r)),
                 (r.type === e && r.texture === n) ||
-                  (t.bindTexture(e, n || xt[e]), (r.type = e), (r.texture = n));
+                (t.bindTexture(e, n || xt[e]), (r.type = e), (r.texture = n));
             },
             unbindTexture: function () {
               const e = ut[ht];
               void 0 !== e &&
                 void 0 !== e.type &&
                 (t.bindTexture(e.type, null),
-                (e.type = void 0),
-                (e.texture = void 0));
+                  (e.type = void 0),
+                  (e.texture = void 0));
             },
             compressedTexImage2D: function () {
               try {
@@ -12896,7 +12896,7 @@ parcelRequire = (function (e, r, t, n) {
                 t.activeTexture(33984),
                 t.bindFramebuffer(36160, null),
                 !0 === o &&
-                  (t.bindFramebuffer(36009, null),
+                (t.bindFramebuffer(36009, null),
                   t.bindFramebuffer(36008, null)),
                 t.useProgram(null),
                 t.lineWidth(1),
@@ -12943,21 +12943,21 @@ parcelRequire = (function (e, r, t, n) {
             m =
               "undefined" != typeof OffscreenCanvas &&
               null !== new OffscreenCanvas(1, 1).getContext("2d");
-          } catch (z) {}
+          } catch (z) { }
           function f(t, e) {
             return m
               ? new OffscreenCanvas(t, e)
               : document.createElementNS(
-                  "http://www.w3.org/1999/xhtml",
-                  "canvas"
-                );
+                "http://www.w3.org/1999/xhtml",
+                "canvas"
+              );
           }
           function g(t, e, n, r) {
             let i = 1;
             if (
               ((t.width > r || t.height > r) &&
                 (i = r / Math.max(t.width, t.height)),
-              i < 1 || !0 === e)
+                i < 1 || !0 === e)
             ) {
               if (
                 ("undefined" != typeof HTMLImageElement &&
@@ -12977,27 +12977,27 @@ parcelRequire = (function (e, r, t, n) {
                   a.getContext("2d").drawImage(t, 0, 0, s, o),
                   console.warn(
                     "THREE.WebGLRenderer: Texture has been resized from (" +
-                      t.width +
-                      "x" +
-                      t.height +
-                      ") to (" +
-                      s +
-                      "x" +
-                      o +
-                      ")."
+                    t.width +
+                    "x" +
+                    t.height +
+                    ") to (" +
+                    s +
+                    "x" +
+                    o +
+                    ")."
                   ),
                   a
                 );
               }
               return (
                 "data" in t &&
-                  console.warn(
-                    "THREE.WebGLRenderer: Image in DataTexture is too big (" +
-                      t.width +
-                      "x" +
-                      t.height +
-                      ")."
-                  ),
+                console.warn(
+                  "THREE.WebGLRenderer: Image in DataTexture is too big (" +
+                  t.width +
+                  "x" +
+                  t.height +
+                  ")."
+                ),
                 t
               );
             }
@@ -13021,26 +13021,26 @@ parcelRequire = (function (e, r, t, n) {
               if (void 0 !== t[n]) return t[n];
               console.warn(
                 "THREE.WebGLRenderer: Attempt to use non-existing WebGL internal format '" +
-                  n +
-                  "'"
+                n +
+                "'"
               );
             }
             let s = r;
             return (
               6403 === r &&
-                (5126 === i && (s = 33326),
+              (5126 === i && (s = 33326),
                 5131 === i && (s = 33325),
                 5121 === i && (s = 33321)),
               6407 === r &&
-                (5126 === i && (s = 34837),
+              (5126 === i && (s = 34837),
                 5131 === i && (s = 34843),
                 5121 === i && (s = 32849)),
               6408 === r &&
-                (5126 === i && (s = 34836),
+              (5126 === i && (s = 34836),
                 5131 === i && (s = 34842),
                 5121 === i && (s = 32856)),
               (33325 !== s && 33326 !== s && 34842 !== s && 34836 !== s) ||
-                e.get("EXT_color_buffer_float"),
+              e.get("EXT_color_buffer_float"),
               s
             );
           }
@@ -13073,17 +13073,17 @@ parcelRequire = (function (e, r, t, n) {
                   for (let r = 0; r < 6; r++)
                     t.deleteFramebuffer(i.__webglFramebuffer[r]),
                       i.__webglDepthbuffer &&
-                        t.deleteRenderbuffer(i.__webglDepthbuffer[r]);
+                      t.deleteRenderbuffer(i.__webglDepthbuffer[r]);
                 else
                   t.deleteFramebuffer(i.__webglFramebuffer),
                     i.__webglDepthbuffer &&
-                      t.deleteRenderbuffer(i.__webglDepthbuffer),
+                    t.deleteRenderbuffer(i.__webglDepthbuffer),
                     i.__webglMultisampledFramebuffer &&
-                      t.deleteFramebuffer(i.__webglMultisampledFramebuffer),
+                    t.deleteFramebuffer(i.__webglMultisampledFramebuffer),
                     i.__webglColorRenderbuffer &&
-                      t.deleteRenderbuffer(i.__webglColorRenderbuffer),
+                    t.deleteRenderbuffer(i.__webglColorRenderbuffer),
                     i.__webglDepthRenderbuffer &&
-                      t.deleteRenderbuffer(i.__webglDepthRenderbuffer);
+                    t.deleteRenderbuffer(i.__webglDepthRenderbuffer);
                 if (e.isWebGLMultipleRenderTargets)
                   for (let a = 0, l = n.length; a < l; a++) {
                     const e = r.get(n[a]);
@@ -13103,7 +13103,7 @@ parcelRequire = (function (e, r, t, n) {
                   const e = o.render.frame;
                   p.get(t) !== e && (p.set(t, e), t.update());
                 })(t),
-              t.version > 0 && i.__version !== t.version)
+                t.version > 0 && i.__version !== t.version)
             ) {
               const n = t.image;
               if (void 0 === n)
@@ -13123,107 +13123,107 @@ parcelRequire = (function (e, r, t, n) {
             const o = r.get(e);
             e.version > 0 && o.__version !== e.version
               ? (function (e, r, i) {
-                  if (6 !== r.image.length) return;
-                  C(e, r),
-                    n.activeTexture(33984 + i),
-                    n.bindTexture(34067, e.__webglTexture),
-                    t.pixelStorei(37440, r.flipY),
-                    t.pixelStorei(37441, r.premultiplyAlpha),
-                    t.pixelStorei(3317, r.unpackAlignment),
-                    t.pixelStorei(37443, 0);
-                  const o =
-                      r &&
-                      (r.isCompressedTexture || r.image[0].isCompressedTexture),
-                    l = r.image[0] && r.image[0].isDataTexture,
-                    h = [];
-                  for (let t = 0; t < 6; t++)
-                    h[t] =
-                      o || l
-                        ? l
-                          ? r.image[t].image
-                          : r.image[t]
-                        : g(r.image[t], !1, !0, c);
-                  const u = h[0],
-                    p = x(u) || a,
-                    d = s.convert(r.format),
-                    m = s.convert(r.type),
-                    f = _(r.internalFormat, d, m);
-                  let M;
-                  if ((R(34067, r, p), o)) {
-                    for (let t = 0; t < 6; t++) {
-                      M = h[t].mipmaps;
-                      for (let e = 0; e < M.length; e++) {
-                        const i = M[e];
-                        r.format !== Ft && r.format !== Bt
-                          ? null !== d
-                            ? n.compressedTexImage2D(
-                                34069 + t,
-                                e,
-                                f,
-                                i.width,
-                                i.height,
-                                0,
-                                i.data
-                              )
-                            : console.warn(
-                                "THREE.WebGLRenderer: Attempt to load unsupported compressed texture format in .setTextureCube()"
-                              )
-                          : n.texImage2D(
-                              34069 + t,
-                              e,
-                              f,
-                              i.width,
-                              i.height,
-                              0,
-                              d,
-                              m,
-                              i.data
-                            );
-                      }
-                    }
-                    e.__maxMipLevel = M.length - 1;
-                  } else {
-                    M = r.mipmaps;
-                    for (let t = 0; t < 6; t++)
-                      if (l) {
-                        n.texImage2D(
-                          34069 + t,
-                          0,
-                          f,
-                          h[t].width,
-                          h[t].height,
-                          0,
-                          d,
-                          m,
-                          h[t].data
-                        );
-                        for (let e = 0; e < M.length; e++) {
-                          const r = M[e],
-                            i = r.image[t].image;
-                          n.texImage2D(
+                if (6 !== r.image.length) return;
+                C(e, r),
+                  n.activeTexture(33984 + i),
+                  n.bindTexture(34067, e.__webglTexture),
+                  t.pixelStorei(37440, r.flipY),
+                  t.pixelStorei(37441, r.premultiplyAlpha),
+                  t.pixelStorei(3317, r.unpackAlignment),
+                  t.pixelStorei(37443, 0);
+                const o =
+                  r &&
+                  (r.isCompressedTexture || r.image[0].isCompressedTexture),
+                  l = r.image[0] && r.image[0].isDataTexture,
+                  h = [];
+                for (let t = 0; t < 6; t++)
+                  h[t] =
+                    o || l
+                      ? l
+                        ? r.image[t].image
+                        : r.image[t]
+                      : g(r.image[t], !1, !0, c);
+                const u = h[0],
+                  p = x(u) || a,
+                  d = s.convert(r.format),
+                  m = s.convert(r.type),
+                  f = _(r.internalFormat, d, m);
+                let M;
+                if ((R(34067, r, p), o)) {
+                  for (let t = 0; t < 6; t++) {
+                    M = h[t].mipmaps;
+                    for (let e = 0; e < M.length; e++) {
+                      const i = M[e];
+                      r.format !== Ft && r.format !== Bt
+                        ? null !== d
+                          ? n.compressedTexImage2D(
                             34069 + t,
-                            e + 1,
+                            e,
                             f,
                             i.width,
                             i.height,
                             0,
-                            d,
-                            m,
                             i.data
-                          );
-                        }
-                      } else {
-                        n.texImage2D(34069 + t, 0, f, d, m, h[t]);
-                        for (let e = 0; e < M.length; e++) {
-                          const r = M[e];
-                          n.texImage2D(34069 + t, e + 1, f, d, m, r.image[t]);
-                        }
-                      }
-                    e.__maxMipLevel = M.length;
+                          )
+                          : console.warn(
+                            "THREE.WebGLRenderer: Attempt to load unsupported compressed texture format in .setTextureCube()"
+                          )
+                        : n.texImage2D(
+                          34069 + t,
+                          e,
+                          f,
+                          i.width,
+                          i.height,
+                          0,
+                          d,
+                          m,
+                          i.data
+                        );
+                    }
                   }
-                  v(r, p) && y(34067, r, u.width, u.height);
-                  (e.__version = r.version), r.onUpdate && r.onUpdate(r);
-                })(o, e, i)
+                  e.__maxMipLevel = M.length - 1;
+                } else {
+                  M = r.mipmaps;
+                  for (let t = 0; t < 6; t++)
+                    if (l) {
+                      n.texImage2D(
+                        34069 + t,
+                        0,
+                        f,
+                        h[t].width,
+                        h[t].height,
+                        0,
+                        d,
+                        m,
+                        h[t].data
+                      );
+                      for (let e = 0; e < M.length; e++) {
+                        const r = M[e],
+                          i = r.image[t].image;
+                        n.texImage2D(
+                          34069 + t,
+                          e + 1,
+                          f,
+                          i.width,
+                          i.height,
+                          0,
+                          d,
+                          m,
+                          i.data
+                        );
+                      }
+                    } else {
+                      n.texImage2D(34069 + t, 0, f, d, m, h[t]);
+                      for (let e = 0; e < M.length; e++) {
+                        const r = M[e];
+                        n.texImage2D(34069 + t, e + 1, f, d, m, r.image[t]);
+                      }
+                    }
+                  e.__maxMipLevel = M.length;
+                }
+                v(r, p) && y(34067, r, u.width, u.height);
+                (e.__version = r.version), r.onUpdate && r.onUpdate(r);
+              })(o, e, i)
               : (n.activeTexture(33984 + i),
                 n.bindTexture(34067, o.__webglTexture));
           }
@@ -13242,25 +13242,25 @@ parcelRequire = (function (e, r, t, n) {
                 ? (t.texParameteri(n, 10242, A[s.wrapS]),
                   t.texParameteri(n, 10243, A[s.wrapT]),
                   (32879 !== n && 35866 !== n) ||
-                    t.texParameteri(n, 32882, A[s.wrapR]),
+                  t.texParameteri(n, 32882, A[s.wrapR]),
                   t.texParameteri(n, 10240, L[s.magFilter]),
                   t.texParameteri(n, 10241, L[s.minFilter]))
                 : (t.texParameteri(n, 10242, 33071),
                   t.texParameteri(n, 10243, 33071),
                   (32879 !== n && 35866 !== n) ||
-                    t.texParameteri(n, 32882, 33071),
+                  t.texParameteri(n, 32882, 33071),
                   (s.wrapS === ct && s.wrapT === ct) ||
-                    console.warn(
-                      "THREE.WebGLRenderer: Texture is not power of two. Texture.wrapS and Texture.wrapT should be set to THREE.ClampToEdgeWrapping."
-                    ),
+                  console.warn(
+                    "THREE.WebGLRenderer: Texture is not power of two. Texture.wrapS and Texture.wrapT should be set to THREE.ClampToEdgeWrapping."
+                  ),
                   t.texParameteri(n, 10240, M(s.magFilter)),
                   t.texParameteri(n, 10241, M(s.minFilter)),
                   s.minFilter !== ut &&
-                    s.minFilter !== gt &&
-                    console.warn(
-                      "THREE.WebGLRenderer: Texture is not power of two. Texture.minFilter should be set to THREE.NearestFilter or THREE.LinearFilter."
-                    )),
-              !0 === e.has("EXT_texture_filter_anisotropic"))
+                  s.minFilter !== gt &&
+                  console.warn(
+                    "THREE.WebGLRenderer: Texture is not power of two. Texture.minFilter should be set to THREE.NearestFilter or THREE.LinearFilter."
+                  )),
+                !0 === e.has("EXT_texture_filter_anisotropic"))
             ) {
               const o = e.get("EXT_texture_filter_anisotropic");
               if (s.type === At && !1 === e.has("OES_texture_float_linear"))
@@ -13277,15 +13277,15 @@ parcelRequire = (function (e, r, t, n) {
                   o.TEXTURE_MAX_ANISOTROPY_EXT,
                   Math.min(s.anisotropy, i.getMaxAnisotropy())
                 ),
-                (r.get(s).__currentAnisotropy = s.anisotropy));
+                  (r.get(s).__currentAnisotropy = s.anisotropy));
             }
           }
           function C(e, n) {
             void 0 === e.__webglInit &&
               ((e.__webglInit = !0),
-              n.addEventListener("dispose", w),
-              (e.__webglTexture = t.createTexture()),
-              o.memory.textures++);
+                n.addEventListener("dispose", w),
+                (e.__webglTexture = t.createTexture()),
+                o.memory.textures++);
           }
           function P(e, r, i) {
             let o = 3553;
@@ -13299,14 +13299,14 @@ parcelRequire = (function (e, r, t, n) {
               t.pixelStorei(3317, r.unpackAlignment),
               t.pixelStorei(37443, 0);
             const l =
-                (function (t) {
-                  return (
-                    !a &&
-                    (t.wrapS !== ct ||
-                      t.wrapT !== ct ||
-                      (t.minFilter !== ut && t.minFilter !== gt))
-                  );
-                })(r) && !1 === x(r.image),
+              (function (t) {
+                return (
+                  !a &&
+                  (t.wrapS !== ct ||
+                    t.wrapT !== ct ||
+                    (t.minFilter !== ut && t.minFilter !== gt))
+                );
+              })(r) && !1 === x(r.image),
               c = g(r.image, l, !1, h),
               u = x(c) || a,
               p = s.convert(r.format);
@@ -13319,33 +13319,33 @@ parcelRequire = (function (e, r, t, n) {
               (f = 6402),
                 a
                   ? (f =
-                      r.type === At
-                        ? 36012
-                        : r.type === Et
+                    r.type === At
+                      ? 36012
+                      : r.type === Et
                         ? 33190
                         : r.type === Dt
-                        ? 35056
-                        : 33189)
+                          ? 35056
+                          : 33189)
                   : r.type === At &&
-                    console.error(
-                      "WebGLRenderer: Floating point depth texture requires WebGL2."
-                    ),
-                r.format === Ot &&
-                  6402 === f &&
-                  r.type !== St &&
-                  r.type !== Et &&
-                  (console.warn(
-                    "THREE.WebGLRenderer: Use UnsignedShortType or UnsignedIntType for DepthFormat DepthTexture."
+                  console.error(
+                    "WebGLRenderer: Floating point depth texture requires WebGL2."
                   ),
+                r.format === Ot &&
+                6402 === f &&
+                r.type !== St &&
+                r.type !== Et &&
+                (console.warn(
+                  "THREE.WebGLRenderer: Use UnsignedShortType or UnsignedIntType for DepthFormat DepthTexture."
+                ),
                   (r.type = St),
                   (m = s.convert(r.type))),
                 r.format === Ht &&
-                  6402 === f &&
-                  ((f = 34041),
+                6402 === f &&
+                ((f = 34041),
                   r.type !== Dt &&
-                    (console.warn(
-                      "THREE.WebGLRenderer: Use UnsignedInt248Type for DepthStencilFormat DepthTexture."
-                    ),
+                  (console.warn(
+                    "THREE.WebGLRenderer: Use UnsignedInt248Type for DepthStencilFormat DepthTexture."
+                  ),
                     (r.type = Dt),
                     (m = s.convert(r.type)))),
                 n.texImage2D(3553, 0, f, c.width, c.height, 0, p, m, null);
@@ -13374,28 +13374,28 @@ parcelRequire = (function (e, r, t, n) {
                   r.format !== Ft && r.format !== Bt
                     ? null !== p
                       ? n.compressedTexImage2D(
-                          3553,
-                          t,
-                          f,
-                          d.width,
-                          d.height,
-                          0,
-                          d.data
-                        )
-                      : console.warn(
-                          "THREE.WebGLRenderer: Attempt to load unsupported compressed texture format in .uploadTexture()"
-                        )
-                    : n.texImage2D(
                         3553,
                         t,
                         f,
                         d.width,
                         d.height,
                         0,
-                        p,
-                        m,
                         d.data
-                      );
+                      )
+                      : console.warn(
+                        "THREE.WebGLRenderer: Attempt to load unsupported compressed texture format in .uploadTexture()"
+                      )
+                    : n.texImage2D(
+                      3553,
+                      t,
+                      f,
+                      d.width,
+                      d.height,
+                      0,
+                      p,
+                      m,
+                      d.data
+                    );
               e.__maxMipLevel = M.length - 1;
             } else if (r.isDataTexture2DArray)
               n.texImage3D(
@@ -13479,9 +13479,9 @@ parcelRequire = (function (e, r, t, n) {
               t.framebufferRenderbuffer(36160, 33306, 36161, e);
             } else {
               const e =
-                  !0 === n.isWebGLMultipleRenderTargets
-                    ? n.texture[0]
-                    : n.texture,
+                !0 === n.isWebGLMultipleRenderTargets
+                  ? n.texture[0]
+                  : n.texture,
                 i = s.convert(e.format),
                 o = s.convert(e.type),
                 a = _(e.internalFormat, i, o);
@@ -13513,7 +13513,7 @@ parcelRequire = (function (e, r, t, n) {
                   );
                 if (
                   (n.bindFramebuffer(36160, e),
-                  !i.depthTexture || !i.depthTexture.isDepthTexture)
+                    !i.depthTexture || !i.depthTexture.isDepthTexture)
                 )
                   throw new Error(
                     "renderTarget.depthTexture must be an instance of THREE.DepthTexture"
@@ -13522,8 +13522,8 @@ parcelRequire = (function (e, r, t, n) {
                   i.depthTexture.image.width === i.width &&
                   i.depthTexture.image.height === i.height) ||
                   ((i.depthTexture.image.width = i.width),
-                  (i.depthTexture.image.height = i.height),
-                  (i.depthTexture.needsUpdate = !0)),
+                    (i.depthTexture.image.height = i.height),
+                    (i.depthTexture.needsUpdate = !0)),
                   T(i.depthTexture, 0);
                 const s = r.get(i.depthTexture).__webglTexture;
                 if (i.depthTexture.format === Ot)
@@ -13557,12 +13557,12 @@ parcelRequire = (function (e, r, t, n) {
             const t = S;
             return (
               t >= l &&
-                console.warn(
-                  "THREE.WebGLTextures: Trying to use " +
-                    t +
-                    " texture units while this GPU supports only " +
-                    l
-                ),
+              console.warn(
+                "THREE.WebGLTextures: Trying to use " +
+                t +
+                " texture units while this GPU supports only " +
+                l
+              ),
               (S += 1),
               t
             );
@@ -13592,7 +13592,7 @@ parcelRequire = (function (e, r, t, n) {
                 h = r.get(l);
               e.addEventListener("dispose", b),
                 !0 !== e.isWebGLMultipleRenderTargets &&
-                  ((h.__webglTexture = t.createTexture()),
+                ((h.__webglTexture = t.createTexture()),
                   (h.__version = l.version),
                   o.memory.textures++);
               const u = !0 === e.isWebGLCubeRenderTarget,
@@ -13605,10 +13605,10 @@ parcelRequire = (function (e, r, t, n) {
                   l.format !== Bt ||
                   (l.type !== At && l.type !== Lt) ||
                   ((l.format = Ft),
-                  console.warn(
-                    "THREE.WebGLRenderer: Rendering to textures with RGB format is not supported. Using RGBA format instead."
-                  )),
-                u)
+                    console.warn(
+                      "THREE.WebGLRenderer: Rendering to textures with RGB format is not supported. Using RGBA format instead."
+                    )),
+                  u)
               ) {
                 c.__webglFramebuffer = [];
                 for (let e = 0; e < 6; e++)
@@ -13620,7 +13620,7 @@ parcelRequire = (function (e, r, t, n) {
                     const i = r.get(n[e]);
                     void 0 === i.__webglTexture &&
                       ((i.__webglTexture = t.createTexture()),
-                      o.memory.textures++);
+                        o.memory.textures++);
                   }
                 } else
                   console.warn(
@@ -13651,7 +13651,7 @@ parcelRequire = (function (e, r, t, n) {
                     ),
                     t.bindRenderbuffer(36161, null),
                     e.depthBuffer &&
-                      ((c.__webglDepthRenderbuffer = t.createRenderbuffer()),
+                    ((c.__webglDepthRenderbuffer = t.createRenderbuffer()),
                       I(c.__webglDepthRenderbuffer, e, !0)),
                     n.bindFramebuffer(36160, null);
                 } else
@@ -13681,8 +13681,8 @@ parcelRequire = (function (e, r, t, n) {
                   (a
                     ? (t = l.isDataTexture3D ? 32879 : 35866)
                     : console.warn(
-                        "THREE.DataTexture3D and THREE.DataTexture2DArray only supported with WebGL2."
-                      )),
+                      "THREE.DataTexture3D and THREE.DataTexture2DArray only supported with WebGL2."
+                    )),
                   n.bindTexture(t, h.__webglTexture),
                   R(t, l, f),
                   D(c.__webglFramebuffer, e, l, 36064, t),
@@ -13733,8 +13733,8 @@ parcelRequire = (function (e, r, t, n) {
                   (console.warn(
                     "THREE.WebGLTextures.safeSetTexture2D: don't use render targets as textures. Use their .texture property instead."
                   ),
-                  (N = !0)),
-                (t = t.texture)),
+                    (N = !0)),
+                  (t = t.texture)),
                 T(t, e);
             }),
             (this.safeSetTextureCube = function (t, e) {
@@ -13744,8 +13744,8 @@ parcelRequire = (function (e, r, t, n) {
                   (console.warn(
                     "THREE.WebGLTextures.safeSetTextureCube: don't use cube render targets as textures. Use their .texture property instead."
                   ),
-                  (G = !0)),
-                (t = t.texture)),
+                    (G = !0)),
+                  (t = t.texture)),
                 E(t, e);
             });
         }
@@ -13768,8 +13768,8 @@ parcelRequire = (function (e, r, t, n) {
                 return r
                   ? 5131
                   : null !== (n = e.get("OES_texture_half_float"))
-                  ? n.HALF_FLOAT_OES
-                  : null;
+                    ? n.HALF_FLOAT_OES
+                    : null;
               if (t === It) return 6406;
               if (t === Bt) return 6407;
               if (t === Ft) return 6408;
@@ -13842,16 +13842,16 @@ parcelRequire = (function (e, r, t, n) {
                   ? t
                   : null
                 : t === ve
-                ? null !== (n = e.get("EXT_texture_compression_bptc"))
-                  ? t
-                  : null
-                : t === Dt
-                ? r
-                  ? 34042
-                  : null !== (n = e.get("WEBGL_depth_texture"))
-                  ? n.UNSIGNED_INT_24_8_WEBGL
-                  : null
-                : void 0;
+                  ? null !== (n = e.get("EXT_texture_compression_bptc"))
+                    ? t
+                    : null
+                  : t === Dt
+                    ? r
+                      ? 34042
+                      : null !== (n = e.get("WEBGL_depth_texture"))
+                        ? n.UNSIGNED_INT_24_8_WEBGL
+                        : null
+                    : void 0;
             },
           };
         }
@@ -13875,7 +13875,7 @@ parcelRequire = (function (e, r, t, n) {
           getHandSpace() {
             return (
               null === this._hand &&
-                ((this._hand = new kh()),
+              ((this._hand = new kh()),
                 (this._hand.matrixAutoUpdate = !1),
                 (this._hand.visible = !1),
                 (this._hand.joints = {}),
@@ -13886,7 +13886,7 @@ parcelRequire = (function (e, r, t, n) {
           getTargetRaySpace() {
             return (
               null === this._targetRay &&
-                ((this._targetRay = new kh()),
+              ((this._targetRay = new kh()),
                 (this._targetRay.matrixAutoUpdate = !1),
                 (this._targetRay.visible = !1),
                 (this._targetRay.hasLinearVelocity = !1),
@@ -13899,7 +13899,7 @@ parcelRequire = (function (e, r, t, n) {
           getGripSpace() {
             return (
               null === this._grip &&
-                ((this._grip = new kh()),
+              ((this._grip = new kh()),
                 (this._grip.matrixAutoUpdate = !1),
                 (this._grip.visible = !1),
                 (this._grip.hasLinearVelocity = !1),
@@ -13938,17 +13938,17 @@ parcelRequire = (function (e, r, t, n) {
                 (null !== o &&
                   null !== (r = e.getPose(t.targetRaySpace, n)) &&
                   (o.matrix.fromArray(r.transform.matrix),
-                  o.matrix.decompose(o.position, o.rotation, o.scale),
-                  r.linearVelocity
-                    ? ((o.hasLinearVelocity = !0),
-                      o.linearVelocity.copy(r.linearVelocity))
-                    : (o.hasLinearVelocity = !1),
-                  r.angularVelocity
-                    ? ((o.hasAngularVelocity = !0),
-                      o.angularVelocity.copy(r.angularVelocity))
-                    : (o.hasAngularVelocity = !1),
-                  this.dispatchEvent(Vh)),
-                l && t.hand)
+                    o.matrix.decompose(o.position, o.rotation, o.scale),
+                    r.linearVelocity
+                      ? ((o.hasLinearVelocity = !0),
+                        o.linearVelocity.copy(r.linearVelocity))
+                      : (o.hasLinearVelocity = !1),
+                    r.angularVelocity
+                      ? ((o.hasAngularVelocity = !0),
+                        o.angularVelocity.copy(r.angularVelocity))
+                      : (o.hasAngularVelocity = !1),
+                    this.dispatchEvent(Vh)),
+                  l && t.hand)
               ) {
                 s = !0;
                 for (const s of t.hand.values()) {
@@ -13963,8 +13963,8 @@ parcelRequire = (function (e, r, t, n) {
                   const r = l.joints[s.jointName];
                   null !== t &&
                     (r.matrix.fromArray(t.transform.matrix),
-                    r.matrix.decompose(r.position, r.rotation, r.scale),
-                    (r.jointRadius = t.radius)),
+                      r.matrix.decompose(r.position, r.rotation, r.scale),
+                      (r.jointRadius = t.radius)),
                     (r.visible = null !== t);
                 }
                 const r = l.joints["index-finger-tip"],
@@ -13980,8 +13980,8 @@ parcelRequire = (function (e, r, t, n) {
                       target: this,
                     }))
                   : !l.inputState.pinching &&
-                    o <= a - c &&
-                    ((l.inputState.pinching = !0),
+                  o <= a - c &&
+                  ((l.inputState.pinching = !0),
                     this.dispatchEvent({
                       type: "pinchstart",
                       handedness: t.handedness,
@@ -13992,15 +13992,15 @@ parcelRequire = (function (e, r, t, n) {
                   t.gripSpace &&
                   null !== (i = e.getPose(t.gripSpace, n)) &&
                   (a.matrix.fromArray(i.transform.matrix),
-                  a.matrix.decompose(a.position, a.rotation, a.scale),
-                  i.linearVelocity
-                    ? ((a.hasLinearVelocity = !0),
-                      a.linearVelocity.copy(i.linearVelocity))
-                    : (a.hasLinearVelocity = !1),
-                  i.angularVelocity
-                    ? ((a.hasAngularVelocity = !0),
-                      a.angularVelocity.copy(i.angularVelocity))
-                    : (a.hasAngularVelocity = !1));
+                    a.matrix.decompose(a.position, a.rotation, a.scale),
+                    i.linearVelocity
+                      ? ((a.hasLinearVelocity = !0),
+                        a.linearVelocity.copy(i.linearVelocity))
+                      : (a.hasLinearVelocity = !1),
+                    i.angularVelocity
+                      ? ((a.hasAngularVelocity = !0),
+                        a.angularVelocity.copy(i.angularVelocity))
+                      : (a.hasAngularVelocity = !1));
             return (
               null !== o && (o.visible = null !== r),
               null !== a && (a.visible = null !== i),
@@ -14055,7 +14055,7 @@ parcelRequire = (function (e, r, t, n) {
                   r = h.get(e);
                 r &&
                   (r.dispatchEvent({ type: "disconnected", data: e }),
-                  h.delete(e));
+                    h.delete(e));
               }
               for (let n = 0; n < t.added.length; n++) {
                 const e = t.added[n],
@@ -14088,16 +14088,16 @@ parcelRequire = (function (e, r, t, n) {
               (this.setFramebufferScaleFactor = function (t) {
                 (s = t),
                   !0 === n.isPresenting &&
-                    console.warn(
-                      "THREE.WebXRManager: Cannot change framebuffer scale while presenting."
-                    );
+                  console.warn(
+                    "THREE.WebXRManager: Cannot change framebuffer scale while presenting."
+                  );
               }),
               (this.setReferenceSpaceType = function (t) {
                 (a = t),
                   !0 === n.isPresenting &&
-                    console.warn(
-                      "THREE.WebXRManager: Cannot change reference space type while presenting."
-                    );
+                  console.warn(
+                    "THREE.WebXRManager: Cannot change reference space type while presenting."
+                  );
               }),
               (this.getReferenceSpace = function () {
                 return o;
@@ -14118,12 +14118,12 @@ parcelRequire = (function (e, r, t, n) {
                   const t = e.getContextAttributes();
                   !0 !== t.xrCompatible && (await e.makeXRCompatible());
                   const r = {
-                      antialias: t.antialias,
-                      alpha: t.alpha,
-                      depth: t.depth,
-                      stencil: t.stencil,
-                      framebufferScaleFactor: s,
-                    },
+                    antialias: t.antialias,
+                    alpha: t.alpha,
+                    depth: t.depth,
+                    stencil: t.stencil,
+                    framebufferScaleFactor: s,
+                  },
                     l = new XRWebGLLayer(i, e, r);
                   i.updateRenderState({ baseLayer: l }),
                     (o = await i.requestReferenceSpace(a)),
@@ -14146,7 +14146,7 @@ parcelRequire = (function (e, r, t, n) {
               (m.near = p.near = u.near = t.near),
                 (m.far = p.far = u.far = t.far),
                 (f === m.near && g === m.far) ||
-                  (i.updateRenderState({ depthNear: m.near, depthFar: m.far }),
+                (i.updateRenderState({ depthNear: m.near, depthFar: m.far }),
                   (f = m.near),
                   (g = m.far));
               const e = t.parent,
@@ -14161,34 +14161,34 @@ parcelRequire = (function (e, r, t, n) {
                 r[i].updateMatrixWorld(!0);
               2 === n.length
                 ? (function (t, e, n) {
-                    _.setFromMatrixPosition(e.matrixWorld),
-                      M.setFromMatrixPosition(n.matrixWorld);
-                    const r = _.distanceTo(M),
-                      i = e.projectionMatrix.elements,
-                      s = n.projectionMatrix.elements,
-                      o = i[14] / (i[10] - 1),
-                      a = i[14] / (i[10] + 1),
-                      l = (i[9] + 1) / i[5],
-                      c = (i[9] - 1) / i[5],
-                      h = (i[8] - 1) / i[0],
-                      u = (s[8] + 1) / s[0],
-                      p = o * h,
-                      d = o * u,
-                      m = r / (-h + u),
-                      f = m * -h;
-                    e.matrixWorld.decompose(t.position, t.quaternion, t.scale),
-                      t.translateX(f),
-                      t.translateZ(m),
-                      t.matrixWorld.compose(t.position, t.quaternion, t.scale),
-                      t.matrixWorldInverse.copy(t.matrixWorld).invert();
-                    const g = o + m,
-                      x = a + m,
-                      v = p - f,
-                      y = d + (r - f),
-                      w = ((l * a) / x) * g,
-                      b = ((c * a) / x) * g;
-                    t.projectionMatrix.makePerspective(v, y, w, b, g, x);
-                  })(m, u, p)
+                  _.setFromMatrixPosition(e.matrixWorld),
+                    M.setFromMatrixPosition(n.matrixWorld);
+                  const r = _.distanceTo(M),
+                    i = e.projectionMatrix.elements,
+                    s = n.projectionMatrix.elements,
+                    o = i[14] / (i[10] - 1),
+                    a = i[14] / (i[10] + 1),
+                    l = (i[9] + 1) / i[5],
+                    c = (i[9] - 1) / i[5],
+                    h = (i[8] - 1) / i[0],
+                    u = (s[8] + 1) / s[0],
+                    p = o * h,
+                    d = o * u,
+                    m = r / (-h + u),
+                    f = m * -h;
+                  e.matrixWorld.decompose(t.position, t.quaternion, t.scale),
+                    t.translateX(f),
+                    t.translateZ(m),
+                    t.matrixWorld.compose(t.position, t.quaternion, t.scale),
+                    t.matrixWorldInverse.copy(t.matrixWorld).invert();
+                  const g = o + m,
+                    x = a + m,
+                    v = p - f,
+                    y = d + (r - f),
+                    w = ((l * a) / x) * g,
+                    b = ((c * a) / x) * g;
+                  t.projectionMatrix.makePerspective(v, y, w, b, g, x);
+                })(m, u, p)
                 : m.projectionMatrix.copy(u.projectionMatrix);
             }),
               (this.getCamera = function () {
@@ -14226,7 +14226,7 @@ parcelRequire = (function (e, r, t, n) {
               (this.setAnimationLoop = function (t) {
                 b = t;
               }),
-              (this.dispose = function () {});
+              (this.dispose = function () { });
           }
         }
         function qh(t) {
@@ -14234,9 +14234,9 @@ parcelRequire = (function (e, r, t, n) {
             (e.opacity.value = n.opacity),
               n.color && e.diffuse.value.copy(n.color),
               n.emissive &&
-                e.emissive.value
-                  .copy(n.emissive)
-                  .multiplyScalar(n.emissiveIntensity),
+              e.emissive.value
+                .copy(n.emissive)
+                .multiplyScalar(n.emissiveIntensity),
               n.map && (e.map.value = n.map),
               n.alphaMap && (e.alphaMap.value = n.alphaMap),
               n.specularMap && (e.specularMap.value = n.specularMap);
@@ -14253,40 +14253,40 @@ parcelRequire = (function (e, r, t, n) {
             let i, s;
             n.lightMap &&
               ((e.lightMap.value = n.lightMap),
-              (e.lightMapIntensity.value = n.lightMapIntensity)),
+                (e.lightMapIntensity.value = n.lightMapIntensity)),
               n.aoMap &&
-                ((e.aoMap.value = n.aoMap),
+              ((e.aoMap.value = n.aoMap),
                 (e.aoMapIntensity.value = n.aoMapIntensity)),
               n.map
                 ? (i = n.map)
                 : n.specularMap
-                ? (i = n.specularMap)
-                : n.displacementMap
-                ? (i = n.displacementMap)
-                : n.normalMap
-                ? (i = n.normalMap)
-                : n.bumpMap
-                ? (i = n.bumpMap)
-                : n.roughnessMap
-                ? (i = n.roughnessMap)
-                : n.metalnessMap
-                ? (i = n.metalnessMap)
-                : n.alphaMap
-                ? (i = n.alphaMap)
-                : n.emissiveMap
-                ? (i = n.emissiveMap)
-                : n.clearcoatMap
-                ? (i = n.clearcoatMap)
-                : n.clearcoatNormalMap
-                ? (i = n.clearcoatNormalMap)
-                : n.clearcoatRoughnessMap && (i = n.clearcoatRoughnessMap),
+                  ? (i = n.specularMap)
+                  : n.displacementMap
+                    ? (i = n.displacementMap)
+                    : n.normalMap
+                      ? (i = n.normalMap)
+                      : n.bumpMap
+                        ? (i = n.bumpMap)
+                        : n.roughnessMap
+                          ? (i = n.roughnessMap)
+                          : n.metalnessMap
+                            ? (i = n.metalnessMap)
+                            : n.alphaMap
+                              ? (i = n.alphaMap)
+                              : n.emissiveMap
+                                ? (i = n.emissiveMap)
+                                : n.clearcoatMap
+                                  ? (i = n.clearcoatMap)
+                                  : n.clearcoatNormalMap
+                                    ? (i = n.clearcoatNormalMap)
+                                    : n.clearcoatRoughnessMap && (i = n.clearcoatRoughnessMap),
               void 0 !== i &&
-                (i.isWebGLRenderTarget && (i = i.texture),
+              (i.isWebGLRenderTarget && (i = i.texture),
                 !0 === i.matrixAutoUpdate && i.updateMatrix(),
                 e.uvTransform.value.copy(i.matrix)),
               n.aoMap ? (s = n.aoMap) : n.lightMap && (s = n.lightMap),
               void 0 !== s &&
-                (s.isWebGLRenderTarget && (s = s.texture),
+              (s.isWebGLRenderTarget && (s = s.texture),
                 !0 === s.matrixAutoUpdate && s.updateMatrix(),
                 e.uv2Transform.value.copy(s.matrix));
           }
@@ -14297,15 +14297,15 @@ parcelRequire = (function (e, r, t, n) {
               n.metalnessMap && (e.metalnessMap.value = n.metalnessMap),
               n.emissiveMap && (e.emissiveMap.value = n.emissiveMap),
               n.bumpMap &&
-                ((e.bumpMap.value = n.bumpMap),
+              ((e.bumpMap.value = n.bumpMap),
                 (e.bumpScale.value = n.bumpScale),
                 n.side === p && (e.bumpScale.value *= -1)),
               n.normalMap &&
-                ((e.normalMap.value = n.normalMap),
+              ((e.normalMap.value = n.normalMap),
                 e.normalScale.value.copy(n.normalScale),
                 n.side === p && e.normalScale.value.negate()),
               n.displacementMap &&
-                ((e.displacementMap.value = n.displacementMap),
+              ((e.displacementMap.value = n.displacementMap),
                 (e.displacementScale.value = n.displacementScale),
                 (e.displacementBias.value = n.displacementBias)),
               t.get(n).envMap && (e.envMapIntensity.value = n.envMapIntensity);
@@ -14321,177 +14321,177 @@ parcelRequire = (function (e, r, t, n) {
               r.isMeshBasicMaterial
                 ? e(t, r)
                 : r.isMeshLambertMaterial
-                ? (e(t, r),
-                  (function (t, e) {
-                    e.emissiveMap && (t.emissiveMap.value = e.emissiveMap);
-                  })(t, r))
-                : r.isMeshToonMaterial
-                ? (e(t, r),
-                  (function (t, e) {
-                    e.gradientMap && (t.gradientMap.value = e.gradientMap),
-                      e.emissiveMap && (t.emissiveMap.value = e.emissiveMap),
-                      e.bumpMap &&
-                        ((t.bumpMap.value = e.bumpMap),
-                        (t.bumpScale.value = e.bumpScale),
-                        e.side === p && (t.bumpScale.value *= -1)),
-                      e.normalMap &&
-                        ((t.normalMap.value = e.normalMap),
-                        t.normalScale.value.copy(e.normalScale),
-                        e.side === p && t.normalScale.value.negate()),
-                      e.displacementMap &&
-                        ((t.displacementMap.value = e.displacementMap),
-                        (t.displacementScale.value = e.displacementScale),
-                        (t.displacementBias.value = e.displacementBias));
-                  })(t, r))
-                : r.isMeshPhongMaterial
-                ? (e(t, r),
-                  (function (t, e) {
-                    t.specular.value.copy(e.specular),
-                      (t.shininess.value = Math.max(e.shininess, 1e-4)),
-                      e.emissiveMap && (t.emissiveMap.value = e.emissiveMap),
-                      e.bumpMap &&
-                        ((t.bumpMap.value = e.bumpMap),
-                        (t.bumpScale.value = e.bumpScale),
-                        e.side === p && (t.bumpScale.value *= -1)),
-                      e.normalMap &&
-                        ((t.normalMap.value = e.normalMap),
-                        t.normalScale.value.copy(e.normalScale),
-                        e.side === p && t.normalScale.value.negate()),
-                      e.displacementMap &&
-                        ((t.displacementMap.value = e.displacementMap),
-                        (t.displacementScale.value = e.displacementScale),
-                        (t.displacementBias.value = e.displacementBias));
-                  })(t, r))
-                : r.isMeshStandardMaterial
-                ? (e(t, r),
-                  r.isMeshPhysicalMaterial
-                    ? (function (t, e, r) {
-                        n(t, e),
-                          (t.reflectivity.value = e.reflectivity),
-                          (t.clearcoat.value = e.clearcoat),
-                          (t.clearcoatRoughness.value = e.clearcoatRoughness),
-                          e.sheen && t.sheen.value.copy(e.sheen),
-                          e.clearcoatMap &&
-                            (t.clearcoatMap.value = e.clearcoatMap),
-                          e.clearcoatRoughnessMap &&
-                            (t.clearcoatRoughnessMap.value =
-                              e.clearcoatRoughnessMap),
-                          e.clearcoatNormalMap &&
-                            (t.clearcoatNormalScale.value.copy(
-                              e.clearcoatNormalScale
-                            ),
-                            (t.clearcoatNormalMap.value = e.clearcoatNormalMap),
-                            e.side === p &&
-                              t.clearcoatNormalScale.value.negate()),
-                          (t.transmission.value = e.transmission),
-                          e.transmissionMap &&
-                            (t.transmissionMap.value = e.transmissionMap),
-                          e.transmission > 0 &&
-                            ((t.transmissionSamplerMap.value = r.texture),
-                            t.transmissionSamplerSize.value.set(
-                              r.width,
-                              r.height
-                            )),
-                          (t.thickness.value = e.thickness),
-                          e.thicknessMap &&
-                            (t.thicknessMap.value = e.thicknessMap),
-                          (t.attenuationDistance.value = e.attenuationDistance),
-                          t.attenuationColor.value.copy(e.attenuationColor);
-                      })(t, r, o)
-                    : n(t, r))
-                : r.isMeshMatcapMaterial
-                ? (e(t, r),
-                  (function (t, e) {
-                    e.matcap && (t.matcap.value = e.matcap),
-                      e.bumpMap &&
-                        ((t.bumpMap.value = e.bumpMap),
-                        (t.bumpScale.value = e.bumpScale),
-                        e.side === p && (t.bumpScale.value *= -1)),
-                      e.normalMap &&
-                        ((t.normalMap.value = e.normalMap),
-                        t.normalScale.value.copy(e.normalScale),
-                        e.side === p && t.normalScale.value.negate()),
-                      e.displacementMap &&
-                        ((t.displacementMap.value = e.displacementMap),
-                        (t.displacementScale.value = e.displacementScale),
-                        (t.displacementBias.value = e.displacementBias));
-                  })(t, r))
-                : r.isMeshDepthMaterial
-                ? (e(t, r),
-                  (function (t, e) {
-                    e.displacementMap &&
-                      ((t.displacementMap.value = e.displacementMap),
-                      (t.displacementScale.value = e.displacementScale),
-                      (t.displacementBias.value = e.displacementBias));
-                  })(t, r))
-                : r.isMeshDistanceMaterial
-                ? (e(t, r),
-                  (function (t, e) {
-                    e.displacementMap &&
-                      ((t.displacementMap.value = e.displacementMap),
-                      (t.displacementScale.value = e.displacementScale),
-                      (t.displacementBias.value = e.displacementBias)),
-                      t.referencePosition.value.copy(e.referencePosition),
-                      (t.nearDistance.value = e.nearDistance),
-                      (t.farDistance.value = e.farDistance);
-                  })(t, r))
-                : r.isMeshNormalMaterial
-                ? (e(t, r),
-                  (function (t, e) {
-                    e.bumpMap &&
-                      ((t.bumpMap.value = e.bumpMap),
-                      (t.bumpScale.value = e.bumpScale),
-                      e.side === p && (t.bumpScale.value *= -1)),
-                      e.normalMap &&
-                        ((t.normalMap.value = e.normalMap),
-                        t.normalScale.value.copy(e.normalScale),
-                        e.side === p && t.normalScale.value.negate()),
-                      e.displacementMap &&
-                        ((t.displacementMap.value = e.displacementMap),
-                        (t.displacementScale.value = e.displacementScale),
-                        (t.displacementBias.value = e.displacementBias));
-                  })(t, r))
-                : r.isLineBasicMaterial
-                ? ((function (t, e) {
-                    t.diffuse.value.copy(e.color),
-                      (t.opacity.value = e.opacity);
-                  })(t, r),
-                  r.isLineDashedMaterial &&
+                  ? (e(t, r),
                     (function (t, e) {
-                      (t.dashSize.value = e.dashSize),
-                        (t.totalSize.value = e.dashSize + e.gapSize),
-                        (t.scale.value = e.scale);
+                      e.emissiveMap && (t.emissiveMap.value = e.emissiveMap);
                     })(t, r))
-                : r.isPointsMaterial
-                ? (function (t, e, n, r) {
-                    let i;
-                    t.diffuse.value.copy(e.color),
-                      (t.opacity.value = e.opacity),
-                      (t.size.value = e.size * n),
-                      (t.scale.value = 0.5 * r),
-                      e.map && (t.map.value = e.map),
-                      e.alphaMap && (t.alphaMap.value = e.alphaMap),
-                      e.map ? (i = e.map) : e.alphaMap && (i = e.alphaMap),
-                      void 0 !== i &&
-                        (!0 === i.matrixAutoUpdate && i.updateMatrix(),
-                        t.uvTransform.value.copy(i.matrix));
-                  })(t, r, i, s)
-                : r.isSpriteMaterial
-                ? (function (t, e) {
-                    let n;
-                    t.diffuse.value.copy(e.color),
-                      (t.opacity.value = e.opacity),
-                      (t.rotation.value = e.rotation),
-                      e.map && (t.map.value = e.map),
-                      e.alphaMap && (t.alphaMap.value = e.alphaMap),
-                      e.map ? (n = e.map) : e.alphaMap && (n = e.alphaMap),
-                      void 0 !== n &&
-                        (!0 === n.matrixAutoUpdate && n.updateMatrix(),
-                        t.uvTransform.value.copy(n.matrix));
-                  })(t, r)
-                : r.isShadowMaterial
-                ? (t.color.value.copy(r.color), (t.opacity.value = r.opacity))
-                : r.isShaderMaterial && (r.uniformsNeedUpdate = !1);
+                  : r.isMeshToonMaterial
+                    ? (e(t, r),
+                      (function (t, e) {
+                        e.gradientMap && (t.gradientMap.value = e.gradientMap),
+                          e.emissiveMap && (t.emissiveMap.value = e.emissiveMap),
+                          e.bumpMap &&
+                          ((t.bumpMap.value = e.bumpMap),
+                            (t.bumpScale.value = e.bumpScale),
+                            e.side === p && (t.bumpScale.value *= -1)),
+                          e.normalMap &&
+                          ((t.normalMap.value = e.normalMap),
+                            t.normalScale.value.copy(e.normalScale),
+                            e.side === p && t.normalScale.value.negate()),
+                          e.displacementMap &&
+                          ((t.displacementMap.value = e.displacementMap),
+                            (t.displacementScale.value = e.displacementScale),
+                            (t.displacementBias.value = e.displacementBias));
+                      })(t, r))
+                    : r.isMeshPhongMaterial
+                      ? (e(t, r),
+                        (function (t, e) {
+                          t.specular.value.copy(e.specular),
+                            (t.shininess.value = Math.max(e.shininess, 1e-4)),
+                            e.emissiveMap && (t.emissiveMap.value = e.emissiveMap),
+                            e.bumpMap &&
+                            ((t.bumpMap.value = e.bumpMap),
+                              (t.bumpScale.value = e.bumpScale),
+                              e.side === p && (t.bumpScale.value *= -1)),
+                            e.normalMap &&
+                            ((t.normalMap.value = e.normalMap),
+                              t.normalScale.value.copy(e.normalScale),
+                              e.side === p && t.normalScale.value.negate()),
+                            e.displacementMap &&
+                            ((t.displacementMap.value = e.displacementMap),
+                              (t.displacementScale.value = e.displacementScale),
+                              (t.displacementBias.value = e.displacementBias));
+                        })(t, r))
+                      : r.isMeshStandardMaterial
+                        ? (e(t, r),
+                          r.isMeshPhysicalMaterial
+                            ? (function (t, e, r) {
+                              n(t, e),
+                                (t.reflectivity.value = e.reflectivity),
+                                (t.clearcoat.value = e.clearcoat),
+                                (t.clearcoatRoughness.value = e.clearcoatRoughness),
+                                e.sheen && t.sheen.value.copy(e.sheen),
+                                e.clearcoatMap &&
+                                (t.clearcoatMap.value = e.clearcoatMap),
+                                e.clearcoatRoughnessMap &&
+                                (t.clearcoatRoughnessMap.value =
+                                  e.clearcoatRoughnessMap),
+                                e.clearcoatNormalMap &&
+                                (t.clearcoatNormalScale.value.copy(
+                                  e.clearcoatNormalScale
+                                ),
+                                  (t.clearcoatNormalMap.value = e.clearcoatNormalMap),
+                                  e.side === p &&
+                                  t.clearcoatNormalScale.value.negate()),
+                                (t.transmission.value = e.transmission),
+                                e.transmissionMap &&
+                                (t.transmissionMap.value = e.transmissionMap),
+                                e.transmission > 0 &&
+                                ((t.transmissionSamplerMap.value = r.texture),
+                                  t.transmissionSamplerSize.value.set(
+                                    r.width,
+                                    r.height
+                                  )),
+                                (t.thickness.value = e.thickness),
+                                e.thicknessMap &&
+                                (t.thicknessMap.value = e.thicknessMap),
+                                (t.attenuationDistance.value = e.attenuationDistance),
+                                t.attenuationColor.value.copy(e.attenuationColor);
+                            })(t, r, o)
+                            : n(t, r))
+                        : r.isMeshMatcapMaterial
+                          ? (e(t, r),
+                            (function (t, e) {
+                              e.matcap && (t.matcap.value = e.matcap),
+                                e.bumpMap &&
+                                ((t.bumpMap.value = e.bumpMap),
+                                  (t.bumpScale.value = e.bumpScale),
+                                  e.side === p && (t.bumpScale.value *= -1)),
+                                e.normalMap &&
+                                ((t.normalMap.value = e.normalMap),
+                                  t.normalScale.value.copy(e.normalScale),
+                                  e.side === p && t.normalScale.value.negate()),
+                                e.displacementMap &&
+                                ((t.displacementMap.value = e.displacementMap),
+                                  (t.displacementScale.value = e.displacementScale),
+                                  (t.displacementBias.value = e.displacementBias));
+                            })(t, r))
+                          : r.isMeshDepthMaterial
+                            ? (e(t, r),
+                              (function (t, e) {
+                                e.displacementMap &&
+                                  ((t.displacementMap.value = e.displacementMap),
+                                    (t.displacementScale.value = e.displacementScale),
+                                    (t.displacementBias.value = e.displacementBias));
+                              })(t, r))
+                            : r.isMeshDistanceMaterial
+                              ? (e(t, r),
+                                (function (t, e) {
+                                  e.displacementMap &&
+                                    ((t.displacementMap.value = e.displacementMap),
+                                      (t.displacementScale.value = e.displacementScale),
+                                      (t.displacementBias.value = e.displacementBias)),
+                                    t.referencePosition.value.copy(e.referencePosition),
+                                    (t.nearDistance.value = e.nearDistance),
+                                    (t.farDistance.value = e.farDistance);
+                                })(t, r))
+                              : r.isMeshNormalMaterial
+                                ? (e(t, r),
+                                  (function (t, e) {
+                                    e.bumpMap &&
+                                      ((t.bumpMap.value = e.bumpMap),
+                                        (t.bumpScale.value = e.bumpScale),
+                                        e.side === p && (t.bumpScale.value *= -1)),
+                                      e.normalMap &&
+                                      ((t.normalMap.value = e.normalMap),
+                                        t.normalScale.value.copy(e.normalScale),
+                                        e.side === p && t.normalScale.value.negate()),
+                                      e.displacementMap &&
+                                      ((t.displacementMap.value = e.displacementMap),
+                                        (t.displacementScale.value = e.displacementScale),
+                                        (t.displacementBias.value = e.displacementBias));
+                                  })(t, r))
+                                : r.isLineBasicMaterial
+                                  ? ((function (t, e) {
+                                    t.diffuse.value.copy(e.color),
+                                      (t.opacity.value = e.opacity);
+                                  })(t, r),
+                                    r.isLineDashedMaterial &&
+                                    (function (t, e) {
+                                      (t.dashSize.value = e.dashSize),
+                                        (t.totalSize.value = e.dashSize + e.gapSize),
+                                        (t.scale.value = e.scale);
+                                    })(t, r))
+                                  : r.isPointsMaterial
+                                    ? (function (t, e, n, r) {
+                                      let i;
+                                      t.diffuse.value.copy(e.color),
+                                        (t.opacity.value = e.opacity),
+                                        (t.size.value = e.size * n),
+                                        (t.scale.value = 0.5 * r),
+                                        e.map && (t.map.value = e.map),
+                                        e.alphaMap && (t.alphaMap.value = e.alphaMap),
+                                        e.map ? (i = e.map) : e.alphaMap && (i = e.alphaMap),
+                                        void 0 !== i &&
+                                        (!0 === i.matrixAutoUpdate && i.updateMatrix(),
+                                          t.uvTransform.value.copy(i.matrix));
+                                    })(t, r, i, s)
+                                    : r.isSpriteMaterial
+                                      ? (function (t, e) {
+                                        let n;
+                                        t.diffuse.value.copy(e.color),
+                                          (t.opacity.value = e.opacity),
+                                          (t.rotation.value = e.rotation),
+                                          e.map && (t.map.value = e.map),
+                                          e.alphaMap && (t.alphaMap.value = e.alphaMap),
+                                          e.map ? (n = e.map) : e.alphaMap && (n = e.alphaMap),
+                                          void 0 !== n &&
+                                          (!0 === n.matrixAutoUpdate && n.updateMatrix(),
+                                            t.uvTransform.value.copy(n.matrix));
+                                      })(t, r)
+                                      : r.isShadowMaterial
+                                        ? (t.color.value.copy(r.color), (t.opacity.value = r.opacity))
+                                        : r.isShaderMaterial && (r.uniformsNeedUpdate = !1);
             },
           };
         }
@@ -14612,18 +14612,18 @@ parcelRequire = (function (e, r, t, n) {
             };
             if (
               (e.addEventListener("webglcontextlost", xt, !1),
-              e.addEventListener("webglcontextrestored", vt, !1),
-              null === dt)
+                e.addEventListener("webglcontextrestored", vt, !1),
+                null === dt)
             ) {
               const e = ["webgl2", "webgl", "experimental-webgl"];
               if (
                 (!0 === f.isWebGL1Renderer && e.shift(),
-                null === (dt = mt(e, t)))
+                  null === (dt = mt(e, t)))
               )
                 throw mt(e)
                   ? new Error(
-                      "Error creating WebGL context with your selected attributes."
-                    )
+                    "Error creating WebGL context with your selected attributes."
+                  )
                   : new Error("Error creating WebGL context.");
             }
             void 0 === dt.getShaderPrecisionFormat &&
@@ -14726,9 +14726,9 @@ parcelRequire = (function (e, r, t, n) {
             (this.getSize = function (t) {
               return (
                 void 0 === t &&
-                  (console.warn(
-                    "WebGLRenderer: .getsize() now requires a Vector2 as an argument"
-                  ),
+                (console.warn(
+                  "WebGLRenderer: .getsize() now requires a Vector2 as an argument"
+                ),
                   (t = new sr())),
                 t.set(T, E)
               );
@@ -14736,22 +14736,22 @@ parcelRequire = (function (e, r, t, n) {
             (this.setSize = function (t, n, r) {
               gt.isPresenting
                 ? console.warn(
-                    "THREE.WebGLRenderer: Can't change size while VR device is presenting."
-                  )
+                  "THREE.WebGLRenderer: Can't change size while VR device is presenting."
+                )
                 : ((T = t),
                   (E = n),
                   (e.width = Math.floor(t * A)),
                   (e.height = Math.floor(n * A)),
                   !1 !== r &&
-                    ((e.style.width = t + "px"), (e.style.height = n + "px")),
+                  ((e.style.width = t + "px"), (e.style.height = n + "px")),
                   this.setViewport(0, 0, t, n));
             }),
             (this.getDrawingBufferSize = function (t) {
               return (
                 void 0 === t &&
-                  (console.warn(
-                    "WebGLRenderer: .getdrawingBufferSize() now requires a Vector2 as an argument"
-                  ),
+                (console.warn(
+                  "WebGLRenderer: .getdrawingBufferSize() now requires a Vector2 as an argument"
+                ),
                   (t = new sr())),
                 t.set(T * A, E * A).floor()
               );
@@ -14767,9 +14767,9 @@ parcelRequire = (function (e, r, t, n) {
             (this.getCurrentViewport = function (t) {
               return (
                 void 0 === t &&
-                  (console.warn(
-                    "WebGLRenderer: .getCurrentViewport() now requires a Vector4 as an argument"
-                  ),
+                (console.warn(
+                  "WebGLRenderer: .getCurrentViewport() now requires a Vector4 as an argument"
+                ),
                   (t = new pr())),
                 t.copy(w)
               );
@@ -14803,9 +14803,9 @@ parcelRequire = (function (e, r, t, n) {
             (this.getClearColor = function (t) {
               return (
                 void 0 === t &&
-                  (console.warn(
-                    "WebGLRenderer: .getClearColor() now requires a Color as an argument"
-                  ),
+                (console.warn(
+                  "WebGLRenderer: .getClearColor() now requires a Color as an argument"
+                ),
                   (t = new Vi())),
                 t.copy(st.getClearColor())
               );
@@ -14860,21 +14860,21 @@ parcelRequire = (function (e, r, t, n) {
               const r = e.getAttributes();
               t.hasPositions &&
                 (dt.bindBuffer(34962, n.position),
-                dt.bufferData(34962, t.positionArray, 35048),
-                pt.enableAttribute(r.position),
-                dt.vertexAttribPointer(r.position, 3, 5126, !1, 0, 0)),
+                  dt.bufferData(34962, t.positionArray, 35048),
+                  pt.enableAttribute(r.position),
+                  dt.vertexAttribPointer(r.position, 3, 5126, !1, 0, 0)),
                 t.hasNormals &&
-                  (dt.bindBuffer(34962, n.normal),
+                (dt.bindBuffer(34962, n.normal),
                   dt.bufferData(34962, t.normalArray, 35048),
                   pt.enableAttribute(r.normal),
                   dt.vertexAttribPointer(r.normal, 3, 5126, !1, 0, 0)),
                 t.hasUvs &&
-                  (dt.bindBuffer(34962, n.uv),
+                (dt.bindBuffer(34962, n.uv),
                   dt.bufferData(34962, t.uvArray, 35048),
                   pt.enableAttribute(r.uv),
                   dt.vertexAttribPointer(r.uv, 2, 5126, !1, 0, 0)),
                 t.hasColors &&
-                  (dt.bindBuffer(34962, n.color),
+                (dt.bindBuffer(34962, n.color),
                   dt.bufferData(34962, t.colorArray, 35048),
                   pt.enableAttribute(r.color),
                   dt.vertexAttribPointer(r.color, 3, 5126, !1, 0, 0)),
@@ -14919,8 +14919,8 @@ parcelRequire = (function (e, r, t, n) {
                     i.isLineSegments
                       ? p.setMode(1)
                       : i.isLineLoop
-                      ? p.setMode(2)
-                      : p.setMode(3);
+                        ? p.setMode(2)
+                        : p.setMode(3);
                 } else i.isPoints ? p.setMode(0) : i.isSprite && p.setMode(4);
                 if (i.isInstancedMesh) p.renderInstances(v, _, i.count);
                 else if (n.isInstancedBufferGeometry) {
@@ -14969,8 +14969,8 @@ parcelRequire = (function (e, r, t, n) {
                   const r = t[n];
                   o.layers.test(r.layers) &&
                     (W.viewport(w.copy(r.viewport)),
-                    p.setupLightsView(r),
-                    Rt(o, e, r, a, l, c));
+                      p.setupLightsView(r),
+                      Rt(o, e, r, a, l, c));
                 }
               } else Rt(o, e, n, a, l, c);
             }
@@ -14978,12 +14978,12 @@ parcelRequire = (function (e, r, t, n) {
           function Rt(t, e, n, r, i, s) {
             if (
               (t.onBeforeRender(f, e, n, r, i, s),
-              t.modelViewMatrix.multiplyMatrices(
-                n.matrixWorldInverse,
-                t.matrixWorld
-              ),
-              t.normalMatrix.getNormalMatrix(t.modelViewMatrix),
-              t.isImmediateRenderObject)
+                t.modelViewMatrix.multiplyMatrices(
+                  n.matrixWorldInverse,
+                  t.matrixWorld
+                ),
+                t.normalMatrix.getNormalMatrix(t.modelViewMatrix),
+                t.isImmediateRenderObject)
             ) {
               const r = Dt(n, e, i, t);
               W.setMaterial(i),
@@ -15009,7 +15009,7 @@ parcelRequire = (function (e, r, t, n) {
               (r.fog = e.fog),
               (r.envMap = Y.get(t.envMap || r.environment)),
               void 0 === c &&
-                (t.addEventListener("dispose", _t),
+              (t.addEventListener("dispose", _t),
                 (c = new Map()),
                 (r.programs = c));
             let h = c.get(l);
@@ -15040,7 +15040,7 @@ parcelRequire = (function (e, r, t, n) {
               })(t)),
               (r.lightsStateVersion = o),
               r.needsLights &&
-                ((u.ambientLightColor.value = i.state.ambient),
+              ((u.ambientLightColor.value = i.state.ambient),
                 (u.lightProbe.value = i.state.probe),
                 (u.directionalLights.value = i.state.directional),
                 (u.directionalLightShadows.value = i.state.directionalShadow),
@@ -15094,24 +15094,24 @@ parcelRequire = (function (e, r, t, n) {
               ? c.needsLights && c.lightsStateVersion !== h.state.version
                 ? (u = !0)
                 : c.outputEncoding !== o
-                ? (u = !0)
-                : r.isInstancedMesh && !1 === c.instancing
-                ? (u = !0)
-                : r.isInstancedMesh || !0 !== c.instancing
-                ? r.isSkinnedMesh && !1 === c.skinning
                   ? (u = !0)
-                  : r.isSkinnedMesh || !0 !== c.skinning
-                  ? c.envMap !== a
+                  : r.isInstancedMesh && !1 === c.instancing
                     ? (u = !0)
-                    : n.fog && c.fog !== i
-                    ? (u = !0)
-                    : void 0 === c.numClippingPlanes ||
-                      (c.numClippingPlanes === rt.numPlanes &&
-                        c.numIntersection === rt.numIntersection)
-                    ? c.vertexAlphas !== l && (u = !0)
-                    : (u = !0)
-                  : (u = !0)
-                : (u = !0)
+                    : r.isInstancedMesh || !0 !== c.instancing
+                      ? r.isSkinnedMesh && !1 === c.skinning
+                        ? (u = !0)
+                        : r.isSkinnedMesh || !0 !== c.skinning
+                          ? c.envMap !== a
+                            ? (u = !0)
+                            : n.fog && c.fog !== i
+                              ? (u = !0)
+                              : void 0 === c.numClippingPlanes ||
+                                (c.numClippingPlanes === rt.numPlanes &&
+                                  c.numIntersection === rt.numIntersection)
+                                ? c.vertexAlphas !== l && (u = !0)
+                                : (u = !0)
+                          : (u = !0)
+                      : (u = !0)
               : ((u = !0), (c.__version = n.version));
             let d = c.currentProgram;
             !0 === u && (d = Ct(n, e, r));
@@ -15122,19 +15122,19 @@ parcelRequire = (function (e, r, t, n) {
               w = c.uniforms;
             if (
               (W.useProgram(d.program) && ((m = !0), (g = !0), (x = !0)),
-              n.id !== _ && ((_ = n.id), (g = !0)),
-              m || M !== t)
+                n.id !== _ && ((_ = n.id), (g = !0)),
+                m || M !== t)
             ) {
               if (
                 (v.setValue(dt, "projectionMatrix", t.projectionMatrix),
-                V.logarithmicDepthBuffer &&
+                  V.logarithmicDepthBuffer &&
                   v.setValue(
                     dt,
                     "logDepthBufFC",
                     2 / (Math.log(t.far + 1) / Math.LN2)
                   ),
-                M !== t && ((M = t), (g = !0), (x = !0)),
-                n.isShaderMaterial ||
+                  M !== t && ((M = t), (g = !0), (x = !0)),
+                  n.isShaderMaterial ||
                   n.isMeshPhongMaterial ||
                   n.isMeshToonMaterial ||
                   n.isMeshStandardMaterial ||
@@ -15159,7 +15159,7 @@ parcelRequire = (function (e, r, t, n) {
                   n.isShaderMaterial ||
                   n.isShadowMaterial ||
                   r.isSkinnedMesh) &&
-                  v.setValue(dt, "viewMatrix", t.matrixWorldInverse);
+                v.setValue(dt, "viewMatrix", t.matrixWorldInverse);
             }
             if (r.isSkinnedMesh) {
               v.setOptional(dt, r, "bindMatrix"),
@@ -15175,12 +15175,12 @@ parcelRequire = (function (e, r, t, n) {
             var b, S;
             return (
               (g || c.receiveShadow !== r.receiveShadow) &&
-                ((c.receiveShadow = r.receiveShadow),
+              ((c.receiveShadow = r.receiveShadow),
                 v.setValue(dt, "receiveShadow", r.receiveShadow)),
               g &&
-                (v.setValue(dt, "toneMappingExposure", f.toneMappingExposure),
+              (v.setValue(dt, "toneMappingExposure", f.toneMappingExposure),
                 c.needsLights &&
-                  ((S = x),
+                ((S = x),
                   ((b = w).ambientLightColor.needsUpdate = S),
                   (b.lightProbe.needsUpdate = S),
                   (b.directionalLights.needsUpdate = S),
@@ -15195,8 +15195,8 @@ parcelRequire = (function (e, r, t, n) {
                 tt.refreshMaterialUniforms(w, n, A, E, G),
                 jc.upload(dt, c.uniformsList, w, X)),
               n.isShaderMaterial &&
-                !0 === n.uniformsNeedUpdate &&
-                (jc.upload(dt, c.uniformsList, w, X),
+              !0 === n.uniformsNeedUpdate &&
+              (jc.upload(dt, c.uniformsList, w, X),
                 (n.uniformsNeedUpdate = !1)),
               n.isSpriteMaterial && v.setValue(dt, "center", r.center),
               v.setValue(dt, "modelViewMatrix", r.modelViewMatrix),
@@ -15225,8 +15225,8 @@ parcelRequire = (function (e, r, t, n) {
               !0 === t.autoUpdate && t.updateMatrixWorld(),
                 null === e.parent && e.updateMatrixWorld(),
                 !0 === gt.enabled &&
-                  !0 === gt.isPresenting &&
-                  (!0 === gt.cameraAutoUpdate && gt.updateCamera(e),
+                !0 === gt.isPresenting &&
+                (!0 === gt.cameraAutoUpdate && gt.updateCamera(e),
                   (e = gt.getCamera())),
                 !0 === t.isScene && t.onBeforeRender(f, t, e, y),
                 (p = nt.get(t, m.length)).init(),
@@ -15264,8 +15264,8 @@ parcelRequire = (function (e, r, t, n) {
                       (e.isSkinnedMesh &&
                         e.skeleton.frame !== j.render.frame &&
                         (e.skeleton.update(),
-                        (e.skeleton.frame = j.render.frame)),
-                      !e.frustumCulled || B.intersectsObject(e))
+                          (e.skeleton.frame = j.render.frame)),
+                        !e.frustumCulled || B.intersectsObject(e))
                     ) {
                       i &&
                         O.setFromMatrixPosition(e.matrixWorld).applyMatrix4(z);
@@ -15298,26 +15298,26 @@ parcelRequire = (function (e, r, t, n) {
                 s = u.transparent;
               r.length > 0 && Et(r, t, e),
                 i.length > 0 &&
-                  (function (t, e, n, r) {
-                    null === G &&
-                      (G = new dr(1024, 1024, {
-                        generateMipmaps: !0,
-                        minFilter: yt,
-                        magFilter: ut,
-                        wrapS: ct,
-                        wrapT: ct,
-                      }));
-                    const i = f.getRenderTarget();
-                    f.setRenderTarget(G),
-                      f.clear(),
-                      Et(t, n, r),
-                      X.updateRenderTargetMipmap(G),
-                      f.setRenderTarget(i),
-                      Et(e, n, r);
-                  })(r, i, t, e),
+                (function (t, e, n, r) {
+                  null === G &&
+                    (G = new dr(1024, 1024, {
+                      generateMipmaps: !0,
+                      minFilter: yt,
+                      magFilter: ut,
+                      wrapS: ct,
+                      wrapT: ct,
+                    }));
+                  const i = f.getRenderTarget();
+                  f.setRenderTarget(G),
+                    f.clear(),
+                    Et(t, n, r),
+                    X.updateRenderTargetMipmap(G),
+                    f.setRenderTarget(i),
+                    Et(e, n, r);
+                })(r, i, t, e),
                 s.length > 0 && Et(s, t, e),
                 null !== y &&
-                  (X.updateRenderTargetMipmap(y),
+                (X.updateRenderTargetMipmap(y),
                   X.updateMultisampleRenderTarget(y)),
                 !0 === t.isScene && t.onAfterRender(f, t, e),
                 W.buffers.depth.setTest(!0),
@@ -15346,8 +15346,8 @@ parcelRequire = (function (e, r, t, n) {
                 (x = e),
                 (v = n),
                 t &&
-                  void 0 === q.get(t).__webglFramebuffer &&
-                  X.setupRenderTarget(t);
+                void 0 === q.get(t).__webglFramebuffer &&
+                X.setupRenderTarget(t);
               let r = null,
                 i = !1,
                 s = !1;
@@ -15358,8 +15358,8 @@ parcelRequire = (function (e, r, t, n) {
                 t.isWebGLCubeRenderTarget
                   ? ((r = o[e]), (i = !0))
                   : (r = t.isWebGLMultisampleRenderTarget
-                      ? q.get(t).__webglMultisampledFramebuffer
-                      : o),
+                    ? q.get(t).__webglMultisampledFramebuffer
+                    : o),
                   w.copy(t.viewport),
                   b.copy(t.scissor),
                   (S = t.scissorTest);
@@ -15447,13 +15447,13 @@ parcelRequire = (function (e, r, t, n) {
                     );
                   36053 === dt.checkFramebufferStatus(36160)
                     ? e >= 0 &&
-                      e <= t.width - r &&
-                      n >= 0 &&
-                      n <= t.height - i &&
-                      dt.readPixels(e, n, r, i, ht.convert(a), ht.convert(l), s)
+                    e <= t.width - r &&
+                    n >= 0 &&
+                    n <= t.height - i &&
+                    dt.readPixels(e, n, r, i, ht.convert(a), ht.convert(l), s)
                     : console.error(
-                        "THREE.WebGLRenderer.readRenderTargetPixels: readPixels from renderTarget failed. Framebuffer not complete."
-                      );
+                      "THREE.WebGLRenderer.readRenderTargetPixels: readPixels from renderTarget failed. Framebuffer not complete."
+                    );
                 } finally {
                   const t = null !== y ? q.get(y).__webglFramebuffer : null;
                   W.bindFramebuffer(36160, t);
@@ -15482,18 +15482,18 @@ parcelRequire = (function (e, r, t, n) {
                 dt.pixelStorei(3317, n.unpackAlignment),
                 e.isDataTexture
                   ? dt.texSubImage2D(
-                      3553,
-                      r,
-                      t.x,
-                      t.y,
-                      i,
-                      s,
-                      o,
-                      a,
-                      e.image.data
-                    )
+                    3553,
+                    r,
+                    t.x,
+                    t.y,
+                    i,
+                    s,
+                    o,
+                    a,
+                    e.image.data
+                  )
                   : e.isCompressedTexture
-                  ? dt.compressedTexSubImage2D(
+                    ? dt.compressedTexSubImage2D(
                       3553,
                       r,
                       t.x,
@@ -15503,7 +15503,7 @@ parcelRequire = (function (e, r, t, n) {
                       o,
                       e.mipmaps[0].data
                     )
-                  : dt.texSubImage2D(3553, r, t.x, t.y, o, a, e.image),
+                    : dt.texSubImage2D(3553, r, t.x, t.y, o, a, e.image),
                 0 === r && n.generateMipmaps && dt.generateMipmap(3553),
                 W.unbindTexture();
             }),
@@ -15565,11 +15565,11 @@ parcelRequire = (function (e, r, t, n) {
               (x = 0), (v = 0), (y = null), W.reset(), pt.reset();
             }),
             "undefined" != typeof __THREE_DEVTOOLS__ &&
-              __THREE_DEVTOOLS__.dispatchEvent(
-                new CustomEvent("observe", { detail: this })
-              );
+            __THREE_DEVTOOLS__.dispatchEvent(
+              new CustomEvent("observe", { detail: this })
+            );
         }
-        class Zh extends Yh {}
+        class Zh extends Yh { }
         (exports.WebGL1Renderer = Zh), (Zh.prototype.isWebGL1Renderer = !0);
         class Jh {
           constructor(t, e = 25e-5) {
@@ -15617,19 +15617,19 @@ parcelRequire = (function (e, r, t, n) {
               (this.overrideMaterial = null),
               (this.autoUpdate = !0),
               "undefined" != typeof __THREE_DEVTOOLS__ &&
-                __THREE_DEVTOOLS__.dispatchEvent(
-                  new CustomEvent("observe", { detail: this })
-                );
+              __THREE_DEVTOOLS__.dispatchEvent(
+                new CustomEvent("observe", { detail: this })
+              );
           }
           copy(t, e) {
             return (
               super.copy(t, e),
               null !== t.background && (this.background = t.background.clone()),
               null !== t.environment &&
-                (this.environment = t.environment.clone()),
+              (this.environment = t.environment.clone()),
               null !== t.fog && (this.fog = t.fog.clone()),
               null !== t.overrideMaterial &&
-                (this.overrideMaterial = t.overrideMaterial.clone()),
+              (this.overrideMaterial = t.overrideMaterial.clone()),
               (this.autoUpdate = t.autoUpdate),
               (this.matrixAutoUpdate = t.matrixAutoUpdate),
               this
@@ -15639,9 +15639,9 @@ parcelRequire = (function (e, r, t, n) {
             const e = super.toJSON(t);
             return (
               null !== this.background &&
-                (e.object.background = this.background.toJSON(t)),
+              (e.object.background = this.background.toJSON(t)),
               null !== this.environment &&
-                (e.object.environment = this.environment.toJSON(t)),
+              (e.object.environment = this.environment.toJSON(t)),
               null !== this.fog && (e.object.fog = this.fog.toJSON()),
               e
             );
@@ -15658,7 +15658,7 @@ parcelRequire = (function (e, r, t, n) {
               (this.version = 0),
               (this.uuid = zn());
           }
-          onUploadCallback() {}
+          onUploadCallback() { }
           set needsUpdate(t) {
             !0 === t && this.version++;
           }
@@ -15686,13 +15686,13 @@ parcelRequire = (function (e, r, t, n) {
           clone(t) {
             void 0 === t.arrayBuffers && (t.arrayBuffers = {}),
               void 0 === this.array.buffer._uuid &&
-                (this.array.buffer._uuid = zn()),
+              (this.array.buffer._uuid = zn()),
               void 0 === t.arrayBuffers[this.array.buffer._uuid] &&
-                (t.arrayBuffers[this.array.buffer._uuid] =
-                  this.array.slice(0).buffer);
+              (t.arrayBuffers[this.array.buffer._uuid] =
+                this.array.slice(0).buffer);
             const e = new this.array.constructor(
-                t.arrayBuffers[this.array.buffer._uuid]
-              ),
+              t.arrayBuffers[this.array.buffer._uuid]
+            ),
               n = new this.constructor(e, this.stride);
             return n.setUsage(this.usage), n;
           }
@@ -15703,12 +15703,12 @@ parcelRequire = (function (e, r, t, n) {
             return (
               void 0 === t.arrayBuffers && (t.arrayBuffers = {}),
               void 0 === this.array.buffer._uuid &&
-                (this.array.buffer._uuid = zn()),
+              (this.array.buffer._uuid = zn()),
               void 0 === t.arrayBuffers[this.array.buffer._uuid] &&
-                (t.arrayBuffers[this.array.buffer._uuid] =
-                  Array.prototype.slice.call(
-                    new Uint32Array(this.array.buffer)
-                  )),
+              (t.arrayBuffers[this.array.buffer._uuid] =
+                Array.prototype.slice.call(
+                  new Uint32Array(this.array.buffer)
+                )),
               {
                 uuid: this.uuid,
                 buffer: this.array.buffer._uuid,
@@ -15847,7 +15847,7 @@ parcelRequire = (function (e, r, t, n) {
             return (
               void 0 === t.interleavedBuffers && (t.interleavedBuffers = {}),
               void 0 === t.interleavedBuffers[this.data.uuid] &&
-                (t.interleavedBuffers[this.data.uuid] = this.data.clone(t)),
+              (t.interleavedBuffers[this.data.uuid] = this.data.clone(t)),
               new eu(
                 t.interleavedBuffers[this.data.uuid],
                 this.itemSize,
@@ -15877,7 +15877,7 @@ parcelRequire = (function (e, r, t, n) {
             return (
               void 0 === t.interleavedBuffers && (t.interleavedBuffers = {}),
               void 0 === t.interleavedBuffers[this.data.uuid] &&
-                (t.interleavedBuffers[this.data.uuid] = this.data.toJSON(t)),
+              (t.interleavedBuffers[this.data.uuid] = this.data.toJSON(t)),
               {
                 isInterleavedBufferAttribute: !0,
                 itemSize: this.itemSize,
@@ -15933,9 +15933,9 @@ parcelRequire = (function (e, r, t, n) {
             if ((super(), (this.type = "Sprite"), void 0 === ru)) {
               ru = new ms();
               const t = new Float32Array([
-                  -0.5, -0.5, 0, 0, 0, 0.5, -0.5, 0, 1, 0, 0.5, 0.5, 0, 1, 1,
-                  -0.5, 0.5, 0, 0, 1,
-                ]),
+                -0.5, -0.5, 0, 0, 0, 0.5, -0.5, 0, 1, 0, 0.5, 0.5, 0, 1, 1,
+                -0.5, 0.5, 0, 0, 1,
+              ]),
                 e = new $h(t, 5);
               ru.setIndex([0, 1, 2, 0, 2, 3]),
                 ru.setAttribute("position", new eu(e, 3, 0, !1)),
@@ -15958,8 +15958,8 @@ parcelRequire = (function (e, r, t, n) {
               ),
               ou.setFromMatrixPosition(this.modelViewMatrix),
               t.camera.isPerspectiveCamera &&
-                !1 === this.material.sizeAttenuation &&
-                su.multiplyScalar(-ou.z);
+              !1 === this.material.sizeAttenuation &&
+              su.multiplyScalar(-ou.z);
             const n = this.material.rotation;
             let r, i;
             0 !== n && ((i = Math.cos(n)), (r = Math.sin(n)));
@@ -15974,8 +15974,8 @@ parcelRequire = (function (e, r, t, n) {
             if (
               null === o &&
               (xu(uu.set(-0.5, 0.5, 0), ou, s, su, r, i),
-              mu.set(0, 1),
-              null === (o = t.ray.intersectTriangle(hu, pu, uu, !1, iu)))
+                mu.set(0, 1),
+                null === (o = t.ray.intersectTriangle(hu, pu, uu, !1, iu)))
             )
               return;
             const a = t.ray.origin.distanceTo(iu);
@@ -16118,7 +16118,7 @@ parcelRequire = (function (e, r, t, n) {
           bind(t, e) {
             (this.skeleton = t),
               void 0 === e &&
-                (this.updateMatrixWorld(!0),
+              (this.updateMatrixWorld(!0),
                 this.skeleton.calculateInverses(),
                 (e = this.matrixWorld)),
               this.bindMatrix.copy(e),
@@ -16145,8 +16145,8 @@ parcelRequire = (function (e, r, t, n) {
               "attached" === this.bindMode
                 ? this.bindMatrixInverse.copy(this.matrixWorld).invert()
                 : "detached" === this.bindMode
-                ? this.bindMatrixInverse.copy(this.bindMatrix).invert()
-                : console.warn(
+                  ? this.bindMatrixInverse.copy(this.bindMatrix).invert()
+                  : console.warn(
                     "THREE.SkinnedMesh: Unrecognized bindMode: " + this.bindMode
                   );
           }
@@ -16208,7 +16208,7 @@ parcelRequire = (function (e, r, t, n) {
               e = this.boneInverses;
             if (
               ((this.boneMatrices = new Float32Array(16 * t.length)),
-              0 === e.length)
+                0 === e.length)
             )
               this.calculateInverses();
             else if (t.length !== e.length) {
@@ -16240,7 +16240,7 @@ parcelRequire = (function (e, r, t, n) {
                   ? (e.matrix.copy(e.parent.matrixWorld).invert(),
                     e.matrix.multiply(e.matrixWorld))
                   : e.matrix.copy(e.matrixWorld),
-                e.matrix.decompose(e.position, e.quaternion, e.scale));
+                  e.matrix.decompose(e.position, e.quaternion, e.scale));
             }
           }
           update() {
@@ -16287,7 +16287,7 @@ parcelRequire = (function (e, r, t, n) {
               let i = e[r];
               void 0 === i &&
                 (console.warn("THREE.Skeleton: No bone found with UUID:", r),
-                (i = new Au())),
+                  (i = new Au())),
                 this.bones.push(i),
                 this.boneInverses.push(new Yr().fromArray(t.boneInverses[n]));
             }
@@ -16333,7 +16333,7 @@ parcelRequire = (function (e, r, t, n) {
               super.copy(t),
               this.instanceMatrix.copy(t.instanceMatrix),
               null !== t.instanceColor &&
-                (this.instanceColor = t.instanceColor.clone()),
+              (this.instanceColor = t.instanceColor.clone()),
               (this.count = t.count),
               this
             );
@@ -16349,8 +16349,8 @@ parcelRequire = (function (e, r, t, n) {
               r = this.count;
             if (
               ((Fu.geometry = this.geometry),
-              (Fu.material = this.material),
-              void 0 !== Fu.material)
+                (Fu.material = this.material),
+                void 0 !== Fu.material)
             )
               for (let i = 0; i < r; i++) {
                 this.getMatrixAt(i, Du),
@@ -16375,7 +16375,7 @@ parcelRequire = (function (e, r, t, n) {
           setMatrixAt(t, e) {
             e.toArray(this.instanceMatrix.array, 16 * t);
           }
-          updateMorphTargets() {}
+          updateMorphTargets() { }
           dispose() {
             this.dispatchEvent({ type: "dispose" });
           }
@@ -16457,10 +16457,10 @@ parcelRequire = (function (e, r, t, n) {
               s = n.drawRange;
             if (
               (null === n.boundingSphere && n.computeBoundingSphere(),
-              ku.copy(n.boundingSphere),
-              ku.applyMatrix4(r),
-              (ku.radius += i),
-              !1 === t.ray.intersectsSphere(ku))
+                ku.copy(n.boundingSphere),
+                ku.applyMatrix4(r),
+                (ku.radius += i),
+                !1 === t.ray.intersectsSphere(ku))
             )
               return;
             Hu.copy(r).invert(), Uu.copy(t.ray).applyMatrix4(Hu);
@@ -16477,7 +16477,7 @@ parcelRequire = (function (e, r, t, n) {
               if (null !== r) {
                 for (
                   let n = Math.max(0, s.start),
-                    o = Math.min(r.count, s.start + s.count) - 1;
+                  o = Math.min(r.count, s.start + s.count) - 1;
                   n < o;
                   n += p
                 ) {
@@ -16485,8 +16485,8 @@ parcelRequire = (function (e, r, t, n) {
                     o = r.getX(n + 1);
                   if (
                     (l.fromBufferAttribute(i, s),
-                    c.fromBufferAttribute(i, o),
-                    Uu.distanceSqToSegment(l, c, u, h) > a)
+                      c.fromBufferAttribute(i, o),
+                      Uu.distanceSqToSegment(l, c, u, h) > a)
                   )
                     continue;
                   u.applyMatrix4(this.matrixWorld);
@@ -16505,14 +16505,14 @@ parcelRequire = (function (e, r, t, n) {
               } else {
                 for (
                   let n = Math.max(0, s.start),
-                    r = Math.min(i.count, s.start + s.count) - 1;
+                  r = Math.min(i.count, s.start + s.count) - 1;
                   n < r;
                   n += p
                 ) {
                   if (
                     (l.fromBufferAttribute(i, n),
-                    c.fromBufferAttribute(i, n + 1),
-                    Uu.distanceSqToSegment(l, c, u, h) > a)
+                      c.fromBufferAttribute(i, n + 1),
+                      Uu.distanceSqToSegment(l, c, u, h) > a)
                   )
                     continue;
                   u.applyMatrix4(this.matrixWorld);
@@ -16653,10 +16653,10 @@ parcelRequire = (function (e, r, t, n) {
               s = n.drawRange;
             if (
               (null === n.boundingSphere && n.computeBoundingSphere(),
-              Qu.copy(n.boundingSphere),
-              Qu.applyMatrix4(r),
-              (Qu.radius += i),
-              !1 === t.ray.intersectsSphere(Qu))
+                Qu.copy(n.boundingSphere),
+                Qu.applyMatrix4(r),
+                (Qu.radius += i),
+                !1 === t.ray.intersectsSphere(Qu))
             )
               return;
             Zu.copy(r).invert(), Ju.copy(t.ray).applyMatrix4(Zu);
@@ -16668,7 +16668,7 @@ parcelRequire = (function (e, r, t, n) {
               if (null !== i) {
                 for (
                   let n = Math.max(0, s.start),
-                    l = Math.min(i.count, s.start + s.count);
+                  l = Math.min(i.count, s.start + s.count);
                   n < l;
                   n++
                 ) {
@@ -16678,7 +16678,7 @@ parcelRequire = (function (e, r, t, n) {
               } else {
                 for (
                   let n = Math.max(0, s.start),
-                    i = Math.min(o.count, s.start + s.count);
+                  i = Math.min(o.count, s.start + s.count);
                   n < i;
                   n++
                 )
@@ -17029,7 +17029,7 @@ parcelRequire = (function (e, r, t, n) {
                   const r = h(t) / 2 / Math.PI + 0.5,
                     o =
                       ((e = t),
-                      Math.atan2(-e.y, Math.sqrt(e.x * e.x + e.z * e.z)) /
+                        Math.atan2(-e.y, Math.sqrt(e.x * e.x + e.z * e.z)) /
                         Math.PI +
                         0.5);
                   s.push(r, 1 - o);
@@ -17065,8 +17065,8 @@ parcelRequire = (function (e, r, t, n) {
                       i > 0.9 &&
                         o < 0.1 &&
                         (e < 0.2 && (s[t + 0] += 1),
-                        n < 0.2 && (s[t + 2] += 1),
-                        r < 0.2 && (s[t + 4] += 1));
+                          n < 0.2 && (s[t + 2] += 1),
+                          r < 0.2 && (s[t + 4] += 1));
                     }
                   })();
               })(),
@@ -17168,10 +17168,10 @@ parcelRequire = (function (e, r, t, n) {
           constructor(t, e) {
             if (
               (super(),
-              (this.type = "EdgesGeometry"),
-              (this.parameters = { thresholdAngle: e }),
-              (e = void 0 !== e ? e : 1),
-              !0 === t.isGeometry)
+                (this.type = "EdgesGeometry"),
+                (this.parameters = { thresholdAngle: e }),
+                (e = void 0 !== e ? e : 1),
+                !0 === t.isGeometry)
             )
               return void console.error(
                 "THREE.EdgesGeometry no longer supports THREE.Geometry. Use THREE.BufferGeometry instead."
@@ -17195,19 +17195,19 @@ parcelRequire = (function (e, r, t, n) {
               const { a: t, b: e, c: o } = dp;
               if (
                 (t.fromBufferAttribute(s, a[0]),
-                e.fromBufferAttribute(s, a[1]),
-                o.fromBufferAttribute(s, a[2]),
-                dp.getNormal(pp),
-                (c[0] = `${Math.round(t.x * n)},${Math.round(
-                  t.y * n
-                )},${Math.round(t.z * n)}`),
-                (c[1] = `${Math.round(e.x * n)},${Math.round(
-                  e.y * n
-                )},${Math.round(e.z * n)}`),
-                (c[2] = `${Math.round(o.x * n)},${Math.round(
-                  o.y * n
-                )},${Math.round(o.z * n)}`),
-                c[0] !== c[1] && c[1] !== c[2] && c[2] !== c[0])
+                  e.fromBufferAttribute(s, a[1]),
+                  o.fromBufferAttribute(s, a[2]),
+                  dp.getNormal(pp),
+                  (c[0] = `${Math.round(t.x * n)},${Math.round(
+                    t.y * n
+                  )},${Math.round(t.z * n)}`),
+                  (c[1] = `${Math.round(e.x * n)},${Math.round(
+                    e.y * n
+                  )},${Math.round(e.z * n)}`),
+                  (c[2] = `${Math.round(o.x * n)},${Math.round(
+                    o.y * n
+                  )},${Math.round(o.z * n)}`),
+                  c[0] !== c[1] && c[1] !== c[2] && c[2] !== c[0])
               )
                 for (let n = 0; n < 3; n++) {
                   const t = (n + 1) % 3,
@@ -17219,14 +17219,14 @@ parcelRequire = (function (e, r, t, n) {
                     d = `${i}_${e}`;
                   d in h && h[d]
                     ? (pp.dot(h[d].normal) <= r &&
-                        (u.push(s.x, s.y, s.z), u.push(o.x, o.y, o.z)),
+                      (u.push(s.x, s.y, s.z), u.push(o.x, o.y, o.z)),
                       (h[d] = null))
                     : p in h ||
-                      (h[p] = {
-                        index0: a[n],
-                        index1: a[t],
-                        normal: pp.clone(),
-                      });
+                    (h[p] = {
+                      index0: a[n],
+                      index1: a[t],
+                      normal: pp.clone(),
+                    });
                 }
             }
             for (const p in h)
@@ -17277,7 +17277,7 @@ parcelRequire = (function (e, r, t, n) {
           do {
             if (
               ((n = !1),
-              r.steiner || (!Fp(r, r.next) && 0 !== Bp(r.prev, r, r.next)))
+                r.steiner || (!Fp(r, r.next) && 0 !== Bp(r.prev, r, r.next)))
             )
               r = r.next;
             else {
@@ -17293,7 +17293,7 @@ parcelRequire = (function (e, r, t, n) {
           let a,
             l,
             c = t;
-          for (; t.prev !== t.next; )
+          for (; t.prev !== t.next;)
             if (((a = t.prev), (l = t.next), s ? _p(t, r, i, s) : yp(t)))
               e.push(a.i / n),
                 e.push(t.i / n),
@@ -17316,7 +17316,7 @@ parcelRequire = (function (e, r, t, n) {
             r = t.next;
           if (Bp(e, n, r) >= 0) return !1;
           let i = t.next.next;
-          for (; i !== t.prev; ) {
+          for (; i !== t.prev;) {
             if (
               Dp(e.x, e.y, n.x, n.y, r.x, r.y, i.x, i.y) &&
               Bp(i.prev, i, i.next) >= 0
@@ -17339,7 +17339,7 @@ parcelRequire = (function (e, r, t, n) {
             p = Cp(c, h, e, n, r);
           let d = t.prevZ,
             m = t.nextZ;
-          for (; d && d.z >= u && m && m.z <= p; ) {
+          for (; d && d.z >= u && m && m.z <= p;) {
             if (
               d !== t.prev &&
               d !== t.next &&
@@ -17349,7 +17349,7 @@ parcelRequire = (function (e, r, t, n) {
               return !1;
             if (
               ((d = d.prevZ),
-              m !== t.prev &&
+                m !== t.prev &&
                 m !== t.next &&
                 Dp(i.x, i.y, s.x, s.y, o.x, o.y, m.x, m.y) &&
                 Bp(m.prev, m, m.next) >= 0)
@@ -17357,7 +17357,7 @@ parcelRequire = (function (e, r, t, n) {
               return !1;
             m = m.nextZ;
           }
-          for (; d && d.z >= u; ) {
+          for (; d && d.z >= u;) {
             if (
               d !== t.prev &&
               d !== t.next &&
@@ -17367,7 +17367,7 @@ parcelRequire = (function (e, r, t, n) {
               return !1;
             d = d.prevZ;
           }
-          for (; m && m.z <= p; ) {
+          for (; m && m.z <= p;) {
             if (
               m !== t.prev &&
               m !== t.next &&
@@ -17389,11 +17389,11 @@ parcelRequire = (function (e, r, t, n) {
               Hp(i, s) &&
               Hp(s, i) &&
               (e.push(i.i / n),
-              e.push(r.i / n),
-              e.push(s.i / n),
-              Wp(r),
-              Wp(r.next),
-              (r = t = s)),
+                e.push(r.i / n),
+                e.push(s.i / n),
+                Wp(r),
+                Wp(r.next),
+                (r = t = s)),
               (r = r.next);
           } while (r !== t);
           return xp(r);
@@ -17402,7 +17402,7 @@ parcelRequire = (function (e, r, t, n) {
           let o = t;
           do {
             let t = o.next.next;
-            for (; t !== o.prev; ) {
+            for (; t !== o.prev;) {
               if (o.i !== t.i && Ip(o, t)) {
                 let a = kp(o, t);
                 return (
@@ -17475,7 +17475,7 @@ parcelRequire = (function (e, r, t, n) {
               r !== n.x &&
               Dp(i < c ? r : o, i, l, c, i < c ? o : r, i, n.x, n.y) &&
               ((h = Math.abs(i - n.y) / (r - n.x)),
-              Hp(n, t) &&
+                Hp(n, t) &&
                 (h < u ||
                   (h === u && (n.x > s.x || (n.x === s.x && Ap(s, n))))) &&
                 ((s = n), (u = h))),
@@ -17507,13 +17507,13 @@ parcelRequire = (function (e, r, t, n) {
             l,
             c = 1;
           do {
-            for (n = t, t = null, s = null, o = 0; n; ) {
+            for (n = t, t = null, s = null, o = 0; n;) {
               for (
                 o++, r = n, a = 0, e = 0;
                 e < c && (a++, (r = r.nextZ));
                 e++
               );
-              for (l = c; a > 0 || (l > 0 && r); )
+              for (l = c; a > 0 || (l > 0 && r);)
                 0 !== a && (0 === l || !r || n.z <= r.z)
                   ? ((i = n), (n = n.nextZ), a--)
                   : ((i = r), (r = r.nextZ), l--),
@@ -17757,7 +17757,7 @@ parcelRequire = (function (e, r, t, n) {
                 (console.warn(
                   "THREE.ExtrudeBufferGeometry: amount has been renamed to depth."
                 ),
-                (l = e.amount));
+                  (l = e.amount));
               let g,
                 x,
                 v,
@@ -17766,12 +17766,12 @@ parcelRequire = (function (e, r, t, n) {
                 M = !1;
               m &&
                 ((g = m.getSpacedPoints(a)),
-                (M = !0),
-                (c = !1),
-                (x = m.computeFrenetFrames(a, !1)),
-                (v = new xr()),
-                (y = new xr()),
-                (_ = new xr())),
+                  (M = !0),
+                  (c = !1),
+                  (x = m.computeFrenetFrames(a, !1)),
+                  (v = new xr()),
+                  (y = new xr()),
+                  (_ = new xr())),
                 c || ((d = 0), (h = 0), (u = 0), (p = 0));
               const w = t.extractPoints(o);
               let b = w.shape;
@@ -17792,7 +17792,7 @@ parcelRequire = (function (e, r, t, n) {
               function A(t, e, n) {
                 return (
                   e ||
-                    console.error("THREE.ExtrudeGeometry: vec does not exist"),
+                  console.error("THREE.ExtrudeGeometry: vec does not exist"),
                   e.clone().multiplyScalar(n).add(t)
                 );
               }
@@ -17822,8 +17822,8 @@ parcelRequire = (function (e, r, t, n) {
                   o > Number.EPSILON
                     ? l > Number.EPSILON && (t = !0)
                     : o < -Number.EPSILON
-                    ? l < -Number.EPSILON && (t = !0)
-                    : Math.sign(a) === Math.sign(c) && (t = !0),
+                      ? l < -Number.EPSILON && (t = !0)
+                      : Math.sign(a) === Math.sign(c) && (t = !0),
                     t
                       ? ((r = -a), (i = o), (s = Math.sqrt(h)))
                       : ((r = o), (i = a), (s = Math.sqrt(h / 2)));
@@ -17913,7 +17913,7 @@ parcelRequire = (function (e, r, t, n) {
               }
               function N(t, e) {
                 let n = t.length;
-                for (; --n >= 0; ) {
+                for (; --n >= 0;) {
                   const r = n;
                   let i = n - 1;
                   i < 0 && (i = t.length - 1);
@@ -18019,17 +18019,17 @@ parcelRequire = (function (e, r, t, n) {
               x = e[3 * s + 2];
             return Math.abs(a - h) < Math.abs(o - c)
               ? [
-                  new sr(o, 1 - l),
-                  new sr(c, 1 - u),
-                  new sr(p, 1 - m),
-                  new sr(f, 1 - x),
-                ]
+                new sr(o, 1 - l),
+                new sr(c, 1 - u),
+                new sr(p, 1 - m),
+                new sr(f, 1 - x),
+              ]
               : [
-                  new sr(a, 1 - l),
-                  new sr(h, 1 - u),
-                  new sr(d, 1 - m),
-                  new sr(g, 1 - x),
-                ];
+                new sr(a, 1 - l),
+                new sr(h, 1 - u),
+                new sr(d, 1 - m),
+                new sr(g, 1 - x),
+              ];
           },
         };
         function Kp(t, e, n) {
@@ -18041,7 +18041,7 @@ parcelRequire = (function (e, r, t, n) {
           else n.shapes.push(t.uuid);
           return (
             void 0 !== e.extrudePath &&
-              (n.options.extrudePath = e.extrudePath.toJSON()),
+            (n.options.extrudePath = e.extrudePath.toJSON()),
             n
           );
         }
@@ -18142,10 +18142,10 @@ parcelRequire = (function (e, r, t, n) {
               }
             if (
               (this.setIndex(i),
-              this.setAttribute("position", new ns(s, 3)),
-              this.setAttribute("uv", new ns(o, 2)),
-              this.computeVertexNormals(),
-              r === 2 * Math.PI)
+                this.setAttribute("position", new ns(s, 3)),
+                this.setAttribute("uv", new ns(o, 2)),
+                this.computeVertexNormals(),
+                r === 2 * Math.PI)
             ) {
               const n = this.attributes.normal.array,
                 r = new xr(),
@@ -19243,8 +19243,8 @@ parcelRequire = (function (e, r, t, n) {
             return !t || (!n && t.constructor === e)
               ? t
               : "number" == typeof e.BYTES_PER_ELEMENT
-              ? new e(t)
-              : Array.prototype.slice.call(t);
+                ? new e(t)
+                : Array.prototype.slice.call(t);
           },
           isTypedArray: function (t) {
             return ArrayBuffer.isView(t) && !(t instanceof DataView);
@@ -19272,7 +19272,7 @@ parcelRequire = (function (e, r, t, n) {
           flattenJSON: function (t, e, n, r) {
             let i = 1,
               s = t[0];
-            for (; void 0 !== s && void 0 === s[r]; ) s = t[i++];
+            for (; void 0 !== s && void 0 === s[r];) s = t[i++];
             if (void 0 === s) return;
             let o = s[r];
             if (void 0 !== o)
@@ -19311,8 +19311,8 @@ parcelRequire = (function (e, r, t, n) {
               }
               0 !== a.length &&
                 ((t.times = Td.convertArray(a, t.times.constructor)),
-                (t.values = Td.convertArray(c, t.values.constructor)),
-                o.push(t));
+                  (t.values = Td.convertArray(c, t.values.constructor)),
+                  o.push(t));
             }
             s.tracks = o;
             let a = 1 / 0;
@@ -19395,7 +19395,7 @@ parcelRequire = (function (e, r, t, n) {
                 let s;
                 n: {
                   r: if (!(t < r)) {
-                    for (let s = n + 2; ; ) {
+                    for (let s = n + 2; ;) {
                       if (void 0 === r) {
                         if (t < i) break r;
                         return (
@@ -19414,7 +19414,7 @@ parcelRequire = (function (e, r, t, n) {
                   {
                     const o = e[1];
                     t < o && ((n = 2), (i = o));
-                    for (let s = n - 2; ; ) {
+                    for (let s = n - 2; ;) {
                       if (void 0 === i)
                         return (
                           (this._cachedIndex = 0), this.beforeStart_(0, t, r)
@@ -19425,7 +19425,7 @@ parcelRequire = (function (e, r, t, n) {
                     (s = n), (n = 0);
                   }
                 }
-                for (; n < s; ) {
+                for (; n < s;) {
                   const r = (n + s) >>> 1;
                   t < e[r] ? (s = r) : (n = r + 1);
                 }
@@ -19456,7 +19456,7 @@ parcelRequire = (function (e, r, t, n) {
           interpolate_() {
             throw new Error("call to abstract method");
           }
-          intervalChanged_() {}
+          intervalChanged_() { }
         }
         (exports.Interpolant = Ed),
           (Ed.prototype.beforeStart_ = Ed.prototype.copySampleValue_),
@@ -19649,8 +19649,8 @@ parcelRequire = (function (e, r, t, n) {
               r = n.length;
             let i = 0,
               s = r - 1;
-            for (; i !== r && n[i] < t; ) ++i;
-            for (; -1 !== s && n[s] > e; ) --s;
+            for (; i !== r && n[i] < t;) ++i;
+            for (; -1 !== s && n[s] > e;) --s;
             if ((++s, 0 !== i || s !== r)) {
               i >= s && (i = (s = Math.max(s, 1)) - 1);
               const t = this.getValueSize();
@@ -19667,13 +19667,13 @@ parcelRequire = (function (e, r, t, n) {
                 "THREE.KeyframeTrack: Invalid value size in track.",
                 this
               ),
-              (t = !1));
+                (t = !1));
             const n = this.times,
               r = this.values,
               i = n.length;
             0 === i &&
               (console.error("THREE.KeyframeTrack: Track is empty.", this),
-              (t = !1));
+                (t = !1));
             let s = null;
             for (let o = 0; o !== i; o++) {
               const e = n[o];
@@ -19775,17 +19775,17 @@ parcelRequire = (function (e, r, t, n) {
           (Cd.prototype.TimeBufferType = Float32Array),
           (Cd.prototype.ValueBufferType = Float32Array),
           (Cd.prototype.DefaultInterpolation = Ge);
-        class Pd extends Cd {}
+        class Pd extends Cd { }
         (exports.BooleanKeyframeTrack = Pd),
           (Pd.prototype.ValueTypeName = "bool"),
           (Pd.prototype.ValueBufferType = Array),
           (Pd.prototype.DefaultInterpolation = Ne),
           (Pd.prototype.InterpolantFactoryMethodLinear = void 0),
           (Pd.prototype.InterpolantFactoryMethodSmooth = void 0);
-        class Dd extends Cd {}
+        class Dd extends Cd { }
         (exports.ColorKeyframeTrack = Dd),
           (Dd.prototype.ValueTypeName = "color");
-        class Id extends Cd {}
+        class Id extends Cd { }
         (exports.NumberKeyframeTrack = Id),
           (Id.prototype.ValueTypeName = "number");
         class Bd extends Ed {
@@ -19813,14 +19813,14 @@ parcelRequire = (function (e, r, t, n) {
           (Fd.prototype.ValueTypeName = "quaternion"),
           (Fd.prototype.DefaultInterpolation = Ge),
           (Fd.prototype.InterpolantFactoryMethodSmooth = void 0);
-        class Nd extends Cd {}
+        class Nd extends Cd { }
         (exports.StringKeyframeTrack = Nd),
           (Nd.prototype.ValueTypeName = "string"),
           (Nd.prototype.ValueBufferType = Array),
           (Nd.prototype.DefaultInterpolation = Ne),
           (Nd.prototype.InterpolantFactoryMethodLinear = void 0),
           (Nd.prototype.InterpolantFactoryMethodSmooth = void 0);
-        class Gd extends Cd {}
+        class Gd extends Cd { }
         (exports.VectorKeyframeTrack = Gd),
           (Gd.prototype.ValueTypeName = "vector");
         class zd {
@@ -19910,13 +19910,13 @@ parcelRequire = (function (e, r, t, n) {
                 null
               );
             const n = function (t, e, n, r, i) {
-                if (0 !== n.length) {
-                  const s = [],
-                    o = [];
-                  Td.flattenJSON(n, s, o, r),
-                    0 !== s.length && i.push(new t(e, s, o));
-                }
-              },
+              if (0 !== n.length) {
+                const s = [],
+                  o = [];
+                Td.flattenJSON(n, s, o, r),
+                  0 !== s.length && i.push(new t(e, s, o));
+              }
+            },
               r = [],
               i = t.name || "default",
               s = t.fps || 30,
@@ -20111,14 +20111,14 @@ parcelRequire = (function (e, r, t, n) {
               (this.resourcePath = ""),
               (this.requestHeader = {});
           }
-          load() {}
+          load() { }
           loadAsync(t, e) {
             const n = this;
             return new Promise(function (r, i) {
               n.load(t, r, e, i);
             });
           }
-          parse() {}
+          parse() { }
           setCrossOrigin(t) {
             return (this.crossOrigin = t), this;
           }
@@ -20265,13 +20265,13 @@ parcelRequire = (function (e, r, t, n) {
                   !1
                 ),
                 void 0 !== this.responseType &&
-                  (a.responseType = this.responseType),
+                (a.responseType = this.responseType),
                 void 0 !== this.withCredentials &&
-                  (a.withCredentials = this.withCredentials),
+                (a.withCredentials = this.withCredentials),
                 a.overrideMimeType &&
-                  a.overrideMimeType(
-                    void 0 !== this.mimeType ? this.mimeType : "text/plain"
-                  );
+                a.overrideMimeType(
+                  void 0 !== this.mimeType ? this.mimeType : "text/plain"
+                );
               for (const t in this.requestHeader)
                 a.setRequestHeader(t, this.requestHeader[t]);
               a.send(null);
@@ -20345,7 +20345,7 @@ parcelRequire = (function (e, r, t, n) {
                     mipmaps: n.mipmaps,
                   }),
                     6 === (l += 1) &&
-                      (1 === n.mipmapCount && (o.minFilter = gt),
+                    (1 === n.mipmapCount && (o.minFilter = gt),
                       (o.image = s),
                       (o.format = n.format),
                       (o.needsUpdate = !0),
@@ -20428,8 +20428,8 @@ parcelRequire = (function (e, r, t, n) {
               o.addEventListener("load", a, !1),
               o.addEventListener("error", l, !1),
               "data:" !== t.substr(0, 5) &&
-                void 0 !== this.crossOrigin &&
-                (o.crossOrigin = this.crossOrigin),
+              void 0 !== this.crossOrigin &&
+              (o.crossOrigin = this.crossOrigin),
               i.manager.itemStart(t),
               (o.src = t),
               o
@@ -20483,25 +20483,25 @@ parcelRequire = (function (e, r, t, n) {
                     (void 0 !== n.image
                       ? (s.image = n.image)
                       : void 0 !== n.data &&
-                        ((s.image.width = n.width),
+                      ((s.image.width = n.width),
                         (s.image.height = n.height),
                         (s.image.data = n.data)),
-                    (s.wrapS = void 0 !== n.wrapS ? n.wrapS : ct),
-                    (s.wrapT = void 0 !== n.wrapT ? n.wrapT : ct),
-                    (s.magFilter = void 0 !== n.magFilter ? n.magFilter : gt),
-                    (s.minFilter = void 0 !== n.minFilter ? n.minFilter : gt),
-                    (s.anisotropy = void 0 !== n.anisotropy ? n.anisotropy : 1),
-                    void 0 !== n.encoding && (s.encoding = n.encoding),
-                    void 0 !== n.flipY && (s.flipY = n.flipY),
-                    void 0 !== n.format && (s.format = n.format),
-                    void 0 !== n.type && (s.type = n.type),
-                    void 0 !== n.mipmaps &&
+                      (s.wrapS = void 0 !== n.wrapS ? n.wrapS : ct),
+                      (s.wrapT = void 0 !== n.wrapT ? n.wrapT : ct),
+                      (s.magFilter = void 0 !== n.magFilter ? n.magFilter : gt),
+                      (s.minFilter = void 0 !== n.minFilter ? n.minFilter : gt),
+                      (s.anisotropy = void 0 !== n.anisotropy ? n.anisotropy : 1),
+                      void 0 !== n.encoding && (s.encoding = n.encoding),
+                      void 0 !== n.flipY && (s.flipY = n.flipY),
+                      void 0 !== n.format && (s.format = n.format),
+                      void 0 !== n.type && (s.type = n.type),
+                      void 0 !== n.mipmaps &&
                       ((s.mipmaps = n.mipmaps), (s.minFilter = yt)),
-                    1 === n.mipmapCount && (s.minFilter = gt),
-                    void 0 !== n.generateMipmaps &&
+                      1 === n.mipmapCount && (s.minFilter = gt),
+                      void 0 !== n.generateMipmaps &&
                       (s.generateMipmaps = n.generateMipmaps),
-                    (s.needsUpdate = !0),
-                    e && e(s, n));
+                      (s.needsUpdate = !0),
+                      e && e(s, n));
                 },
                 n,
                 r
@@ -20598,7 +20598,7 @@ parcelRequire = (function (e, r, t, n) {
             let o,
               a = 0,
               l = i - 1;
-            for (; a <= l; )
+            for (; a <= l;)
               if ((o = n[(r = Math.floor(a + (l - a) / 2))] - s) < 0) a = r + 1;
               else {
                 if (!(o > 0)) {
@@ -20649,9 +20649,9 @@ parcelRequire = (function (e, r, t, n) {
             for (let p = 1; p <= t; p++) {
               if (
                 ((i[p] = i[p - 1].clone()),
-                (s[p] = s[p - 1].clone()),
-                o.crossVectors(r[p - 1], r[p]),
-                o.length() > Number.EPSILON)
+                  (s[p] = s[p - 1].clone()),
+                  o.crossVectors(r[p - 1], r[p]),
+                  o.length() > Number.EPSILON)
               ) {
                 o.normalize();
                 const t = Math.acos(On(r[p - 1].dot(r[p]), -1, 1));
@@ -20720,8 +20720,8 @@ parcelRequire = (function (e, r, t, n) {
               r = 2 * Math.PI;
             let i = this.aEndAngle - this.aStartAngle;
             const s = Math.abs(i) < Number.EPSILON;
-            for (; i < 0; ) i += r;
-            for (; i > r; ) i -= r;
+            for (; i < 0;) i += r;
+            for (; i > r;) i -= r;
             i < Number.EPSILON && (i = s ? 0 : r),
               !0 !== this.aClockwise || s || (i === r ? (i = -r) : (i -= r));
             const o = this.aStartAngle + t * i;
@@ -20846,7 +20846,7 @@ parcelRequire = (function (e, r, t, n) {
               (this.closed || l + 2 < i
                 ? (a = r[(l + 2) % i])
                 : (rm.subVectors(r[i - 1], r[i - 2]).add(r[i - 1]), (a = rm)),
-              "centripetal" === this.curveType || "chordal" === this.curveType)
+                "centripetal" === this.curveType || "chordal" === this.curveType)
             ) {
               const t = "chordal" === this.curveType ? 0.5 : 0.25;
               let e = Math.pow(o.distanceToSquared(h), t),
@@ -20861,8 +20861,8 @@ parcelRequire = (function (e, r, t, n) {
             } else
               "catmullrom" === this.curveType &&
                 (im.initCatmullRom(o.x, h.x, u.x, a.x, this.tension),
-                sm.initCatmullRom(o.y, h.y, u.y, a.y, this.tension),
-                om.initCatmullRom(o.z, h.z, u.z, a.z, this.tension));
+                  sm.initCatmullRom(o.y, h.y, u.y, a.y, this.tension),
+                  om.initCatmullRom(o.z, h.z, u.z, a.z, this.tension));
             return n.set(im.calc(c), sm.calc(c), om.calc(c)), n;
           }
           copy(t) {
@@ -21306,7 +21306,7 @@ parcelRequire = (function (e, r, t, n) {
             const e = t * this.getLength(),
               n = this.getCurveLengths();
             let r = 0;
-            for (; r < n.length; ) {
+            for (; r < n.length;) {
               if (n[r] >= e) {
                 const t = n[r] - e,
                   i = this.curves[r],
@@ -21353,10 +21353,10 @@ parcelRequire = (function (e, r, t, n) {
                   s && s.isEllipseCurve
                     ? 2 * t
                     : s && (s.isLineCurve || s.isLineCurve3)
-                    ? 1
-                    : s && s.isSplineCurve
-                    ? t * s.points.length
-                    : t,
+                      ? 1
+                      : s && s.isSplineCurve
+                        ? t * s.points.length
+                        : t,
                 a = s.getPoints(o);
               for (let t = 0; t < a.length; t++) {
                 const r = a[t];
@@ -21365,9 +21365,9 @@ parcelRequire = (function (e, r, t, n) {
             }
             return (
               this.autoClose &&
-                e.length > 1 &&
-                !e[e.length - 1].equals(e[0]) &&
-                e.push(e[0]),
+              e.length > 1 &&
+              !e[e.length - 1].equals(e[0]) &&
+              e.push(e[0]),
               e
             );
           }
@@ -21533,7 +21533,7 @@ parcelRequire = (function (e, r, t, n) {
               (this.color = new Vi(t)),
               (this.intensity = e);
           }
-          dispose() {}
+          dispose() { }
           copy(t) {
             return (
               super.copy(t),
@@ -21548,13 +21548,13 @@ parcelRequire = (function (e, r, t, n) {
               (e.object.color = this.color.getHex()),
               (e.object.intensity = this.intensity),
               void 0 !== this.groundColor &&
-                (e.object.groundColor = this.groundColor.getHex()),
+              (e.object.groundColor = this.groundColor.getHex()),
               void 0 !== this.distance && (e.object.distance = this.distance),
               void 0 !== this.angle && (e.object.angle = this.angle),
               void 0 !== this.decay && (e.object.decay = this.decay),
               void 0 !== this.penumbra && (e.object.penumbra = this.penumbra),
               void 0 !== this.shadow &&
-                (e.object.shadow = this.shadow.toJSON()),
+              (e.object.shadow = this.shadow.toJSON()),
               e
             );
           }
@@ -21646,7 +21646,7 @@ parcelRequire = (function (e, r, t, n) {
               0 !== this.normalBias && (t.normalBias = this.normalBias),
               1 !== this.radius && (t.radius = this.radius),
               (512 === this.mapSize.x && 512 === this.mapSize.y) ||
-                (t.mapSize = this.mapSize.toArray()),
+              (t.mapSize = this.mapSize.toArray()),
               (t.camera = this.camera.toJSON(!1).object),
               delete t.camera.matrix,
               t
@@ -21664,9 +21664,9 @@ parcelRequire = (function (e, r, t, n) {
               i = t.distance || e.far;
             (n === e.fov && r === e.aspect && i === e.far) ||
               ((e.fov = n),
-              (e.aspect = r),
-              (e.far = i),
-              e.updateProjectionMatrix()),
+                (e.aspect = r),
+                (e.far = i),
+                e.updateProjectionMatrix()),
               super.updateMatrices(t);
           }
           copy(t) {
@@ -21852,7 +21852,7 @@ parcelRequire = (function (e, r, t, n) {
               a = r - e;
             if (null !== this.view && this.view.enabled) {
               const t =
-                  (this.right - this.left) / this.view.fullWidth / this.zoom,
+                (this.right - this.left) / this.view.fullWidth / this.zoom,
                 e = (this.top - this.bottom) / this.view.fullHeight / this.zoom;
               (s = (i += t * this.view.offsetX) + t * this.view.width),
                 (a = (o -= e * this.view.offsetY) - e * this.view.height);
@@ -21878,7 +21878,7 @@ parcelRequire = (function (e, r, t, n) {
               (e.object.near = this.near),
               (e.object.far = this.far),
               null !== this.view &&
-                (e.object.view = Object.assign({}, this.view)),
+              (e.object.view = Object.assign({}, this.view)),
               e
             );
           }
@@ -22094,93 +22094,93 @@ parcelRequire = (function (e, r, t, n) {
             function n(t) {
               return (
                 void 0 === e[t] &&
-                  console.warn("THREE.MaterialLoader: Undefined texture", t),
+                console.warn("THREE.MaterialLoader: Undefined texture", t),
                 e[t]
               );
             }
             const r = new Sd[t.type]();
             if (
               (void 0 !== t.uuid && (r.uuid = t.uuid),
-              void 0 !== t.name && (r.name = t.name),
-              void 0 !== t.color &&
+                void 0 !== t.name && (r.name = t.name),
+                void 0 !== t.color &&
                 void 0 !== r.color &&
                 r.color.setHex(t.color),
-              void 0 !== t.roughness && (r.roughness = t.roughness),
-              void 0 !== t.metalness && (r.metalness = t.metalness),
-              void 0 !== t.sheen && (r.sheen = new Vi().setHex(t.sheen)),
-              void 0 !== t.emissive &&
+                void 0 !== t.roughness && (r.roughness = t.roughness),
+                void 0 !== t.metalness && (r.metalness = t.metalness),
+                void 0 !== t.sheen && (r.sheen = new Vi().setHex(t.sheen)),
+                void 0 !== t.emissive &&
                 void 0 !== r.emissive &&
                 r.emissive.setHex(t.emissive),
-              void 0 !== t.specular &&
+                void 0 !== t.specular &&
                 void 0 !== r.specular &&
                 r.specular.setHex(t.specular),
-              void 0 !== t.shininess && (r.shininess = t.shininess),
-              void 0 !== t.clearcoat && (r.clearcoat = t.clearcoat),
-              void 0 !== t.clearcoatRoughness &&
+                void 0 !== t.shininess && (r.shininess = t.shininess),
+                void 0 !== t.clearcoat && (r.clearcoat = t.clearcoat),
+                void 0 !== t.clearcoatRoughness &&
                 (r.clearcoatRoughness = t.clearcoatRoughness),
-              void 0 !== t.transmission && (r.transmission = t.transmission),
-              void 0 !== t.thickness && (r.thickness = t.thickness),
-              void 0 !== t.attenuationDistance &&
+                void 0 !== t.transmission && (r.transmission = t.transmission),
+                void 0 !== t.thickness && (r.thickness = t.thickness),
+                void 0 !== t.attenuationDistance &&
                 (r.attenuationDistance = t.attenuationDistance),
-              void 0 !== t.attenuationColor &&
+                void 0 !== t.attenuationColor &&
                 void 0 !== r.attenuationColor &&
                 r.attenuationColor.setHex(t.attenuationColor),
-              void 0 !== t.fog && (r.fog = t.fog),
-              void 0 !== t.flatShading && (r.flatShading = t.flatShading),
-              void 0 !== t.blending && (r.blending = t.blending),
-              void 0 !== t.combine && (r.combine = t.combine),
-              void 0 !== t.side && (r.side = t.side),
-              void 0 !== t.shadowSide && (r.shadowSide = t.shadowSide),
-              void 0 !== t.opacity && (r.opacity = t.opacity),
-              void 0 !== t.transparent && (r.transparent = t.transparent),
-              void 0 !== t.alphaTest && (r.alphaTest = t.alphaTest),
-              void 0 !== t.depthTest && (r.depthTest = t.depthTest),
-              void 0 !== t.depthWrite && (r.depthWrite = t.depthWrite),
-              void 0 !== t.colorWrite && (r.colorWrite = t.colorWrite),
-              void 0 !== t.stencilWrite && (r.stencilWrite = t.stencilWrite),
-              void 0 !== t.stencilWriteMask &&
+                void 0 !== t.fog && (r.fog = t.fog),
+                void 0 !== t.flatShading && (r.flatShading = t.flatShading),
+                void 0 !== t.blending && (r.blending = t.blending),
+                void 0 !== t.combine && (r.combine = t.combine),
+                void 0 !== t.side && (r.side = t.side),
+                void 0 !== t.shadowSide && (r.shadowSide = t.shadowSide),
+                void 0 !== t.opacity && (r.opacity = t.opacity),
+                void 0 !== t.transparent && (r.transparent = t.transparent),
+                void 0 !== t.alphaTest && (r.alphaTest = t.alphaTest),
+                void 0 !== t.depthTest && (r.depthTest = t.depthTest),
+                void 0 !== t.depthWrite && (r.depthWrite = t.depthWrite),
+                void 0 !== t.colorWrite && (r.colorWrite = t.colorWrite),
+                void 0 !== t.stencilWrite && (r.stencilWrite = t.stencilWrite),
+                void 0 !== t.stencilWriteMask &&
                 (r.stencilWriteMask = t.stencilWriteMask),
-              void 0 !== t.stencilFunc && (r.stencilFunc = t.stencilFunc),
-              void 0 !== t.stencilRef && (r.stencilRef = t.stencilRef),
-              void 0 !== t.stencilFuncMask &&
+                void 0 !== t.stencilFunc && (r.stencilFunc = t.stencilFunc),
+                void 0 !== t.stencilRef && (r.stencilRef = t.stencilRef),
+                void 0 !== t.stencilFuncMask &&
                 (r.stencilFuncMask = t.stencilFuncMask),
-              void 0 !== t.stencilFail && (r.stencilFail = t.stencilFail),
-              void 0 !== t.stencilZFail && (r.stencilZFail = t.stencilZFail),
-              void 0 !== t.stencilZPass && (r.stencilZPass = t.stencilZPass),
-              void 0 !== t.wireframe && (r.wireframe = t.wireframe),
-              void 0 !== t.wireframeLinewidth &&
+                void 0 !== t.stencilFail && (r.stencilFail = t.stencilFail),
+                void 0 !== t.stencilZFail && (r.stencilZFail = t.stencilZFail),
+                void 0 !== t.stencilZPass && (r.stencilZPass = t.stencilZPass),
+                void 0 !== t.wireframe && (r.wireframe = t.wireframe),
+                void 0 !== t.wireframeLinewidth &&
                 (r.wireframeLinewidth = t.wireframeLinewidth),
-              void 0 !== t.wireframeLinecap &&
+                void 0 !== t.wireframeLinecap &&
                 (r.wireframeLinecap = t.wireframeLinecap),
-              void 0 !== t.wireframeLinejoin &&
+                void 0 !== t.wireframeLinejoin &&
                 (r.wireframeLinejoin = t.wireframeLinejoin),
-              void 0 !== t.rotation && (r.rotation = t.rotation),
-              1 !== t.linewidth && (r.linewidth = t.linewidth),
-              void 0 !== t.dashSize && (r.dashSize = t.dashSize),
-              void 0 !== t.gapSize && (r.gapSize = t.gapSize),
-              void 0 !== t.scale && (r.scale = t.scale),
-              void 0 !== t.polygonOffset && (r.polygonOffset = t.polygonOffset),
-              void 0 !== t.polygonOffsetFactor &&
+                void 0 !== t.rotation && (r.rotation = t.rotation),
+                1 !== t.linewidth && (r.linewidth = t.linewidth),
+                void 0 !== t.dashSize && (r.dashSize = t.dashSize),
+                void 0 !== t.gapSize && (r.gapSize = t.gapSize),
+                void 0 !== t.scale && (r.scale = t.scale),
+                void 0 !== t.polygonOffset && (r.polygonOffset = t.polygonOffset),
+                void 0 !== t.polygonOffsetFactor &&
                 (r.polygonOffsetFactor = t.polygonOffsetFactor),
-              void 0 !== t.polygonOffsetUnits &&
+                void 0 !== t.polygonOffsetUnits &&
                 (r.polygonOffsetUnits = t.polygonOffsetUnits),
-              void 0 !== t.morphTargets && (r.morphTargets = t.morphTargets),
-              void 0 !== t.morphNormals && (r.morphNormals = t.morphNormals),
-              void 0 !== t.dithering && (r.dithering = t.dithering),
-              void 0 !== t.alphaToCoverage &&
+                void 0 !== t.morphTargets && (r.morphTargets = t.morphTargets),
+                void 0 !== t.morphNormals && (r.morphNormals = t.morphNormals),
+                void 0 !== t.dithering && (r.dithering = t.dithering),
+                void 0 !== t.alphaToCoverage &&
                 (r.alphaToCoverage = t.alphaToCoverage),
-              void 0 !== t.premultipliedAlpha &&
+                void 0 !== t.premultipliedAlpha &&
                 (r.premultipliedAlpha = t.premultipliedAlpha),
-              void 0 !== t.vertexTangents &&
+                void 0 !== t.vertexTangents &&
                 (r.vertexTangents = t.vertexTangents),
-              void 0 !== t.visible && (r.visible = t.visible),
-              void 0 !== t.toneMapped && (r.toneMapped = t.toneMapped),
-              void 0 !== t.userData && (r.userData = t.userData),
-              void 0 !== t.vertexColors &&
+                void 0 !== t.visible && (r.visible = t.visible),
+                void 0 !== t.toneMapped && (r.toneMapped = t.toneMapped),
+                void 0 !== t.userData && (r.userData = t.userData),
+                void 0 !== t.vertexColors &&
                 ("number" == typeof t.vertexColors
                   ? (r.vertexColors = t.vertexColors > 0)
                   : (r.vertexColors = t.vertexColors)),
-              void 0 !== t.uniforms)
+                void 0 !== t.uniforms)
             )
               for (const i in t.uniforms) {
                 const e = t.uniforms[i];
@@ -22212,25 +22212,25 @@ parcelRequire = (function (e, r, t, n) {
               }
             if (
               (void 0 !== t.defines && (r.defines = t.defines),
-              void 0 !== t.vertexShader && (r.vertexShader = t.vertexShader),
-              void 0 !== t.fragmentShader &&
+                void 0 !== t.vertexShader && (r.vertexShader = t.vertexShader),
+                void 0 !== t.fragmentShader &&
                 (r.fragmentShader = t.fragmentShader),
-              void 0 !== t.extensions)
+                void 0 !== t.extensions)
             )
               for (const i in t.extensions) r.extensions[i] = t.extensions[i];
             if (
               (void 0 !== t.shading && (r.flatShading = 1 === t.shading),
-              void 0 !== t.size && (r.size = t.size),
-              void 0 !== t.sizeAttenuation &&
+                void 0 !== t.size && (r.size = t.size),
+                void 0 !== t.sizeAttenuation &&
                 (r.sizeAttenuation = t.sizeAttenuation),
-              void 0 !== t.map && (r.map = n(t.map)),
-              void 0 !== t.matcap && (r.matcap = n(t.matcap)),
-              void 0 !== t.alphaMap && (r.alphaMap = n(t.alphaMap)),
-              void 0 !== t.bumpMap && (r.bumpMap = n(t.bumpMap)),
-              void 0 !== t.bumpScale && (r.bumpScale = t.bumpScale),
-              void 0 !== t.normalMap && (r.normalMap = n(t.normalMap)),
-              void 0 !== t.normalMapType && (r.normalMapType = t.normalMapType),
-              void 0 !== t.normalScale)
+                void 0 !== t.map && (r.map = n(t.map)),
+                void 0 !== t.matcap && (r.matcap = n(t.matcap)),
+                void 0 !== t.alphaMap && (r.alphaMap = n(t.alphaMap)),
+                void 0 !== t.bumpMap && (r.bumpMap = n(t.bumpMap)),
+                void 0 !== t.bumpScale && (r.bumpScale = t.bumpScale),
+                void 0 !== t.normalMap && (r.normalMap = n(t.normalMap)),
+                void 0 !== t.normalMapType && (r.normalMapType = t.normalMapType),
+                void 0 !== t.normalScale)
             ) {
               let e = t.normalScale;
               !1 === Array.isArray(e) && (e = [e, e]),
@@ -22238,41 +22238,41 @@ parcelRequire = (function (e, r, t, n) {
             }
             return (
               void 0 !== t.displacementMap &&
-                (r.displacementMap = n(t.displacementMap)),
+              (r.displacementMap = n(t.displacementMap)),
               void 0 !== t.displacementScale &&
-                (r.displacementScale = t.displacementScale),
+              (r.displacementScale = t.displacementScale),
               void 0 !== t.displacementBias &&
-                (r.displacementBias = t.displacementBias),
+              (r.displacementBias = t.displacementBias),
               void 0 !== t.roughnessMap && (r.roughnessMap = n(t.roughnessMap)),
               void 0 !== t.metalnessMap && (r.metalnessMap = n(t.metalnessMap)),
               void 0 !== t.emissiveMap && (r.emissiveMap = n(t.emissiveMap)),
               void 0 !== t.emissiveIntensity &&
-                (r.emissiveIntensity = t.emissiveIntensity),
+              (r.emissiveIntensity = t.emissiveIntensity),
               void 0 !== t.specularMap && (r.specularMap = n(t.specularMap)),
               void 0 !== t.envMap && (r.envMap = n(t.envMap)),
               void 0 !== t.envMapIntensity &&
-                (r.envMapIntensity = t.envMapIntensity),
+              (r.envMapIntensity = t.envMapIntensity),
               void 0 !== t.reflectivity && (r.reflectivity = t.reflectivity),
               void 0 !== t.refractionRatio &&
-                (r.refractionRatio = t.refractionRatio),
+              (r.refractionRatio = t.refractionRatio),
               void 0 !== t.lightMap && (r.lightMap = n(t.lightMap)),
               void 0 !== t.lightMapIntensity &&
-                (r.lightMapIntensity = t.lightMapIntensity),
+              (r.lightMapIntensity = t.lightMapIntensity),
               void 0 !== t.aoMap && (r.aoMap = n(t.aoMap)),
               void 0 !== t.aoMapIntensity &&
-                (r.aoMapIntensity = t.aoMapIntensity),
+              (r.aoMapIntensity = t.aoMapIntensity),
               void 0 !== t.gradientMap && (r.gradientMap = n(t.gradientMap)),
               void 0 !== t.clearcoatMap && (r.clearcoatMap = n(t.clearcoatMap)),
               void 0 !== t.clearcoatRoughnessMap &&
-                (r.clearcoatRoughnessMap = n(t.clearcoatRoughnessMap)),
+              (r.clearcoatRoughnessMap = n(t.clearcoatRoughnessMap)),
               void 0 !== t.clearcoatNormalMap &&
-                (r.clearcoatNormalMap = n(t.clearcoatNormalMap)),
+              (r.clearcoatNormalMap = n(t.clearcoatNormalMap)),
               void 0 !== t.clearcoatNormalScale &&
-                (r.clearcoatNormalScale = new sr().fromArray(
-                  t.clearcoatNormalScale
-                )),
+              (r.clearcoatNormalScale = new sr().fromArray(
+                t.clearcoatNormalScale
+              )),
               void 0 !== t.transmissionMap &&
-                (r.transmissionMap = n(t.transmissionMap)),
+              (r.transmissionMap = n(t.transmissionMap)),
               void 0 !== t.thicknessMap && (r.thicknessMap = n(t.thicknessMap)),
               r
             );
@@ -22328,10 +22328,10 @@ parcelRequire = (function (e, r, t, n) {
           constructor(t, e, n, r) {
             "number" == typeof n &&
               ((r = n),
-              (n = !1),
-              console.error(
-                "THREE.InstancedBufferAttribute: The constructor now expects normalized as the third argument."
-              )),
+                (n = !1),
+                console.error(
+                  "THREE.InstancedBufferAttribute: The constructor now expects normalized as the third argument."
+                )),
               super(t, e, n),
               (this.meshPerAttribute = r || 1);
           }
@@ -22414,7 +22414,7 @@ parcelRequire = (function (e, r, t, n) {
               void 0 !== e.name && (n.name = e.name),
                 void 0 !== e.usage && n.setUsage(e.usage),
                 void 0 !== e.updateRange &&
-                  ((n.updateRange.offset = e.updateRange.offset),
+                ((n.updateRange.offset = e.updateRange.offset),
                   (n.updateRange.count = e.updateRange.count)),
                 i.setAttribute(h, n);
             }
@@ -22487,8 +22487,8 @@ parcelRequire = (function (e, r, t, n) {
                   }
                   const o = s.metadata;
                   void 0 !== o &&
-                  void 0 !== o.type &&
-                  "geometry" !== o.type.toLowerCase()
+                    void 0 !== o.type &&
+                    "geometry" !== o.type.toLowerCase()
                     ? i.parse(s, e)
                     : console.error("THREE.ObjectLoader: Can't load " + t);
                 },
@@ -22534,7 +22534,7 @@ parcelRequire = (function (e, r, t, n) {
               (e.traverse(function (t) {
                 t.isBone && (r[t.uuid] = t);
               }),
-              void 0 !== t)
+                void 0 !== t)
             )
               for (let i = 0, s = t.length; i < s; i++) {
                 const e = new Pu().fromJSON(t[i], r);
@@ -22720,16 +22720,16 @@ parcelRequire = (function (e, r, t, n) {
                   default:
                     console.warn(
                       'THREE.ObjectLoader: Unsupported geometry type "' +
-                        a.type +
-                        '"'
+                      a.type +
+                      '"'
                     );
                     continue;
                 }
                 (o.uuid = a.uuid),
                   void 0 !== a.name && (o.name = a.name),
                   !0 === o.isBufferGeometry &&
-                    void 0 !== a.userData &&
-                    (o.userData = a.userData),
+                  void 0 !== a.userData &&
+                  (o.userData = a.userData),
                   (n[a.uuid] = o);
               }
             }
@@ -22825,9 +22825,9 @@ parcelRequire = (function (e, r, t, n) {
               return "number" == typeof t
                 ? t
                 : (console.warn(
-                    "THREE.ObjectLoader.parseTexture: Constant should be in numeric form.",
-                    t
-                  ),
+                  "THREE.ObjectLoader.parseTexture: Constant should be in numeric form.",
+                  t
+                ),
                   e[t]);
             }
             const r = {};
@@ -22841,17 +22841,17 @@ parcelRequire = (function (e, r, t, n) {
                     s.uuid
                   ),
                   void 0 === e[s.image] &&
-                    console.warn(
-                      "THREE.ObjectLoader: Undefined image",
-                      s.image
-                    );
+                  console.warn(
+                    "THREE.ObjectLoader: Undefined image",
+                    s.image
+                  );
                 const a = e[s.image];
                 Array.isArray(a)
                   ? ((o = new Xs(a)), 6 === a.length && (o.needsUpdate = !0))
                   : ((o =
-                      a && a.data
-                        ? new Lu(a.data, a.width, a.height)
-                        : new hr(a)),
+                    a && a.data
+                      ? new Lu(a.data, a.width, a.height)
+                      : new hr(a)),
                     a && (o.needsUpdate = !0)),
                   (o.uuid = s.uuid),
                   void 0 !== s.name && (o.name = s.name),
@@ -22861,7 +22861,7 @@ parcelRequire = (function (e, r, t, n) {
                   void 0 !== s.center && o.center.fromArray(s.center),
                   void 0 !== s.rotation && (o.rotation = s.rotation),
                   void 0 !== s.wrap &&
-                    ((o.wrapS = n(s.wrap[0], nf)),
+                  ((o.wrapS = n(s.wrap[0], nf)),
                     (o.wrapT = n(s.wrap[1], nf))),
                   void 0 !== s.format && (o.format = s.format),
                   void 0 !== s.type && (o.type = s.type),
@@ -22871,9 +22871,9 @@ parcelRequire = (function (e, r, t, n) {
                   void 0 !== s.anisotropy && (o.anisotropy = s.anisotropy),
                   void 0 !== s.flipY && (o.flipY = s.flipY),
                   void 0 !== s.premultiplyAlpha &&
-                    (o.premultiplyAlpha = s.premultiplyAlpha),
+                  (o.premultiplyAlpha = s.premultiplyAlpha),
                   void 0 !== s.unpackAlignment &&
-                    (o.unpackAlignment = s.unpackAlignment),
+                  (o.unpackAlignment = s.unpackAlignment),
                   (r[s.uuid] = o);
               }
             return r;
@@ -22883,7 +22883,7 @@ parcelRequire = (function (e, r, t, n) {
             function a(t) {
               return (
                 void 0 === e[t] &&
-                  console.warn("THREE.ObjectLoader: Undefined geometry", t),
+                console.warn("THREE.ObjectLoader: Undefined geometry", t),
                 e[t]
               );
             }
@@ -22901,7 +22901,7 @@ parcelRequire = (function (e, r, t, n) {
                 }
                 return (
                   void 0 === n[t] &&
-                    console.warn("THREE.ObjectLoader: Undefined material", t),
+                  console.warn("THREE.ObjectLoader: Undefined material", t),
                   n[t]
                 );
               }
@@ -22910,13 +22910,13 @@ parcelRequire = (function (e, r, t, n) {
               case "Scene":
                 (i = new Kh()),
                   void 0 !== t.background &&
-                    Number.isInteger(t.background) &&
-                    (i.background = new Vi(t.background)),
+                  Number.isInteger(t.background) &&
+                  (i.background = new Vi(t.background)),
                   void 0 !== t.fog &&
-                    ("Fog" === t.fog.type
-                      ? (i.fog = new Qh(t.fog.color, t.fog.near, t.fog.far))
-                      : "FogExp2" === t.fog.type &&
-                        (i.fog = new Jh(t.fog.color, t.fog.density)));
+                  ("Fog" === t.fog.type
+                    ? (i.fog = new Qh(t.fog.color, t.fog.near, t.fog.far))
+                    : "FogExp2" === t.fog.type &&
+                    (i.fog = new Jh(t.fog.color, t.fog.density)));
                 break;
               case "PerspectiveCamera":
                 (i = new Vs(t.fov, t.aspect, t.near, t.far)),
@@ -22965,7 +22965,7 @@ parcelRequire = (function (e, r, t, n) {
                   (i = new Eu(s, o)),
                   void 0 !== t.bindMode && (i.bindMode = t.bindMode),
                   void 0 !== t.bindMatrix &&
-                    i.bindMatrix.fromArray(t.bindMatrix),
+                  i.bindMatrix.fromArray(t.bindMatrix),
                   void 0 !== t.skeleton && (i.skeleton = t.skeleton);
                 break;
               case "Mesh":
@@ -22981,10 +22981,10 @@ parcelRequire = (function (e, r, t, n) {
                   16
                 )),
                   void 0 !== r &&
-                    (i.instanceColor = new Xi(
-                      new Float32Array(r.array),
-                      r.itemSize
-                    ));
+                  (i.instanceColor = new Xi(
+                    new Float32Array(r.array),
+                    r.itemSize
+                  ));
                 break;
               case "LOD":
                 i = new _u();
@@ -23016,36 +23016,36 @@ parcelRequire = (function (e, r, t, n) {
             }
             if (
               ((i.uuid = t.uuid),
-              void 0 !== t.name && (i.name = t.name),
-              void 0 !== t.matrix
-                ? (i.matrix.fromArray(t.matrix),
-                  void 0 !== t.matrixAutoUpdate &&
+                void 0 !== t.name && (i.name = t.name),
+                void 0 !== t.matrix
+                  ? (i.matrix.fromArray(t.matrix),
+                    void 0 !== t.matrixAutoUpdate &&
                     (i.matrixAutoUpdate = t.matrixAutoUpdate),
-                  i.matrixAutoUpdate &&
+                    i.matrixAutoUpdate &&
                     i.matrix.decompose(i.position, i.quaternion, i.scale))
-                : (void 0 !== t.position && i.position.fromArray(t.position),
-                  void 0 !== t.rotation && i.rotation.fromArray(t.rotation),
-                  void 0 !== t.quaternion &&
+                  : (void 0 !== t.position && i.position.fromArray(t.position),
+                    void 0 !== t.rotation && i.rotation.fromArray(t.rotation),
+                    void 0 !== t.quaternion &&
                     i.quaternion.fromArray(t.quaternion),
-                  void 0 !== t.scale && i.scale.fromArray(t.scale)),
-              void 0 !== t.castShadow && (i.castShadow = t.castShadow),
-              void 0 !== t.receiveShadow && (i.receiveShadow = t.receiveShadow),
-              t.shadow &&
+                    void 0 !== t.scale && i.scale.fromArray(t.scale)),
+                void 0 !== t.castShadow && (i.castShadow = t.castShadow),
+                void 0 !== t.receiveShadow && (i.receiveShadow = t.receiveShadow),
+                t.shadow &&
                 (void 0 !== t.shadow.bias && (i.shadow.bias = t.shadow.bias),
-                void 0 !== t.shadow.normalBias &&
+                  void 0 !== t.shadow.normalBias &&
                   (i.shadow.normalBias = t.shadow.normalBias),
-                void 0 !== t.shadow.radius &&
+                  void 0 !== t.shadow.radius &&
                   (i.shadow.radius = t.shadow.radius),
-                void 0 !== t.shadow.mapSize &&
+                  void 0 !== t.shadow.mapSize &&
                   i.shadow.mapSize.fromArray(t.shadow.mapSize),
-                void 0 !== t.shadow.camera &&
+                  void 0 !== t.shadow.camera &&
                   (i.shadow.camera = this.parseObject(t.shadow.camera))),
-              void 0 !== t.visible && (i.visible = t.visible),
-              void 0 !== t.frustumCulled && (i.frustumCulled = t.frustumCulled),
-              void 0 !== t.renderOrder && (i.renderOrder = t.renderOrder),
-              void 0 !== t.userData && (i.userData = t.userData),
-              void 0 !== t.layers && (i.layers.mask = t.layers),
-              void 0 !== t.children)
+                void 0 !== t.visible && (i.visible = t.visible),
+                void 0 !== t.frustumCulled && (i.frustumCulled = t.frustumCulled),
+                void 0 !== t.renderOrder && (i.renderOrder = t.renderOrder),
+                void 0 !== t.userData && (i.userData = t.userData),
+                void 0 !== t.layers && (i.layers.mask = t.layers),
+                void 0 !== t.children)
             ) {
               const s = t.children;
               for (let t = 0; t < s.length; t++)
@@ -23076,9 +23076,9 @@ parcelRequire = (function (e, r, t, n) {
                   const n = e[t.skeleton];
                   void 0 === n
                     ? console.warn(
-                        "THREE.ObjectLoader: No skeleton found with UUID:",
-                        t.skeleton
-                      )
+                      "THREE.ObjectLoader: No skeleton found with UUID:",
+                      t.skeleton
+                    )
                     : t.bind(n, t.bindMatrix);
                 }
               });
@@ -23094,14 +23094,14 @@ parcelRequire = (function (e, r, t, n) {
         }
         exports.ObjectLoader = tf;
         const ef = {
-            UVMapping: et,
-            CubeReflectionMapping: nt,
-            CubeRefractionMapping: rt,
-            EquirectangularReflectionMapping: it,
-            EquirectangularRefractionMapping: st,
-            CubeUVReflectionMapping: ot,
-            CubeUVRefractionMapping: at,
-          },
+          UVMapping: et,
+          CubeReflectionMapping: nt,
+          CubeRefractionMapping: rt,
+          EquirectangularReflectionMapping: it,
+          EquirectangularRefractionMapping: st,
+          CubeUVReflectionMapping: ot,
+          CubeUVRefractionMapping: at,
+        },
           nf = {
             RepeatWrapping: lt,
             ClampToEdgeWrapping: ct,
@@ -23119,11 +23119,11 @@ parcelRequire = (function (e, r, t, n) {
           constructor(t) {
             super(t),
               "undefined" == typeof createImageBitmap &&
-                console.warn(
-                  "THREE.ImageBitmapLoader: createImageBitmap() not supported."
-                ),
+              console.warn(
+                "THREE.ImageBitmapLoader: createImageBitmap() not supported."
+              ),
               "undefined" == typeof fetch &&
-                console.warn("THREE.ImageBitmapLoader: fetch() not supported."),
+              console.warn("THREE.ImageBitmapLoader: fetch() not supported."),
               (this.options = { premultiplyAlpha: "none" });
           }
           setOptions(t) {
@@ -23216,7 +23216,7 @@ parcelRequire = (function (e, r, t, n) {
                 if (Math.abs(l) > Number.EPSILON) {
                   if (
                     (l < 0 && ((n = e[s]), (a = -a), (o = e[i]), (l = -l)),
-                    t.y < n.y || t.y > o.y)
+                      t.y < n.y || t.y > o.y)
                   )
                     continue;
                   if (t.y === n.y) {
@@ -23276,7 +23276,7 @@ parcelRequire = (function (e, r, t, n) {
                   for (let i = 0; i < p.length; i++)
                     r(o.p, p[i].p) &&
                       (n !== i && e.push({ froms: n, tos: i, hole: s }),
-                      a ? ((a = !1), u[i].push(o)) : (t = !0));
+                        a ? ((a = !1), u[i].push(o)) : (t = !0));
                   a && u[n].push(o);
                 }
               }
@@ -23327,16 +23327,16 @@ parcelRequire = (function (e, r, t, n) {
           if (!s)
             return void console.error(
               'THREE.Font: character "' +
-                t +
-                '" does not exists in font family ' +
-                i.familyName +
-                "."
+              t +
+              '" does not exists in font family ' +
+              i.familyName +
+              "."
             );
           const o = new of();
           let a, l, c, h, u, p, d, m;
           if (s.o) {
             const t = s._cachedOutline || (s._cachedOutline = s.o.split(" "));
-            for (let i = 0, s = t.length; i < s; ) {
+            for (let i = 0, s = t.length; i < s;) {
               switch (t[i++]) {
                 case "m":
                   (a = t[i++] * e + n), (l = t[i++] * e + r), o.moveTo(a, l);
@@ -23404,7 +23404,7 @@ parcelRequire = (function (e, r, t, n) {
           getContext: function () {
             return (
               void 0 === uf &&
-                (uf = new (window.AudioContext || window.webkitAudioContext)()),
+              (uf = new (window.AudioContext || window.webkitAudioContext)()),
               uf
             );
           },
@@ -23589,7 +23589,7 @@ parcelRequire = (function (e, r, t, n) {
           removeFilter() {
             return (
               null !== this.filter &&
-                (this.gain.disconnect(this.filter),
+              (this.gain.disconnect(this.filter),
                 this.filter.disconnect(this.context.destination),
                 this.gain.connect(this.context.destination),
                 (this.filter = null)),
@@ -23626,9 +23626,9 @@ parcelRequire = (function (e, r, t, n) {
               n = this.up;
             if (
               ((this.timeDelta = this._clock.getDelta()),
-              this.matrixWorld.decompose(Mf, wf, bf),
-              Sf.set(0, 0, -1).applyQuaternion(wf),
-              e.positionX)
+                this.matrixWorld.decompose(Mf, wf, bf),
+                Sf.set(0, 0, -1).applyQuaternion(wf),
+                e.positionX)
             ) {
               const t = this.context.currentTime + this.timeDelta;
               e.positionX.linearRampToValueAtTime(Mf.x, t),
@@ -23743,12 +23743,12 @@ parcelRequire = (function (e, r, t, n) {
             if (!1 !== this.hasPlaybackControl)
               return (
                 !0 === this.isPlaying &&
-                  ((this._progress +=
-                    Math.max(this.context.currentTime - this._startedAt, 0) *
-                    this.playbackRate),
+                ((this._progress +=
+                  Math.max(this.context.currentTime - this._startedAt, 0) *
+                  this.playbackRate),
                   !0 === this.loop &&
-                    (this._progress =
-                      this._progress % (this.duration || this.buffer.duration)),
+                  (this._progress =
+                    this._progress % (this.duration || this.buffer.duration)),
                   this.source.stop(),
                   (this.source.onended = null),
                   (this.isPlaying = !1)),
@@ -23805,11 +23805,11 @@ parcelRequire = (function (e, r, t, n) {
             if (((this.detune = t), void 0 !== this.source.detune))
               return (
                 !0 === this.isPlaying &&
-                  this.source.detune.setTargetAtTime(
-                    this.detune,
-                    this.context.currentTime,
-                    0.01
-                  ),
+                this.source.detune.setTargetAtTime(
+                  this.detune,
+                  this.context.currentTime,
+                  0.01
+                ),
                 this
               );
           }
@@ -23827,11 +23827,11 @@ parcelRequire = (function (e, r, t, n) {
               return (
                 (this.playbackRate = t),
                 !0 === this.isPlaying &&
-                  this.source.playbackRate.setTargetAtTime(
-                    this.playbackRate,
-                    this.context.currentTime,
-                    0.01
-                  ),
+                this.source.playbackRate.setTargetAtTime(
+                  this.playbackRate,
+                  this.context.currentTime,
+                  0.01
+                ),
                 this
               );
             console.warn("THREE.Audio: this Audio has no playback control.");
@@ -23845,8 +23845,8 @@ parcelRequire = (function (e, r, t, n) {
           getLoop() {
             return !1 === this.hasPlaybackControl
               ? (console.warn(
-                  "THREE.Audio: this Audio has no playback control."
-                ),
+                "THREE.Audio: this Audio has no playback control."
+              ),
                 !1)
               : this.loop;
           }
@@ -23925,7 +23925,7 @@ parcelRequire = (function (e, r, t, n) {
           updateMatrixWorld(t) {
             if (
               (super.updateMatrixWorld(t),
-              !0 === this.hasPlaybackControl && !1 === this.isPlaying)
+                !0 === this.hasPlaybackControl && !1 === this.isPlaying)
             )
               return;
             this.matrixWorld.decompose(Af, Lf, Rf),
@@ -24028,8 +24028,8 @@ parcelRequire = (function (e, r, t, n) {
               o = this.binding;
             if (
               ((this.cumulativeWeight = 0),
-              (this.cumulativeWeightAdditive = 0),
-              i < 1)
+                (this.cumulativeWeightAdditive = 0),
+                i < 1)
             ) {
               const t = e * this._origIndex;
               this._mixBufferRegion(n, r, t, 1 - i, e);
@@ -24169,12 +24169,12 @@ parcelRequire = (function (e, r, t, n) {
             if (!e)
               throw new Error("PropertyBinding: Cannot parse trackName: " + t);
             const n = {
-                nodeName: e[2],
-                objectName: e[3],
-                objectIndex: e[4],
-                propertyName: e[5],
-                propertyIndex: e[6],
-              },
+              nodeName: e[2],
+              objectName: e[3],
+              objectIndex: e[4],
+              propertyName: e[5],
+              propertyIndex: e[6],
+            },
               r = n.nodeName && n.nodeName.lastIndexOf(".");
             if (void 0 !== r && -1 !== r) {
               const t = n.nodeName.substring(r + 1);
@@ -24184,7 +24184,7 @@ parcelRequire = (function (e, r, t, n) {
             if (null === n.propertyName || 0 === n.propertyName.length)
               throw new Error(
                 "PropertyBinding: can not parse propertyName from trackName: " +
-                  t
+                t
               );
             return n;
           }
@@ -24204,21 +24204,21 @@ parcelRequire = (function (e, r, t, n) {
             }
             if (t.children) {
               const n = function (t) {
-                  for (let r = 0; r < t.length; r++) {
-                    const i = t[r];
-                    if (i.name === e || i.uuid === e) return i;
-                    const s = n(i.children);
-                    if (s) return s;
-                  }
-                  return null;
-                },
+                for (let r = 0; r < t.length; r++) {
+                  const i = t[r];
+                  if (i.name === e || i.uuid === e) return i;
+                  const s = n(i.children);
+                  if (s) return s;
+                }
+                return null;
+              },
                 r = n(t.children);
               if (r) return r;
             }
             return null;
           }
-          _getValue_unavailable() {}
-          _setValue_unavailable() {}
+          _getValue_unavailable() { }
+          _setValue_unavailable() { }
           _getValue_direct(t, e) {
             t[e] = this.node[this.propertyName];
           }
@@ -24294,15 +24294,15 @@ parcelRequire = (function (e, r, t, n) {
             if (
               (t ||
                 ((t = jf.findNode(this.rootNode, e.nodeName) || this.rootNode),
-                (this.node = t)),
-              (this.getValue = this._getValue_unavailable),
-              (this.setValue = this._setValue_unavailable),
-              !t)
+                  (this.node = t)),
+                (this.getValue = this._getValue_unavailable),
+                (this.setValue = this._setValue_unavailable),
+                !t)
             )
               return void console.error(
                 "THREE.PropertyBinding: Trying to update node for track: " +
-                  this.path +
-                  " but it wasn't found."
+                this.path +
+                " but it wasn't found."
               );
             if (n) {
               let r = e.objectIndex;
@@ -24356,10 +24356,10 @@ parcelRequire = (function (e, r, t, n) {
               const n = e.nodeName;
               return void console.error(
                 "THREE.PropertyBinding: Trying to update property for track: " +
-                  n +
-                  "." +
-                  r +
-                  " but it wasn't found.",
+                n +
+                "." +
+                r +
+                " but it wasn't found.",
                 t
               );
             }
@@ -24368,7 +24368,7 @@ parcelRequire = (function (e, r, t, n) {
               void 0 !== t.needsUpdate
                 ? (o = this.Versioning.NeedsUpdate)
                 : void 0 !== t.matrixWorldNeedsUpdate &&
-                  (o = this.Versioning.MatrixWorldNeedsUpdate);
+                (o = this.Versioning.MatrixWorldNeedsUpdate);
             let a = this.BindingType.Direct;
             if (void 0 !== i) {
               if ("morphTargetInfluences" === r) {
@@ -24398,9 +24398,9 @@ parcelRequire = (function (e, r, t, n) {
                 ? ((a = this.BindingType.HasFromToArray),
                   (this.resolvedProperty = s))
                 : Array.isArray(s)
-                ? ((a = this.BindingType.EntireArray),
-                  (this.resolvedProperty = s))
-                : (this.propertyName = r);
+                  ? ((a = this.BindingType.EntireArray),
+                    (this.resolvedProperty = s))
+                  : (this.propertyName = r);
             (this.getValue = this.GetterByBindingType[a]),
               (this.setValue = this.SetterByBindingTypeAndVersioning[a][o]);
           }
@@ -24723,7 +24723,7 @@ parcelRequire = (function (e, r, t, n) {
             const t = this._weightInterpolant;
             return (
               null !== t &&
-                ((this._weightInterpolant = null),
+              ((this._weightInterpolant = null),
                 this._mixer._takeBackControlInterpolant(t)),
               this
             );
@@ -24760,7 +24760,7 @@ parcelRequire = (function (e, r, t, n) {
             let o = this._timeScaleInterpolant;
             null === o &&
               ((o = r._lendControlInterpolant()),
-              (this._timeScaleInterpolant = o));
+                (this._timeScaleInterpolant = o));
             const a = o.parameterPositions,
               l = o.sampleValues;
             return (
@@ -24771,7 +24771,7 @@ parcelRequire = (function (e, r, t, n) {
             const t = this._timeScaleInterpolant;
             return (
               null !== t &&
-                ((this._timeScaleInterpolant = null),
+              ((this._timeScaleInterpolant = null),
                 this._mixer._takeBackControlInterpolant(t)),
               this
             );
@@ -24820,7 +24820,7 @@ parcelRequire = (function (e, r, t, n) {
                 const r = n.evaluate(t)[0];
                 (e *= r),
                   t > n.parameterPositions[1] &&
-                    (this.stopFading(), 0 === r && (this.enabled = !1));
+                  (this.stopFading(), 0 === r && (this.enabled = !1));
               }
             }
             return (this._effectiveWeight = e), e;
@@ -24833,7 +24833,7 @@ parcelRequire = (function (e, r, t, n) {
               if (null !== n) {
                 (e *= n.evaluate(t)[0]),
                   t > n.parameterPositions[1] &&
-                    (this.stopWarping(),
+                  (this.stopWarping(),
                     0 === e ? (this.paused = !0) : (this.timeScale = e));
               }
             }
@@ -24873,7 +24873,7 @@ parcelRequire = (function (e, r, t, n) {
                   (t >= 0
                     ? ((i = 0), this._setEndings(!0, 0 === this.repetitions, s))
                     : this._setEndings(0 === this.repetitions, !0, s)),
-                r >= e || r < 0)
+                  r >= e || r < 0)
               ) {
                 const n = Math.floor(r / e);
                 (r -= e * n), (i += Math.abs(n));
@@ -24920,7 +24920,7 @@ parcelRequire = (function (e, r, t, n) {
             let s = this._weightInterpolant;
             null === s &&
               ((s = r._lendControlInterpolant()),
-              (this._weightInterpolant = s));
+                (this._weightInterpolant = s));
             const o = s.parameterPositions,
               a = s.sampleValues;
             return (o[0] = i), (a[0] = e), (o[1] = i + t), (a[1] = n), this;
@@ -25136,12 +25136,12 @@ parcelRequire = (function (e, r, t, n) {
             let n = t[e];
             return (
               void 0 === n &&
-                (((n = new Ld(
-                  new Float32Array(2),
-                  new Float32Array(2),
-                  1,
-                  this._controlInterpolantsResultBuffer
-                )).__cacheIndex = e),
+              (((n = new Ld(
+                new Float32Array(2),
+                new Float32Array(2),
+                1,
+                this._controlInterpolantsResultBuffer
+              )).__cacheIndex = e),
                 (t[e] = n)),
               n
             );
@@ -25162,7 +25162,7 @@ parcelRequire = (function (e, r, t, n) {
             let l = null;
             if (
               (void 0 === n && (n = null !== s ? s.blendMode : ke),
-              void 0 !== a)
+                void 0 !== a)
             ) {
               const t = a.actionByRoot[i];
               if (void 0 !== t && t.blendMode === n) return t;
@@ -25260,7 +25260,7 @@ parcelRequire = (function (e, r, t, n) {
               (console.warn(
                 "THREE.Uniform: Type parameter is no longer needed."
               ),
-              (t = arguments[1])),
+                (t = arguments[1])),
               (this.value = t);
           }
           clone() {
@@ -25349,14 +25349,14 @@ parcelRequire = (function (e, r, t, n) {
                   .normalize(),
                 (this.camera = e))
               : e && e.isOrthographicCamera
-              ? (this.ray.origin
+                ? (this.ray.origin
                   .set(t.x, t.y, (e.near + e.far) / (e.near - e.far))
                   .unproject(e),
-                this.ray.direction
-                  .set(0, 0, -1)
-                  .transformDirection(e.matrixWorld),
-                (this.camera = e))
-              : console.error(
+                  this.ray.direction
+                    .set(0, 0, -1)
+                    .transformDirection(e.matrixWorld),
+                  (this.camera = e))
+                : console.error(
                   "THREE.Raycaster: Unsupported camera type: " + e.type
                 );
           }
@@ -25484,9 +25484,9 @@ parcelRequire = (function (e, r, t, n) {
           getCenter(t) {
             return (
               void 0 === t &&
-                (console.warn(
-                  "THREE.Box2: .getCenter() target is now required"
-                ),
+              (console.warn(
+                "THREE.Box2: .getCenter() target is now required"
+              ),
                 (t = new sr())),
               this.isEmpty()
                 ? t.set(0, 0)
@@ -25496,7 +25496,7 @@ parcelRequire = (function (e, r, t, n) {
           getSize(t) {
             return (
               void 0 === t &&
-                (console.warn("THREE.Box2: .getSize() target is now required"),
+              (console.warn("THREE.Box2: .getSize() target is now required"),
                 (t = new sr())),
               this.isEmpty() ? t.set(0, 0) : t.subVectors(this.max, this.min)
             );
@@ -25529,9 +25529,9 @@ parcelRequire = (function (e, r, t, n) {
           getParameter(t, e) {
             return (
               void 0 === e &&
-                (console.warn(
-                  "THREE.Box2: .getParameter() target is now required"
-                ),
+              (console.warn(
+                "THREE.Box2: .getParameter() target is now required"
+              ),
                 (e = new sr())),
               e.set(
                 (t.x - this.min.x) / (this.max.x - this.min.x),
@@ -25550,9 +25550,9 @@ parcelRequire = (function (e, r, t, n) {
           clampPoint(t, e) {
             return (
               void 0 === e &&
-                (console.warn(
-                  "THREE.Box2: .clampPoint() target is now required"
-                ),
+              (console.warn(
+                "THREE.Box2: .clampPoint() target is now required"
+              ),
                 (e = new sr())),
               e.copy(t).clamp(this.min, this.max)
             );
@@ -25589,9 +25589,9 @@ parcelRequire = (function (e, r, t, n) {
           getCenter(t) {
             return (
               void 0 === t &&
-                (console.warn(
-                  "THREE.Line3: .getCenter() target is now required"
-                ),
+              (console.warn(
+                "THREE.Line3: .getCenter() target is now required"
+              ),
                 (t = new xr())),
               t.addVectors(this.start, this.end).multiplyScalar(0.5)
             );
@@ -25599,7 +25599,7 @@ parcelRequire = (function (e, r, t, n) {
           delta(t) {
             return (
               void 0 === t &&
-                (console.warn("THREE.Line3: .delta() target is now required"),
+              (console.warn("THREE.Line3: .delta() target is now required"),
                 (t = new xr())),
               t.subVectors(this.end, this.start)
             );
@@ -25613,7 +25613,7 @@ parcelRequire = (function (e, r, t, n) {
           at(t, e) {
             return (
               void 0 === e &&
-                (console.warn("THREE.Line3: .at() target is now required"),
+              (console.warn("THREE.Line3: .at() target is now required"),
                 (e = new xr())),
               this.delta(e).multiplyScalar(t).add(this.start)
             );
@@ -25628,9 +25628,9 @@ parcelRequire = (function (e, r, t, n) {
             const r = this.closestPointToPointParameter(t, e);
             return (
               void 0 === n &&
-                (console.warn(
-                  "THREE.Line3: .closestPointToPoint() target is now required"
-                ),
+              (console.warn(
+                "THREE.Line3: .closestPointToPoint() target is now required"
+              ),
                 (n = new xr())),
               this.delta(n).multiplyScalar(r).add(this.start)
             );
@@ -25650,7 +25650,7 @@ parcelRequire = (function (e, r, t, n) {
           constructor(t) {
             super(),
               (this.material = t),
-              (this.render = function () {}),
+              (this.render = function () { }),
               (this.hasPositions = !1),
               (this.hasNormals = !1),
               (this.hasColors = !1),
@@ -25719,9 +25719,9 @@ parcelRequire = (function (e, r, t, n) {
               t.parent &&
                 t.parent.isBone &&
                 (r.push(0, 0, 0),
-                r.push(0, 0, 0),
-                i.push(s.r, s.g, s.b),
-                i.push(o.r, o.g, o.b));
+                  r.push(0, 0, 0),
+                  i.push(s.r, s.g, s.b),
+                  i.push(o.r, o.g, o.b));
             }
             n.setAttribute("position", new ns(r, 3)),
               n.setAttribute("color", new ns(i, 3)),
@@ -25752,12 +25752,12 @@ parcelRequire = (function (e, r, t, n) {
               t.parent &&
                 t.parent.isBone &&
                 (pg.multiplyMatrices(dg, t.matrixWorld),
-                ug.setFromMatrixPosition(pg),
-                r.setXYZ(s, ug.x, ug.y, ug.z),
-                pg.multiplyMatrices(dg, t.parent.matrixWorld),
-                ug.setFromMatrixPosition(pg),
-                r.setXYZ(s + 1, ug.x, ug.y, ug.z),
-                (s += 2));
+                  ug.setFromMatrixPosition(pg),
+                  r.setXYZ(s, ug.x, ug.y, ug.z),
+                  pg.multiplyMatrices(dg, t.parent.matrixWorld),
+                  ug.setFromMatrixPosition(pg),
+                  r.setXYZ(s + 1, ug.x, ug.y, ug.z),
+                  (s += 2));
             }
             (n.getAttribute("position").needsUpdate = !0),
               super.updateMatrixWorld(t);
@@ -26008,7 +26008,7 @@ parcelRequire = (function (e, r, t, n) {
               (this.type = "CameraHelper"),
               (this.camera = t),
               this.camera.updateProjectionMatrix &&
-                this.camera.updateProjectionMatrix(),
+              this.camera.updateProjectionMatrix(),
               (this.matrix = t.matrixWorld),
               (this.matrixAutoUpdate = !1),
               (this.pointMap = s),
@@ -26061,9 +26061,9 @@ parcelRequire = (function (e, r, t, n) {
         class Dg extends qu {
           constructor(t, e = 16776960) {
             const n = new Uint16Array([
-                0, 1, 1, 2, 2, 3, 3, 0, 4, 5, 5, 6, 6, 7, 7, 4, 0, 4, 1, 5, 2,
-                6, 3, 7,
-              ]),
+              0, 1, 1, 2, 2, 3, 3, 0, 4, 5, 5, 6, 6, 7, 7, 4, 0, 4, 1, 5, 2,
+              6, 3, 7,
+            ]),
               r = new Float32Array(24),
               i = new ms();
             i.setIndex(new Xi(n, 1)),
@@ -26080,8 +26080,8 @@ parcelRequire = (function (e, r, t, n) {
                 console.warn(
                   "THREE.BoxHelper: .update() has no longer arguments."
                 ),
-              void 0 !== this.object && Pg.setFromObject(this.object),
-              Pg.isEmpty())
+                void 0 !== this.object && Pg.setFromObject(this.object),
+                Pg.isEmpty())
             )
               return;
             const e = Pg.min,
@@ -26128,9 +26128,9 @@ parcelRequire = (function (e, r, t, n) {
         class Ig extends qu {
           constructor(t, e = 16776960) {
             const n = new Uint16Array([
-                0, 1, 1, 2, 2, 3, 3, 0, 4, 5, 5, 6, 6, 7, 7, 4, 0, 4, 1, 5, 2,
-                6, 3, 7,
-              ]),
+              0, 1, 1, 2, 2, 3, 3, 0, 4, 5, 5, 6, 6, 7, 7, 4, 0, 4, 1, 5, 2,
+              6, 3, 7,
+            ]),
               r = new ms();
             r.setIndex(new Xi(n, 1)),
               r.setAttribute(
@@ -26152,9 +26152,9 @@ parcelRequire = (function (e, r, t, n) {
             const e = this.box;
             e.isEmpty() ||
               (e.getCenter(this.position),
-              e.getSize(this.scale),
-              this.scale.multiplyScalar(0.5),
-              super.updateMatrixWorld(t));
+                e.getSize(this.scale),
+                this.scale.multiplyScalar(0.5),
+                super.updateMatrixWorld(t));
           }
         }
         exports.Box3Helper = Ig;
@@ -26223,10 +26223,10 @@ parcelRequire = (function (e, r, t, n) {
             super(),
               (this.type = "ArrowHelper"),
               void 0 === Ng &&
-                ((Ng = new ms()).setAttribute(
-                  "position",
-                  new ns([0, 0, 0, 0, 1, 0], 3)
-                ),
+              ((Ng = new ms()).setAttribute(
+                "position",
+                new ns([0, 0, 0, 0, 1, 0], 3)
+              ),
                 (Gg = new op(0, 0.5, 1, 5, 1)).translate(0, -0.5, 0)),
               this.position.copy(e),
               (this.line = new Vu(Ng, new Gu({ color: r, toneMapped: !1 }))),
@@ -26299,10 +26299,10 @@ parcelRequire = (function (e, r, t, n) {
             return i < 103
               ? n
               : i > 142
-              ? ((n |= 31744), (n |= (255 == i ? 0 : 1) && 8388607 & e))
-              : i < 113
-              ? (n |= ((r |= 2048) >> (114 - i)) + ((r >> (113 - i)) & 1))
-              : ((n |= ((i - 112) << 10) | (r >> 1)), (n += 1 & r));
+                ? ((n |= 31744), (n |= (255 == i ? 0 : 1) && 8388607 & e))
+                : i < 113
+                  ? (n |= ((r |= 2048) >> (114 - i)) + ((r >> (113 - i)) & 1))
+                  : ((n |= ((i - 112) << 10) | (r >> 1)), (n += 1 & r));
           }
         }
         exports.DataUtils = kg;
@@ -26375,12 +26375,12 @@ parcelRequire = (function (e, r, t, n) {
           compileCubemapShader() {
             null === this._cubemapShader &&
               ((this._cubemapShader = fx()),
-              this._compileMaterial(this._cubemapShader));
+                this._compileMaterial(this._cubemapShader));
           }
           compileEquirectangularShader() {
             null === this._equirectShader &&
               ((this._equirectShader = mx()),
-              this._compileMaterial(this._equirectShader));
+                this._compileMaterial(this._equirectShader));
           }
           dispose() {
             this._blurMaterial.dispose(),
@@ -26406,14 +26406,14 @@ parcelRequire = (function (e, r, t, n) {
           }
           _allocateTargets(t) {
             const e = {
-                magFilter: ut,
-                minFilter: ut,
-                generateMipmaps: !1,
-                type: Mt,
-                format: zt,
-                encoding: cx(t) ? t.encoding : Je,
-                depthBuffer: !1,
-              },
+              magFilter: ut,
+              minFilter: ut,
+              generateMipmaps: !1,
+              type: Mt,
+              format: zt,
+              encoding: cx(t) ? t.encoding : Je,
+              depthBuffer: !1,
+            },
               n = ux(e);
             return (
               (n.depthBuffer = !t), (this._pingPongRenderTarget = ux(e)), n
@@ -26453,8 +26453,8 @@ parcelRequire = (function (e, r, t, n) {
               0 == e
                 ? (i.up.set(0, s[d], 0), i.lookAt(o[d], 0, 0))
                 : 1 == e
-                ? (i.up.set(0, 0, s[d]), i.lookAt(0, o[d], 0))
-                : (i.up.set(0, s[d], 0), i.lookAt(0, 0, o[d])),
+                  ? (i.up.set(0, 0, s[d]), i.lookAt(0, o[d], 0))
+                  : (i.up.set(0, s[d], 0), i.lookAt(0, 0, o[d])),
                 px(r, e * jg, d > 2 ? jg : 0, jg, jg),
                 a.setRenderTarget(r),
                 u && a.render(Qg, i),
@@ -26468,13 +26468,13 @@ parcelRequire = (function (e, r, t, n) {
               ? null == this._cubemapShader && (this._cubemapShader = fx())
               : null == this._equirectShader && (this._equirectShader = mx());
             const r = t.isCubeTexture
-                ? this._cubemapShader
-                : this._equirectShader,
+              ? this._cubemapShader
+              : this._equirectShader,
               i = new Ds($g[0], r),
               s = r.uniforms;
             (s.envMap.value = t),
               t.isCubeTexture ||
-                s.texelSize.value.set(1 / t.image.width, 1 / t.image.height),
+              s.texelSize.value.set(1 / t.image.width, 1 / t.image.height),
               (s.inputEncoding.value = Zg[t.encoding]),
               (s.outputEncoding.value = Zg[e.texture.encoding]),
               px(e, 0, 0, 3 * jg, 2 * jg),
@@ -27703,17 +27703,17 @@ parcelRequire = (function (e, r, t, n) {
                 "THREE.BufferGeometry: .addAttribute() has been renamed to .setAttribute()."
               ),
               (e && e.isBufferAttribute) ||
-              (e && e.isInterleavedBufferAttribute)
+                (e && e.isInterleavedBufferAttribute)
                 ? "index" === t
                   ? (console.warn(
-                      "THREE.BufferGeometry.addAttribute: Use .setIndex() for index attribute."
-                    ),
+                    "THREE.BufferGeometry.addAttribute: Use .setIndex() for index attribute."
+                  ),
                     this.setIndex(e),
                     this)
                   : this.setAttribute(t, e)
                 : (console.warn(
-                    "THREE.BufferGeometry: .addAttribute() now expects ( name, attribute )."
-                  ),
+                  "THREE.BufferGeometry: .addAttribute() now expects ( name, attribute )."
+                ),
                   this.setAttribute(t, new Xi(arguments[1], arguments[2])))
             );
           }),
@@ -27845,15 +27845,15 @@ parcelRequire = (function (e, r, t, n) {
               get: function () {
                 console.error(
                   "THREE." +
-                    this.type +
-                    ": .shading has been removed. Use the boolean .flatShading instead."
+                  this.type +
+                  ": .shading has been removed. Use the boolean .flatShading instead."
                 );
               },
               set: function (t) {
                 console.warn(
                   "THREE." +
-                    this.type +
-                    ": .shading has been removed. Use the boolean .flatShading instead."
+                  this.type +
+                  ": .shading has been removed. Use the boolean .flatShading instead."
                 ),
                   (this.flatShading = t === m);
               },
@@ -27863,8 +27863,8 @@ parcelRequire = (function (e, r, t, n) {
                 return (
                   console.warn(
                     "THREE." +
-                      this.type +
-                      ": .stencilMask has been removed. Use .stencilFuncMask instead."
+                    this.type +
+                    ": .stencilMask has been removed. Use .stencilFuncMask instead."
                   ),
                   this.stencilFuncMask
                 );
@@ -27872,8 +27872,8 @@ parcelRequire = (function (e, r, t, n) {
               set: function (t) {
                 console.warn(
                   "THREE." +
-                    this.type +
-                    ": .stencilMask has been removed. Use .stencilFuncMask instead."
+                  this.type +
+                  ": .stencilMask has been removed. Use .stencilFuncMask instead."
                 ),
                   (this.stencilFuncMask = t);
               },
@@ -28456,15 +28456,15 @@ parcelRequire = (function (e, r, t, n) {
         }
         (exports.SceneUtils = Qx),
           "undefined" != typeof __THREE_DEVTOOLS__ &&
-            __THREE_DEVTOOLS__.dispatchEvent(
-              new CustomEvent("register", { detail: { revision: "129" } })
-            ),
+          __THREE_DEVTOOLS__.dispatchEvent(
+            new CustomEvent("register", { detail: { revision: "129" } })
+          ),
           "undefined" != typeof window &&
-            (window.__THREE__
-              ? console.warn(
-                  "WARNING: Multiple instances of Three.js being imported."
-                )
-              : (window.__THREE__ = "129"));
+          (window.__THREE__
+            ? console.warn(
+              "WARNING: Multiple instances of Three.js being imported."
+            )
+            : (window.__THREE__ = "129"));
       },
       {},
     ],
@@ -28515,7 +28515,7 @@ parcelRequire = (function (e, r, t, n) {
                 var e = (performance || Date).now();
                 if (
                   (d.update(e - i, 200),
-                  e >= o + 1e3 &&
+                    e >= o + 1e3 &&
                     (f.update((1e3 * r) / (e - o), 100), (o = e), (r = 0), c))
                 ) {
                   var t = performance.memory;
@@ -28630,14 +28630,14 @@ parcelRequire = (function (e, r, t, n) {
               "" !== this.resourcePath
                 ? this.resourcePath
                 : "" !== this.path
-                ? this.path
-                : e.LoaderUtils.extractUrlBase(t)),
+                  ? this.path
+                  : e.LoaderUtils.extractUrlBase(t)),
               this.manager.itemStart(t);
             const i = function (e) {
-                r ? r(e) : console.error(e),
-                  o.manager.itemError(t),
-                  o.manager.itemEnd(t);
-              },
+              r ? r(e) : console.error(e),
+                o.manager.itemError(t),
+                o.manager.itemEnd(t);
+            },
               l = new e.FileLoader(this.manager);
             l.setPath(this.path),
               l.setResponseType("arraybuffer"),
@@ -28680,14 +28680,14 @@ parcelRequire = (function (e, r, t, n) {
           register(e) {
             return (
               -1 === this.pluginCallbacks.indexOf(e) &&
-                this.pluginCallbacks.push(e),
+              this.pluginCallbacks.push(e),
               this
             );
           }
           unregister(e) {
             return (
               -1 !== this.pluginCallbacks.indexOf(e) &&
-                this.pluginCallbacks.splice(this.pluginCallbacks.indexOf(e), 1),
+              this.pluginCallbacks.splice(this.pluginCallbacks.indexOf(e), 1),
               this
             );
           }
@@ -28870,8 +28870,8 @@ parcelRequire = (function (e, r, t, n) {
             return void 0 === r
               ? null
               : this._loadLight(r).then(function (e) {
-                  return s._getNodeRef(t.cache, r, e);
-                });
+                return s._getNodeRef(t.cache, r, e);
+              });
           }
         }
         class o {
@@ -28916,11 +28916,11 @@ parcelRequire = (function (e, r, t, n) {
             if (
               (void 0 !== a.clearcoatFactor &&
                 (s.clearcoat = a.clearcoatFactor),
-              void 0 !== a.clearcoatTexture &&
+                void 0 !== a.clearcoatTexture &&
                 o.push(n.assignTexture(s, "clearcoatMap", a.clearcoatTexture)),
-              void 0 !== a.clearcoatRoughnessFactor &&
+                void 0 !== a.clearcoatRoughnessFactor &&
                 (s.clearcoatRoughness = a.clearcoatRoughnessFactor),
-              void 0 !== a.clearcoatRoughnessTexture &&
+                void 0 !== a.clearcoatRoughnessTexture &&
                 o.push(
                   n.assignTexture(
                     s,
@@ -28928,7 +28928,7 @@ parcelRequire = (function (e, r, t, n) {
                     a.clearcoatRoughnessTexture
                   )
                 ),
-              void 0 !== a.clearcoatNormalTexture &&
+                void 0 !== a.clearcoatNormalTexture &&
                 (o.push(
                   n.assignTexture(
                     s,
@@ -28936,7 +28936,7 @@ parcelRequire = (function (e, r, t, n) {
                     a.clearcoatNormalTexture
                   )
                 ),
-                void 0 !== a.clearcoatNormalTexture.scale))
+                  void 0 !== a.clearcoatNormalTexture.scale))
             ) {
               const t = a.clearcoatNormalTexture.scale;
               s.clearcoatNormalScale = new e.Vector2(t, -t);
@@ -28963,11 +28963,11 @@ parcelRequire = (function (e, r, t, n) {
               o = n.extensions[this.name];
             return (
               void 0 !== o.transmissionFactor &&
-                (t.transmission = o.transmissionFactor),
+              (t.transmission = o.transmissionFactor),
               void 0 !== o.transmissionTexture &&
-                r.push(
-                  s.assignTexture(t, "transmissionMap", o.transmissionTexture)
-                ),
+              r.push(
+                s.assignTexture(t, "transmissionMap", o.transmissionTexture)
+              ),
               Promise.all(r)
             );
           }
@@ -29028,15 +29028,15 @@ parcelRequire = (function (e, r, t, n) {
           detectSupport() {
             return (
               this.isSupported ||
-                (this.isSupported = new Promise(function (e) {
-                  const t = new Image();
-                  (t.src =
-                    "data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA"),
-                    (t.onload = t.onerror =
-                      function () {
-                        e(1 === t.height);
-                      });
-                })),
+              (this.isSupported = new Promise(function (e) {
+                const t = new Image();
+                (t.src =
+                  "data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA"),
+                  (t.onload = t.onerror =
+                    function () {
+                      e(1 === t.height);
+                    });
+              })),
               this.isSupported
             );
           }
@@ -29100,7 +29100,7 @@ parcelRequire = (function (e, r, t, n) {
                 version: s.getUint32(4, !0),
                 length: s.getUint32(8, !0),
               }),
-              this.header.magic !== h)
+                this.header.magic !== h)
             )
               throw new Error(
                 "THREE.GLTFLoader: Unsupported glTF-Binary header."
@@ -29110,7 +29110,7 @@ parcelRequire = (function (e, r, t, n) {
             const r = this.header.length - p,
               o = new DataView(t, p);
             let a = 0;
-            for (; a < r; ) {
+            for (; a < r;) {
               const s = o.getUint32(a, !0);
               a += 4;
               const n = o.getUint32(a, !0);
@@ -29184,11 +29184,11 @@ parcelRequire = (function (e, r, t, n) {
           extendTexture(e, t) {
             return (
               void 0 !== t.texCoord &&
-                console.warn(
-                  'THREE.GLTFLoader: Custom UV sets in "' +
-                    this.name +
-                    '" extension not yet supported.'
-                ),
+              console.warn(
+                'THREE.GLTFLoader: Custom UV sets in "' +
+                this.name +
+                '" extension not yet supported.'
+              ),
               void 0 === t.offset && void 0 === t.rotation && void 0 === t.scale
                 ? e
                 : ((e = e.clone()),
@@ -29204,10 +29204,10 @@ parcelRequire = (function (e, r, t, n) {
           constructor(t) {
             super(), (this.isGLTFSpecularGlossinessMaterial = !0);
             const s = [
-                "#ifdef USE_SPECULARMAP",
-                "\tuniform sampler2D specularMap;",
-                "#endif",
-              ].join("\n"),
+              "#ifdef USE_SPECULARMAP",
+              "\tuniform sampler2D specularMap;",
+              "#endif",
+            ].join("\n"),
               n = [
                 "#ifdef USE_GLOSSINESSMAP",
                 "\tuniform sampler2D glossinessMap;",
@@ -29368,13 +29368,13 @@ parcelRequire = (function (e, r, t, n) {
             if (
               (void 0 !== r.diffuseTexture &&
                 o.push(n.assignTexture(t, "map", r.diffuseTexture)),
-              (t.emissive = new e.Color(0, 0, 0)),
-              (t.glossiness =
-                void 0 !== r.glossinessFactor ? r.glossinessFactor : 1),
-              (t.specular = new e.Color(1, 1, 1)),
-              Array.isArray(r.specularFactor) &&
+                (t.emissive = new e.Color(0, 0, 0)),
+                (t.glossiness =
+                  void 0 !== r.glossinessFactor ? r.glossinessFactor : 1),
+                (t.specular = new e.Color(1, 1, 1)),
+                Array.isArray(r.specularFactor) &&
                 t.specular.fromArray(r.specularFactor),
-              void 0 !== r.specularGlossinessTexture)
+                void 0 !== r.specularGlossinessTexture)
             ) {
               const e = r.specularGlossinessTexture;
               o.push(n.assignTexture(t, "glossinessMap", e)),
@@ -29462,25 +29462,25 @@ parcelRequire = (function (e, r, t, n) {
             return r;
           });
         const v = {
-            FLOAT: 5126,
-            FLOAT_MAT3: 35675,
-            FLOAT_MAT4: 35676,
-            FLOAT_VEC2: 35664,
-            FLOAT_VEC3: 35665,
-            FLOAT_VEC4: 35666,
-            LINEAR: 9729,
-            REPEAT: 10497,
-            SAMPLER_2D: 35678,
-            POINTS: 0,
-            LINES: 1,
-            LINE_LOOP: 2,
-            LINE_STRIP: 3,
-            TRIANGLES: 4,
-            TRIANGLE_STRIP: 5,
-            TRIANGLE_FAN: 6,
-            UNSIGNED_BYTE: 5121,
-            UNSIGNED_SHORT: 5123,
-          },
+          FLOAT: 5126,
+          FLOAT_MAT3: 35675,
+          FLOAT_MAT4: 35676,
+          FLOAT_VEC2: 35664,
+          FLOAT_VEC3: 35665,
+          FLOAT_VEC4: 35666,
+          LINEAR: 9729,
+          REPEAT: 10497,
+          SAMPLER_2D: 35678,
+          POINTS: 0,
+          LINES: 1,
+          LINE_LOOP: 2,
+          LINE_STRIP: 3,
+          TRIANGLES: 4,
+          TRIANGLE_STRIP: 5,
+          TRIANGLE_FAN: 6,
+          UNSIGNED_BYTE: 5121,
+          UNSIGNED_SHORT: 5123,
+        },
           S = {
             5120: Int8Array,
             5121: Uint8Array,
@@ -29537,28 +29537,28 @@ parcelRequire = (function (e, r, t, n) {
           return "string" != typeof e || "" === e
             ? ""
             : (/^https?:\/\//i.test(t) &&
-                /^\//.test(e) &&
-                (t = t.replace(/(^https?:\/\/[^\/]+).*/i, "$1")),
+              /^\//.test(e) &&
+              (t = t.replace(/(^https?:\/\/[^\/]+).*/i, "$1")),
               /^(https?:)?\/\//i.test(e)
                 ? e
                 : /^data:.*,.*$/i.test(e)
-                ? e
-                : /^blob:.*$/i.test(e)
-                ? e
-                : t + e);
+                  ? e
+                  : /^blob:.*$/i.test(e)
+                    ? e
+                    : t + e);
         }
         function N(t) {
           return (
             void 0 === t.DefaultMaterial &&
-              (t.DefaultMaterial = new e.MeshStandardMaterial({
-                color: 16777215,
-                emissive: 0,
-                metalness: 1,
-                roughness: 1,
-                transparent: !1,
-                depthTest: !0,
-                side: e.FrontSide,
-              })),
+            (t.DefaultMaterial = new e.MeshStandardMaterial({
+              color: 16777215,
+              emissive: 0,
+              metalness: 1,
+              roughness: 1,
+              transparent: !1,
+              depthTest: !0,
+              side: e.FrontSide,
+            })),
             t.DefaultMaterial
           );
         }
@@ -29566,16 +29566,16 @@ parcelRequire = (function (e, r, t, n) {
           for (const n in s.extensions)
             void 0 === e[n] &&
               ((t.userData.gltfExtensions = t.userData.gltfExtensions || {}),
-              (t.userData.gltfExtensions[n] = s.extensions[n]));
+                (t.userData.gltfExtensions[n] = s.extensions[n]));
         }
         function O(e, t) {
           void 0 !== t.extras &&
             ("object" == typeof t.extras
               ? Object.assign(e.userData, t.extras)
               : console.warn(
-                  "THREE.GLTFLoader: Ignoring primitive type .extras, " +
-                    t.extras
-                ));
+                "THREE.GLTFLoader: Ignoring primitive type .extras, " +
+                t.extras
+              ));
         }
         function C(e, t, s) {
           let n = !1,
@@ -29584,8 +29584,8 @@ parcelRequire = (function (e, r, t, n) {
             const e = t[i];
             if (
               (void 0 !== e.POSITION && (n = !0),
-              void 0 !== e.NORMAL && (r = !0),
-              n && r)
+                void 0 !== e.NORMAL && (r = !0),
+                n && r)
             )
               break;
           }
@@ -29683,19 +29683,19 @@ parcelRequire = (function (e, r, t, n) {
               (this.textureCache = {}),
               (this.nodeNamesUsed = {}),
               "undefined" != typeof createImageBitmap &&
-              !1 === /Firefox/.test(navigator.userAgent)
+                !1 === /Firefox/.test(navigator.userAgent)
                 ? (this.textureLoader = new e.ImageBitmapLoader(
-                    this.options.manager
-                  ))
+                  this.options.manager
+                ))
                 : (this.textureLoader = new e.TextureLoader(
-                    this.options.manager
-                  )),
+                  this.options.manager
+                )),
               this.textureLoader.setCrossOrigin(this.options.crossOrigin),
               this.textureLoader.setRequestHeader(this.options.requestHeader),
               (this.fileLoader = new e.FileLoader(this.options.manager)),
               this.fileLoader.setResponseType("arraybuffer"),
               "use-credentials" === this.options.crossOrigin &&
-                this.fileLoader.setWithCredentials(!0);
+              this.fileLoader.setWithCredentials(!0);
           }
           setExtensions(e) {
             this.extensions = e;
@@ -29757,15 +29757,15 @@ parcelRequire = (function (e, r, t, n) {
               const t = e[n];
               void 0 !== t.mesh &&
                 (this._addNodeRef(this.meshCache, t.mesh),
-                void 0 !== t.skin && (s[t.mesh].isSkinnedMesh = !0)),
+                  void 0 !== t.skin && (s[t.mesh].isSkinnedMesh = !0)),
                 void 0 !== t.camera &&
-                  this._addNodeRef(this.cameraCache, t.camera);
+                this._addNodeRef(this.cameraCache, t.camera);
             }
           }
           _addNodeRef(e, t) {
             void 0 !== t &&
               (void 0 === e.refs[t] && (e.refs[t] = e.uses[t] = 0),
-              e.refs[t]++);
+                e.refs[t]++);
           }
           _getNodeRef(e, t, s) {
             if (e.refs[t] <= 1) return s;
@@ -29898,9 +29898,9 @@ parcelRequire = (function (e, r, t, n) {
                 ? o.push(this.getDependency("bufferView", r.bufferView))
                 : o.push(null),
               void 0 !== r.sparse &&
-                (o.push(
-                  this.getDependency("bufferView", r.sparse.indices.bufferView)
-                ),
+              (o.push(
+                this.getDependency("bufferView", r.sparse.indices.bufferView)
+              ),
                 o.push(
                   this.getDependency("bufferView", r.sparse.values.bufferView)
                 )),
@@ -29931,8 +29931,8 @@ parcelRequire = (function (e, r, t, n) {
                   let c = s.cache.get(n);
                   c ||
                     ((d = new i(o, t * h, (r.count * h) / l)),
-                    (c = new e.InterleavedBuffer(d, h / l)),
-                    s.cache.add(n, c)),
+                      (c = new e.InterleavedBuffer(d, h / l)),
+                      s.cache.add(n, c)),
                     (m = new e.InterleavedBufferAttribute(
                       c,
                       a,
@@ -29957,10 +29957,10 @@ parcelRequire = (function (e, r, t, n) {
                     const t = u[e];
                     if (
                       (m.setX(t, h[e * a]),
-                      a >= 2 && m.setY(t, h[e * a + 1]),
-                      a >= 3 && m.setZ(t, h[e * a + 2]),
-                      a >= 4 && m.setW(t, h[e * a + 3]),
-                      a >= 5)
+                        a >= 2 && m.setY(t, h[e * a + 1]),
+                        a >= 3 && m.setZ(t, h[e * a + 2]),
+                        a >= 4 && m.setW(t, h[e * a + 3]),
+                        a >= 5)
                     )
                       throw new Error(
                         "THREE.GLTFLoader: Unsupported itemSize in sparse BufferAttribute."
@@ -29999,7 +29999,7 @@ parcelRequire = (function (e, r, t, n) {
               0 === u.search(/^data\:image\/jpeg/);
             if (
               (("image/jpeg" === s.mimeType || d) && (p = !1),
-              void 0 !== s.bufferView)
+                void 0 !== s.bufferView)
             )
               u = r
                 .getDependency("bufferView", s.bufferView)
@@ -30015,8 +30015,8 @@ parcelRequire = (function (e, r, t, n) {
             else if (void 0 === s.uri)
               throw new Error(
                 "THREE.GLTFLoader: Image " +
-                  t +
-                  " is missing URI and bufferView"
+                t +
+                " is missing URI and bufferView"
               );
             const m = Promise.resolve(u)
               .then(function (t) {
@@ -30055,12 +30055,12 @@ parcelRequire = (function (e, r, t, n) {
                   ("aoMap" === t && 1 == s.texCoord) ||
                   console.warn(
                     "THREE.GLTFLoader: Custom UV set " +
-                      s.texCoord +
-                      " for texture " +
-                      t +
-                      " not yet supported."
+                    s.texCoord +
+                    " for texture " +
+                    t +
+                    " not yet supported."
                   ),
-                r.extensions[n.KHR_TEXTURE_TRANSFORM])
+                  r.extensions[n.KHR_TEXTURE_TRANSFORM])
               ) {
                 const e =
                   void 0 !== s.extensions
@@ -30091,20 +30091,20 @@ parcelRequire = (function (e, r, t, n) {
               let s = this.cache.get(t);
               s ||
                 ((s = new e.PointsMaterial()),
-                e.Material.prototype.copy.call(s, n),
-                s.color.copy(n.color),
-                (s.map = n.map),
-                (s.sizeAttenuation = !1),
-                this.cache.add(t, s)),
+                  e.Material.prototype.copy.call(s, n),
+                  s.color.copy(n.color),
+                  (s.map = n.map),
+                  (s.sizeAttenuation = !1),
+                  this.cache.add(t, s)),
                 (n = s);
             } else if (t.isLine) {
               const t = "LineBasicMaterial:" + n.uuid;
               let s = this.cache.get(t);
               s ||
                 ((s = new e.LineBasicMaterial()),
-                e.Material.prototype.copy.call(s, n),
-                s.color.copy(n.color),
-                this.cache.add(t, s)),
+                  e.Material.prototype.copy.call(s, n),
+                  s.color.copy(n.color),
+                  this.cache.add(t, s)),
                 (n = s);
             }
             if (r || o || a || i) {
@@ -30119,16 +30119,16 @@ parcelRequire = (function (e, r, t, n) {
               let t = this.cache.get(e);
               t ||
                 ((t = n.clone()),
-                o && (t.vertexColors = !0),
-                a && (t.flatShading = !0),
-                i && (t.morphTargets = !0),
-                l && (t.morphNormals = !0),
-                r &&
+                  o && (t.vertexColors = !0),
+                  a && (t.flatShading = !0),
+                  i && (t.morphTargets = !0),
+                  l && (t.morphNormals = !0),
+                  r &&
                   ((t.vertexTangents = !0),
-                  t.normalScale && (t.normalScale.y *= -1),
-                  t.clearcoatNormalScale && (t.clearcoatNormalScale.y *= -1)),
-                this.cache.add(e, t),
-                this.associations.set(t, this.associations.get(n))),
+                    t.normalScale && (t.normalScale.y *= -1),
+                    t.clearcoatNormalScale && (t.clearcoatNormalScale.y *= -1)),
+                  this.cache.add(e, t),
+                  this.associations.set(t, this.associations.get(n))),
                 (n = t);
             }
             n.aoMap &&
@@ -30159,8 +30159,8 @@ parcelRequire = (function (e, r, t, n) {
               const n = a.pbrMetallicRoughness || {};
               if (
                 ((l.color = new e.Color(1, 1, 1)),
-                (l.opacity = 1),
-                Array.isArray(n.baseColorFactor))
+                  (l.opacity = 1),
+                  Array.isArray(n.baseColorFactor))
               ) {
                 const e = n.baseColorFactor;
                 l.color.fromArray(e), (l.opacity = e[3]);
@@ -30172,13 +30172,13 @@ parcelRequire = (function (e, r, t, n) {
                 (l.roughness =
                   void 0 !== n.roughnessFactor ? n.roughnessFactor : 1),
                 void 0 !== n.metallicRoughnessTexture &&
-                  (u.push(
-                    s.assignTexture(
-                      l,
-                      "metalnessMap",
-                      n.metallicRoughnessTexture
-                    )
-                  ),
+                (u.push(
+                  s.assignTexture(
+                    l,
+                    "metalnessMap",
+                    n.metallicRoughnessTexture
+                  )
+                ),
                   u.push(
                     s.assignTexture(
                       l,
@@ -30206,36 +30206,36 @@ parcelRequire = (function (e, r, t, n) {
                 ? ((l.transparent = !0), (l.depthWrite = !1))
                 : ((l.transparent = !1),
                   h === b.MASK &&
-                    (l.alphaTest =
-                      void 0 !== a.alphaCutoff ? a.alphaCutoff : 0.5)),
+                  (l.alphaTest =
+                    void 0 !== a.alphaCutoff ? a.alphaCutoff : 0.5)),
               void 0 !== a.normalTexture &&
-                i !== e.MeshBasicMaterial &&
-                (u.push(s.assignTexture(l, "normalMap", a.normalTexture)),
+              i !== e.MeshBasicMaterial &&
+              (u.push(s.assignTexture(l, "normalMap", a.normalTexture)),
                 (l.normalScale = new e.Vector2(1, -1)),
                 void 0 !== a.normalTexture.scale &&
-                  l.normalScale.set(
-                    a.normalTexture.scale,
-                    -a.normalTexture.scale
-                  )),
+                l.normalScale.set(
+                  a.normalTexture.scale,
+                  -a.normalTexture.scale
+                )),
               void 0 !== a.occlusionTexture &&
-                i !== e.MeshBasicMaterial &&
-                (u.push(s.assignTexture(l, "aoMap", a.occlusionTexture)),
+              i !== e.MeshBasicMaterial &&
+              (u.push(s.assignTexture(l, "aoMap", a.occlusionTexture)),
                 void 0 !== a.occlusionTexture.strength &&
-                  (l.aoMapIntensity = a.occlusionTexture.strength)),
+                (l.aoMapIntensity = a.occlusionTexture.strength)),
               void 0 !== a.emissiveFactor &&
-                i !== e.MeshBasicMaterial &&
-                (l.emissive = new e.Color().fromArray(a.emissiveFactor)),
+              i !== e.MeshBasicMaterial &&
+              (l.emissive = new e.Color().fromArray(a.emissiveFactor)),
               void 0 !== a.emissiveTexture &&
-                i !== e.MeshBasicMaterial &&
-                u.push(s.assignTexture(l, "emissiveMap", a.emissiveTexture)),
+              i !== e.MeshBasicMaterial &&
+              u.push(s.assignTexture(l, "emissiveMap", a.emissiveTexture)),
               Promise.all(u).then(function () {
                 let r;
                 return (
                   (r =
                     i === T
                       ? o[
-                          n.KHR_MATERIALS_PBR_SPECULAR_GLOSSINESS
-                        ].createMaterial(l)
+                        n.KHR_MATERIALS_PBR_SPECULAR_GLOSSINESS
+                      ].createMaterial(l)
                       : new i(l)),
                   a.name && (r.name = a.name),
                   r.map && (r.map.encoding = e.sRGBEncoding),
@@ -30324,7 +30324,7 @@ parcelRequire = (function (e, r, t, n) {
                       u.mode === v.TRIANGLE_STRIP
                         ? (p.geometry = K(p.geometry, e.TriangleStripDrawMode))
                         : u.mode === v.TRIANGLE_FAN &&
-                          (p.geometry = K(p.geometry, e.TriangleFanDrawMode));
+                        (p.geometry = K(p.geometry, e.TriangleFanDrawMode));
                   else if (u.mode === v.LINES) p = new e.LineSegments(n, d);
                   else if (u.mode === v.LINE_STRIP) p = new e.Line(n, d);
                   else if (u.mode === v.LINE_LOOP) p = new e.LineLoop(n, d);
@@ -30332,7 +30332,7 @@ parcelRequire = (function (e, r, t, n) {
                     if (u.mode !== v.POINTS)
                       throw new Error(
                         "THREE.GLTFLoader: Primitive mode unsupported: " +
-                          u.mode
+                        u.mode
                       );
                     p = new e.Points(n, d);
                   }
@@ -30358,20 +30358,20 @@ parcelRequire = (function (e, r, t, n) {
               return (
                 "perspective" === n.type
                   ? (s = new e.PerspectiveCamera(
-                      e.MathUtils.radToDeg(r.yfov),
-                      r.aspectRatio || 1,
-                      r.znear || 1,
-                      r.zfar || 2e6
-                    ))
+                    e.MathUtils.radToDeg(r.yfov),
+                    r.aspectRatio || 1,
+                    r.znear || 1,
+                    r.zfar || 2e6
+                  ))
                   : "orthographic" === n.type &&
-                    (s = new e.OrthographicCamera(
-                      -r.xmag,
-                      r.xmag,
-                      r.ymag,
-                      -r.ymag,
-                      r.znear,
-                      r.zfar
-                    )),
+                  (s = new e.OrthographicCamera(
+                    -r.xmag,
+                    r.xmag,
+                    r.ymag,
+                    -r.ymag,
+                    r.znear,
+                    r.zfar
+                  )),
                 n.name && (s.name = this.createUniqueName(n.name)),
                 O(s, n),
                 Promise.resolve(s)
@@ -30384,10 +30384,10 @@ parcelRequire = (function (e, r, t, n) {
             return void 0 === t.inverseBindMatrices
               ? Promise.resolve(s)
               : this.getDependency("accessor", t.inverseBindMatrices).then(
-                  function (e) {
-                    return (s.inverseBindMatrices = e), s;
-                  }
-                );
+                function (e) {
+                  return (s.inverseBindMatrices = e), s;
+                }
+              );
           }
           loadAnimation(t) {
             const s = this.json.animations[t],
@@ -30431,7 +30431,7 @@ parcelRequire = (function (e, r, t, n) {
                 if (void 0 === s) continue;
                 let d;
                 switch (
-                  (s.updateMatrix(), (s.matrixAutoUpdate = !0), y[p.path])
+                (s.updateMatrix(), (s.matrixAutoUpdate = !0), y[p.path])
                 ) {
                   case y.weights:
                     d = e.NumberKeyframeTrack;
@@ -30452,10 +30452,10 @@ parcelRequire = (function (e, r, t, n) {
                   g = [];
                 y[p.path] === y.weights
                   ? s.traverse(function (e) {
-                      !0 === e.isMesh &&
-                        e.morphTargetInfluences &&
-                        g.push(e.name ? e.name : e.uuid);
-                    })
+                    !0 === e.isMesh &&
+                      e.morphTargetInfluences &&
+                      g.push(e.name ? e.name : e.uuid);
+                  })
                   : g.push(m);
                 let T = u.array;
                 if (u.normalized) {
@@ -30475,8 +30475,8 @@ parcelRequire = (function (e, r, t, n) {
                         e
                       );
                     }),
-                    (t.createInterpolant.isInterpolantFactoryMethodGLTFCubicSpline =
-                      !0)),
+                      (t.createInterpolant.isInterpolantFactoryMethodGLTFCubicSpline =
+                        !0)),
                     c.push(t);
                 }
               }
@@ -30491,17 +30491,17 @@ parcelRequire = (function (e, r, t, n) {
             return void 0 === n.mesh
               ? null
               : s.getDependency("mesh", n.mesh).then(function (e) {
-                  const t = s._getNodeRef(s.meshCache, n.mesh, e);
-                  return (
-                    void 0 !== n.weights &&
-                      t.traverse(function (e) {
-                        if (e.isMesh)
-                          for (let t = 0, s = n.weights.length; t < s; t++)
-                            e.morphTargetInfluences[t] = n.weights[t];
-                      }),
-                    t
-                  );
-                });
+                const t = s._getNodeRef(s.meshCache, n.mesh, e);
+                return (
+                  void 0 !== n.weights &&
+                  t.traverse(function (e) {
+                    if (e.isMesh)
+                      for (let t = 0, s = n.weights.length; t < s; t++)
+                        e.morphTargetInfluences[t] = n.weights[t];
+                  }),
+                  t
+                );
+              });
           }
           loadNode(t) {
             const s = this.json,
@@ -30517,11 +30517,11 @@ parcelRequire = (function (e, r, t, n) {
               return (
                 s && e.push(s),
                 void 0 !== o.camera &&
-                  e.push(
-                    r.getDependency("camera", o.camera).then(function (e) {
-                      return r._getNodeRef(r.cameraCache, o.camera, e);
-                    })
-                  ),
+                e.push(
+                  r.getDependency("camera", o.camera).then(function (e) {
+                    return r._getNodeRef(r.cameraCache, o.camera, e);
+                  })
+                ),
                 r
                   ._invokeAll(function (e) {
                     return e.createNodeAttachment && e.createNodeAttachment(t);
@@ -30538,17 +30538,17 @@ parcelRequire = (function (e, r, t, n) {
                   !0 === o.isBone
                     ? new e.Bone()
                     : s.length > 1
-                    ? new e.Group()
-                    : 1 === s.length
-                    ? s[0]
-                    : new e.Object3D()) !== s[0]
+                      ? new e.Group()
+                      : 1 === s.length
+                        ? s[0]
+                        : new e.Object3D()) !== s[0]
               )
                 for (let e = 0, t = s.length; e < t; e++) i.add(s[e]);
               if (
                 (o.name && ((i.userData.name = o.name), (i.name = a)),
-                O(i, o),
-                o.extensions && P(n, i, o),
-                void 0 !== o.matrix)
+                  O(i, o),
+                  o.extensions && P(n, i, o),
+                  void 0 !== o.matrix)
               ) {
                 const t = new e.Matrix4();
                 t.fromArray(o.matrix), i.applyMatrix4(t);
@@ -30644,7 +30644,7 @@ parcelRequire = (function (e, r, t, n) {
                 new e.Vector3(s[0], s[1], s[2]),
                 new e.Vector3(a[0], a[1], a[2])
               ),
-              t.normalized)
+                t.normalized)
             ) {
               const e = D(S[t.componentType]);
               o.min.multiplyScalar(e), o.max.multiplyScalar(e);
@@ -30663,9 +30663,9 @@ parcelRequire = (function (e, r, t, n) {
                 if (void 0 !== o && void 0 !== a) {
                   if (
                     (s.setX(Math.max(Math.abs(o[0]), Math.abs(a[0]))),
-                    s.setY(Math.max(Math.abs(o[1]), Math.abs(a[1]))),
-                    s.setZ(Math.max(Math.abs(o[2]), Math.abs(a[2]))),
-                    e.normalized)
+                      s.setY(Math.max(Math.abs(o[1]), Math.abs(a[1]))),
+                      s.setZ(Math.max(Math.abs(o[2]), Math.abs(a[2]))),
+                      e.normalized)
                   ) {
                     const t = D(S[e.componentType]);
                     s.multiplyScalar(t);
@@ -30758,12 +30758,12 @@ parcelRequire = (function (e, r, t, n) {
           (exports.fromByteArray = d);
         for (
           var r = [],
-            t = [],
-            e = "undefined" != typeof Uint8Array ? Uint8Array : Array,
-            n =
-              "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",
-            o = 0,
-            a = n.length;
+          t = [],
+          e = "undefined" != typeof Uint8Array ? Uint8Array : Array,
+          n =
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",
+          o = 0,
+          a = n.length;
           o < a;
           ++o
         )
@@ -30804,13 +30804,13 @@ parcelRequire = (function (e, r, t, n) {
               (f[A++] = 255 & n);
           return (
             2 === i &&
-              ((n = (t[r.charCodeAt(o)] << 2) | (t[r.charCodeAt(o + 1)] >> 4)),
+            ((n = (t[r.charCodeAt(o)] << 2) | (t[r.charCodeAt(o + 1)] >> 4)),
               (f[A++] = 255 & n)),
             1 === i &&
-              ((n =
-                (t[r.charCodeAt(o)] << 10) |
-                (t[r.charCodeAt(o + 1)] << 4) |
-                (t[r.charCodeAt(o + 2)] >> 2)),
+            ((n =
+              (t[r.charCodeAt(o)] << 10) |
+              (t[r.charCodeAt(o + 1)] << 4) |
+              (t[r.charCodeAt(o + 2)] >> 2)),
               (f[A++] = (n >> 8) & 255),
               (f[A++] = 255 & n)),
             f
@@ -30841,7 +30841,7 @@ parcelRequire = (function (e, r, t, n) {
             1 === o
               ? ((e = t[n - 1]), a.push(r[e >> 2] + r[(e << 4) & 63] + "=="))
               : 2 === o &&
-                ((e = (t[n - 2] << 8) + t[n - 1]),
+              ((e = (t[n - 2] << 8) + t[n - 1]),
                 a.push(r[e >> 10] + r[(e >> 4) & 63] + r[(e << 2) & 63] + "=")),
             a.join("")
           );
@@ -30892,15 +30892,15 @@ parcelRequire = (function (e, r, t, n) {
               l = o < 0 || (0 === o && 1 / o < 0) ? 1 : 0;
             for (
               o = Math.abs(o),
-                isNaN(o) || o === 1 / 0
-                  ? ((w = isNaN(o) ? 1 : 0), (p = i))
-                  : ((p = Math.floor(Math.log(o) / Math.LN2)),
-                    o * (f = Math.pow(2, -p)) < 1 && (p--, (f *= 2)),
-                    (o += p + N >= 1 ? n / f : n * Math.pow(2, 1 - N)) * f >=
-                      2 && (p++, (f /= 2)),
-                    p + N >= i
-                      ? ((w = 0), (p = i))
-                      : p + N >= 1
+              isNaN(o) || o === 1 / 0
+                ? ((w = isNaN(o) ? 1 : 0), (p = i))
+                : ((p = Math.floor(Math.log(o) / Math.LN2)),
+                  o * (f = Math.pow(2, -p)) < 1 && (p--, (f *= 2)),
+                  (o += p + N >= 1 ? n / f : n * Math.pow(2, 1 - N)) * f >=
+                  2 && (p++, (f /= 2)),
+                  p + N >= i
+                    ? ((w = 0), (p = i))
+                    : p + N >= 1
                       ? ((w = (o * f - 1) * Math.pow(2, h)), (p += N))
                       : ((w = o * Math.pow(2, N - 1) * Math.pow(2, h)),
                         (p = 0)));
@@ -30946,8 +30946,8 @@ parcelRequire = (function (e, r, t, n) {
                 },
               }),
               42 === t.foo() &&
-                "function" == typeof t.subarray &&
-                0 === t.subarray(1, 1).byteLength
+              "function" == typeof t.subarray &&
+              0 === t.subarray(1, 1).byteLength
             );
           } catch (r) {
             return !1;
@@ -30983,8 +30983,8 @@ parcelRequire = (function (e, r, t, n) {
           return "undefined" != typeof ArrayBuffer && r instanceof ArrayBuffer
             ? g(t, r, e, n)
             : "string" == typeof r
-            ? l(t, r, e)
-            : y(t, r);
+              ? l(t, r, e)
+              : y(t, r);
         }
         function h(t) {
           if ("number" != typeof t)
@@ -30998,10 +30998,10 @@ parcelRequire = (function (e, r, t, n) {
             r <= 0
               ? u(t, r)
               : void 0 !== e
-              ? "string" == typeof n
-                ? u(t, r).fill(e, n)
-                : u(t, r).fill(e)
-              : u(t, r)
+                ? "string" == typeof n
+                  ? u(t, r).fill(e, n)
+                  : u(t, r).fill(e)
+                : u(t, r)
           );
         }
         function c(t, r) {
@@ -31012,7 +31012,7 @@ parcelRequire = (function (e, r, t, n) {
         function l(t, r, e) {
           if (
             (("string" == typeof e && "" !== e) || (e = "utf8"),
-            !f.isEncoding(e))
+              !f.isEncoding(e))
           )
             throw new TypeError('"encoding" must be a valid string encoding');
           var n = 0 | v(r, e),
@@ -31035,8 +31035,8 @@ parcelRequire = (function (e, r, t, n) {
               void 0 === e && void 0 === n
                 ? new Uint8Array(r)
                 : void 0 === n
-                ? new Uint8Array(r, e)
-                : new Uint8Array(r, e, n)),
+                  ? new Uint8Array(r, e)
+                  : new Uint8Array(r, e, n)),
             f.TYPED_ARRAY_SUPPORT
               ? ((t = r).__proto__ = f.prototype)
               : (t = p(t, r)),
@@ -31067,8 +31067,8 @@ parcelRequire = (function (e, r, t, n) {
           if (t >= o())
             throw new RangeError(
               "Attempt to allocate Buffer larger than maximum size: 0x" +
-                o().toString(16) +
-                " bytes"
+              o().toString(16) +
+              " bytes"
             );
           return 0 | t;
         }
@@ -31086,7 +31086,7 @@ parcelRequire = (function (e, r, t, n) {
           "string" != typeof t && (t = "" + t);
           var e = t.length;
           if (0 === e) return 0;
-          for (var n = !1; ; )
+          for (var n = !1; ;)
             switch (r) {
               case "ascii":
               case "latin1":
@@ -31116,7 +31116,7 @@ parcelRequire = (function (e, r, t, n) {
           if (((void 0 === e || e > this.length) && (e = this.length), e <= 0))
             return "";
           if ((e >>>= 0) <= (r >>>= 0)) return "";
-          for (t || (t = "utf8"); ; )
+          for (t || (t = "utf8"); ;)
             switch (t) {
               case "hex":
                 return x(this, r, e);
@@ -31150,12 +31150,12 @@ parcelRequire = (function (e, r, t, n) {
             ("string" == typeof e
               ? ((n = e), (e = 0))
               : e > 2147483647
-              ? (e = 2147483647)
-              : e < -2147483648 && (e = -2147483648),
-            (e = +e),
-            isNaN(e) && (e = i ? 0 : t.length - 1),
-            e < 0 && (e = t.length + e),
-            e >= t.length)
+                ? (e = 2147483647)
+                : e < -2147483648 && (e = -2147483648),
+              (e = +e),
+              isNaN(e) && (e = i ? 0 : t.length - 1),
+              e < 0 && (e = t.length + e),
+              e >= t.length)
           ) {
             if (i) return -1;
             e = t.length - 1;
@@ -31169,7 +31169,7 @@ parcelRequire = (function (e, r, t, n) {
             return (
               (r &= 255),
               f.TYPED_ARRAY_SUPPORT &&
-              "function" == typeof Uint8Array.prototype.indexOf
+                "function" == typeof Uint8Array.prototype.indexOf
                 ? i
                   ? Uint8Array.prototype.indexOf.call(t, r, e)
                   : Uint8Array.prototype.lastIndexOf.call(t, r, e)
@@ -31248,7 +31248,7 @@ parcelRequire = (function (e, r, t, n) {
         }
         function Y(t, r, e) {
           e = Math.min(t.length, e);
-          for (var n = [], i = r; i < e; ) {
+          for (var n = [], i = r; i < e;) {
             var o,
               u,
               f,
@@ -31270,31 +31270,31 @@ parcelRequire = (function (e, r, t, n) {
                   (o = t[i + 1]),
                     (u = t[i + 2]),
                     128 == (192 & o) &&
-                      128 == (192 & u) &&
-                      (s = ((15 & h) << 12) | ((63 & o) << 6) | (63 & u)) >
-                        2047 &&
-                      (s < 55296 || s > 57343) &&
-                      (a = s);
+                    128 == (192 & u) &&
+                    (s = ((15 & h) << 12) | ((63 & o) << 6) | (63 & u)) >
+                    2047 &&
+                    (s < 55296 || s > 57343) &&
+                    (a = s);
                   break;
                 case 4:
                   (o = t[i + 1]),
                     (u = t[i + 2]),
                     (f = t[i + 3]),
                     128 == (192 & o) &&
-                      128 == (192 & u) &&
-                      128 == (192 & f) &&
-                      (s =
-                        ((15 & h) << 18) |
-                        ((63 & o) << 12) |
-                        ((63 & u) << 6) |
-                        (63 & f)) > 65535 &&
-                      s < 1114112 &&
-                      (a = s);
+                    128 == (192 & u) &&
+                    128 == (192 & f) &&
+                    (s =
+                      ((15 & h) << 18) |
+                      ((63 & o) << 12) |
+                      ((63 & u) << 6) |
+                      (63 & f)) > 65535 &&
+                    s < 1114112 &&
+                    (a = s);
               }
             null === a
               ? ((a = 65533), (c = 1))
               : a > 65535 &&
-                ((a -= 65536),
+              ((a -= 65536),
                 n.push(((a >>> 10) & 1023) | 55296),
                 (a = 56320 | (1023 & a))),
               n.push(a),
@@ -31316,15 +31316,15 @@ parcelRequire = (function (e, r, t, n) {
             return s(null, t, r, e);
           }),
           f.TYPED_ARRAY_SUPPORT &&
-            ((f.prototype.__proto__ = Uint8Array.prototype),
+          ((f.prototype.__proto__ = Uint8Array.prototype),
             (f.__proto__ = Uint8Array),
             "undefined" != typeof Symbol &&
-              Symbol.species &&
-              f[Symbol.species] === f &&
-              Object.defineProperty(f, Symbol.species, {
-                value: null,
-                configurable: !0,
-              })),
+            Symbol.species &&
+            f[Symbol.species] === f &&
+            Object.defineProperty(f, Symbol.species, {
+              value: null,
+              configurable: !0,
+            })),
           (f.alloc = function (t, r, e) {
             return a(null, t, r, e);
           }),
@@ -31424,8 +31424,8 @@ parcelRequire = (function (e, r, t, n) {
             return 0 === t
               ? ""
               : 0 === arguments.length
-              ? Y(this, 0, t)
-              : E.apply(this, arguments);
+                ? Y(this, 0, t)
+                : E.apply(this, arguments);
           }),
           (f.prototype.equals = function (t) {
             if (!f.isBuffer(t))
@@ -31437,7 +31437,7 @@ parcelRequire = (function (e, r, t, n) {
               r = exports.INSPECT_MAX_BYTES;
             return (
               this.length > 0 &&
-                ((t = this.toString("hex", 0, r).match(/.{2}/g).join(" ")),
+              ((t = this.toString("hex", 0, r).match(/.{2}/g).join(" ")),
                 this.length > r && (t += " ... ")),
               "<Buffer " + t + ">"
             );
@@ -31447,10 +31447,10 @@ parcelRequire = (function (e, r, t, n) {
               throw new TypeError("Argument must be a Buffer");
             if (
               (void 0 === r && (r = 0),
-              void 0 === e && (e = t ? t.length : 0),
-              void 0 === n && (n = 0),
-              void 0 === i && (i = this.length),
-              r < 0 || e > t.length || n < 0 || i > this.length)
+                void 0 === e && (e = t ? t.length : 0),
+                void 0 === n && (n = 0),
+                void 0 === i && (i = this.length),
+                r < 0 || e > t.length || n < 0 || i > this.length)
             )
               throw new RangeError("out of range index");
             if (n >= i && r >= e) return 0;
@@ -31459,11 +31459,11 @@ parcelRequire = (function (e, r, t, n) {
             if (this === t) return 0;
             for (
               var o = (i >>>= 0) - (n >>>= 0),
-                u = (e >>>= 0) - (r >>>= 0),
-                s = Math.min(o, u),
-                h = this.slice(n, i),
-                a = t.slice(r, e),
-                c = 0;
+              u = (e >>>= 0) - (r >>>= 0),
+              s = Math.min(o, u),
+              h = this.slice(n, i),
+              a = t.slice(r, e),
+              c = 0;
               c < s;
               ++c
             )
@@ -31499,11 +31499,11 @@ parcelRequire = (function (e, r, t, n) {
             var i = this.length - r;
             if (
               ((void 0 === e || e > i) && (e = i),
-              (t.length > 0 && (e < 0 || r < 0)) || r > this.length)
+                (t.length > 0 && (e < 0 || r < 0)) || r > this.length)
             )
               throw new RangeError("Attempt to write outside buffer bounds");
             n || (n = "utf8");
-            for (var o = !1; ; )
+            for (var o = !1; ;)
               switch (n) {
                 case "hex":
                   return A(this, t, r, e);
@@ -31537,7 +31537,7 @@ parcelRequire = (function (e, r, t, n) {
         function O(t) {
           var r = t.length;
           if (r <= I) return String.fromCharCode.apply(String, t);
-          for (var e = "", n = 0; n < r; )
+          for (var e = "", n = 0; n < r;)
             e += String.fromCharCode.apply(String, t.slice(n, (n += I)));
           return e;
         }
@@ -31610,11 +31610,11 @@ parcelRequire = (function (e, r, t, n) {
             n = this.length;
           if (
             ((t = ~~t) < 0 ? (t += n) < 0 && (t = 0) : t > n && (t = n),
-            (r = void 0 === r ? n : ~~r) < 0
-              ? (r += n) < 0 && (r = 0)
-              : r > n && (r = n),
-            r < t && (r = t),
-            f.TYPED_ARRAY_SUPPORT)
+              (r = void 0 === r ? n : ~~r) < 0
+                ? (r += n) < 0 && (r = 0)
+                : r > n && (r = n),
+              r < t && (r = t),
+              f.TYPED_ARRAY_SUPPORT)
           )
             (e = this.subarray(t, r)).__proto__ = f.prototype;
           else {
@@ -31626,13 +31626,13 @@ parcelRequire = (function (e, r, t, n) {
         }),
           (f.prototype.readUIntLE = function (t, r, e) {
             (t |= 0), (r |= 0), e || M(t, r, this.length);
-            for (var n = this[t], i = 1, o = 0; ++o < r && (i *= 256); )
+            for (var n = this[t], i = 1, o = 0; ++o < r && (i *= 256);)
               n += this[t + o] * i;
             return n;
           }),
           (f.prototype.readUIntBE = function (t, r, e) {
             (t |= 0), (r |= 0), e || M(t, r, this.length);
-            for (var n = this[t + --r], i = 1; r > 0 && (i *= 256); )
+            for (var n = this[t + --r], i = 1; r > 0 && (i *= 256);)
               n += this[t + --r] * i;
             return n;
           }),
@@ -31649,25 +31649,25 @@ parcelRequire = (function (e, r, t, n) {
             return (
               r || M(t, 4, this.length),
               (this[t] | (this[t + 1] << 8) | (this[t + 2] << 16)) +
-                16777216 * this[t + 3]
+              16777216 * this[t + 3]
             );
           }),
           (f.prototype.readUInt32BE = function (t, r) {
             return (
               r || M(t, 4, this.length),
               16777216 * this[t] +
-                ((this[t + 1] << 16) | (this[t + 2] << 8) | this[t + 3])
+              ((this[t + 1] << 16) | (this[t + 2] << 8) | this[t + 3])
             );
           }),
           (f.prototype.readIntLE = function (t, r, e) {
             (t |= 0), (r |= 0), e || M(t, r, this.length);
-            for (var n = this[t], i = 1, o = 0; ++o < r && (i *= 256); )
+            for (var n = this[t], i = 1, o = 0; ++o < r && (i *= 256);)
               n += this[t + o] * i;
             return n >= (i *= 128) && (n -= Math.pow(2, 8 * r)), n;
           }),
           (f.prototype.readIntBE = function (t, r, e) {
             (t |= 0), (r |= 0), e || M(t, r, this.length);
-            for (var n = r, i = 1, o = this[t + --n]; n > 0 && (i *= 256); )
+            for (var n = r, i = 1, o = this[t + --n]; n > 0 && (i *= 256);)
               o += this[t + --n] * i;
             return o >= (i *= 128) && (o -= Math.pow(2, 8 * r)), o;
           }),
@@ -31691,18 +31691,18 @@ parcelRequire = (function (e, r, t, n) {
             return (
               r || M(t, 4, this.length),
               this[t] |
-                (this[t + 1] << 8) |
-                (this[t + 2] << 16) |
-                (this[t + 3] << 24)
+              (this[t + 1] << 8) |
+              (this[t + 2] << 16) |
+              (this[t + 3] << 24)
             );
           }),
           (f.prototype.readInt32BE = function (t, r) {
             return (
               r || M(t, 4, this.length),
               (this[t] << 24) |
-                (this[t + 1] << 16) |
-                (this[t + 2] << 8) |
-                this[t + 3]
+              (this[t + 1] << 16) |
+              (this[t + 2] << 8) |
+              this[t + 3]
             );
           }),
           (f.prototype.readFloatLE = function (t, r) {
@@ -31722,7 +31722,7 @@ parcelRequire = (function (e, r, t, n) {
               k(this, t, r, e, Math.pow(2, 8 * e) - 1, 0);
             var i = 1,
               o = 0;
-            for (this[r] = 255 & t; ++o < e && (i *= 256); )
+            for (this[r] = 255 & t; ++o < e && (i *= 256);)
               this[r + o] = (t / i) & 255;
             return r + e;
           }),
@@ -31731,7 +31731,7 @@ parcelRequire = (function (e, r, t, n) {
               k(this, t, r, e, Math.pow(2, 8 * e) - 1, 0);
             var i = e - 1,
               o = 1;
-            for (this[r + i] = 255 & t; --i >= 0 && (o *= 256); )
+            for (this[r + i] = 255 & t; --i >= 0 && (o *= 256);)
               this[r + i] = (t / o) & 255;
             return r + e;
           }),
@@ -31803,7 +31803,7 @@ parcelRequire = (function (e, r, t, n) {
             var o = 0,
               u = 1,
               f = 0;
-            for (this[r] = 255 & t; ++o < e && (u *= 256); )
+            for (this[r] = 255 & t; ++o < e && (u *= 256);)
               t < 0 && 0 === f && 0 !== this[r + o - 1] && (f = 1),
                 (this[r + o] = (((t / u) >> 0) - f) & 255);
             return r + e;
@@ -31816,7 +31816,7 @@ parcelRequire = (function (e, r, t, n) {
             var o = e - 1,
               u = 1,
               f = 0;
-            for (this[r + o] = 255 & t; --o >= 0 && (u *= 256); )
+            for (this[r + o] = 255 & t; --o >= 0 && (u *= 256);)
               t < 0 && 0 === f && 0 !== this[r + o + 1] && (f = 1),
                 (this[r + o] = (((t / u) >> 0) - f) & 255);
             return r + e;
@@ -31898,11 +31898,11 @@ parcelRequire = (function (e, r, t, n) {
           (f.prototype.copy = function (t, r, e, n) {
             if (
               (e || (e = 0),
-              n || 0 === n || (n = this.length),
-              r >= t.length && (r = t.length),
-              r || (r = 0),
-              n > 0 && n < e && (n = e),
-              n === e)
+                n || 0 === n || (n = this.length),
+                r >= t.length && (r = t.length),
+                r || (r = 0),
+                n > 0 && n < e && (n = e),
+                n === e)
             )
               return 0;
             if (0 === t.length || 0 === this.length) return 0;
@@ -31927,7 +31927,7 @@ parcelRequire = (function (e, r, t, n) {
                 ("string" == typeof r
                   ? ((n = r), (r = 0), (e = this.length))
                   : "string" == typeof e && ((n = e), (e = this.length)),
-                1 === t.length)
+                  1 === t.length)
               ) {
                 var i = t.charCodeAt(0);
                 i < 256 && (t = i);
@@ -31943,9 +31943,9 @@ parcelRequire = (function (e, r, t, n) {
             var o;
             if (
               ((r >>>= 0),
-              (e = void 0 === e ? this.length : e >>> 0),
-              t || (t = 0),
-              "number" == typeof t)
+                (e = void 0 === e ? this.length : e >>> 0),
+                t || (t = 0),
+                "number" == typeof t)
             )
               for (o = r; o < e; ++o) this[o] = t;
             else {
@@ -31958,7 +31958,7 @@ parcelRequire = (function (e, r, t, n) {
         var V = /[^+\/0-9A-Za-z-_]/g;
         function X(t) {
           if ((t = J(t).replace(V, "")).length < 2) return "";
-          for (; t.length % 4 != 0; ) t += "=";
+          for (; t.length % 4 != 0;) t += "=";
           return t;
         }
         function J(t) {
@@ -32053,7 +32053,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.KTX2Container =
             exports.KTX2ChannelUASTC =
             exports.KTX2ChannelETC1S =
-              void 0),
+            void 0),
           (exports.read = g),
           (exports.write = D);
         const e = new Uint8Array([0]),
@@ -32169,7 +32169,7 @@ parcelRequire = (function (e, r, t, n) {
             const t =
               this._dataView.getUint32(this._offset, this._littleEndian) +
               2 ** 32 *
-                this._dataView.getUint32(this._offset + 4, this._littleEndian);
+              this._dataView.getUint32(this._offset + 4, this._littleEndian);
             return (this._offset += 8), t;
           }
           _skip(t) {
@@ -32178,7 +32178,7 @@ parcelRequire = (function (e, r, t, n) {
           _scan(t, e = 0) {
             const n = this._offset;
             let i = 0;
-            for (; this._dataView.getUint8(this._offset) !== e && i < t; )
+            for (; this._dataView.getUint8(this._offset) !== e && i < t;)
               i++, this._offset++;
             return (
               i < t && this._offset++,
@@ -32298,7 +32298,7 @@ parcelRequire = (function (e, r, t, n) {
             };
           (i.dataFormatDescriptor.length = 0), i.dataFormatDescriptor.push(y);
           const T = new p(t, f, U, !0);
-          for (; T._offset < U; ) {
+          for (; T._offset < U;) {
             const t = T._nextUint32(),
               e = T._scan(t),
               n = x(e),
@@ -32362,8 +32362,8 @@ parcelRequire = (function (e, r, t, n) {
           let r = new ArrayBuffer(0);
           if (t.globalData) {
             const e = new ArrayBuffer(
-                20 + 5 * t.globalData.imageDescs.length * 4
-              ),
+              20 + 5 * t.globalData.imageDescs.length * 4
+            ),
               n = new DataView(e);
             n.setUint16(0, t.globalData.endpointCount, !0),
               n.setUint16(2, t.globalData.selectorCount, !0),
@@ -32612,8 +32612,8 @@ parcelRequire = (function (e, r, t, n) {
               t.setPath(this.transcoderPath),
                 t.setWithCredentials(this.withCredentials);
               const o = new Promise((e, r) => {
-                  t.load("basis_transcoder.js", e, void 0, r);
-                }),
+                t.load("basis_transcoder.js", e, void 0, r);
+              }),
                 s = new e.FileLoader(this.manager);
               s.setPath(this.transcoderPath),
                 s.setResponseType("arraybuffer"),
@@ -32627,7 +32627,7 @@ parcelRequire = (function (e, r, t, n) {
                     "/* constants */",
                     "let _EngineFormat = " + JSON.stringify(r.EngineFormat),
                     "let _TranscoderFormat = " +
-                      JSON.stringify(r.TranscoderFormat),
+                    JSON.stringify(r.TranscoderFormat),
                     "let _BasisFormat = " + JSON.stringify(r.BasisFormat),
                     "/* basis_transcoder.js */",
                     e,
@@ -32663,8 +32663,8 @@ parcelRequire = (function (e, r, t, n) {
                       default:
                         console.error(
                           'THREE.BasisTextureLoader: Unexpected message, "' +
-                            r.type +
-                            '"'
+                          r.type +
+                          '"'
                         );
                     }
                   }),
@@ -32738,188 +32738,188 @@ parcelRequire = (function (e, r, t, n) {
                   t.then(() => {
                     try {
                       const {
-                          width: t,
-                          height: o,
-                          hasAlpha: i,
-                          mipmaps: n,
-                          format: d,
-                        } = s.taskConfig.lowLevel
+                        width: t,
+                        height: o,
+                        hasAlpha: i,
+                        mipmaps: n,
+                        format: d,
+                      } = s.taskConfig.lowLevel
                           ? (function (e) {
-                              const {
-                                  basisFormat: t,
-                                  width: o,
-                                  height: s,
-                                  hasAlpha: i,
-                                } = e,
-                                { transcoderFormat: n, engineFormat: d } = c(
-                                  t,
-                                  o,
-                                  s,
-                                  i
+                            const {
+                              basisFormat: t,
+                              width: o,
+                              height: s,
+                              hasAlpha: i,
+                            } = e,
+                              { transcoderFormat: n, engineFormat: d } = c(
+                                t,
+                                o,
+                                s,
+                                i
+                              ),
+                              T = r.getBytesPerBlockOrPixel(n);
+                            h(
+                              r.isFormatSupported(n),
+                              "THREE.BasisTextureLoader: Unsupported format."
+                            );
+                            const p = [];
+                            if (t === a.ETC1S) {
+                              const t = new r.LowLevelETC1SImageTranscoder(),
+                                {
+                                  endpointCount: o,
+                                  endpointsData: s,
+                                  selectorCount: a,
+                                  selectorsData: d,
+                                  tablesData: c,
+                                } = e.globalData;
+                              try {
+                                let r;
+                                h(
+                                  (r = t.decodePalettes(o, s, a, d)),
+                                  "THREE.BasisTextureLoader: decodePalettes() failed."
                                 ),
-                                T = r.getBytesPerBlockOrPixel(n);
-                              h(
-                                r.isFormatSupported(n),
-                                "THREE.BasisTextureLoader: Unsupported format."
-                              );
-                              const p = [];
-                              if (t === a.ETC1S) {
-                                const t = new r.LowLevelETC1SImageTranscoder(),
-                                  {
-                                    endpointCount: o,
-                                    endpointsData: s,
-                                    selectorCount: a,
-                                    selectorsData: d,
-                                    tablesData: c,
-                                  } = e.globalData;
-                                try {
-                                  let r;
                                   h(
-                                    (r = t.decodePalettes(o, s, a, d)),
-                                    "THREE.BasisTextureLoader: decodePalettes() failed."
-                                  ),
-                                    h(
-                                      (r = t.decodeTables(c)),
-                                      "THREE.BasisTextureLoader: decodeTables() failed."
-                                    );
-                                  for (let o = 0; o < e.levels.length; o++) {
-                                    const s = e.levels[o],
-                                      a = e.globalData.imageDescs[o],
-                                      d = m(n, s.width, s.height),
-                                      c = new Uint8Array(d);
-                                    h(
-                                      (r = t.transcodeImage(
-                                        n,
-                                        c,
-                                        d / T,
-                                        s.data,
-                                        l(n, s.width),
-                                        _(n, s.height),
-                                        s.width,
-                                        s.height,
-                                        s.index,
-                                        a.rgbSliceByteOffset,
-                                        a.rgbSliceByteLength,
-                                        a.alphaSliceByteOffset,
-                                        a.alphaSliceByteLength,
-                                        a.imageFlags,
-                                        i,
-                                        !1,
-                                        0,
-                                        0
-                                      )),
-                                      "THREE.BasisTextureLoader: transcodeImage() failed for level " +
-                                        s.index +
-                                        "."
-                                    ),
-                                      p.push({
-                                        data: c,
-                                        width: s.width,
-                                        height: s.height,
-                                      });
-                                  }
-                                } finally {
-                                  t.delete();
-                                }
-                              } else
-                                for (let a = 0; a < e.levels.length; a++) {
-                                  const t = e.levels[a],
-                                    o = m(n, t.width, t.height),
-                                    s = new Uint8Array(o),
-                                    d = r.transcodeUASTCImage(
+                                    (r = t.decodeTables(c)),
+                                    "THREE.BasisTextureLoader: decodeTables() failed."
+                                  );
+                                for (let o = 0; o < e.levels.length; o++) {
+                                  const s = e.levels[o],
+                                    a = e.globalData.imageDescs[o],
+                                    d = m(n, s.width, s.height),
+                                    c = new Uint8Array(d);
+                                  h(
+                                    (r = t.transcodeImage(
                                       n,
-                                      s,
-                                      o / T,
-                                      t.data,
-                                      l(n, t.width),
-                                      _(n, t.height),
-                                      t.width,
-                                      t.height,
-                                      t.index,
-                                      0,
-                                      t.data.byteLength,
-                                      0,
+                                      c,
+                                      d / T,
+                                      s.data,
+                                      l(n, s.width),
+                                      _(n, s.height),
+                                      s.width,
+                                      s.height,
+                                      s.index,
+                                      a.rgbSliceByteOffset,
+                                      a.rgbSliceByteLength,
+                                      a.alphaSliceByteOffset,
+                                      a.alphaSliceByteLength,
+                                      a.imageFlags,
                                       i,
                                       !1,
                                       0,
-                                      0,
-                                      -1,
-                                      -1
-                                    );
-                                  h(
-                                    d,
-                                    "THREE.BasisTextureLoader: transcodeUASTCImage() failed for level " +
-                                      t.index +
-                                      "."
+                                      0
+                                    )),
+                                    "THREE.BasisTextureLoader: transcodeImage() failed for level " +
+                                    s.index +
+                                    "."
                                   ),
                                     p.push({
-                                      data: s,
-                                      width: t.width,
-                                      height: t.height,
+                                      data: c,
+                                      width: s.width,
+                                      height: s.height,
                                     });
                                 }
-                              return {
-                                width: o,
-                                height: s,
-                                hasAlpha: i,
-                                mipmaps: p,
-                                format: d,
-                              };
-                            })(s.taskConfig)
-                          : (function (e) {
-                              const t = new r.BasisFile(new Uint8Array(e)),
-                                o = t.isUASTC() ? a.UASTC_4x4 : a.ETC1S,
-                                s = t.getImageWidth(0, 0),
-                                i = t.getImageHeight(0, 0),
-                                n = t.getNumLevels(0),
-                                d = t.getHasAlpha();
-                              function h() {
-                                t.close(), t.delete();
+                              } finally {
+                                t.delete();
                               }
-                              const { transcoderFormat: l, engineFormat: _ } =
-                                c(o, s, i, d);
-                              if (!s || !i || !n)
-                                throw (
-                                  (h(),
+                            } else
+                              for (let a = 0; a < e.levels.length; a++) {
+                                const t = e.levels[a],
+                                  o = m(n, t.width, t.height),
+                                  s = new Uint8Array(o),
+                                  d = r.transcodeUASTCImage(
+                                    n,
+                                    s,
+                                    o / T,
+                                    t.data,
+                                    l(n, t.width),
+                                    _(n, t.height),
+                                    t.width,
+                                    t.height,
+                                    t.index,
+                                    0,
+                                    t.data.byteLength,
+                                    0,
+                                    i,
+                                    !1,
+                                    0,
+                                    0,
+                                    -1,
+                                    -1
+                                  );
+                                h(
+                                  d,
+                                  "THREE.BasisTextureLoader: transcodeUASTCImage() failed for level " +
+                                  t.index +
+                                  "."
+                                ),
+                                  p.push({
+                                    data: s,
+                                    width: t.width,
+                                    height: t.height,
+                                  });
+                              }
+                            return {
+                              width: o,
+                              height: s,
+                              hasAlpha: i,
+                              mipmaps: p,
+                              format: d,
+                            };
+                          })(s.taskConfig)
+                          : (function (e) {
+                            const t = new r.BasisFile(new Uint8Array(e)),
+                              o = t.isUASTC() ? a.UASTC_4x4 : a.ETC1S,
+                              s = t.getImageWidth(0, 0),
+                              i = t.getImageHeight(0, 0),
+                              n = t.getNumLevels(0),
+                              d = t.getHasAlpha();
+                            function h() {
+                              t.close(), t.delete();
+                            }
+                            const { transcoderFormat: l, engineFormat: _ } =
+                              c(o, s, i, d);
+                            if (!s || !i || !n)
+                              throw (
+                                (h(),
                                   new Error(
                                     "THREE.BasisTextureLoader:\tInvalid texture"
                                   ))
-                                );
-                              if (!t.startTranscoding())
-                                throw (
-                                  (h(),
+                              );
+                            if (!t.startTranscoding())
+                              throw (
+                                (h(),
                                   new Error(
                                     "THREE.BasisTextureLoader: .startTranscoding failed"
                                   ))
-                                );
-                              const m = [];
-                              for (let r = 0; r < n; r++) {
-                                const e = t.getImageWidth(0, r),
-                                  o = t.getImageHeight(0, r),
-                                  s = new Uint8Array(
-                                    t.getImageTranscodedSizeInBytes(0, r, l)
-                                  ),
-                                  a = t.transcodeImage(s, 0, r, l, 0, d);
-                                if (!a)
-                                  throw (
-                                    (h(),
+                              );
+                            const m = [];
+                            for (let r = 0; r < n; r++) {
+                              const e = t.getImageWidth(0, r),
+                                o = t.getImageHeight(0, r),
+                                s = new Uint8Array(
+                                  t.getImageTranscodedSizeInBytes(0, r, l)
+                                ),
+                                a = t.transcodeImage(s, 0, r, l, 0, d);
+                              if (!a)
+                                throw (
+                                  (h(),
                                     new Error(
                                       "THREE.BasisTextureLoader: .transcodeImage failed."
                                     ))
-                                  );
-                                m.push({ data: s, width: e, height: o });
+                                );
+                              m.push({ data: s, width: e, height: o });
+                            }
+                            return (
+                              h(),
+                              {
+                                width: s,
+                                height: i,
+                                hasAlpha: d,
+                                mipmaps: m,
+                                format: _,
                               }
-                              return (
-                                h(),
-                                {
-                                  width: s,
-                                  height: i,
-                                  hasAlpha: d,
-                                  mipmaps: m,
-                                  format: _,
-                                }
-                              );
-                            })(s.buffers[0]),
+                            );
+                          })(s.buffers[0]),
                         T = [];
                       for (let e = 0; e < n.length; ++e)
                         T.push(n[e].data.buffer);
@@ -32948,70 +32948,70 @@ parcelRequire = (function (e, r, t, n) {
               var i;
             };
             const i = [
-                {
-                  if: "astcSupported",
-                  basisFormat: [a.UASTC_4x4],
-                  transcoderFormat: [s.ASTC_4x4, s.ASTC_4x4],
-                  engineFormat: [
-                    o.RGBA_ASTC_4x4_Format,
-                    o.RGBA_ASTC_4x4_Format,
-                  ],
-                  priorityETC1S: 1 / 0,
-                  priorityUASTC: 1,
-                  needsPowerOfTwo: !1,
-                },
-                {
-                  if: "bptcSupported",
-                  basisFormat: [a.ETC1S, a.UASTC_4x4],
-                  transcoderFormat: [s.BC7_M5, s.BC7_M5],
-                  engineFormat: [o.RGBA_BPTC_Format, o.RGBA_BPTC_Format],
-                  priorityETC1S: 3,
-                  priorityUASTC: 2,
-                  needsPowerOfTwo: !1,
-                },
-                {
-                  if: "dxtSupported",
-                  basisFormat: [a.ETC1S, a.UASTC_4x4],
-                  transcoderFormat: [s.BC1, s.BC3],
-                  engineFormat: [
-                    o.RGB_S3TC_DXT1_Format,
-                    o.RGBA_S3TC_DXT5_Format,
-                  ],
-                  priorityETC1S: 4,
-                  priorityUASTC: 5,
-                  needsPowerOfTwo: !1,
-                },
-                {
-                  if: "etc2Supported",
-                  basisFormat: [a.ETC1S, a.UASTC_4x4],
-                  transcoderFormat: [s.ETC1, s.ETC2],
-                  engineFormat: [o.RGB_ETC2_Format, o.RGBA_ETC2_EAC_Format],
-                  priorityETC1S: 1,
-                  priorityUASTC: 3,
-                  needsPowerOfTwo: !1,
-                },
-                {
-                  if: "etc1Supported",
-                  basisFormat: [a.ETC1S, a.UASTC_4x4],
-                  transcoderFormat: [s.ETC1, s.ETC1],
-                  engineFormat: [o.RGB_ETC1_Format, o.RGB_ETC1_Format],
-                  priorityETC1S: 2,
-                  priorityUASTC: 4,
-                  needsPowerOfTwo: !1,
-                },
-                {
-                  if: "pvrtcSupported",
-                  basisFormat: [a.ETC1S, a.UASTC_4x4],
-                  transcoderFormat: [s.PVRTC1_4_RGB, s.PVRTC1_4_RGBA],
-                  engineFormat: [
-                    o.RGB_PVRTC_4BPPV1_Format,
-                    o.RGBA_PVRTC_4BPPV1_Format,
-                  ],
-                  priorityETC1S: 5,
-                  priorityUASTC: 6,
-                  needsPowerOfTwo: !0,
-                },
-              ],
+              {
+                if: "astcSupported",
+                basisFormat: [a.UASTC_4x4],
+                transcoderFormat: [s.ASTC_4x4, s.ASTC_4x4],
+                engineFormat: [
+                  o.RGBA_ASTC_4x4_Format,
+                  o.RGBA_ASTC_4x4_Format,
+                ],
+                priorityETC1S: 1 / 0,
+                priorityUASTC: 1,
+                needsPowerOfTwo: !1,
+              },
+              {
+                if: "bptcSupported",
+                basisFormat: [a.ETC1S, a.UASTC_4x4],
+                transcoderFormat: [s.BC7_M5, s.BC7_M5],
+                engineFormat: [o.RGBA_BPTC_Format, o.RGBA_BPTC_Format],
+                priorityETC1S: 3,
+                priorityUASTC: 2,
+                needsPowerOfTwo: !1,
+              },
+              {
+                if: "dxtSupported",
+                basisFormat: [a.ETC1S, a.UASTC_4x4],
+                transcoderFormat: [s.BC1, s.BC3],
+                engineFormat: [
+                  o.RGB_S3TC_DXT1_Format,
+                  o.RGBA_S3TC_DXT5_Format,
+                ],
+                priorityETC1S: 4,
+                priorityUASTC: 5,
+                needsPowerOfTwo: !1,
+              },
+              {
+                if: "etc2Supported",
+                basisFormat: [a.ETC1S, a.UASTC_4x4],
+                transcoderFormat: [s.ETC1, s.ETC2],
+                engineFormat: [o.RGB_ETC2_Format, o.RGBA_ETC2_EAC_Format],
+                priorityETC1S: 1,
+                priorityUASTC: 3,
+                needsPowerOfTwo: !1,
+              },
+              {
+                if: "etc1Supported",
+                basisFormat: [a.ETC1S, a.UASTC_4x4],
+                transcoderFormat: [s.ETC1, s.ETC1],
+                engineFormat: [o.RGB_ETC1_Format, o.RGB_ETC1_Format],
+                priorityETC1S: 2,
+                priorityUASTC: 4,
+                needsPowerOfTwo: !1,
+              },
+              {
+                if: "pvrtcSupported",
+                basisFormat: [a.ETC1S, a.UASTC_4x4],
+                transcoderFormat: [s.PVRTC1_4_RGB, s.PVRTC1_4_RGBA],
+                engineFormat: [
+                  o.RGB_PVRTC_4BPPV1_Format,
+                  o.RGBA_PVRTC_4BPPV1_Format,
+                ],
+                priorityETC1S: 5,
+                priorityUASTC: 6,
+                needsPowerOfTwo: !0,
+              },
+            ],
               n = i.sort(function (e, t) {
                 return e.priorityETC1S - t.priorityETC1S;
               }),
@@ -33086,12 +33086,12 @@ parcelRequire = (function (e, r, t, n) {
           init() {
             return (
               A ||
-                (A = fetch("data:application/wasm;base64," + C)
-                  .then((A) => A.arrayBuffer())
-                  .then((A) => WebAssembly.instantiate(A, g))
-                  .then((A) => {
-                    (I = A.instance), g.env.emscripten_notify_memory_growth(0);
-                  })),
+              (A = fetch("data:application/wasm;base64," + C)
+                .then((A) => A.arrayBuffer())
+                .then((A) => WebAssembly.instantiate(A, g))
+                .then((A) => {
+                  (I = A.instance), g.env.emscripten_notify_memory_growth(0);
+                })),
               A
             );
           }
@@ -33128,9 +33128,9 @@ parcelRequire = (function (e, r, t, n) {
               (this.zstd = new s.ZSTDDecoder()),
               this.zstd.init(),
               "undefined" != typeof MSC_TRANSCODER &&
-                console.warn(
-                  'THREE.KTX2Loader: Please update to latest "basis_transcoder". "msc_basis_transcoder" is no longer supported in three.js r125+.'
-                );
+              console.warn(
+                'THREE.KTX2Loader: Please update to latest "basis_transcoder". "msc_basis_transcoder" is no longer supported in three.js r125+.'
+              );
           }
           setTranscoderPath(e) {
             return this.basisLoader.setTranscoderPath(e), this;
@@ -33188,9 +33188,9 @@ parcelRequire = (function (e, r, t, n) {
                 .createLevels(l, this.zstd)
                 .then(function (e) {
                   var s =
-                      d.colorModel === r.KTX2Model.UASTC
-                        ? t.BasisTextureLoader.BasisFormat.UASTC_4x4
-                        : t.BasisTextureLoader.BasisFormat.ETC1S,
+                    d.colorModel === r.KTX2Model.UASTC
+                      ? t.BasisTextureLoader.BasisFormat.UASTC_4x4
+                      : t.BasisTextureLoader.BasisFormat.ETC1S,
                     a = {
                       levels: e,
                       width: l.pixelWidth,
@@ -33200,7 +33200,7 @@ parcelRequire = (function (e, r, t, n) {
                     };
                   return (
                     s === t.BasisTextureLoader.BasisFormat.ETC1S &&
-                      (a.globalData = l.globalData),
+                    (a.globalData = l.globalData),
                     n.basisLoader.parseInternalAsync(a)
                   );
                 })
@@ -33244,7 +33244,7 @@ parcelRequire = (function (e, r, t, n) {
             return t.colorModel === r.KTX2Model.UASTC
               ? (15 & t.samples[0].channelID) === r.KTX2ChannelUASTC.RGBA
               : 2 === t.samples.length &&
-                  (15 & t.samples[1].channelID) === r.KTX2ChannelETC1S.AAA;
+              (15 & t.samples[1].channelID) === r.KTX2ChannelETC1S.AAA;
           },
           getPremultiplyAlpha: function (e) {
             return !!(
@@ -33398,8 +33398,8 @@ parcelRequire = (function (e, r, t, n) {
           _initDecoder() {
             if (this.decoderPending) return this.decoderPending;
             const e =
-                "object" != typeof WebAssembly ||
-                "js" === this.decoderConfig.type,
+              "object" != typeof WebAssembly ||
+              "js" === this.decoderConfig.type,
               t = [];
             return (
               e
@@ -33447,8 +33447,8 @@ parcelRequire = (function (e, r, t, n) {
                       default:
                         console.error(
                           'THREE.DRACOLoader: Unexpected message, "' +
-                            r.type +
-                            '"'
+                          r.type +
+                          '"'
                         );
                     }
                   }),
@@ -33529,53 +33529,53 @@ parcelRequire = (function (e, r, t, n) {
                   a.Init(new Int8Array(o), o.byteLength);
                   try {
                     const e = (function (e, t, o, s) {
-                        const i = s.attributeIDs,
-                          n = s.attributeTypes;
-                        let a, d;
-                        const c = t.GetEncodedGeometryType(o);
-                        if (c === e.TRIANGULAR_MESH)
-                          (a = new e.Mesh()), (d = t.DecodeBufferToMesh(o, a));
-                        else {
-                          if (c !== e.POINT_CLOUD)
-                            throw new Error(
-                              "THREE.DRACOLoader: Unexpected geometry type."
-                            );
-                          (a = new e.PointCloud()),
-                            (d = t.DecodeBufferToPointCloud(o, a));
-                        }
-                        if (!d.ok() || 0 === a.ptr)
+                      const i = s.attributeIDs,
+                        n = s.attributeTypes;
+                      let a, d;
+                      const c = t.GetEncodedGeometryType(o);
+                      if (c === e.TRIANGULAR_MESH)
+                        (a = new e.Mesh()), (d = t.DecodeBufferToMesh(o, a));
+                      else {
+                        if (c !== e.POINT_CLOUD)
                           throw new Error(
-                            "THREE.DRACOLoader: Decoding failed: " +
-                              d.error_msg()
+                            "THREE.DRACOLoader: Unexpected geometry type."
                           );
-                        const u = { index: null, attributes: [] };
-                        for (const l in i) {
-                          const o = self[n[l]];
-                          let d, c;
-                          if (s.useUniqueIDs)
-                            (c = i[l]), (d = t.GetAttributeByUniqueId(a, c));
-                          else {
-                            if (-1 === (c = t.GetAttributeId(a, e[i[l]])))
-                              continue;
-                            d = t.GetAttribute(a, c);
-                          }
-                          u.attributes.push(r(e, t, a, l, o, d));
+                        (a = new e.PointCloud()),
+                          (d = t.DecodeBufferToPointCloud(o, a));
+                      }
+                      if (!d.ok() || 0 === a.ptr)
+                        throw new Error(
+                          "THREE.DRACOLoader: Decoding failed: " +
+                          d.error_msg()
+                        );
+                      const u = { index: null, attributes: [] };
+                      for (const l in i) {
+                        const o = self[n[l]];
+                        let d, c;
+                        if (s.useUniqueIDs)
+                          (c = i[l]), (d = t.GetAttributeByUniqueId(a, c));
+                        else {
+                          if (-1 === (c = t.GetAttributeId(a, e[i[l]])))
+                            continue;
+                          d = t.GetAttribute(a, c);
                         }
-                        c === e.TRIANGULAR_MESH &&
-                          (u.index = (function (e, t, r) {
-                            const o = 3 * r.num_faces(),
-                              s = 4 * o,
-                              i = e._malloc(s);
-                            t.GetTrianglesUInt32Array(r, s, i);
-                            const n = new Uint32Array(
-                              e.HEAPF32.buffer,
-                              i,
-                              o
-                            ).slice();
-                            return e._free(i), { array: n, itemSize: 1 };
-                          })(e, t, a));
-                        return e.destroy(a), u;
-                      })(t, n, a, i),
+                        u.attributes.push(r(e, t, a, l, o, d));
+                      }
+                      c === e.TRIANGULAR_MESH &&
+                        (u.index = (function (e, t, r) {
+                          const o = 3 * r.num_faces(),
+                            s = 4 * o,
+                            i = e._malloc(s);
+                          t.GetTrianglesUInt32Array(r, s, i);
+                          const n = new Uint32Array(
+                            e.HEAPF32.buffer,
+                            i,
+                            o
+                          ).slice();
+                          return e._free(i), { array: n, itemSize: 1 };
+                        })(e, t, a));
+                      return e.destroy(a), u;
+                    })(t, n, a, i),
                       o = e.attributes.map((e) => e.array.buffer);
                     e.index && o.push(e.index.array.buffer),
                       self.postMessage(
@@ -33607,10 +33607,10 @@ parcelRequire = (function (e, r, t, n) {
           (exports.MeshoptDecoder = void 0);
         var A = (function () {
           var A = new Uint8Array([
-              0, 97, 115, 109, 1, 0, 0, 0, 1, 4, 1, 96, 0, 0, 3, 3, 2, 0, 0, 5,
-              3, 1, 0, 1, 12, 1, 0, 10, 22, 2, 12, 0, 65, 0, 65, 0, 65, 0, 252,
-              10, 0, 0, 11, 7, 0, 65, 0, 253, 15, 26, 11,
-            ]),
+            0, 97, 115, 109, 1, 0, 0, 0, 1, 4, 1, 96, 0, 0, 3, 3, 2, 0, 0, 5,
+            3, 1, 0, 1, 12, 1, 0, 10, 22, 2, 12, 0, 65, 0, 65, 0, 65, 0, 252,
+            10, 0, 0, 11, 7, 0, 65, 0, 253, 15, 26, 11,
+          ]),
             B = new Uint8Array([
               32, 0, 65, 253, 3, 1, 2, 34, 4, 106, 6, 5, 11, 8, 7, 20, 13, 33,
               12, 16, 128, 9, 116, 64, 19, 113, 127, 15, 10, 21, 22, 14, 255,
@@ -33624,9 +33624,9 @@ parcelRequire = (function (e, r, t, n) {
           WebAssembly.validate(A) &&
             ((G =
               "B9h9z9tFBBBFiI9gBB9gLaaaaaFa9gEaaaB9gFaFaEMcBBFBFFGGGEILF9wFFFLEFBFKNFaFCx/aFMO/LFVK9tv9t9vq95GBt9f9f939h9z9t9f9j9h9s9s9f9jW9vq9zBBp9tv9z9o9v9wW9f9kv9j9v9kv9WvqWv94h919m9mvqBG8Z9tv9z9o9v9wW9f9kv9j9v9kv9J9u9kv94h919m9mvqBIy9tv9z9o9v9wW9f9kv9j9v9kv9J9u9kv949TvZ91v9u9jvBLn9tv9z9o9v9wW9f9kv9j9v9kv69p9sWvq9P9jWBKi9tv9z9o9v9wW9f9kv9j9v9kv69p9sWvq9R919hWBOn9tv9z9o9v9wW9f9kv9j9v9kv69p9sWvq9F949wBNI9z9iqlBVc+N9IcIBTEM9+FLa8jUUUUBCTlRBCBRFEXCBRGCBREEXABCNJAGJAECUaAFAGrCFZHIy86BBAEAIJREAGCFJHGCN9HQBMAFCx+YUUBJAE86BBAFCEWCxkUUBJAB8pEN83EBAFCFJHFCUG9HQBMMk8lLbaE97F9+FaL978jUUUUBCU/KBlHL8kUUUUBC9+RKGXAGCFJAI9LQBCaRKAE2BBC+gF9HQBALAEAIJHOAGlAG/8cBBCUoBAG9uC/wgBZHKCUGAKCUG9JyRNAECFJRKCBRVGXEXAVAF9PQFANAFAVlAVANJAF9JyRcGXGXAG9FQBAcCbJHIC9wZHMCE9sRSAMCFWRQAICIrCEJCGrRfCBRbEXAKRTCBRtGXEXGXAOATlAf9PQBCBRKSLMALCU/CBJAtAM9sJRmATAfJRKCBREGXAMCoB9JQBAOAKlC/gB9JQBCBRIEXAmAIJREGXGXGXGXGXATAICKrJ2BBHYCEZfIBFGEBMAECBDtDMIBSEMAEAKDBBIAKDBBBHPCID+MFAPDQBTFtGmEYIPLdKeOnHPCGD+MFAPDQBTFtGmEYIPLdKeOnC0+G+MiDtD9OHdCEDbD8jHPAPDQBFGENVcMILKOSQfbHeD8dBh+BsxoxoUwN0AeD8dFhxoUwkwk+gUa0sHnhTkAnsHnhNkAnsHn7CgFZHiCEWCxkUUBJDBEBAiCx+YUUBJDBBBHeAeDQBBBBBBBBBBBBBBBBAnhAk7CgFZHiCEWCxkUUBJDBEBD9uDQBFGEILKOTtmYPdenDfAdAPD9SDMIBAKCIJAeDeBJAiCx+YUUBJ2BBJRKSGMAEAKDBBNAKDBBBHPCID+MFAPDQBTFtGmEYIPLdKeOnC+P+e+8/4BDtD9OHdCbDbD8jHPAPDQBFGENVcMILKOSQfbHeD8dBh+BsxoxoUwN0AeD8dFhxoUwkwk+gUa0sHnhTkAnsHnhNkAnsHn7CgFZHiCEWCxkUUBJDBEBAiCx+YUUBJDBBBHeAeDQBBBBBBBBBBBBBBBBAnhAk7CgFZHiCEWCxkUUBJDBEBD9uDQBFGEILKOTtmYPdenDfAdAPD9SDMIBAKCNJAeDeBJAiCx+YUUBJ2BBJRKSFMAEAKDBBBDMIBAKCTJRKMGXGXGXGXGXAYCGrCEZfIBFGEBMAECBDtDMITSEMAEAKDBBIAKDBBBHPCID+MFAPDQBTFtGmEYIPLdKeOnHPCGD+MFAPDQBTFtGmEYIPLdKeOnC0+G+MiDtD9OHdCEDbD8jHPAPDQBFGENVcMILKOSQfbHeD8dBh+BsxoxoUwN0AeD8dFhxoUwkwk+gUa0sHnhTkAnsHnhNkAnsHn7CgFZHiCEWCxkUUBJDBEBAiCx+YUUBJDBBBHeAeDQBBBBBBBBBBBBBBBBAnhAk7CgFZHiCEWCxkUUBJDBEBD9uDQBFGEILKOTtmYPdenDfAdAPD9SDMITAKCIJAeDeBJAiCx+YUUBJ2BBJRKSGMAEAKDBBNAKDBBBHPCID+MFAPDQBTFtGmEYIPLdKeOnC+P+e+8/4BDtD9OHdCbDbD8jHPAPDQBFGENVcMILKOSQfbHeD8dBh+BsxoxoUwN0AeD8dFhxoUwkwk+gUa0sHnhTkAnsHnhNkAnsHn7CgFZHiCEWCxkUUBJDBEBAiCx+YUUBJDBBBHeAeDQBBBBBBBBBBBBBBBBAnhAk7CgFZHiCEWCxkUUBJDBEBD9uDQBFGEILKOTtmYPdenDfAdAPD9SDMITAKCNJAeDeBJAiCx+YUUBJ2BBJRKSFMAEAKDBBBDMITAKCTJRKMGXGXGXGXGXAYCIrCEZfIBFGEBMAECBDtDMIASEMAEAKDBBIAKDBBBHPCID+MFAPDQBTFtGmEYIPLdKeOnHPCGD+MFAPDQBTFtGmEYIPLdKeOnC0+G+MiDtD9OHdCEDbD8jHPAPDQBFGENVcMILKOSQfbHeD8dBh+BsxoxoUwN0AeD8dFhxoUwkwk+gUa0sHnhTkAnsHnhNkAnsHn7CgFZHiCEWCxkUUBJDBEBAiCx+YUUBJDBBBHeAeDQBBBBBBBBBBBBBBBBAnhAk7CgFZHiCEWCxkUUBJDBEBD9uDQBFGEILKOTtmYPdenDfAdAPD9SDMIAAKCIJAeDeBJAiCx+YUUBJ2BBJRKSGMAEAKDBBNAKDBBBHPCID+MFAPDQBTFtGmEYIPLdKeOnC+P+e+8/4BDtD9OHdCbDbD8jHPAPDQBFGENVcMILKOSQfbHeD8dBh+BsxoxoUwN0AeD8dFhxoUwkwk+gUa0sHnhTkAnsHnhNkAnsHn7CgFZHiCEWCxkUUBJDBEBAiCx+YUUBJDBBBHeAeDQBBBBBBBBBBBBBBBBAnhAk7CgFZHiCEWCxkUUBJDBEBD9uDQBFGEILKOTtmYPdenDfAdAPD9SDMIAAKCNJAeDeBJAiCx+YUUBJ2BBJRKSFMAEAKDBBBDMIAAKCTJRKMGXGXGXGXGXAYCKrfIBFGEBMAECBDtDMI8wSEMAEAKDBBIAKDBBBHPCID+MFAPDQBTFtGmEYIPLdKeOnHPCGD+MFAPDQBTFtGmEYIPLdKeOnC0+G+MiDtD9OHdCEDbD8jHPAPDQBFGENVcMILKOSQfbHeD8dBh+BsxoxoUwN0AeD8dFhxoUwkwk+gUa0sHnhTkAnsHnhNkAnsHn7CgFZHYCEWCxkUUBJDBEBAYCx+YUUBJDBBBHeAeDQBBBBBBBBBBBBBBBBAnhAk7CgFZHYCEWCxkUUBJDBEBD9uDQBFGEILKOTtmYPdenDfAdAPD9SDMI8wAKCIJAeDeBJAYCx+YUUBJ2BBJRKSGMAEAKDBBNAKDBBBHPCID+MFAPDQBTFtGmEYIPLdKeOnC+P+e+8/4BDtD9OHdCbDbD8jHPAPDQBFGENVcMILKOSQfbHeD8dBh+BsxoxoUwN0AeD8dFhxoUwkwk+gUa0sHnhTkAnsHnhNkAnsHn7CgFZHYCEWCxkUUBJDBEBAYCx+YUUBJDBBBHeAeDQBBBBBBBBBBBBBBBBAnhAk7CgFZHYCEWCxkUUBJDBEBD9uDQBFGEILKOTtmYPdenDfAdAPD9SDMI8wAKCNJAeDeBJAYCx+YUUBJ2BBJRKSFMAEAKDBBBDMI8wAKCTJRKMAICoBJREAICUFJAM9LQFAERIAOAKlC/fB9LQBMMGXAEAM9PQBAECErRIEXGXAOAKlCi9PQBCBRKSOMAmAEJRYGXGXGXGXGXATAECKrJ2BBAICKZrCEZfIBFGEBMAYCBDtDMIBSEMAYAKDBBIAKDBBBHPCID+MFAPDQBTFtGmEYIPLdKeOnHPCGD+MFAPDQBTFtGmEYIPLdKeOnC0+G+MiDtD9OHdCEDbD8jHPAPDQBFGENVcMILKOSQfbHeD8dBh+BsxoxoUwN0AeD8dFhxoUwkwk+gUa0sHnhTkAnsHnhNkAnsHn7CgFZHiCEWCxkUUBJDBEBAiCx+YUUBJDBBBHeAeDQBBBBBBBBBBBBBBBBAnhAk7CgFZHiCEWCxkUUBJDBEBD9uDQBFGEILKOTtmYPdenDfAdAPD9SDMIBAKCIJAeDeBJAiCx+YUUBJ2BBJRKSGMAYAKDBBNAKDBBBHPCID+MFAPDQBTFtGmEYIPLdKeOnC+P+e+8/4BDtD9OHdCbDbD8jHPAPDQBFGENVcMILKOSQfbHeD8dBh+BsxoxoUwN0AeD8dFhxoUwkwk+gUa0sHnhTkAnsHnhNkAnsHn7CgFZHiCEWCxkUUBJDBEBAiCx+YUUBJDBBBHeAeDQBBBBBBBBBBBBBBBBAnhAk7CgFZHiCEWCxkUUBJDBEBD9uDQBFGEILKOTtmYPdenDfAdAPD9SDMIBAKCNJAeDeBJAiCx+YUUBJ2BBJRKSFMAYAKDBBBDMIBAKCTJRKMAICGJRIAECTJHEAM9JQBMMGXAK9FQBAKRTAtCFJHtCI6QGSFMMCBRKSEMGXAM9FQBALCUGJAbJREALAbJDBGBReCBRYEXAEALCU/CBJAYJHIDBIBHdCFD9tAdCFDbHPD9OD9hD9RHdAIAMJDBIBH8ZCFD9tA8ZAPD9OD9hD9RH8ZDQBTFtGmEYIPLdKeOnHpAIAQJDBIBHyCFD9tAyAPD9OD9hD9RHyAIASJDBIBH8cCFD9tA8cAPD9OD9hD9RH8cDQBTFtGmEYIPLdKeOnH8dDQBFTtGEmYILPdKOenHPAPDQBFGEBFGEBFGEBFGEAeD9uHeDyBjGBAEAGJHIAeAPAPDQILKOILKOILKOILKOD9uHeDyBjGBAIAGJHIAeAPAPDQNVcMNVcMNVcMNVcMD9uHeDyBjGBAIAGJHIAeAPAPDQSQfbSQfbSQfbSQfbD9uHeDyBjGBAIAGJHIAeApA8dDQNVi8ZcMpySQ8c8dfb8e8fHPAPDQBFGEBFGEBFGEBFGED9uHeDyBjGBAIAGJHIAeAPAPDQILKOILKOILKOILKOD9uHeDyBjGBAIAGJHIAeAPAPDQNVcMNVcMNVcMNVcMD9uHeDyBjGBAIAGJHIAeAPAPDQSQfbSQfbSQfbSQfbD9uHeDyBjGBAIAGJHIAeAdA8ZDQNiV8ZcpMyS8cQ8df8eb8fHdAyA8cDQNiV8ZcpMyS8cQ8df8eb8fH8ZDQBFTtGEmYILPdKOenHPAPDQBFGEBFGEBFGEBFGED9uHeDyBjGBAIAGJHIAeAPAPDQILKOILKOILKOILKOD9uHeDyBjGBAIAGJHIAeAPAPDQNVcMNVcMNVcMNVcMD9uHeDyBjGBAIAGJHIAeAPAPDQSQfbSQfbSQfbSQfbD9uHeDyBjGBAIAGJHIAeAdA8ZDQNVi8ZcMpySQ8c8dfb8e8fHPAPDQBFGEBFGEBFGEBFGED9uHeDyBjGBAIAGJHIAeAPAPDQILKOILKOILKOILKOD9uHeDyBjGBAIAGJHIAeAPAPDQNVcMNVcMNVcMNVcMD9uHeDyBjGBAIAGJHIAeAPAPDQSQfbSQfbSQfbSQfbD9uHeDyBjGBAIAGJREAYCTJHYAM9JQBMMAbCIJHbAG9JQBMMABAVAG9sJALCUGJAcAG9s/8cBBALALCUGJAcCaJAG9sJAG/8cBBMAcCBAKyAVJRVAKQBMC9+RKSFMCBC99AOAKlAGCAAGCA9Ly6yRKMALCU/KBJ8kUUUUBAKMNBT+BUUUBM+KmFTa8jUUUUBCoFlHL8kUUUUBC9+RKGXAFCE9uHOCtJAI9LQBCaRKAE2BBHNC/wFZC/gF9HQBANCbZHVCF9LQBALCoBJCgFCUF/8MBALC84Jha83EBALC8wJha83EBALC8oJha83EBALCAJha83EBALCiJha83EBALCTJha83EBALha83ENALha83EBAEAIJC9wJRcAECFJHNAOJRMGXAF9FQBCQCbAVCF6yRSABRECBRVCBRQCBRfCBRICBRKEXGXAMAcuQBC9+RKSEMGXGXAN2BBHOC/vF9LQBALCoBJAOCIrCa9zAKJCbZCEWJHb8oGIRTAb8oGBRtGXAOCbZHbAS9PQBALAOCa9zAIJCbZCGWJ8oGBAVAbyROAb9FRbGXGXAGCG9HQBABAt87FBABCIJAO87FBABCGJAT87FBSFMAEAtjGBAECNJAOjGBAECIJATjGBMAVAbJRVALCoBJAKCEWJHmAOjGBAmATjGIALAICGWJAOjGBALCoBJAKCFJCbZHKCEWJHTAtjGBATAOjGIAIAbJRIAKCFJRKSGMGXGXAbCb6QBAQAbJAbC989zJCFJRQSFMAM1BBHbCgFZROGXGXAbCa9MQBAMCFJRMSFMAM1BFHbCgBZCOWAOCgBZqROGXAbCa9MQBAMCGJRMSFMAM1BGHbCgBZCfWAOqROGXAbCa9MQBAMCEJRMSFMAM1BEHbCgBZCdWAOqROGXAbCa9MQBAMCIJRMSFMAM2BIC8cWAOqROAMCLJRMMAOCFrCBAOCFZl9zAQJRQMGXGXAGCG9HQBABAt87FBABCIJAQ87FBABCGJAT87FBSFMAEAtjGBAECNJAQjGBAECIJATjGBMALCoBJAKCEWJHOAQjGBAOATjGIALAICGWJAQjGBALCoBJAKCFJCbZHKCEWJHOAtjGBAOAQjGIAICFJRIAKCFJRKSFMGXAOCDF9LQBALAIAcAOCbZJ2BBHbCIrHTlCbZCGWJ8oGBAVCFJHtATyROALAIAblCbZCGWJ8oGBAtAT9FHmJHtAbCbZHTyRbAT9FRTGXGXAGCG9HQBABAV87FBABCIJAb87FBABCGJAO87FBSFMAEAVjGBAECNJAbjGBAECIJAOjGBMALAICGWJAVjGBALCoBJAKCEWJHYAOjGBAYAVjGIALAICFJHICbZCGWJAOjGBALCoBJAKCFJCbZCEWJHYAbjGBAYAOjGIALAIAmJCbZHICGWJAbjGBALCoBJAKCGJCbZHKCEWJHOAVjGBAOAbjGIAKCFJRKAIATJRIAtATJRVSFMAVCBAM2BBHYyHTAOC/+F6HPJROAYCbZRtGXGXAYCIrHmQBAOCFJRbSFMAORbALAIAmlCbZCGWJ8oGBROMGXGXAtQBAbCFJRVSFMAbRVALAIAYlCbZCGWJ8oGBRbMGXGXAP9FQBAMCFJRYSFMAM1BFHYCgFZRTGXGXAYCa9MQBAMCGJRYSFMAM1BGHYCgBZCOWATCgBZqRTGXAYCa9MQBAMCEJRYSFMAM1BEHYCgBZCfWATqRTGXAYCa9MQBAMCIJRYSFMAM1BIHYCgBZCdWATqRTGXAYCa9MQBAMCLJRYSFMAMCKJRYAM2BLC8cWATqRTMATCFrCBATCFZl9zAQJHQRTMGXGXAmCb6QBAYRPSFMAY1BBHMCgFZROGXGXAMCa9MQBAYCFJRPSFMAY1BFHMCgBZCOWAOCgBZqROGXAMCa9MQBAYCGJRPSFMAY1BGHMCgBZCfWAOqROGXAMCa9MQBAYCEJRPSFMAY1BEHMCgBZCdWAOqROGXAMCa9MQBAYCIJRPSFMAYCLJRPAY2BIC8cWAOqROMAOCFrCBAOCFZl9zAQJHQROMGXGXAtCb6QBAPRMSFMAP1BBHMCgFZRbGXGXAMCa9MQBAPCFJRMSFMAP1BFHMCgBZCOWAbCgBZqRbGXAMCa9MQBAPCGJRMSFMAP1BGHMCgBZCfWAbqRbGXAMCa9MQBAPCEJRMSFMAP1BEHMCgBZCdWAbqRbGXAMCa9MQBAPCIJRMSFMAPCLJRMAP2BIC8cWAbqRbMAbCFrCBAbCFZl9zAQJHQRbMGXGXAGCG9HQBABAT87FBABCIJAb87FBABCGJAO87FBSFMAEATjGBAECNJAbjGBAECIJAOjGBMALCoBJAKCEWJHYAOjGBAYATjGIALAICGWJATjGBALCoBJAKCFJCbZCEWJHYAbjGBAYAOjGIALAICFJHICbZCGWJAOjGBALCoBJAKCGJCbZCEWJHOATjGBAOAbjGIALAIAm9FAmCb6qJHICbZCGWJAbjGBAIAt9FAtCb6qJRIAKCEJRKMANCFJRNABCKJRBAECSJREAKCbZRKAICbZRIAfCEJHfAF9JQBMMCBC99AMAc6yRKMALCoFJ8kUUUUBAKM/tIFGa8jUUUUBCTlRLC9+RKGXAFCLJAI9LQBCaRKAE2BBC/+FZC/QF9HQBALhB83ENAECFJRKAEAIJC98JREGXAF9FQBGXAGCG6QBEXGXAKAE9JQBC9+bMAK1BBHGCgFZRIGXGXAGCa9MQBAKCFJRKSFMAK1BFHGCgBZCOWAICgBZqRIGXAGCa9MQBAKCGJRKSFMAK1BGHGCgBZCfWAIqRIGXAGCa9MQBAKCEJRKSFMAK1BEHGCgBZCdWAIqRIGXAGCa9MQBAKCIJRKSFMAK2BIC8cWAIqRIAKCLJRKMALCNJAICFZCGWqHGAICGrCBAICFrCFZl9zAG8oGBJHIjGBABAIjGBABCIJRBAFCaJHFQBSGMMEXGXAKAE9JQBC9+bMAK1BBHGCgFZRIGXGXAGCa9MQBAKCFJRKSFMAK1BFHGCgBZCOWAICgBZqRIGXAGCa9MQBAKCGJRKSFMAK1BGHGCgBZCfWAIqRIGXAGCa9MQBAKCEJRKSFMAK1BEHGCgBZCdWAIqRIGXAGCa9MQBAKCIJRKSFMAK2BIC8cWAIqRIAKCLJRKMABAICGrCBAICFrCFZl9zALCNJAICFZCGWqHI8oGBJHG87FBAIAGjGBABCGJRBAFCaJHFQBMMCBC99AKAE6yRKMAKM/dLEK97FaF97GXGXAGCI9HQBAF9FQFCBRGEXABABDBBBHECiD+rFCiD+sFD/6FHIAECND+rFCiD+sFD/6FAID/gFAECTD+rFCiD+sFD/6FHLD/gFD/kFD/lFHKCBDtD+2FHOAICUUUU94DtHND9OD9RD/kFHI9DBB/+hDYAIAID/mFAKAKD/mFALAOALAND9OD9RD/kFHIAID/mFD/kFD/kFD/jFD/nFHLD/mF9DBBX9LDYHOD/kFCgFDtD9OAECUUU94DtD9OD9QAIALD/mFAOD/kFCND+rFCU/+EDtD9OD9QAKALD/mFAOD/kFCTD+rFCUU/8ODtD9OD9QDMBBABCTJRBAGCIJHGAF9JQBSGMMAF9FQBCBRGEXABCTJHVAVDBBBHECBDtHOCUU98D8cFCUU98D8cEHND9OABDBBBHKAEDQILKOSQfbPden8c8d8e8fCggFDtD9OD/6FAKAEDQBFGENVcMTtmYi8ZpyHECTD+sFD/6FHID/gFAECTD+rFCTD+sFD/6FHLD/gFD/kFD/lFHE9DB/+g6DYALAEAOD+2FHOALCUUUU94DtHcD9OD9RD/kFHLALD/mFAEAED/mFAIAOAIAcD9OD9RD/kFHEAED/mFD/kFD/kFD/jFD/nFHID/mF9DBBX9LDYHOD/kFCTD+rFALAID/mFAOD/kFCggEDtD9OD9QHLAEAID/mFAOD/kFCaDbCBDnGCBDnECBDnKCBDnOCBDncCBDnMCBDnfCBDnbD9OHEDQNVi8ZcMpySQ8c8dfb8e8fD9QDMBBABAKAND9OALAEDQBFTtGEmYILPdKOenD9QDMBBABCAJRBAGCIJHGAF9JQBMMM/hEIGaF97FaL978jUUUUBCTlREGXAF9FQBCBRIEXAEABDBBBHLABCTJHKDBBBHODQILKOSQfbPden8c8d8e8fHNCTD+sFHVCID+rFDMIBAB9DBBU8/DY9D/zI818/DYAVCEDtD9QD/6FD/nFHVALAODQBFGENVcMTtmYi8ZpyHLCTD+rFCTD+sFD/6FD/mFHOAOD/mFAVALCTD+sFD/6FD/mFHcAcD/mFAVANCTD+rFCTD+sFD/6FD/mFHNAND/mFD/kFD/kFD/lFCBDtD+4FD/jF9DB/+g6DYHVD/mF9DBBX9LDYHLD/kFCggEDtHMD9OAcAVD/mFALD/kFCTD+rFD9QHcANAVD/mFALD/kFCTD+rFAOAVD/mFALD/kFAMD9OD9QHVDQBFTtGEmYILPdKOenHLD8dBAEDBIBDyB+t+J83EBABCNJALD8dFAEDBIBDyF+t+J83EBAKAcAVDQNVi8ZcMpySQ8c8dfb8e8fHVD8dBAEDBIBDyG+t+J83EBABCiJAVD8dFAEDBIBDyE+t+J83EBABCAJRBAICIJHIAF9JQBMMM9jFF97GXAGCGrAF9sHG9FQBCBRFEXABABDBBBHECND+rFCND+sFD/6FAECiD+sFCnD+rFCUUU/8EDtD+uFD/mFDMBBABCTJRBAFCIJHFAG9JQBMMM9TFEaCBCB8oGUkUUBHFABCEJC98ZJHBjGUkUUBGXGXAB8/BCTWHGuQBCaREABAGlCggEJCTrXBCa6QFMAFREMAEMMMFBCUNMIT9tBB"),
-            console.log(
-              "Warning: meshopt_decoder is using experimental SIMD support"
-            ));
+              console.log(
+                "Warning: meshopt_decoder is using experimental SIMD support"
+              ));
           var F = WebAssembly.instantiate(
             (function (A) {
               for (var C = new Uint8Array(A.length), G = 0; G < A.length; ++G) {
@@ -33635,12 +33635,12 @@ parcelRequire = (function (e, r, t, n) {
                   F > 96
                     ? F - 71
                     : F > 64
-                    ? F - 65
-                    : F > 47
-                    ? F + 4
-                    : F > 46
-                    ? 63
-                    : 62;
+                      ? F - 65
+                      : F > 47
+                        ? F + 4
+                        : F > 46
+                          ? 63
+                          : 62;
               }
               for (var J = 0, G = 0; G < A.length; ++G)
                 C[J++] = C[G] < 60 ? B[C[G]] : 64 * (C[G] - 60) + C[++G];
@@ -33660,22 +33660,22 @@ parcelRequire = (function (e, r, t, n) {
             var K = A(I, G, F, E, J.length);
             if (
               (0 == K && D && D(I, M, F),
-              B.set(R.subarray(I, I + G * F)),
-              H(I - H(0)),
-              0 != K)
+                B.set(R.subarray(I, I + G * F)),
+                H(I - H(0)),
+                0 != K)
             )
               throw new Error("Malformed buffer data: " + K);
           }
           var D = {
-              0: "",
-              1: "meshopt_decodeFilterOct",
-              2: "meshopt_decodeFilterQuat",
-              3: "meshopt_decodeFilterExp",
-              NONE: "",
-              OCTAHEDRAL: "meshopt_decodeFilterOct",
-              QUATERNION: "meshopt_decodeFilterQuat",
-              EXPONENTIAL: "meshopt_decodeFilterExp",
-            },
+            0: "",
+            1: "meshopt_decodeFilterOct",
+            2: "meshopt_decodeFilterQuat",
+            3: "meshopt_decodeFilterExp",
+            NONE: "",
+            OCTAHEDRAL: "meshopt_decodeFilterOct",
+            QUATERNION: "meshopt_decodeFilterQuat",
+            EXPONENTIAL: "meshopt_decodeFilterExp",
+          },
             H = {
               0: "meshopt_decodeVertexBuffer",
               1: "meshopt_decodeIndexBuffer",
@@ -33725,13 +33725,13 @@ parcelRequire = (function (e, r, t, n) {
           constructor(a, i) {
             super(),
               void 0 === i &&
-                console.warn(
-                  'THREE.OrbitControls: The second parameter "domElement" is now mandatory.'
-                ),
+              console.warn(
+                'THREE.OrbitControls: The second parameter "domElement" is now mandatory.'
+              ),
               i === document &&
-                console.error(
-                  'THREE.OrbitControls: "document" should not be used as the target "domElement". Please use "renderer.domElement" instead.'
-                ),
+              console.error(
+                'THREE.OrbitControls: "document" should not be used as the target "domElement". Please use "renderer.domElement" instead.'
+              ),
               (this.object = a),
               (this.domElement = i),
               (this.enabled = !0),
@@ -33812,8 +33812,8 @@ parcelRequire = (function (e, r, t, n) {
                     n.applyQuaternion(o),
                     l.setFromVector3(n),
                     s.autoRotate &&
-                      r === c.NONE &&
-                      A(((2 * Math.PI) / 60 / 60) * s.autoRotateSpeed),
+                    r === c.NONE &&
+                    A(((2 * Math.PI) / 60 / 60) * s.autoRotateSpeed),
                     s.enableDamping
                       ? ((l.theta += m.theta * s.dampingFactor),
                         (l.phi += m.phi * s.dampingFactor))
@@ -33822,15 +33822,15 @@ parcelRequire = (function (e, r, t, n) {
                     O = s.maxAzimuthAngle;
                   return (
                     isFinite(a) &&
-                      isFinite(O) &&
-                      (a < -Math.PI ? (a += f) : a > Math.PI && (a -= f),
+                    isFinite(O) &&
+                    (a < -Math.PI ? (a += f) : a > Math.PI && (a -= f),
                       O < -Math.PI ? (O += f) : O > Math.PI && (O -= f),
                       (l.theta =
                         a <= O
                           ? Math.max(a, Math.min(O, l.theta))
                           : l.theta > (a + O) / 2
-                          ? Math.max(a, l.theta)
-                          : Math.min(O, l.theta))),
+                            ? Math.max(a, l.theta)
+                            : Math.min(O, l.theta))),
                     (l.phi = Math.max(
                       s.minPolarAngle,
                       Math.min(s.maxPolarAngle, l.phi)
@@ -33859,7 +33859,7 @@ parcelRequire = (function (e, r, t, n) {
                       b.distanceToSquared(s.object.position) > u ||
                       8 * (1 - E.dot(s.object.quaternion)) > u
                     ) &&
-                      (s.dispatchEvent(t),
+                    (s.dispatchEvent(t),
                       b.copy(s.object.position),
                       E.copy(s.object.quaternion),
                       (d = !1),
@@ -33883,7 +33883,7 @@ parcelRequire = (function (e, r, t, n) {
                     I
                   ),
                   null !== s._domElementKeyEvents &&
-                    s._domElementKeyEvents.removeEventListener("keydown", F);
+                  s._domElementKeyEvents.removeEventListener("keydown", F);
               });
             const s = this,
               c = {
@@ -33922,11 +33922,11 @@ parcelRequire = (function (e, r, t, n) {
               m.phi -= e;
             }
             const N = (function () {
-                const t = new e.Vector3();
-                return function (e, n) {
-                  t.setFromMatrixColumn(n, 0), t.multiplyScalar(-e), p.add(t);
-                };
-              })(),
+              const t = new e.Vector3();
+              return function (e, n) {
+                t.setFromMatrixColumn(n, 0), t.multiplyScalar(-e), p.add(t);
+              };
+            })(),
               M = (function () {
                 const t = new e.Vector3();
                 return function (e, n) {
@@ -33952,20 +33952,20 @@ parcelRequire = (function (e, r, t, n) {
                   } else
                     s.object.isOrthographicCamera
                       ? (N(
-                          (e * (s.object.right - s.object.left)) /
-                            s.object.zoom /
-                            o.clientWidth,
-                          s.object.matrix
-                        ),
+                        (e * (s.object.right - s.object.left)) /
+                        s.object.zoom /
+                        o.clientWidth,
+                        s.object.matrix
+                      ),
                         M(
                           (n * (s.object.top - s.object.bottom)) /
-                            s.object.zoom /
-                            o.clientHeight,
+                          s.object.zoom /
+                          o.clientHeight,
                           s.object.matrix
                         ))
                       : (console.warn(
-                          "WARNING: OrbitControls.js encountered an unknown camera type - pan disabled."
-                        ),
+                        "WARNING: OrbitControls.js encountered an unknown camera type - pan disabled."
+                      ),
                         (s.enablePan = !1));
                 };
               })();
@@ -33973,31 +33973,31 @@ parcelRequire = (function (e, r, t, n) {
               s.object.isPerspectiveCamera
                 ? (h /= e)
                 : s.object.isOrthographicCamera
-                ? ((s.object.zoom = Math.max(
+                  ? ((s.object.zoom = Math.max(
                     s.minZoom,
                     Math.min(s.maxZoom, s.object.zoom * e)
                   )),
-                  s.object.updateProjectionMatrix(),
-                  (d = !0))
-                : (console.warn(
+                    s.object.updateProjectionMatrix(),
+                    (d = !0))
+                  : (console.warn(
                     "WARNING: OrbitControls.js encountered an unknown camera type - dolly/zoom disabled."
                   ),
-                  (s.enableZoom = !1));
+                    (s.enableZoom = !1));
             }
             function D(e) {
               s.object.isPerspectiveCamera
                 ? (h *= e)
                 : s.object.isOrthographicCamera
-                ? ((s.object.zoom = Math.max(
+                  ? ((s.object.zoom = Math.max(
                     s.minZoom,
                     Math.min(s.maxZoom, s.object.zoom / e)
                   )),
-                  s.object.updateProjectionMatrix(),
-                  (d = !0))
-                : (console.warn(
+                    s.object.updateProjectionMatrix(),
+                    (d = !0))
+                  : (console.warn(
                     "WARNING: OrbitControls.js encountered an unknown camera type - dolly/zoom disabled."
                   ),
-                  (s.enableZoom = !1));
+                    (s.enableZoom = !1));
             }
             function S(e) {
               b.set(e.clientX, e.clientY);
@@ -34072,7 +34072,7 @@ parcelRequire = (function (e, r, t, n) {
                     !(function (t) {
                       let o;
                       switch (
-                        (t.preventDefault(),
+                      (t.preventDefault(),
                         s.domElement.focus
                           ? s.domElement.focus()
                           : window.focus(),
@@ -34124,11 +34124,11 @@ parcelRequire = (function (e, r, t, n) {
                           "pointermove",
                           z
                         ),
-                        s.domElement.ownerDocument.addEventListener(
-                          "pointerup",
-                          I
-                        ),
-                        s.dispatchEvent(n));
+                          s.domElement.ownerDocument.addEventListener(
+                            "pointerup",
+                            I
+                          ),
+                          s.dispatchEvent(n));
                     })(t);
                 }
             }
@@ -34185,11 +34185,11 @@ parcelRequire = (function (e, r, t, n) {
                         "pointermove",
                         z
                       ),
-                      s.domElement.ownerDocument.removeEventListener(
-                        "pointerup",
-                        I
-                      ),
-                      !1 === s.enabled)
+                        s.domElement.ownerDocument.removeEventListener(
+                          "pointerup",
+                          I
+                        ),
+                        !1 === s.enabled)
                     )
                       return;
                     s.dispatchEvent(o), (r = c.NONE);
@@ -34201,11 +34201,11 @@ parcelRequire = (function (e, r, t, n) {
                 !1 === s.enableZoom ||
                 (r !== c.NONE && r !== c.ROTATE) ||
                 (e.preventDefault(),
-                s.dispatchEvent(n),
-                (function (e) {
-                  e.deltaY < 0 ? D(w()) : e.deltaY > 0 && R(w()), s.update();
-                })(e),
-                s.dispatchEvent(o));
+                  s.dispatchEvent(n),
+                  (function (e) {
+                    e.deltaY < 0 ? D(w()) : e.deltaY > 0 && R(w()), s.update();
+                  })(e),
+                  s.dispatchEvent(o));
             }
             function F(e) {
               !1 !== s.enabled &&
@@ -34343,24 +34343,24 @@ parcelRequire = (function (e, r, t, n) {
           }
           parse(t) {
             const r = function (e, t) {
-                switch (e) {
-                  case 1:
-                    console.error("THREE.RGBELoader Read Error: " + (t || ""));
-                    break;
-                  case 2:
-                    console.error("THREE.RGBELoader Write Error: " + (t || ""));
-                    break;
-                  case 3:
-                    console.error(
-                      "THREE.RGBELoader Bad File Format: " + (t || "")
-                    );
-                    break;
-                  default:
-                  case 4:
-                    console.error("THREE.RGBELoader: Error: " + (t || ""));
-                }
-                return -1;
-              },
+              switch (e) {
+                case 1:
+                  console.error("THREE.RGBELoader Read Error: " + (t || ""));
+                  break;
+                case 2:
+                  console.error("THREE.RGBELoader Write Error: " + (t || ""));
+                  break;
+                case 3:
+                  console.error(
+                    "THREE.RGBELoader Bad File Format: " + (t || "")
+                  );
+                  break;
+                default:
+                case 4:
+                  console.error("THREE.RGBELoader: Error: " + (t || ""));
+              }
+              return -1;
+            },
               a = function (e, t, r) {
                 t = t || 1024;
                 let a = e.pos,
@@ -34371,7 +34371,7 @@ parcelRequire = (function (e, r, t, n) {
                     null,
                     new Uint16Array(e.subarray(a, a + 128))
                   );
-                for (; 0 > (n = i.indexOf("\n")) && o < t && a < e.byteLength; )
+                for (; 0 > (n = i.indexOf("\n")) && o < t && a < e.byteLength;)
                   (s += i),
                     (o += i.length),
                     (a += 128),
@@ -34428,13 +34428,13 @@ parcelRequire = (function (e, r, t, n) {
                 if (((i.string += l + "\n"), "#" !== l.charAt(0))) {
                   if (
                     ((c = l.match(t)) && (i.gamma = parseFloat(c[1], 10)),
-                    (c = l.match(n)) && (i.exposure = parseFloat(c[1], 10)),
-                    (c = l.match(o)) && ((i.valid |= 2), (i.format = c[1])),
-                    (c = l.match(s)) &&
+                      (c = l.match(n)) && (i.exposure = parseFloat(c[1], 10)),
+                      (c = l.match(o)) && ((i.valid |= 2), (i.format = c[1])),
+                      (c = l.match(s)) &&
                       ((i.valid |= 4),
-                      (i.height = parseInt(c[1], 10)),
-                      (i.width = parseInt(c[2], 10))),
-                    2 & i.valid && 4 & i.valid)
+                        (i.height = parseInt(c[1], 10)),
+                        (i.width = parseInt(c[2], 10))),
+                      2 & i.valid && 4 & i.valid)
                   )
                     break;
                 } else i.comments += l + "\n";
@@ -34467,19 +34467,19 @@ parcelRequire = (function (e, r, t, n) {
                     c = new Uint8Array(4),
                     p = new Uint8Array(l);
                   let d = a;
-                  for (; d > 0 && i < e.byteLength; ) {
+                  for (; d > 0 && i < e.byteLength;) {
                     if (i + 4 > e.byteLength) return r(1);
                     if (
                       ((c[0] = e[i++]),
-                      (c[1] = e[i++]),
-                      (c[2] = e[i++]),
-                      (c[3] = e[i++]),
-                      2 != c[0] || 2 != c[1] || ((c[2] << 8) | c[3]) != n)
+                        (c[1] = e[i++]),
+                        (c[2] = e[i++]),
+                        (c[3] = e[i++]),
+                        2 != c[0] || 2 != c[1] || ((c[2] << 8) | c[3]) != n)
                     )
                       return r(3, "bad rgbe scanline format");
                     let t,
                       a = 0;
-                    for (; a < l && i < e.byteLength; ) {
+                    for (; a < l && i < e.byteLength;) {
                       const n = (t = e[i++]) > 128;
                       if ((n && (t -= 128), 0 === t || a + t > l))
                         return r(3, "bad scanline data");
@@ -34595,7 +34595,7 @@ parcelRequire = (function (e, r, t, n) {
         function n(e, t) {
           try {
             return decodeURIComponent(e.join(""));
-          } catch (c) {}
+          } catch (c) { }
           if (1 === e.length) return e;
           t = t || 1;
           var r = e.slice(0, t),
@@ -34636,8 +34636,8 @@ parcelRequire = (function (e, r, t, n) {
           if ("string" != typeof e)
             throw new TypeError(
               "Expected `encodedURI` to be of type `string`, got `" +
-                typeof e +
-                "`"
+              typeof e +
+              "`"
             );
           try {
             return (e = e.replace(/\+/g, " ")), decodeURIComponent(e);
@@ -34688,11 +34688,11 @@ parcelRequire = (function (e, r, t, n) {
           return (
             t in r
               ? Object.defineProperty(r, t, {
-                  value: e,
-                  enumerable: !0,
-                  configurable: !0,
-                  writable: !0,
-                })
+                value: e,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0,
+              })
               : (r[t] = e),
             r
           );
@@ -34701,16 +34701,16 @@ parcelRequire = (function (e, r, t, n) {
           return (t =
             "function" == typeof Symbol && "symbol" == typeof Symbol.iterator
               ? function (r) {
-                  return typeof r;
-                }
+                return typeof r;
+              }
               : function (r) {
-                  return r &&
-                    "function" == typeof Symbol &&
-                    r.constructor === Symbol &&
-                    r !== Symbol.prototype
-                    ? "symbol"
-                    : typeof r;
-                })(r);
+                return r &&
+                  "function" == typeof Symbol &&
+                  r.constructor === Symbol &&
+                  r !== Symbol.prototype
+                  ? "symbol"
+                  : typeof r;
+              })(r);
         }
         function e(r) {
           return i(r) || a(r) || o(r) || n();
@@ -34730,8 +34730,8 @@ parcelRequire = (function (e, r, t, n) {
                 ? Array.from(r)
                 : "Arguments" === e ||
                   /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(e)
-                ? u(r, t)
-                : void 0
+                  ? u(r, t)
+                  : void 0
             );
           }
         }
@@ -34769,11 +34769,11 @@ parcelRequire = (function (e, r, t, n) {
                     (r.skipEmptyString && "" === o)
                     ? n
                     : [].concat(
-                        e(n),
-                        null === o
-                          ? [[g(t, r), "[", a, "]"].join("")]
-                          : [[g(t, r), "[", g(a, r), "]=", g(o, r)].join("")]
-                      );
+                      e(n),
+                      null === o
+                        ? [[g(t, r), "[", a, "]"].join("")]
+                        : [[g(t, r), "[", g(a, r), "]=", g(o, r)].join("")]
+                    );
                 };
               };
             case "bracket":
@@ -34784,11 +34784,11 @@ parcelRequire = (function (e, r, t, n) {
                     (r.skipEmptyString && "" === o)
                     ? n
                     : [].concat(
-                        e(n),
-                        null === o
-                          ? [[g(t, r), "[]"].join("")]
-                          : [[g(t, r), "[]=", g(o, r)].join("")]
-                      );
+                      e(n),
+                      null === o
+                        ? [[g(t, r), "[]"].join("")]
+                        : [[g(t, r), "[]=", g(o, r)].join("")]
+                    );
                 };
               };
             case "colon-list-separator":
@@ -34799,11 +34799,11 @@ parcelRequire = (function (e, r, t, n) {
                     (r.skipEmptyString && "" === o)
                     ? n
                     : [].concat(
-                        e(n),
-                        null === o
-                          ? [[g(t, r), ":list="].join("")]
-                          : [[g(t, r), ":list=", g(o, r)].join("")]
-                      );
+                      e(n),
+                      null === o
+                        ? [[g(t, r), ":list="].join("")]
+                        : [[g(t, r), ":list=", g(o, r)].join("")]
+                    );
                 };
               };
             case "comma":
@@ -34830,11 +34830,11 @@ parcelRequire = (function (e, r, t, n) {
                     (r.skipEmptyString && "" === o)
                     ? n
                     : [].concat(
-                        e(n),
-                        null === o
-                          ? [g(t, r)]
-                          : [[g(t, r), "=", g(o, r)].join("")]
-                      );
+                      e(n),
+                      null === o
+                        ? [g(t, r)]
+                        : [[g(t, r), "=", g(o, r)].join("")]
+                    );
                 };
               };
           }
@@ -34874,7 +34874,7 @@ parcelRequire = (function (e, r, t, n) {
             case "separator":
               return function (t, e, n) {
                 var o =
-                    "string" == typeof e && e.includes(r.arrayFormatSeparator),
+                  "string" == typeof e && e.includes(r.arrayFormatSeparator),
                   a =
                     "string" == typeof e &&
                     !o &&
@@ -34883,11 +34883,11 @@ parcelRequire = (function (e, r, t, n) {
                 var i =
                   o || a
                     ? e.split(r.arrayFormatSeparator).map(function (t) {
-                        return v(t, r);
-                      })
+                      return v(t, r);
+                    })
                     : null === e
-                    ? e
-                    : v(e, r);
+                      ? e
+                      : v(e, r);
                 n[t] = i;
               };
             case "bracket-separator":
@@ -34898,8 +34898,8 @@ parcelRequire = (function (e, r, t, n) {
                     null === e
                       ? []
                       : e.split(r.arrayFormatSeparator).map(function (t) {
-                          return v(t, r);
-                        });
+                        return v(t, r);
+                      });
                   void 0 !== n[t] ? (n[t] = [].concat(n[t], a)) : (n[t] = a);
                 } else n[t] = e ? v(e, r) : e;
               };
@@ -34925,14 +34925,14 @@ parcelRequire = (function (e, r, t, n) {
           return Array.isArray(r)
             ? r.sort()
             : "object" === t(r)
-            ? j(Object.keys(r))
+              ? j(Object.keys(r))
                 .sort(function (r, t) {
                   return Number(r) - Number(t);
                 })
                 .map(function (t) {
                   return r[t];
                 })
-            : r;
+              : r;
         }
         function k(r) {
           var t = r.indexOf("#");
@@ -34950,14 +34950,14 @@ parcelRequire = (function (e, r, t, n) {
         function O(r, t) {
           return (
             t.parseNumbers &&
-            !Number.isNaN(Number(r)) &&
-            "string" == typeof r &&
-            "" !== r.trim()
+              !Number.isNaN(Number(r)) &&
+              "string" == typeof r &&
+              "" !== r.trim()
               ? (r = Number(r))
               : !t.parseBooleans ||
-                null === r ||
-                ("true" !== r.toLowerCase() && "false" !== r.toLowerCase()) ||
-                (r = "true" === r.toLowerCase()),
+              null === r ||
+              ("true" !== r.toLowerCase() && "false" !== r.toLowerCase()) ||
+              (r = "true" === r.toLowerCase()),
             r
           );
         }
@@ -34986,10 +34986,10 @@ parcelRequire = (function (e, r, t, n) {
                 void 0 === u
                   ? null
                   : ["comma", "separator", "bracket-separator"].includes(
-                      e.arrayFormat
-                    )
-                  ? u
-                  : v(u, e)),
+                    e.arrayFormat
+                  )
+                    ? u
+                    : v(u, e)),
                 n(v(i, e), u, o);
             }
           for (var c of Object.keys(o)) {
@@ -35001,17 +35001,17 @@ parcelRequire = (function (e, r, t, n) {
           return !1 === e.sort
             ? o
             : (!0 === e.sort
-                ? Object.keys(o).sort()
-                : Object.keys(o).sort(e.sort)
-              ).reduce(function (r, e) {
-                var n = o[e];
-                return (
-                  Boolean(n) && "object" === t(n) && !Array.isArray(n)
-                    ? (r[e] = j(n))
-                    : (r[e] = n),
-                  r
-                );
-              }, Object.create(null));
+              ? Object.keys(o).sort()
+              : Object.keys(o).sort(e.sort)
+            ).reduce(function (r, e) {
+              var n = o[e];
+              return (
+                Boolean(n) && "object" === t(n) && !Array.isArray(n)
+                  ? (r[e] = j(n))
+                  : (r[e] = n),
+                r
+              );
+            }, Object.create(null));
         }
         (exports.extract = x),
           (exports.parse = F),
@@ -35029,10 +35029,10 @@ parcelRequire = (function (e, r, t, n) {
               )).arrayFormatSeparator
             );
             var e = function (e) {
-                return (
-                  (t.skipNull && p(r[e])) || (t.skipEmptyString && "" === r[e])
-                );
-              },
+              return (
+                (t.skipNull && p(r[e])) || (t.skipEmptyString && "" === r[e])
+              );
+            },
               n = m(t),
               o = {};
             for (var a of Object.keys(r)) e(a) || (o[a] = r[a]);
@@ -35045,12 +35045,12 @@ parcelRequire = (function (e, r, t, n) {
                   return void 0 === o
                     ? ""
                     : null === o
-                    ? g(e, t)
-                    : Array.isArray(o)
-                    ? 0 === o.length && "bracket-separator" === t.arrayFormat
-                      ? g(e, t) + "[]"
-                      : o.reduce(n(e), []).join("&")
-                    : g(e, t) + "=" + g(o, t);
+                      ? g(e, t)
+                      : Array.isArray(o)
+                        ? 0 === o.length && "bracket-separator" === t.arrayFormat
+                          ? g(e, t) + "[]"
+                          : o.reduce(n(e), []).join("&")
+                        : g(e, t) + "=" + g(o, t);
                 })
                 .filter(function (r) {
                   return r.length > 0;
@@ -35079,9 +35079,9 @@ parcelRequire = (function (e, r, t, n) {
             var c = S(t.url);
             return (
               t.fragmentIdentifier &&
-                (c = "#".concat(
-                  e[y] ? g(t.fragmentIdentifier, e) : t.fragmentIdentifier
-                )),
+              (c = "#".concat(
+                e[y] ? g(t.fragmentIdentifier, e) : t.fragmentIdentifier
+              )),
               "".concat(n).concat(u).concat(c)
             );
           }),
@@ -35100,11 +35100,11 @@ parcelRequire = (function (e, r, t, n) {
           (exports.exclude = function (r, t, e) {
             var n = Array.isArray(t)
               ? function (r) {
-                  return !t.includes(r);
-                }
+                return !t.includes(r);
+              }
               : function (r, e) {
-                  return !t(r, e);
-                };
+                return !t(r, e);
+              };
             return exports.pick(r, n, e);
           });
       },
@@ -35139,28 +35139,28 @@ parcelRequire = (function (e, r, t, n) {
             l = e.s.toFixed(1),
             d = e.v.toFixed(1);
           if (t || "THREE_CHAR_HEX" === n || "SIX_CHAR_HEX" === n) {
-            for (var c = e.hex.toString(16); c.length < 6; ) c = "0" + c;
+            for (var c = e.hex.toString(16); c.length < 6;) c = "0" + c;
             return "#" + c;
           }
           return "CSS_RGB" === n
             ? "rgb(" + o + "," + i + "," + r + ")"
             : "CSS_RGBA" === n
-            ? "rgba(" + o + "," + i + "," + r + "," + s + ")"
-            : "HEX" === n
-            ? "0x" + e.hex.toString(16)
-            : "RGB_ARRAY" === n
-            ? "[" + o + "," + i + "," + r + "]"
-            : "RGBA_ARRAY" === n
-            ? "[" + o + "," + i + "," + r + "," + s + "]"
-            : "RGB_OBJ" === n
-            ? "{r:" + o + ",g:" + i + ",b:" + r + "}"
-            : "RGBA_OBJ" === n
-            ? "{r:" + o + ",g:" + i + ",b:" + r + ",a:" + s + "}"
-            : "HSV_OBJ" === n
-            ? "{h:" + a + ",s:" + l + ",v:" + d + "}"
-            : "HSVA_OBJ" === n
-            ? "{h:" + a + ",s:" + l + ",v:" + d + ",a:" + s + "}"
-            : "unknown format";
+              ? "rgba(" + o + "," + i + "," + r + "," + s + ")"
+              : "HEX" === n
+                ? "0x" + e.hex.toString(16)
+                : "RGB_ARRAY" === n
+                  ? "[" + o + "," + i + "," + r + "]"
+                  : "RGBA_ARRAY" === n
+                    ? "[" + o + "," + i + "," + r + "," + s + "]"
+                    : "RGB_OBJ" === n
+                      ? "{r:" + o + ",g:" + i + ",b:" + r + "}"
+                      : "RGBA_OBJ" === n
+                        ? "{r:" + o + ",g:" + i + ",b:" + r + ",a:" + s + "}"
+                        : "HSV_OBJ" === n
+                          ? "{h:" + a + ",s:" + l + ",v:" + d + "}"
+                          : "HSVA_OBJ" === n
+                            ? "{h:" + a + ",s:" + l + ",v:" + d + ",a:" + s + "}"
+                            : "unknown format";
         }
         Object.defineProperty(exports, "__esModule", { value: !0 }),
           (exports.gui =
@@ -35169,7 +35169,7 @@ parcelRequire = (function (e, r, t, n) {
             exports.controllers =
             exports.color =
             exports.GUI =
-              void 0);
+            void 0);
         var n = Array.prototype.forEach,
           o = Array.prototype.slice,
           i = {
@@ -35297,12 +35297,12 @@ parcelRequire = (function (e, r, t, n) {
                         space: "HEX",
                         hex: parseInt(
                           "0x" +
-                            t[1].toString() +
-                            t[1].toString() +
-                            t[2].toString() +
-                            t[2].toString() +
-                            t[3].toString() +
-                            t[3].toString(),
+                          t[1].toString() +
+                          t[1].toString() +
+                          t[2].toString() +
+                          t[2].toString() +
+                          t[3].toString() +
+                          t[3].toString(),
                           0
                         ),
                       }
@@ -35518,9 +35518,9 @@ parcelRequire = (function (e, r, t, n) {
               return 0 === i
                 ? { h: NaN, s: 0, v: 0 }
                 : ((s =
-                    e === i
-                      ? (t - n) / r
-                      : t === i
+                  e === i
+                    ? (t - n) / r
+                    : t === i
                       ? 2 + (n - e) / r
                       : 4 + (e - t) / r),
                   (s /= 6) < 0 && (s += 1),
@@ -35543,16 +35543,16 @@ parcelRequire = (function (e, r, t, n) {
           u =
             "function" == typeof Symbol && "symbol" == typeof Symbol.iterator
               ? function (e) {
-                  return typeof e;
-                }
+                return typeof e;
+              }
               : function (e) {
-                  return e &&
-                    "function" == typeof Symbol &&
-                    e.constructor === Symbol &&
-                    e !== Symbol.prototype
-                    ? "symbol"
-                    : typeof e;
-                },
+                return e &&
+                  "function" == typeof Symbol &&
+                  e.constructor === Symbol &&
+                  e !== Symbol.prototype
+                  ? "symbol"
+                  : typeof e;
+              },
           _ = function (e, t) {
             if (!(e instanceof t))
               throw new TypeError("Cannot call a class as a function");
@@ -35586,7 +35586,7 @@ parcelRequire = (function (e, r, t, n) {
             if ("function" != typeof t && null !== t)
               throw new TypeError(
                 "Super expression must either be null or a function, not " +
-                  typeof t
+                typeof t
               );
             (e.prototype = Object.create(t && t.prototype, {
               constructor: {
@@ -35597,9 +35597,9 @@ parcelRequire = (function (e, r, t, n) {
               },
             })),
               t &&
-                (Object.setPrototypeOf
-                  ? Object.setPrototypeOf(e, t)
-                  : (e.__proto__ = t));
+              (Object.setPrototypeOf
+                ? Object.setPrototypeOf(e, t)
+                : (e.__proto__ = t));
           },
           m = function (e, t) {
             if (!e)
@@ -35614,8 +35614,8 @@ parcelRequire = (function (e, r, t, n) {
             function e() {
               if (
                 (_(this, e),
-                (this.__state = l.apply(this, arguments)),
-                !1 === this.__state)
+                  (this.__state = l.apply(this, arguments)),
+                  !1 === this.__state)
               )
                 throw new Error("Failed to interpret color arguments");
               this.__state.a = this.__state.a || 1;
@@ -35710,7 +35710,7 @@ parcelRequire = (function (e, r, t, n) {
             get: function () {
               return (
                 "HEX" !== this.__state.space &&
-                  ((this.__state.hex = c.rgb_to_hex(this.r, this.g, this.b)),
+                ((this.__state.hex = c.rgb_to_hex(this.r, this.g, this.b)),
                   (this.__state.space = "HEX")),
                 this.__state.hex
               );
@@ -35720,62 +35720,62 @@ parcelRequire = (function (e, r, t, n) {
             },
           });
         var y = (function () {
-            function e(t, n) {
-              _(this, e),
-                (this.initialValue = t[n]),
-                (this.domElement = document.createElement("div")),
-                (this.object = t),
-                (this.property = n),
-                (this.__onChange = void 0),
-                (this.__onFinishChange = void 0);
-            }
-            return (
-              h(e, [
-                {
-                  key: "onChange",
-                  value: function (e) {
-                    return (this.__onChange = e), this;
-                  },
+          function e(t, n) {
+            _(this, e),
+              (this.initialValue = t[n]),
+              (this.domElement = document.createElement("div")),
+              (this.object = t),
+              (this.property = n),
+              (this.__onChange = void 0),
+              (this.__onFinishChange = void 0);
+          }
+          return (
+            h(e, [
+              {
+                key: "onChange",
+                value: function (e) {
+                  return (this.__onChange = e), this;
                 },
-                {
-                  key: "onFinishChange",
-                  value: function (e) {
-                    return (this.__onFinishChange = e), this;
-                  },
+              },
+              {
+                key: "onFinishChange",
+                value: function (e) {
+                  return (this.__onFinishChange = e), this;
                 },
-                {
-                  key: "setValue",
-                  value: function (e) {
-                    return (
-                      (this.object[this.property] = e),
-                      this.__onChange && this.__onChange.call(this, e),
-                      this.updateDisplay(),
-                      this
-                    );
-                  },
+              },
+              {
+                key: "setValue",
+                value: function (e) {
+                  return (
+                    (this.object[this.property] = e),
+                    this.__onChange && this.__onChange.call(this, e),
+                    this.updateDisplay(),
+                    this
+                  );
                 },
-                {
-                  key: "getValue",
-                  value: function () {
-                    return this.object[this.property];
-                  },
+              },
+              {
+                key: "getValue",
+                value: function () {
+                  return this.object[this.property];
                 },
-                {
-                  key: "updateDisplay",
-                  value: function () {
-                    return this;
-                  },
+              },
+              {
+                key: "updateDisplay",
+                value: function () {
+                  return this;
                 },
-                {
-                  key: "isModified",
-                  value: function () {
-                    return this.initialValue !== this.getValue();
-                  },
+              },
+              {
+                key: "isModified",
+                value: function () {
+                  return this.initialValue !== this.getValue();
                 },
-              ]),
-              e
-            );
-          })(),
+              },
+            ]),
+            e
+          );
+        })(),
           w = {
             HTMLEvents: ["change"],
             MouseEvents: [
@@ -35800,173 +35800,173 @@ parcelRequire = (function (e, r, t, n) {
           return i.isNull(t) ? 0 : parseFloat(t[1]);
         }
         var A = {
-            makeSelectable: function (e, t) {
-              void 0 !== e &&
-                void 0 !== e.style &&
-                ((e.onselectstart = t
-                  ? function () {
-                      return !1;
-                    }
-                  : function () {}),
+          makeSelectable: function (e, t) {
+            void 0 !== e &&
+              void 0 !== e.style &&
+              ((e.onselectstart = t
+                ? function () {
+                  return !1;
+                }
+                : function () { }),
                 (e.style.MozUserSelect = t ? "auto" : "none"),
                 (e.style.KhtmlUserSelect = t ? "auto" : "none"),
                 (e.unselectable = t ? "on" : "off"));
-            },
-            makeFullscreen: function (e, t, n) {
-              var o = n,
-                r = t;
-              i.isUndefined(r) && (r = !0),
-                i.isUndefined(o) && (o = !0),
-                (e.style.position = "absolute"),
-                r && ((e.style.left = 0), (e.style.right = 0)),
-                o && ((e.style.top = 0), (e.style.bottom = 0));
-            },
-            fakeEvent: function (e, t, n, o) {
-              var r = n || {},
-                s = x[t];
-              if (!s) throw new Error("Event type " + t + " not supported.");
-              var a = document.createEvent(s);
-              switch (s) {
-                case "MouseEvents":
-                  var l = r.x || r.clientX || 0,
-                    d = r.y || r.clientY || 0;
-                  a.initMouseEvent(
+          },
+          makeFullscreen: function (e, t, n) {
+            var o = n,
+              r = t;
+            i.isUndefined(r) && (r = !0),
+              i.isUndefined(o) && (o = !0),
+              (e.style.position = "absolute"),
+              r && ((e.style.left = 0), (e.style.right = 0)),
+              o && ((e.style.top = 0), (e.style.bottom = 0));
+          },
+          fakeEvent: function (e, t, n, o) {
+            var r = n || {},
+              s = x[t];
+            if (!s) throw new Error("Event type " + t + " not supported.");
+            var a = document.createEvent(s);
+            switch (s) {
+              case "MouseEvents":
+                var l = r.x || r.clientX || 0,
+                  d = r.y || r.clientY || 0;
+                a.initMouseEvent(
+                  t,
+                  r.bubbles || !1,
+                  r.cancelable || !0,
+                  window,
+                  r.clickCount || 1,
+                  0,
+                  0,
+                  l,
+                  d,
+                  !1,
+                  !1,
+                  !1,
+                  !1,
+                  0,
+                  null
+                );
+                break;
+              case "KeyboardEvents":
+                var c = a.initKeyboardEvent || a.initKeyEvent;
+                i.defaults(r, {
+                  cancelable: !0,
+                  ctrlKey: !1,
+                  altKey: !1,
+                  shiftKey: !1,
+                  metaKey: !1,
+                  keyCode: void 0,
+                  charCode: void 0,
+                }),
+                  c(
                     t,
                     r.bubbles || !1,
-                    r.cancelable || !0,
+                    r.cancelable,
                     window,
-                    r.clickCount || 1,
-                    0,
-                    0,
-                    l,
-                    d,
-                    !1,
-                    !1,
-                    !1,
-                    !1,
-                    0,
-                    null
+                    r.ctrlKey,
+                    r.altKey,
+                    r.shiftKey,
+                    r.metaKey,
+                    r.keyCode,
+                    r.charCode
                   );
-                  break;
-                case "KeyboardEvents":
-                  var c = a.initKeyboardEvent || a.initKeyEvent;
-                  i.defaults(r, {
-                    cancelable: !0,
-                    ctrlKey: !1,
-                    altKey: !1,
-                    shiftKey: !1,
-                    metaKey: !1,
-                    keyCode: void 0,
-                    charCode: void 0,
-                  }),
-                    c(
-                      t,
-                      r.bubbles || !1,
-                      r.cancelable,
-                      window,
-                      r.ctrlKey,
-                      r.altKey,
-                      r.shiftKey,
-                      r.metaKey,
-                      r.keyCode,
-                      r.charCode
-                    );
-                  break;
-                default:
-                  a.initEvent(t, r.bubbles || !1, r.cancelable || !0);
-              }
-              i.defaults(a, o), e.dispatchEvent(a);
-            },
-            bind: function (e, t, n, o) {
-              var i = o || !1;
-              return (
-                e.addEventListener
-                  ? e.addEventListener(t, n, i)
-                  : e.attachEvent && e.attachEvent("on" + t, n),
-                A
-              );
-            },
-            unbind: function (e, t, n, o) {
-              var i = o || !1;
-              return (
-                e.removeEventListener
-                  ? e.removeEventListener(t, n, i)
-                  : e.detachEvent && e.detachEvent("on" + t, n),
-                A
-              );
-            },
-            addClass: function (e, t) {
-              if (void 0 === e.className) e.className = t;
-              else if (e.className !== t) {
-                var n = e.className.split(/ +/);
-                -1 === n.indexOf(t) &&
-                  (n.push(t),
+                break;
+              default:
+                a.initEvent(t, r.bubbles || !1, r.cancelable || !0);
+            }
+            i.defaults(a, o), e.dispatchEvent(a);
+          },
+          bind: function (e, t, n, o) {
+            var i = o || !1;
+            return (
+              e.addEventListener
+                ? e.addEventListener(t, n, i)
+                : e.attachEvent && e.attachEvent("on" + t, n),
+              A
+            );
+          },
+          unbind: function (e, t, n, o) {
+            var i = o || !1;
+            return (
+              e.removeEventListener
+                ? e.removeEventListener(t, n, i)
+                : e.detachEvent && e.detachEvent("on" + t, n),
+              A
+            );
+          },
+          addClass: function (e, t) {
+            if (void 0 === e.className) e.className = t;
+            else if (e.className !== t) {
+              var n = e.className.split(/ +/);
+              -1 === n.indexOf(t) &&
+                (n.push(t),
                   (e.className = n
                     .join(" ")
                     .replace(/^\s+/, "")
                     .replace(/\s+$/, "")));
-              }
-              return A;
-            },
-            removeClass: function (e, t) {
-              if (t)
-                if (e.className === t) e.removeAttribute("class");
-                else {
-                  var n = e.className.split(/ +/),
-                    o = n.indexOf(t);
-                  -1 !== o && (n.splice(o, 1), (e.className = n.join(" ")));
-                }
-              else e.className = void 0;
-              return A;
-            },
-            hasClass: function (e, t) {
-              return (
-                new RegExp("(?:^|\\s+)" + t + "(?:\\s+|$)").test(e.className) ||
-                !1
-              );
-            },
-            getWidth: function (e) {
-              var t = getComputedStyle(e);
-              return (
-                C(t["border-left-width"]) +
-                C(t["border-right-width"]) +
-                C(t["padding-left"]) +
-                C(t["padding-right"]) +
-                C(t.width)
-              );
-            },
-            getHeight: function (e) {
-              var t = getComputedStyle(e);
-              return (
-                C(t["border-top-width"]) +
-                C(t["border-bottom-width"]) +
-                C(t["padding-top"]) +
-                C(t["padding-bottom"]) +
-                C(t.height)
-              );
-            },
-            getOffset: function (e) {
-              var t = e,
-                n = { left: 0, top: 0 };
-              if (t.offsetParent)
-                do {
-                  (n.left += t.offsetLeft),
-                    (n.top += t.offsetTop),
-                    (t = t.offsetParent);
-                } while (t);
-              return n;
-            },
-            isActive: function (e) {
-              return e === document.activeElement && (e.type || e.href);
-            },
+            }
+            return A;
           },
+          removeClass: function (e, t) {
+            if (t)
+              if (e.className === t) e.removeAttribute("class");
+              else {
+                var n = e.className.split(/ +/),
+                  o = n.indexOf(t);
+                -1 !== o && (n.splice(o, 1), (e.className = n.join(" ")));
+              }
+            else e.className = void 0;
+            return A;
+          },
+          hasClass: function (e, t) {
+            return (
+              new RegExp("(?:^|\\s+)" + t + "(?:\\s+|$)").test(e.className) ||
+              !1
+            );
+          },
+          getWidth: function (e) {
+            var t = getComputedStyle(e);
+            return (
+              C(t["border-left-width"]) +
+              C(t["border-right-width"]) +
+              C(t["padding-left"]) +
+              C(t["padding-right"]) +
+              C(t.width)
+            );
+          },
+          getHeight: function (e) {
+            var t = getComputedStyle(e);
+            return (
+              C(t["border-top-width"]) +
+              C(t["border-bottom-width"]) +
+              C(t["padding-top"]) +
+              C(t["padding-bottom"]) +
+              C(t.height)
+            );
+          },
+          getOffset: function (e) {
+            var t = e,
+              n = { left: 0, top: 0 };
+            if (t.offsetParent)
+              do {
+                (n.left += t.offsetLeft),
+                  (n.top += t.offsetTop),
+                  (t = t.offsetParent);
+              } while (t);
+            return n;
+          },
+          isActive: function (e) {
+            return e === document.activeElement && (e.type || e.href);
+          },
+        },
           k = (function (e) {
             function t(e, n) {
               _(this, t);
               var o = m(
-                  this,
-                  (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
-                ),
+                this,
+                (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
+              ),
                 i = o;
               return (
                 (o.__prev = o.getValue()),
@@ -35993,13 +35993,13 @@ parcelRequire = (function (e, r, t, n) {
                   value: function (e) {
                     var n = p(
                       t.prototype.__proto__ ||
-                        Object.getPrototypeOf(t.prototype),
+                      Object.getPrototypeOf(t.prototype),
                       "setValue",
                       this
                     ).call(this, e);
                     return (
                       this.__onFinishChange &&
-                        this.__onFinishChange.call(this, this.getValue()),
+                      this.__onFinishChange.call(this, this.getValue()),
                       (this.__prev = this.getValue()),
                       n
                     );
@@ -36016,7 +36016,7 @@ parcelRequire = (function (e, r, t, n) {
                         : ((this.__checkbox.checked = !1), (this.__prev = !1)),
                       p(
                         t.prototype.__proto__ ||
-                          Object.getPrototypeOf(t.prototype),
+                        Object.getPrototypeOf(t.prototype),
                         "updateDisplay",
                         this
                       ).call(this)
@@ -36031,9 +36031,9 @@ parcelRequire = (function (e, r, t, n) {
             function t(e, n, o) {
               _(this, t);
               var r = m(
-                  this,
-                  (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
-                ),
+                this,
+                (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
+              ),
                 s = o,
                 a = r;
               if (
@@ -36069,13 +36069,13 @@ parcelRequire = (function (e, r, t, n) {
                   value: function (e) {
                     var n = p(
                       t.prototype.__proto__ ||
-                        Object.getPrototypeOf(t.prototype),
+                      Object.getPrototypeOf(t.prototype),
                       "setValue",
                       this
                     ).call(this, e);
                     return (
                       this.__onFinishChange &&
-                        this.__onFinishChange.call(this, this.getValue()),
+                      this.__onFinishChange.call(this, this.getValue()),
                       n
                     );
                   },
@@ -36088,7 +36088,7 @@ parcelRequire = (function (e, r, t, n) {
                       : ((this.__select.value = this.getValue()),
                         p(
                           t.prototype.__proto__ ||
-                            Object.getPrototypeOf(t.prototype),
+                          Object.getPrototypeOf(t.prototype),
                           "updateDisplay",
                           this
                         ).call(this));
@@ -36102,9 +36102,9 @@ parcelRequire = (function (e, r, t, n) {
             function t(e, n) {
               _(this, t);
               var o = m(
-                  this,
-                  (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
-                ),
+                this,
+                (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
+              ),
                 i = o;
               function r() {
                 i.setValue(i.__input.value);
@@ -36134,10 +36134,10 @@ parcelRequire = (function (e, r, t, n) {
                   value: function () {
                     return (
                       A.isActive(this.__input) ||
-                        (this.__input.value = this.getValue()),
+                      (this.__input.value = this.getValue()),
                       p(
                         t.prototype.__proto__ ||
-                          Object.getPrototypeOf(t.prototype),
+                        Object.getPrototypeOf(t.prototype),
                         "updateDisplay",
                         this
                       ).call(this)
@@ -36156,9 +36156,9 @@ parcelRequire = (function (e, r, t, n) {
           function t(e, n, o) {
             _(this, t);
             var r = m(
-                this,
-                (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
-              ),
+              this,
+              (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
+            ),
               s = o || {};
             return (
               (r.__min = s.min),
@@ -36168,12 +36168,12 @@ parcelRequire = (function (e, r, t, n) {
                 ? 0 === r.initialValue
                   ? (r.__impliedStep = 1)
                   : (r.__impliedStep =
-                      Math.pow(
-                        10,
-                        Math.floor(
-                          Math.log(Math.abs(r.initialValue)) / Math.LN10
-                        )
-                      ) / 10)
+                    Math.pow(
+                      10,
+                      Math.floor(
+                        Math.log(Math.abs(r.initialValue)) / Math.LN10
+                      )
+                    ) / 10)
                 : (r.__impliedStep = r.__step),
               (r.__precision = T(r.__impliedStep)),
               r
@@ -36190,14 +36190,14 @@ parcelRequire = (function (e, r, t, n) {
                     void 0 !== this.__min && n < this.__min
                       ? (n = this.__min)
                       : void 0 !== this.__max &&
-                        n > this.__max &&
-                        (n = this.__max),
+                      n > this.__max &&
+                      (n = this.__max),
                     void 0 !== this.__step &&
-                      n % this.__step != 0 &&
-                      (n = Math.round(n / this.__step) * this.__step),
+                    n % this.__step != 0 &&
+                    (n = Math.round(n / this.__step) * this.__step),
                     p(
                       t.prototype.__proto__ ||
-                        Object.getPrototypeOf(t.prototype),
+                      Object.getPrototypeOf(t.prototype),
                       "setValue",
                       this
                     ).call(this, n)
@@ -36275,9 +36275,9 @@ parcelRequire = (function (e, r, t, n) {
               A.bind(r.__input, "keydown", function (e) {
                 13 === e.keyCode &&
                   ((s.__truncationSuspended = !0),
-                  this.blur(),
-                  (s.__truncationSuspended = !1),
-                  l());
+                    this.blur(),
+                    (s.__truncationSuspended = !1),
+                    l());
               }),
               r.updateDisplay(),
               r.domElement.appendChild(r.__input),
@@ -36296,7 +36296,7 @@ parcelRequire = (function (e, r, t, n) {
                       : R(this.getValue(), this.__precision)),
                     p(
                       t.prototype.__proto__ ||
-                        Object.getPrototypeOf(t.prototype),
+                      Object.getPrototypeOf(t.prototype),
                       "updateDisplay",
                       this
                     ).call(this)
@@ -36311,96 +36311,96 @@ parcelRequire = (function (e, r, t, n) {
           return o + ((e - t) / (n - t)) * (i - o);
         }
         var H = (function (e) {
-            function t(e, n, o, i, r) {
-              _(this, t);
-              var s = m(
-                  this,
-                  (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n, {
-                    min: o,
-                    max: i,
-                    step: r,
-                  })
-                ),
-                a = s;
-              function l(e) {
-                e.preventDefault();
-                var t = a.__background.getBoundingClientRect();
-                return (
-                  a.setValue(N(e.clientX, t.left, t.right, a.__min, a.__max)),
-                  !1
-                );
-              }
-              function d() {
-                A.unbind(window, "mousemove", l),
-                  A.unbind(window, "mouseup", d),
-                  a.__onFinishChange &&
-                    a.__onFinishChange.call(a, a.getValue());
-              }
-              function c(e) {
-                var t = e.touches[0].clientX,
-                  n = a.__background.getBoundingClientRect();
-                a.setValue(N(t, n.left, n.right, a.__min, a.__max));
-              }
-              function u() {
-                A.unbind(window, "touchmove", c),
-                  A.unbind(window, "touchend", u),
-                  a.__onFinishChange &&
-                    a.__onFinishChange.call(a, a.getValue());
-              }
+          function t(e, n, o, i, r) {
+            _(this, t);
+            var s = m(
+              this,
+              (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n, {
+                min: o,
+                max: i,
+                step: r,
+              })
+            ),
+              a = s;
+            function l(e) {
+              e.preventDefault();
+              var t = a.__background.getBoundingClientRect();
               return (
-                (s.__background = document.createElement("div")),
-                (s.__foreground = document.createElement("div")),
-                A.bind(s.__background, "mousedown", function (e) {
-                  document.activeElement.blur(),
-                    A.bind(window, "mousemove", l),
-                    A.bind(window, "mouseup", d),
-                    l(e);
-                }),
-                A.bind(s.__background, "touchstart", function (e) {
-                  if (1 !== e.touches.length) return;
-                  A.bind(window, "touchmove", c),
-                    A.bind(window, "touchend", u),
-                    c(e);
-                }),
-                A.addClass(s.__background, "slider"),
-                A.addClass(s.__foreground, "slider-fg"),
-                s.updateDisplay(),
-                s.__background.appendChild(s.__foreground),
-                s.domElement.appendChild(s.__background),
-                s
+                a.setValue(N(e.clientX, t.left, t.right, a.__min, a.__max)),
+                !1
               );
             }
+            function d() {
+              A.unbind(window, "mousemove", l),
+                A.unbind(window, "mouseup", d),
+                a.__onFinishChange &&
+                a.__onFinishChange.call(a, a.getValue());
+            }
+            function c(e) {
+              var t = e.touches[0].clientX,
+                n = a.__background.getBoundingClientRect();
+              a.setValue(N(t, n.left, n.right, a.__min, a.__max));
+            }
+            function u() {
+              A.unbind(window, "touchmove", c),
+                A.unbind(window, "touchend", u),
+                a.__onFinishChange &&
+                a.__onFinishChange.call(a, a.getValue());
+            }
             return (
-              f(t, L),
-              h(t, [
-                {
-                  key: "updateDisplay",
-                  value: function () {
-                    var e =
-                      (this.getValue() - this.__min) /
-                      (this.__max - this.__min);
-                    return (
-                      (this.__foreground.style.width = 100 * e + "%"),
-                      p(
-                        t.prototype.__proto__ ||
-                          Object.getPrototypeOf(t.prototype),
-                        "updateDisplay",
-                        this
-                      ).call(this)
-                    );
-                  },
-                },
-              ]),
-              t
+              (s.__background = document.createElement("div")),
+              (s.__foreground = document.createElement("div")),
+              A.bind(s.__background, "mousedown", function (e) {
+                document.activeElement.blur(),
+                  A.bind(window, "mousemove", l),
+                  A.bind(window, "mouseup", d),
+                  l(e);
+              }),
+              A.bind(s.__background, "touchstart", function (e) {
+                if (1 !== e.touches.length) return;
+                A.bind(window, "touchmove", c),
+                  A.bind(window, "touchend", u),
+                  c(e);
+              }),
+              A.addClass(s.__background, "slider"),
+              A.addClass(s.__foreground, "slider-fg"),
+              s.updateDisplay(),
+              s.__background.appendChild(s.__foreground),
+              s.domElement.appendChild(s.__background),
+              s
             );
-          })(),
+          }
+          return (
+            f(t, L),
+            h(t, [
+              {
+                key: "updateDisplay",
+                value: function () {
+                  var e =
+                    (this.getValue() - this.__min) /
+                    (this.__max - this.__min);
+                  return (
+                    (this.__foreground.style.width = 100 * e + "%"),
+                    p(
+                      t.prototype.__proto__ ||
+                      Object.getPrototypeOf(t.prototype),
+                      "updateDisplay",
+                      this
+                    ).call(this)
+                  );
+                },
+              },
+            ]),
+            t
+          );
+        })(),
           F = (function (e) {
             function t(e, n, o) {
               _(this, t);
               var i = m(
-                  this,
-                  (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
-                ),
+                this,
+                (t.__proto__ || Object.getPrototypeOf(t)).call(this, e, n)
+              ),
                 r = i;
               return (
                 (i.__button = document.createElement("div")),
@@ -36422,7 +36422,7 @@ parcelRequire = (function (e, r, t, n) {
                     this.__onChange && this.__onChange.call(this),
                       this.getValue().call(this.object),
                       this.__onFinishChange &&
-                        this.__onFinishChange.call(this, this.getValue());
+                      this.__onFinishChange.call(this, this.getValue());
                   },
                 },
               ]),
@@ -36535,7 +36535,7 @@ parcelRequire = (function (e, r, t, n) {
                   n =
                     1 -
                     (((e.touches && e.touches[0]) || e).clientY - t.top) /
-                      (t.bottom - t.top);
+                    (t.bottom - t.top);
                 return (
                   n > 1 ? (n = 1) : n < 0 && (n = 0),
                   (r.__color.h = 360 * n),
@@ -36644,7 +36644,7 @@ parcelRequire = (function (e, r, t, n) {
                     i.extend(this.__temp.__state, this.__color.__state),
                       (this.__temp.a = 1);
                     var n =
-                        this.__color.v < 0.5 || this.__color.s > 0.5 ? 255 : 0,
+                      this.__color.v < 0.5 || this.__color.s > 0.5 ? 255 : 0,
                       o = 255 - n;
                     i.extend(this.__field_knob.style, {
                       marginLeft: 100 * this.__color.s - 7 + "px",
@@ -36720,24 +36720,24 @@ parcelRequire = (function (e, r, t, n) {
               "background: linear-gradient(top,  #ff0000 0%,#ff00ff 17%,#0000ff 34%,#00ffff 50%,#00ff00 67%,#ffff00 84%,#ff0000 100%);");
         }
         var I = {
-            load: function (e, t) {
-              var n = t || document,
-                o = n.createElement("link");
-              (o.type = "text/css"),
-                (o.rel = "stylesheet"),
-                (o.href = e),
-                n.getElementsByTagName("head")[0].appendChild(o);
-            },
-            inject: function (e, t) {
-              var n = t || document,
-                o = document.createElement("style");
-              (o.type = "text/css"), (o.innerHTML = e);
-              var i = n.getElementsByTagName("head")[0];
-              try {
-                i.appendChild(o);
-              } catch (r) {}
-            },
+          load: function (e, t) {
+            var n = t || document,
+              o = n.createElement("link");
+            (o.type = "text/css"),
+              (o.rel = "stylesheet"),
+              (o.href = e),
+              n.getElementsByTagName("head")[0].appendChild(o);
           },
+          inject: function (e, t) {
+            var n = t || document,
+              o = document.createElement("style");
+            (o.type = "text/css"), (o.innerHTML = e);
+            var i = n.getElementsByTagName("head")[0];
+            try {
+              i.appendChild(o);
+            } catch (r) { }
+          },
+        },
           z =
             '<div id="dg-save" class="dg dialogue">\n\n  Here\'s the new load parameter for your <code>GUI</code>\'s constructor:\n\n  <textarea id="dg-new-constructor"></textarea>\n\n  <div id="dg-save-locally">\n\n    <input id="dg-local-storage" type="checkbox"/> Automatically save\n    values to <code>localStorage</code> on exit.\n\n    <div id="dg-local-explain">The values saved to <code>localStorage</code> will\n      override those passed to <code>dat.GUI</code>\'s constructor. This makes it\n      easier to work incrementally, but <code>localStorage</code> is fragile,\n      and your friends may not see the same values you do.\n\n    </div>\n\n  </div>\n\n</div>',
           M = function (e, t) {
@@ -36745,35 +36745,35 @@ parcelRequire = (function (e, r, t, n) {
             return i.isArray(arguments[2]) || i.isObject(arguments[2])
               ? new S(e, t, arguments[2])
               : i.isNumber(n)
-              ? i.isNumber(arguments[2]) && i.isNumber(arguments[3])
-                ? i.isNumber(arguments[4])
-                  ? new H(e, t, arguments[2], arguments[3], arguments[4])
-                  : new H(e, t, arguments[2], arguments[3])
-                : i.isNumber(arguments[4])
-                ? new B(e, t, {
-                    min: arguments[2],
-                    max: arguments[3],
-                    step: arguments[4],
-                  })
-                : new B(e, t, { min: arguments[2], max: arguments[3] })
-              : i.isString(n)
-              ? new O(e, t)
-              : i.isFunction(n)
-              ? new F(e, t, "")
-              : i.isBoolean(n)
-              ? new k(e, t)
-              : null;
+                ? i.isNumber(arguments[2]) && i.isNumber(arguments[3])
+                  ? i.isNumber(arguments[4])
+                    ? new H(e, t, arguments[2], arguments[3], arguments[4])
+                    : new H(e, t, arguments[2], arguments[3])
+                  : i.isNumber(arguments[4])
+                    ? new B(e, t, {
+                      min: arguments[2],
+                      max: arguments[3],
+                      step: arguments[4],
+                    })
+                    : new B(e, t, { min: arguments[2], max: arguments[3] })
+                : i.isString(n)
+                  ? new O(e, t)
+                  : i.isFunction(n)
+                    ? new F(e, t, "")
+                    : i.isBoolean(n)
+                      ? new k(e, t)
+                      : null;
           };
         function G(e) {
           setTimeout(e, 1e3 / 60);
         }
         var U =
-            window.requestAnimationFrame ||
-            window.webkitRequestAnimationFrame ||
-            window.mozRequestAnimationFrame ||
-            window.oRequestAnimationFrame ||
-            window.msRequestAnimationFrame ||
-            G,
+          window.requestAnimationFrame ||
+          window.webkitRequestAnimationFrame ||
+          window.mozRequestAnimationFrame ||
+          window.oRequestAnimationFrame ||
+          window.msRequestAnimationFrame ||
+          G,
           X = (function () {
             function e() {
               _(this, e),
@@ -36971,9 +36971,9 @@ parcelRequire = (function (e, r, t, n) {
                         : A.removeClass(n.__ul, e.CLASS_CLOSED),
                       this.onResize(),
                       n.__closeButton &&
-                        (n.__closeButton.innerHTML = t
-                          ? e.TEXT_OPEN
-                          : e.TEXT_CLOSED);
+                      (n.__closeButton.innerHTML = t
+                        ? e.TEXT_OPEN
+                        : e.TEXT_CLOSED);
                   },
                 },
                 load: {
@@ -36988,20 +36988,20 @@ parcelRequire = (function (e, r, t, n) {
                   set: function (e) {
                     q &&
                       ((s = e),
-                      e
-                        ? A.bind(window, "unload", a)
-                        : A.unbind(window, "unload", a),
-                      localStorage.setItem(ce(n, "isLocal"), e));
+                        e
+                          ? A.bind(window, "unload", a)
+                          : A.unbind(window, "unload", a),
+                        localStorage.setItem(ce(n, "isLocal"), e));
                   },
                 },
               }),
-              i.isUndefined(o.parent))
+                i.isUndefined(o.parent))
             ) {
               if (
                 ((this.closed = o.closed || !1),
-                A.addClass(this.domElement, e.CLASS_MAIN),
-                A.makeSelectable(this.domElement, !1),
-                q && s)
+                  A.addClass(this.domElement, e.CLASS_MAIN),
+                  A.makeSelectable(this.domElement, !1),
+                  q && s)
               ) {
                 n.useLocalStorage = !0;
                 var d = localStorage.getItem(ce(this, "gui"));
@@ -37036,13 +37036,13 @@ parcelRequire = (function (e, r, t, n) {
               (i.isUndefined(o.parent) &&
                 ($ &&
                   ((ee = document.createElement("div")),
-                  A.addClass(ee, Y),
-                  A.addClass(ee, e.CLASS_AUTO_PLACE_CONTAINER),
-                  document.body.appendChild(ee),
-                  ($ = !1)),
-                ee.appendChild(this.domElement),
-                A.addClass(this.domElement, e.CLASS_AUTO_PLACE)),
-              this.parent || fe(n, o.width)),
+                    A.addClass(ee, Y),
+                    A.addClass(ee, e.CLASS_AUTO_PLACE_CONTAINER),
+                    document.body.appendChild(ee),
+                    ($ = !1)),
+                  ee.appendChild(this.domElement),
+                  A.addClass(this.domElement, e.CLASS_AUTO_PLACE)),
+                this.parent || fe(n, o.width)),
               (this.__resizeHandler = function () {
                 n.onResizeDebounced();
               }),
@@ -37062,7 +37062,7 @@ parcelRequire = (function (e, r, t, n) {
               }),
               (this.saveToLocalStorageIfPossible = a),
               o.parent ||
-                (((r = n.getRoot()).width += 1),
+              (((r = n.getRoot()).width += 1),
                 i.defer(function () {
                   r.width -= 1;
                 }));
@@ -37079,7 +37079,7 @@ parcelRequire = (function (e, r, t, n) {
         function re(e) {
           A.unbind(window, "resize", e.__resizeHandler),
             e.saveToLocalStorageIfPossible &&
-              A.unbind(window, "unload", e.saveToLocalStorageIfPossible);
+            A.unbind(window, "unload", e.saveToLocalStorageIfPossible);
         }
         function se(e, t) {
           var n = e.__preset_select[e.__preset_select.selectedIndex];
@@ -37088,40 +37088,40 @@ parcelRequire = (function (e, r, t, n) {
         function ae(e, t, n) {
           if (
             ((n.__li = t),
-            (n.__gui = e),
-            i.extend(n, {
-              options: function (t) {
-                if (arguments.length > 1) {
-                  var o = n.__li.nextElementSibling;
+              (n.__gui = e),
+              i.extend(n, {
+                options: function (t) {
+                  if (arguments.length > 1) {
+                    var o = n.__li.nextElementSibling;
+                    return (
+                      n.remove(),
+                      de(e, n.object, n.property, {
+                        before: o,
+                        factoryArgs: [i.toArray(arguments)],
+                      })
+                    );
+                  }
+                  if (i.isArray(t) || i.isObject(t)) {
+                    var r = n.__li.nextElementSibling;
+                    return (
+                      n.remove(),
+                      de(e, n.object, n.property, { before: r, factoryArgs: [t] })
+                    );
+                  }
+                },
+                name: function (e) {
                   return (
-                    n.remove(),
-                    de(e, n.object, n.property, {
-                      before: o,
-                      factoryArgs: [i.toArray(arguments)],
-                    })
+                    (n.__li.firstElementChild.firstElementChild.innerHTML = e), n
                   );
-                }
-                if (i.isArray(t) || i.isObject(t)) {
-                  var r = n.__li.nextElementSibling;
-                  return (
-                    n.remove(),
-                    de(e, n.object, n.property, { before: r, factoryArgs: [t] })
-                  );
-                }
-              },
-              name: function (e) {
-                return (
-                  (n.__li.firstElementChild.firstElementChild.innerHTML = e), n
-                );
-              },
-              listen: function () {
-                return n.__gui.listen(n), n;
-              },
-              remove: function () {
-                return n.__gui.remove(n), n;
-              },
-            }),
-            n instanceof H)
+                },
+                listen: function () {
+                  return n.__gui.listen(n), n;
+                },
+                remove: function () {
+                  return n.__gui.remove(n), n;
+                },
+              }),
+              n instanceof H)
           ) {
             var o = new B(n.object, n.property, {
               min: n.__min,
@@ -37169,32 +37169,32 @@ parcelRequire = (function (e, r, t, n) {
           } else
             n instanceof k
               ? (A.bind(t, "click", function () {
-                  A.fakeEvent(n.__checkbox, "click");
-                }),
+                A.fakeEvent(n.__checkbox, "click");
+              }),
                 A.bind(n.__checkbox, "click", function (e) {
                   e.stopPropagation();
                 }))
               : n instanceof F
-              ? (A.bind(t, "click", function () {
+                ? (A.bind(t, "click", function () {
                   A.fakeEvent(n.__button, "click");
                 }),
-                A.bind(t, "mouseover", function () {
-                  A.addClass(n.__button, "hover");
-                }),
-                A.bind(t, "mouseout", function () {
-                  A.removeClass(n.__button, "hover");
-                }))
-              : n instanceof P &&
+                  A.bind(t, "mouseover", function () {
+                    A.addClass(n.__button, "hover");
+                  }),
+                  A.bind(t, "mouseout", function () {
+                    A.removeClass(n.__button, "hover");
+                  }))
+                : n instanceof P &&
                 (A.addClass(t, "color"),
-                (n.updateDisplay = i.compose(function (e) {
-                  return (t.style.borderLeftColor = n.__color.toString()), e;
-                }, n.updateDisplay)),
-                n.updateDisplay());
+                  (n.updateDisplay = i.compose(function (e) {
+                    return (t.style.borderLeftColor = n.__color.toString()), e;
+                  }, n.updateDisplay)),
+                  n.updateDisplay());
           n.setValue = i.compose(function (t) {
             return (
               e.getRoot().__preset_select &&
-                n.isModified() &&
-                se(e.getRoot(), !0),
+              n.isModified() &&
+              se(e.getRoot(), !0),
               t
             );
           }, n.setValue);
@@ -37207,8 +37207,8 @@ parcelRequire = (function (e, r, t, n) {
             if (
               (void 0 === i &&
                 ((i = {}), (n.__rememberedObjectIndecesToControllers[o] = i)),
-              (i[t.property] = t),
-              n.load && n.load.remembered)
+                (i[t.property] = t),
+                n.load && n.load.remembered)
             ) {
               var r = n.load.remembered,
                 s = void 0;
@@ -37260,7 +37260,7 @@ parcelRequire = (function (e, r, t, n) {
             (o.value = t),
             e.__preset_select.appendChild(o),
             n &&
-              (e.__preset_select.selectedIndex = e.__preset_select.length - 1);
+            (e.__preset_select.selectedIndex = e.__preset_select.length - 1);
         }
         function _e(e, t) {
           t.style.display = e.useLocalStorage ? "block" : "none";
@@ -37288,27 +37288,27 @@ parcelRequire = (function (e, r, t, n) {
           if (
             (e.load && e.load.remembered
               ? i.each(e.load.remembered, function (t, n) {
-                  ue(e, n, n === e.preset);
-                })
+                ue(e, n, n === e.preset);
+              })
               : ue(e, Q, !1),
-            A.bind(a, "change", function () {
-              for (var t = 0; t < e.__preset_select.length; t++)
-                e.__preset_select[t].innerHTML = e.__preset_select[t].value;
-              e.preset = this.value;
-            }),
-            t.appendChild(a),
-            t.appendChild(n),
-            t.appendChild(o),
-            t.appendChild(r),
-            t.appendChild(s),
-            q)
+              A.bind(a, "change", function () {
+                for (var t = 0; t < e.__preset_select.length; t++)
+                  e.__preset_select[t].innerHTML = e.__preset_select[t].value;
+                e.preset = this.value;
+              }),
+              t.appendChild(a),
+              t.appendChild(n),
+              t.appendChild(o),
+              t.appendChild(r),
+              t.appendChild(s),
+              q)
           ) {
             var l = document.getElementById("dg-local-explain"),
               d = document.getElementById("dg-local-storage");
             (document.getElementById("dg-save-locally").style.display =
               "block"),
               "true" === localStorage.getItem(ce(e, "isLocal")) &&
-                d.setAttribute("checked", "checked"),
+              d.setAttribute("checked", "checked"),
               _e(e, l),
               A.bind(d, "change", function () {
                 (e.useLocalStorage = !e.useLocalStorage), _e(e, l);
@@ -37379,8 +37379,8 @@ parcelRequire = (function (e, r, t, n) {
         function fe(e, t) {
           (e.domElement.style.width = t + "px"),
             e.__save_row &&
-              e.autoPlace &&
-              (e.__save_row.style.width = t + "px"),
+            e.autoPlace &&
+            (e.__save_row.style.width = t + "px"),
             e.__closeButton && (e.__closeButton.style.width = t + "px");
         }
         function me(e, t) {
@@ -37470,15 +37470,15 @@ parcelRequire = (function (e, r, t, n) {
               if (void 0 !== this.__folders[e])
                 throw new Error(
                   'You already have a folder in this GUI by the name "' +
-                    e +
-                    '"'
+                  e +
+                  '"'
                 );
               var t = { name: e, parent: this };
               (t.autoPlace = this.autoPlace),
                 this.load &&
-                  this.load.folders &&
-                  this.load.folders[e] &&
-                  ((t.closed = this.load.folders[e].closed),
+                this.load.folders &&
+                this.load.folders[e] &&
+                ((t.closed = this.load.folders[e].closed),
                   (t.load = this.load.folders[e]));
               var n = new oe(t);
               this.__folders[e] = n;
@@ -37489,9 +37489,9 @@ parcelRequire = (function (e, r, t, n) {
               this.__ul.removeChild(e.domElement.parentElement),
                 delete this.__folders[e.name],
                 this.load &&
-                  this.load.folders &&
-                  this.load.folders[e.name] &&
-                  delete this.load.folders[e.name],
+                this.load.folders &&
+                this.load.folders[e.name] &&
+                delete this.load.folders[e.name],
                 re(e);
               var t = this;
               i.each(e.__folders, function (t) {
@@ -37532,7 +37532,7 @@ parcelRequire = (function (e, r, t, n) {
                   e.__resize_handle.style.height = e.__ul.offsetHeight + "px";
                 }),
                 e.__closeButton &&
-                  (e.__closeButton.style.width = e.width + "px");
+                (e.__closeButton.style.width = e.width + "px");
             },
             onResizeDebounced: i.debounce(function () {
               this.onResize();
@@ -37540,7 +37540,7 @@ parcelRequire = (function (e, r, t, n) {
             remember: function () {
               if (
                 (i.isUndefined(Z) && ((Z = new X()).domElement.innerHTML = z),
-                this.parent)
+                  this.parent)
               )
                 throw new Error(
                   "You can only call remember on a top level GUI."
@@ -37549,12 +37549,12 @@ parcelRequire = (function (e, r, t, n) {
               i.each(Array.prototype.slice.call(arguments), function (t) {
                 0 === e.__rememberedObjects.length && he(e),
                   -1 === e.__rememberedObjects.indexOf(t) &&
-                    e.__rememberedObjects.push(t);
+                  e.__rememberedObjects.push(t);
               }),
                 this.autoPlace && fe(this, this.width);
             },
             getRoot: function () {
-              for (var e = this; e.parent; ) e = e.parent;
+              for (var e = this; e.parent;) e = e.parent;
               return e;
             },
             getSaveObject: function () {
@@ -37562,7 +37562,7 @@ parcelRequire = (function (e, r, t, n) {
               return (
                 (e.closed = this.closed),
                 this.__rememberedObjects.length > 0 &&
-                  ((e.preset = this.preset),
+                ((e.preset = this.preset),
                   e.remembered || (e.remembered = {}),
                   (e.remembered[this.preset] = me(this))),
                 (e.folders = {}),
@@ -37581,7 +37581,7 @@ parcelRequire = (function (e, r, t, n) {
             saveAs: function (e) {
               this.load.remembered ||
                 ((this.load.remembered = {}),
-                (this.load.remembered[Q] = me(this, !0))),
+                  (this.load.remembered[Q] = me(this, !0))),
                 (this.load.remembered[e] = me(this)),
                 (this.preset = e),
                 ue(this, e, !0),
@@ -37595,7 +37595,7 @@ parcelRequire = (function (e, r, t, n) {
                     ? le(e || this.getRoot(), t)
                     : t.setValue(t.initialValue),
                     t.__onFinishChange &&
-                      t.__onFinishChange.call(t, t.getValue());
+                    t.__onFinishChange.call(t, t.getValue());
                 },
                 this
               ),
@@ -37781,7 +37781,7 @@ parcelRequire = (function (e, r, t, n) {
             ) {
               r && (t = r);
               var i = 0,
-                o = function () {};
+                o = function () { };
               return {
                 s: o,
                 n: function () {
@@ -37832,8 +37832,8 @@ parcelRequire = (function (e, r, t, n) {
                 ? Array.from(t)
                 : "Arguments" === r ||
                   /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r)
-                ? n(t, e)
-                : void 0
+                  ? n(t, e)
+                  : void 0
             );
           }
         }
@@ -37885,7 +37885,7 @@ parcelRequire = (function (e, r, t, n) {
                         r = [],
                         i = t(e);
                       try {
-                        for (i.s(); !(n = i.n()).done; ) {
+                        for (i.s(); !(n = i.n()).done;) {
                           var o = n.value;
                           r.push(this._modelTree.findItemByDbId(o));
                         }
@@ -37968,7 +37968,7 @@ parcelRequire = (function (e, r, t, n) {
             ) {
               n && (t = n);
               var a = 0,
-                o = function () {};
+                o = function () { };
               return {
                 s: o,
                 n: function () {
@@ -38019,8 +38019,8 @@ parcelRequire = (function (e, r, t, n) {
                 ? Array.from(t)
                 : "Arguments" === r ||
                   /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r)
-                ? n(t, e)
-                : void 0
+                  ? n(t, e)
+                  : void 0
             );
           }
         }
@@ -38081,9 +38081,9 @@ parcelRequire = (function (e, r, t, n) {
                 value: function () {
                   for (
                     var t = this._data.db.parentIds,
-                      e = [],
-                      r = t.length,
-                      n = 0;
+                    e = [],
+                    r = t.length,
+                    n = 0;
                     n < r;
                     n++
                   ) {
@@ -38098,9 +38098,9 @@ parcelRequire = (function (e, r, t, n) {
                 value: function () {
                   for (
                     var t = this._data.db.externalIds,
-                      e = {},
-                      r = t.length,
-                      n = 0;
+                    e = {},
+                    r = t.length,
+                    n = 0;
                     n < r;
                     n++
                   ) {
@@ -38161,7 +38161,7 @@ parcelRequire = (function (e, r, t, n) {
                     n = [],
                     a = e(t);
                   try {
-                    for (a.s(); !(r = a.n()).done; ) {
+                    for (a.s(); !(r = a.n()).done;) {
                       var o = r.value;
                       n.push(o);
                       var i = this._data.db.childrenIds[o];
@@ -38189,7 +38189,7 @@ parcelRequire = (function (e, r, t, n) {
                   var r = this._items[e];
                   return (
                     void 0 === r &&
-                      (this._items[e] = r = new t.ModelItem(this, e)),
+                    (this._items[e] = r = new t.ModelItem(this, e)),
                     r
                   );
                 },
@@ -38206,7 +38206,7 @@ parcelRequire = (function (e, r, t, n) {
                   var a = this._items[n];
                   return (
                     void 0 === a &&
-                      (this._items[n] = a = new t.ModelItem(this, n)),
+                    (this._items[n] = a = new t.ModelItem(this, n)),
                     a
                   );
                 },
@@ -38229,16 +38229,16 @@ parcelRequire = (function (e, r, t, n) {
           return (t =
             "function" == typeof Symbol && "symbol" == typeof Symbol.iterator
               ? function (e) {
-                  return typeof e;
-                }
+                return typeof e;
+              }
               : function (e) {
-                  return e &&
-                    "function" == typeof Symbol &&
-                    e.constructor === Symbol &&
-                    e !== Symbol.prototype
-                    ? "symbol"
-                    : typeof e;
-                })(e);
+                return e &&
+                  "function" == typeof Symbol &&
+                  e.constructor === Symbol &&
+                  e !== Symbol.prototype
+                  ? "symbol"
+                  : typeof e;
+              })(e);
         }
         function r(e, t) {
           var r =
@@ -38252,7 +38252,7 @@ parcelRequire = (function (e, r, t, n) {
             ) {
               r && (e = r);
               var i = 0,
-                o = function () {};
+                o = function () { };
               return {
                 s: o,
                 n: function () {
@@ -38303,8 +38303,8 @@ parcelRequire = (function (e, r, t, n) {
                 ? Array.from(e)
                 : "Arguments" === r ||
                   /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r)
-                ? i(e, t)
-                : void 0
+                  ? i(e, t)
+                  : void 0
             );
           }
         }
@@ -38339,14 +38339,14 @@ parcelRequire = (function (e, r, t, n) {
             "undefined" != typeof Reflect && Reflect.get
               ? Reflect.get
               : function (e, t, r) {
-                  var n = c(e, t);
-                  if (n) {
-                    var i = Object.getOwnPropertyDescriptor(n, t);
-                    return i.get
-                      ? i.get.call(arguments.length < 3 ? e : r)
-                      : i.value;
-                  }
-                }).apply(this, arguments);
+                var n = c(e, t);
+                if (n) {
+                  var i = Object.getOwnPropertyDescriptor(n, t);
+                  return i.get
+                    ? i.get.call(arguments.length < 3 ? e : r)
+                    : i.value;
+                }
+              }).apply(this, arguments);
         }
         function c(e, t) {
           for (
@@ -38408,7 +38408,7 @@ parcelRequire = (function (e, r, t, n) {
           try {
             return (
               Boolean.prototype.valueOf.call(
-                Reflect.construct(Boolean, [], function () {})
+                Reflect.construct(Boolean, [], function () { })
               ),
               !0
             );
@@ -38420,8 +38420,8 @@ parcelRequire = (function (e, r, t, n) {
           return (p = Object.setPrototypeOf
             ? Object.getPrototypeOf
             : function (e) {
-                return e.__proto__ || Object.getPrototypeOf(e);
-              })(e);
+              return e.__proto__ || Object.getPrototypeOf(e);
+            })(e);
         }
         var g = { Original: 0, Selected: 1, Highlighted: 2 },
           b = (function (t) {
@@ -38470,7 +38470,7 @@ parcelRequire = (function (e, r, t, n) {
                             var a,
                               s = r(l);
                             try {
-                              for (s.s(); !(a = s.n()).done; ) {
+                              for (s.s(); !(a = s.n()).done;) {
                                 var c = a.value;
                                 (!1 === e || t.hasGeometry(c.id, !0)) &&
                                   n(c, o);
@@ -38491,7 +38491,7 @@ parcelRequire = (function (e, r, t, n) {
                       return (
                         s(p(i.prototype), "isReady", this) &&
                         this._gltfScenes.length >=
-                          s(p(i.prototype), "partCount", this)
+                        s(p(i.prototype), "partCount", this)
                       );
                     },
                   },
@@ -38501,14 +38501,14 @@ parcelRequire = (function (e, r, t, n) {
                       function n(e, t) {
                         if (
                           (e.material && t.push(e),
-                          e.children && e.children.length > 0)
+                            e.children && e.children.length > 0)
                         )
                           for (var r in e.children) n(e.children[r], t);
                       }
                       if (
                         ((void 0 === t || t < 0) && (t = 0),
-                        (this._gltfScenes[t] = e),
-                        e.userData && e.userData.InfoFileName)
+                          (this._gltfScenes[t] = e),
+                          e.userData && e.userData.InfoFileName)
                       ) {
                         var i,
                           o = this._gltfNodes,
@@ -38519,7 +38519,7 @@ parcelRequire = (function (e, r, t, n) {
                               : e.children
                           );
                         try {
-                          for (l.s(); !(i = l.n()).done; ) {
+                          for (l.s(); !(i = l.n()).done;) {
                             var a,
                               s = i.value,
                               c =
@@ -38552,14 +38552,14 @@ parcelRequire = (function (e, r, t, n) {
                         i = this._gltfNodes,
                         o = r(e);
                       try {
-                        for (o.s(); !(n = o.n()).done; ) {
+                        for (o.s(); !(n = o.n()).done;) {
                           var l = n.value,
                             a = i[l];
                           if (null != a) {
                             var s,
                               c = r(a);
                             try {
-                              for (c.s(); !(s = c.n()).done; ) {
+                              for (c.s(); !(s = c.n()).done;) {
                                 if (t(s.value, l)) return !0;
                               }
                             } catch (u) {
@@ -38648,7 +38648,7 @@ parcelRequire = (function (e, r, t, n) {
                         t = [],
                         n = r(this._selectedIds);
                       try {
-                        for (n.s(); !(e = n.n()).done; ) {
+                        for (n.s(); !(e = n.n()).done;) {
                           var i = e.value;
                           t.push(i[0]);
                         }
@@ -38669,7 +38669,7 @@ parcelRequire = (function (e, r, t, n) {
                         i = new Map(),
                         o = r(e);
                       try {
-                        for (o.s(); !(n = o.n()).done; ) {
+                        for (o.s(); !(n = o.n()).done;) {
                           var l = n.value;
                           i.set(l, 0);
                         }
@@ -38683,7 +38683,7 @@ parcelRequire = (function (e, r, t, n) {
                         c = [],
                         u = r(i);
                       try {
-                        for (u.s(); !(a = u.n()).done; ) {
+                        for (u.s(); !(a = u.n()).done;) {
                           var f = a.value;
                           !1 === this._selectedIds.has(f[0]) && s.push(f[0]);
                         }
@@ -38695,7 +38695,7 @@ parcelRequire = (function (e, r, t, n) {
                       var h,
                         d = r(this._selectedIds);
                       try {
-                        for (d.s(); !(h = d.n()).done; ) {
+                        for (d.s(); !(h = d.n()).done;) {
                           var y = h.value;
                           !1 === i.has(y[0]) && c.push(y[0]);
                         }
@@ -38723,13 +38723,13 @@ parcelRequire = (function (e, r, t, n) {
                           this.processGltfNodes(b, function (e, t) {
                             v._highlightIds.has(t)
                               ? (e.material = v._getMaterial(
-                                  e.material,
-                                  g.Highlighted
-                                ))
+                                e.material,
+                                g.Highlighted
+                              ))
                               : (e.material = v._getMaterial(
-                                  e.material,
-                                  g.Original
-                                ));
+                                e.material,
+                                g.Original
+                              ));
                           });
                       }
                     },
@@ -38742,7 +38742,7 @@ parcelRequire = (function (e, r, t, n) {
                         n = new Map(),
                         i = r(e);
                       try {
-                        for (i.s(); !(t = i.n()).done; ) {
+                        for (i.s(); !(t = i.n()).done;) {
                           var o = t.value;
                           n.set(o, 0);
                         }
@@ -38756,7 +38756,7 @@ parcelRequire = (function (e, r, t, n) {
                         s = [],
                         c = r(n);
                       try {
-                        for (c.s(); !(l = c.n()).done; ) {
+                        for (c.s(); !(l = c.n()).done;) {
                           var u = l.value;
                           !1 === this._highlightIds.has(u[0]) && a.push(u[0]);
                         }
@@ -38768,7 +38768,7 @@ parcelRequire = (function (e, r, t, n) {
                       var f,
                         h = r(this._highlightIds);
                       try {
-                        for (h.s(); !(f = h.n()).done; ) {
+                        for (h.s(); !(f = h.n()).done;) {
                           var d = f.value;
                           !1 === n.has(d[0]) && s.push(d[0]);
                         }
@@ -38793,13 +38793,13 @@ parcelRequire = (function (e, r, t, n) {
                         this.processGltfNodes(p, function (e, t) {
                           y._selectedIds.has(t)
                             ? (e.material = y._getMaterial(
-                                e.material,
-                                g.Selected
-                              ))
+                              e.material,
+                              g.Selected
+                            ))
                             : (e.material = y._getMaterial(
-                                e.material,
-                                g.Original
-                              ));
+                              e.material,
+                              g.Original
+                            ));
                         });
                       }
                     },
@@ -38947,7 +38947,7 @@ parcelRequire = (function (e, r, t, n) {
             )[1];
             if (a) return a;
           }
-          for (var r, s = t.scripts, o = s.length - 1; (r = s[o--]); )
+          for (var r, s = t.scripts, o = s.length - 1; (r = s[o--]);)
             if (r.className !== i && "interactive" === r.readyState)
               return (r.className = i), n ? r.getAttribute("src", 4) : r.src;
         }
@@ -38971,8 +38971,8 @@ parcelRequire = (function (e, r, t, n) {
                 environment:
                   a.preset === S.ASSET_GENERATOR
                     ? d.environments.find(function (e) {
-                        return "footprint-court" === e.id;
-                      }).name
+                      return "footprint-court" === e.id;
+                    }).name
                     : d.environments[0].name,
                 background: !1,
                 playbackSpeed: 1,
@@ -39089,9 +39089,9 @@ parcelRequire = (function (e, r, t, n) {
                 value: function () {
                   this.renderer.render(this.scene, this.activeCamera),
                     this.state.grid &&
-                      (this.axesCamera.position.copy(
-                        this.defaultCamera.position
-                      ),
+                    (this.axesCamera.position.copy(
+                      this.defaultCamera.position
+                    ),
                       this.axesCamera.lookAt(this.axesScene.position),
                       this.axesRenderer.render(
                         this.axesScene,
@@ -39137,10 +39137,10 @@ parcelRequire = (function (e, r, t, n) {
                       return (t || "") + e;
                     });
                     var o = new i.GLTFLoader(w)
-                        .setCrossOrigin("anonymous")
-                        .setDRACOLoader(E)
-                        .setKTX2Loader(b.detectSupport(n.renderer))
-                        .setMeshoptDecoder(r.MeshoptDecoder),
+                      .setCrossOrigin("anonymous")
+                      .setDRACOLoader(E)
+                      .setKTX2Loader(b.detectSupport(n.renderer))
+                      .setMeshoptDecoder(r.MeshoptDecoder),
                       l = [];
                     o.load(
                       t,
@@ -39222,9 +39222,9 @@ parcelRequire = (function (e, r, t, n) {
                   }
                   this.clear();
                   var m =
-                      s && t.userData && t.userData.ModelBoundingBox
-                        ? new e.Box3().setFromArray(t.userData.ModelBoundingBox)
-                        : new e.Box3().setFromObject(t),
+                    s && t.userData && t.userData.ModelBoundingBox
+                      ? new e.Box3().setFromArray(t.userData.ModelBoundingBox)
+                      : new e.Box3().setFromObject(t),
                     p = m.getSize(new e.Vector3()).length(),
                     f = (this.center = m.getCenter(new e.Vector3()));
                   this.controls.reset(),
@@ -39237,8 +39237,8 @@ parcelRequire = (function (e, r, t, n) {
                     this.defaultCamera.updateProjectionMatrix(),
                     this.options.cameraPosition
                       ? (this.defaultCamera.position.fromArray(
-                          this.options.cameraPosition
-                        ),
+                        this.options.cameraPosition
+                      ),
                         this.defaultCamera.lookAt(new e.Vector3()))
                       : (this.defaultCamera.position.copy(f),
                         (this.defaultCamera.position.x += p / 2),
@@ -39263,7 +39263,7 @@ parcelRequire = (function (e, r, t, n) {
                       e.isLight
                         ? (r.state.addLights = !1)
                         : e.isMesh &&
-                          (e.material.depthWrite = !e.material.transparent);
+                        (e.material.depthWrite = !e.material.transparent);
                     }),
                     this.setClips(i),
                     this.updateLights(),
@@ -39290,11 +39290,11 @@ parcelRequire = (function (e, r, t, n) {
                 value: function (t) {
                   this.mixer &&
                     (this.mixer.stopAllAction(),
-                    this.mixer.uncacheRoot(this.mixer.getRoot()),
-                    (this.mixer = null)),
+                      this.mixer.uncacheRoot(this.mixer.getRoot()),
+                      (this.mixer = null)),
                     (this.clips = t),
                     t.length &&
-                      (this.mixer = new e.AnimationMixer(this.content));
+                    (this.mixer = new e.AnimationMixer(this.content));
                 },
               },
               {
@@ -39344,7 +39344,7 @@ parcelRequire = (function (e, r, t, n) {
                     : !e.addLights && t.length && this.removeLights(),
                     (this.renderer.toneMappingExposure = e.exposure),
                     2 === t.length &&
-                      ((t[0].intensity = e.ambientIntensity),
+                    ((t[0].intensity = e.ambientIntensity),
                       t[0].color.setHex(e.ambientColor),
                       (t[1].intensity = e.directIntensity),
                       t[1].color.setHex(e.directColor));
@@ -39396,7 +39396,7 @@ parcelRequire = (function (e, r, t, n) {
                   this.getCubeMapTexture(t).then(function (t) {
                     var i = t.envMap;
                     (i && e.state.background) ||
-                    e.activeCamera !== e.defaultCamera
+                      e.activeCamera !== e.defaultCamera
                       ? e.scene.remove(e.vignette)
                       : e.scene.add(e.vignette),
                       (e.scene.environment = i),
@@ -39448,20 +39448,20 @@ parcelRequire = (function (e, r, t, n) {
                       }
                     }),
                     this.state.grid !== Boolean(this.gridHelper) &&
-                      (this.state.grid
-                        ? ((this.gridHelper = new e.GridHelper()),
-                          (this.axesHelper = new e.AxesHelper()),
-                          (this.axesHelper.renderOrder = 999),
-                          (this.axesHelper.onBeforeRender = function (e) {
-                            return e.clearDepth();
-                          }),
-                          this.scene.add(this.gridHelper),
-                          this.scene.add(this.axesHelper))
-                        : (this.scene.remove(this.gridHelper),
-                          this.scene.remove(this.axesHelper),
-                          (this.gridHelper = null),
-                          (this.axesHelper = null),
-                          this.axesRenderer.clear()));
+                    (this.state.grid
+                      ? ((this.gridHelper = new e.GridHelper()),
+                        (this.axesHelper = new e.AxesHelper()),
+                        (this.axesHelper.renderOrder = 999),
+                        (this.axesHelper.onBeforeRender = function (e) {
+                          return e.clearDepth();
+                        }),
+                        this.scene.add(this.gridHelper),
+                        this.scene.add(this.axesHelper))
+                      : (this.scene.remove(this.gridHelper),
+                        this.scene.remove(this.axesHelper),
+                        (this.gridHelper = null),
+                        (this.axesHelper = null),
+                        this.axesRenderer.clear()));
                 },
               },
               {
@@ -39628,11 +39628,11 @@ parcelRequire = (function (e, r, t, n) {
                     (this.content.traverse(function (e) {
                       e.isMesh && e.morphTargetInfluences && i.push(e),
                         e.isCamera &&
-                          ((e.name =
-                            e.name || "VIEWER__camera_".concat(t.length + 1)),
+                        ((e.name =
+                          e.name || "VIEWER__camera_".concat(t.length + 1)),
                           t.push(e.name));
                     }),
-                    t.length)
+                      t.length)
                   ) {
                     (this.cameraFolder.domElement.style.display = ""),
                       this.cameraCtrl && this.cameraCtrl.remove();
@@ -39649,16 +39649,16 @@ parcelRequire = (function (e, r, t, n) {
                   if (
                     (i.length &&
                       ((this.morphFolder.domElement.style.display = ""),
-                      i.forEach(function (t) {
-                        if (t.morphTargetInfluences.length) {
-                          var i = e.morphFolder.add(
-                            { name: t.name || "Untitled" },
-                            "name"
-                          );
-                          e.morphCtrls.push(i);
-                        }
-                        for (
-                          var n = function (i) {
+                        i.forEach(function (t) {
+                          if (t.morphTargetInfluences.length) {
+                            var i = e.morphFolder.add(
+                              { name: t.name || "Untitled" },
+                              "name"
+                            );
+                            e.morphCtrls.push(i);
+                          }
+                          for (
+                            var n = function (i) {
                               var n = e.morphFolder
                                 .add(t.morphTargetInfluences, i, 0, 1, 0.01)
                                 .listen();
@@ -39672,12 +39672,12 @@ parcelRequire = (function (e, r, t, n) {
                                 e.morphCtrls.push(n);
                             },
                             a = 0;
-                          a < t.morphTargetInfluences.length;
-                          a++
-                        )
-                          n(a);
-                      })),
-                    this.clips.length)
+                            a < t.morphTargetInfluences.length;
+                            a++
+                          )
+                            n(a);
+                        })),
+                      this.clips.length)
                   ) {
                     this.animFolder.domElement.style.display = "";
                     var a = (this.state.actionStates = {});
@@ -39705,14 +39705,14 @@ parcelRequire = (function (e, r, t, n) {
                 value: function () {
                   this.content &&
                     (this.scene.remove(this.content),
-                    this.content.traverse(function (e) {
-                      e.isMesh && e.geometry.dispose();
-                    }),
-                    T(this.content, function (e) {
-                      M.forEach(function (t) {
-                        e[t] && e[t].dispose();
-                      });
-                    }));
+                      this.content.traverse(function (e) {
+                        e.isMesh && e.geometry.dispose();
+                      }),
+                      T(this.content, function (e) {
+                        M.forEach(function (t) {
+                          e[t] && e[t].dispose();
+                        });
+                      }));
                 },
               },
             ]),
@@ -39767,4 +39767,3 @@ parcelRequire = (function (e, r, t, n) {
   ["ET0b"],
   null
 );
-//# sourceMappingURL=./gltf-viewer.js.map

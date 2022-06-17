@@ -82,7 +82,7 @@ export default function SignIn() {
       <div className={styles.container}>
         <div className={styles.box}>
           <div className={styles.logoImg}>
-            <img priority src={logo} alt="logo" />
+            <img priority="true" src={logo} alt="logo" />
           </div>
           {type.typeAction === "signUp" && (
             <input

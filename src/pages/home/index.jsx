@@ -31,7 +31,7 @@ const Home = () => {
     <div>
       <div className={styles.navImg}>
         <img
-          priority
+          priority="true"
           src={introduction}
           className={styles.navImgText}
           style={{ display: "block" }}

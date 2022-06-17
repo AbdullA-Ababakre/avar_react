@@ -6,7 +6,7 @@ const Logo = () => {
     return (
         <div className={styles.container}>
             <img
-                priority
+                priority="true"
                 src={slogan}
                 className={styles.star}
                 height={123}
@@ -14,7 +14,7 @@ const Logo = () => {
                 alt="slogan"
             />
             <img
-                priority
+                priority="true"
                 src={star}
                 className={styles.slogan}
                 height={99}

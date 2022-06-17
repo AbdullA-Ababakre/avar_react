@@ -15,7 +15,7 @@ const NavBar = () => (
   <div className={styles.container}>
     <Link to="/" className={styles.logo}>
       <img
-        priority
+        priority="true"
         src={logoSmall}
         className=""
         height={54}
@@ -49,7 +49,7 @@ const NavBar = () => (
 
       <Link to="/auth">
         <img
-          priority
+          priority="true"
           src={user}
           className=""
           height={42}
@@ -58,7 +58,7 @@ const NavBar = () => (
         />
       </Link>
 
-      {/* <img priority src={card} className="" height={42} width={42} alt="card" />  */}
+      {/* <img priority="true" src={card} className="" height={42} width={42} alt="card" />  */}
     </div>
   </div>
 );

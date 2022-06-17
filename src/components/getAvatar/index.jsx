@@ -4,7 +4,7 @@ const GetAvatar = () => {
     return (
         <div style={{ width: '100%' }}>
             <img
-                priority
+                priority="true"
                 src={getAvatar}
                 className=""
                 style={{ display: 'block', width: '1700px', height: '385px' }}
