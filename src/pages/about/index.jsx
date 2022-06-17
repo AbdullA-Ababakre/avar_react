@@ -1,3 +1,9 @@
+/*
+ * @Descripttion:
+ * @Author: 热伊木
+ * @Date: 2022-06-10 20:23:32
+ * @LastEditTime: 2022-06-17 15:11:54
+ */
 import React from "react";
 import styles from "./index.module.scss";
 import logoLeft from "../../images/about/logoLeft.png";
@@ -8,37 +14,8 @@ import title1 from "../../images/about/title1.png";
 import title2 from "../../images/about/title2.png";
 import title3 from "../../images/about/title3.png";
 import Footer from "../../components/footer/index";
-import facebook from "../../images/homePage/share/Facebook.png";
-import Instagram from "../../images/homePage/share/Instagram.png";
-import LinkedIn from "../../images/homePage/share/Linkedin.png";
-import Pinterest from "../../images/homePage/share/Pinterest.png";
-import Twitter from "../../images/homePage/share/Twitter.png";
 
 const About = () => {
-  const imageArr = [facebook, LinkedIn, Twitter, Pinterest, Instagram];
-  const linkArr = [
-    {
-      href: "/home",
-      title: "Home",
-    },
-    {
-      href: "/avatar",
-      title: "Avatar",
-    },
-    {
-      href: "/fashion",
-      title: "Digital Fashion",
-    },
-    {
-      href: "/art",
-      title: "Digital Art Toy",
-    },
-    {
-      href: "/about",
-      title: "About US",
-    },
-  ];
-
   return (
     <div className={styles.container}>
       <div className={styles.logoContainer}>

@@ -2,14 +2,12 @@
  * @Descripttion:
  * @Author: 热伊木
  * @Date: 2022-06-10 20:23:32
- * @LastEditTime: 2022-06-17 13:26:50
+ * @LastEditTime: 2022-06-17 15:10:29
  */
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Footer from "../../components/footer/index";
 import HomePageCardGroup from "../../components/HomePageCardGroup/index";
-import { getList } from "../../utils/api/product";
-import { fetchGetConvert } from "../../utils/index";
-import getAvatar from "../../images/homePage/getAvatar.png";
+import introduction from "../../images/homePage/introduction.png";
 import styles from "./index.module.scss";
 import asc from "../../images/homePage/asc.png";
 import desc from "../../images/homePage/desc.png";
@@ -22,37 +20,26 @@ const Home = () => {
     price: "desc",
   });
 
-  const [avars, setAvars] = useState([]);
-
   const handleSort = (item, index, con) => {
     item = item.toLowerCase();
     if (item === "time") item = "created_at";
     const newSortCon = { ...sortCon, [item]: con };
     setSortCon(newSortCon);
-    geData(newSortCon);
-  };
-
-  useEffect(() => {
-    geData(sortCon);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  const geData = (newSortCon) => {
-    getList(newSortCon).then((res) => {
-      setAvars(res.data.data);
-    });
   };
 
   return (
     <div>
-      <img
-        priority
-        src={getAvatar}
-        className=""
-        style={{ display: "block", width: "100vw", height: "385px" }}
-        alt="getAvatar"
-        layout="responsive"
-      />
+      <div className={styles.navImg}>
+        <img
+          priority
+          src={introduction}
+          className={styles.navImgText}
+          style={{ display: "block" }}
+          alt="getAvatar"
+          layout="responsive"
+        />
+      </div>
+
       <div className={styles.sortContainer}>
         <div className={styles.tags}>
           <div className={styles.tag}>#Fashion</div>
@@ -63,7 +50,7 @@ const Home = () => {
         <div className={styles.verticalLine}></div>
         {sortArr.map((item, index) => {
           return (
-            <>
+            <div key={index} className={styles.sortItem}>
               <div className={styles.sort}>
                 <div className={styles.sortName}>{item}</div>
                 <div
@@ -85,11 +72,11 @@ const Home = () => {
                   style={{ marginLeft: "24px" }}
                 ></div>
               )}
-            </>
+            </div>
           );
         })}
       </div>
-      <HomePageCardGroup avars={avars} />
+      <HomePageCardGroup sortCon={sortCon} />
       <Footer />
     </div>
   );

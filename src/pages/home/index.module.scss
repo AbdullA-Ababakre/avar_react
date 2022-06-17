@@ -1,3 +1,13 @@
+.navImg {
+  width: 100vw;
+  height: 385px;
+  background: url('../../images/homePage/getAvatar.png') no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .sortContainer {
   display: flex;
   background: rgba(255, 255, 255, 0.5);
@@ -15,10 +25,10 @@
 
     .tag {
       height: 32px;
-      background-image: url("../../images/homePage/tag.png");
+      background: url("../../images/homePage/tag.png") no-repeat;
+      background-size: 100% 100%;
       padding: 4px 14px 4px 14px;
       border-radius: 16px;
-      border: 1px solid #dfdfdf;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -33,35 +43,35 @@
     }
   }
 
-  .sort {
+  .sortItem {
     display: flex;
-    align-items: center;
-    font-family: "Abhaya Libre SemiBold";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 38px;
-    color: #bbbbbb;
 
-    .asc {
-      cursor: pointer;
-      margin-left: 25px;
+    .sort {
+      display: flex;
+      align-items: center;
+      font-family: "Abhaya Libre SemiBold";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 38px;
+      color: #bbbbbb;
+
+      .asc {
+        cursor: pointer;
+        margin-left: 25px;
+      }
+
+      .desc {
+        cursor: pointer;
+        margin-left: 25px;
+      }
     }
 
-    .desc {
-      cursor: pointer;
-      margin-left: 25px;
-    }
   }
-
-  // :nth-child(2){
-  //    padding-right:35px;
-  // }
 
   .verticalLine {
     border: 1px solid #bbbbbb;
     height: 100%;
-    width: 1px;
     margin-left: 12px;
     margin-right: 24px;
   }

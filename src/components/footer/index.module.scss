@@ -23,6 +23,20 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #585858;
+
+    .navItem {
+      text-decoration: none;
+      font-family: 'Abel';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      /* identical to box height, or 154% */
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #585858;
+    }
   }
 
   .share {
