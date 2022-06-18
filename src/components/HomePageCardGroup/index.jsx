@@ -1,9 +1,3 @@
-/*
- * @Descripttion:
- * @Author: 热伊木
- * @Date: 2022-06-10 20:23:30
- * @LastEditTime: 2022-06-17 17:58:35
- */
 import styles from "./index.module.scss";
 import HomePageCard from "../homePageCard";
 import React, { useEffect, useState } from "react";
@@ -35,16 +29,18 @@ const HomePageCardGroup = ({ sortCon }) => {
     const wrappedElement = document.getElementById("box");
     if (isBottom(wrappedElement)) {
       setCurpage((prev) => prev + 1);
-      // fetchData(curPage + 1);
       document.removeEventListener("scroll", trackScrolling);
     }
   };
 
   return (
-    <div id="box" className={styles.cardGroup}>
-      {avars.map((item, index) => (
+    <div id="box" className={avars.length > 0 ? styles.cardGroup : styles.cardGroupLoading}>
+      {avars.length > 0 && avars.map((item, index) => (
         <HomePageCard style={{ width: "25%" }} key={index} item={item} />
       ))}
+      {
+        avars.length === 0 && <div className={styles.loader}></div>
+      }
     </div>
   );
 };
