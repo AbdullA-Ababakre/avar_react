@@ -15,7 +15,10 @@ const About = ({ props }) => {
 
   useEffect(() => {
     getDetail({ id }).then((data) => {
-      setItem(data.data);
+      if (data) {
+        console.log("data.data", data.data);
+        setItem(data.data);
+      }
     });
     showModel();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -27,7 +30,7 @@ const About = ({ props }) => {
       () => {
         // success
         // remove loading
-        ViewModel("modelBox", Battle);
+        ViewModel("modelBox", item.model);
         document.getElementsByClassName("gui-wrap")[0].remove();
       }
     );
@@ -120,7 +123,7 @@ const About = ({ props }) => {
                             </div>
                         </div> */}
           <div className={styles.horizonLine}></div>
-          <div className={styles.instagramCardGroup}>
+          {/* <div className={styles.instagramCardGroup}>
             {insItem.map((item, index) => (
               <InsCard
                 profile={item.profile}
@@ -130,8 +133,8 @@ const About = ({ props }) => {
                 key={index}
               />
             ))}
-          </div>
-          <div className={styles.horizonLine}></div>
+          </div> */}
+          {/* <div className={styles.horizonLine}></div> */}
           <div className={styles.homePageCards}>
             {cardInfo.map((item, index) => (
               <HomePageCard style={{ width: "25%" }} key={index} item={item} />
