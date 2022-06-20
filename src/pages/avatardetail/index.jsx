@@ -7,17 +7,18 @@ import { insItem, cardInfo } from "../../content/index";
 import { ViewModel, LoadScript } from "../../utils/index";
 import { useParams } from "react-router-dom";
 import { getDetail } from "../../utils/api/product";
-import Battle from "../../images/avatars/battle/battle.glb";
 
 const About = ({ props }) => {
   const [item, setItem] = useState({});
   const { id } = useParams();
 
+  const [isSold, setIsSold] = useState(false);
+
   useEffect(() => {
     getDetail({ id }).then((data) => {
       if (data) {
-        console.log("data.data", data.data);
         setItem(data.data);
+        setIsSold(data.data.sales >= data.data.count);
       }
     });
     showModel();
@@ -70,7 +71,7 @@ const About = ({ props }) => {
                     </div>
                   </div>
                 </div>
-                <div className={styles.buyBtn}></div>
+                <div className={styles.buyBtn} style={{ cursor: isSold ? 'not-allowed' : '' }}></div>
               </div>
             </div>
           </div>
@@ -137,7 +138,7 @@ const About = ({ props }) => {
           {/* <div className={styles.horizonLine}></div> */}
           <div className={styles.homePageCards}>
             {cardInfo.map((item, index) => (
-              <HomePageCard style={{ width: "25%" }} key={index} item={item} />
+              <HomePageCard style={{ width: '20%' }} key={index} item={item} />
             ))}
           </div>
           <Footer></Footer>
