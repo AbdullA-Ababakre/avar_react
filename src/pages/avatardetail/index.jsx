@@ -145,7 +145,7 @@ const About = ({ props }) => {
           {/* <div className={styles.horizonLine}></div> */}
           <div className={styles.homePageCards}>
             {cardInfo.map((item, index) => (
-              <HomePageCard style={{ width: '20%' }} key={index} item={item} />
+              <HomePageCard style={{ width: '23%' }} key={index} item={item} />
             ))}
           </div>
           <Footer></Footer>
