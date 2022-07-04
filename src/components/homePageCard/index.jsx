@@ -17,18 +17,6 @@ const HomePageCard = (props) => {
           />
         </div>
       </Link>
-      {/* {isSold && (
-        <div className={styles.imgWrapper}>
-          <img
-            className={styles.img}
-            priority="true"
-            src={item.cover}
-            width={244}
-            height={250}
-            alt="cardImg"
-          />
-        </div>
-      )} */}
       <div className={styles.title}>
         <div>{item.name}</div>
         <div>Avar</div>

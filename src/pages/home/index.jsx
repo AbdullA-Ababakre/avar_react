@@ -33,7 +33,6 @@ const Home = () => {
           layout="responsive"
         />
       </div>
-
       <div className={styles.sortContainer}>
         <div className={styles.tags}>
           <div className={styles.tag}>#Fashion</div>

@@ -15,15 +15,20 @@ const About = ({ props }) => {
   const [isSold, setIsSold] = useState(false);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
+  useEffect(() => {
     getDetail({ id }).then((data) => {
       if (data) {
         setItem(data.data);
         setIsSold(data.data.sales >= data.data.count);
       }
-    });
-    showModel();
+    }).then(() => {
+      showModel();
+    })
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [id]);
 
   const showModel = () => {
     LoadScript(
@@ -31,7 +36,9 @@ const About = ({ props }) => {
       () => {
         // success
         // remove loading
-        ViewModel("modelBox", item.model);
+        // console.log("modelBox", item);
+        // ViewModel("modelBox", item.model);
+        ViewModel("modelBox", 'https://avarlab.com/uploads/qipao3/qipao3.glb');
         document.getElementsByClassName("gui-wrap")[0].remove();
       }
     );
