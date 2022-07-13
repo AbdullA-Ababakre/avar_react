@@ -14,20 +14,22 @@ const About = ({ props }) => {
   const { id } = useParams();
 
   useEffect(() => {
-    getDetail({ id }).then((data) => {
-      setItem(data.data);
+    getDetail({ id }).then((res) => {
+      const { data } = res;
+      setItem(data);
+      showModel(Battle);
     });
-    showModel();
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const showModel = () => {
+  const showModel = (modelUrl) => {
     LoadScript(
       "http://fs3.bimangle.net/js/three-gltf-viewer/gltf-viewer.js",
       () => {
         // success
         // remove loading
-        ViewModel("modelBox", Battle);
+        ViewModel("modelBox", modelUrl);
         document.getElementsByClassName("gui-wrap")[0].remove();
       }
     );
@@ -133,9 +135,14 @@ const About = ({ props }) => {
           </div>
           <div className={styles.horizonLine}></div>
           <div className={styles.homePageCards}>
-            {cardInfo.map((item, index) => (
-              <HomePageCard style={{ width: "25%" }} key={index} item={item} />
-            ))}
+            {item.recommendation &&
+              item.recommendation.map((item, index) => (
+                <HomePageCard
+                  style={{ width: "25%" }}
+                  key={index}
+                  item={item}
+                />
+              ))}
           </div>
           <Footer></Footer>
         </div>

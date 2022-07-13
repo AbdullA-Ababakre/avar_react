@@ -2,7 +2,7 @@
  * @Descripttion:
  * @Author: 热伊木
  * @Date: 2022-06-10 20:23:30
- * @LastEditTime: 2022-06-17 17:58:35
+ * @LastEditTime: 2022-06-17 19:14:31
  */
 import styles from "./index.module.scss";
 import HomePageCard from "../homePageCard";
