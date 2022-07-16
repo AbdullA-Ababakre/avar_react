@@ -8,6 +8,7 @@ import styles from "./index.module.scss";
 import HomePageCard from "../homePageCard";
 import React, { useEffect, useRef, useState } from "react";
 import { getList } from "../../utils/api/product";
+import { throttle } from "lodash";
 
 const HomePageCardGroup = ({ sortCon }) => {
   const [avars, setAvars] = useState([]);
@@ -44,7 +45,7 @@ const HomePageCardGroup = ({ sortCon }) => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", throttle(handleScroll, 100));
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
