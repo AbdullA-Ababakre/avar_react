@@ -16,12 +16,12 @@ const HomePageCardGroup = ({ sortCon }) => {
 
   useEffect(() => {
     fetchData(sortCon, curPage);
+    // eslint-disable-next-line
   }, [curPage, sortCon]);
 
   async function fetchData(sortConParam, page) {
     getList({ ...sortConParam, page }).then((res) => {
       setAvars([...res.data.data, ...avars]);
-      console.log("res.data.data", res.data.next_page_url);
       setNextPageUrl(res.data.next_page_url);
     });
   }
@@ -35,6 +35,7 @@ const HomePageCardGroup = ({ sortCon }) => {
     return () => {
       document.removeEventListener("scroll", trackScrolling);
     };
+    // eslint-disable-next-line
   }, []);
 
   const trackScrolling = () => {

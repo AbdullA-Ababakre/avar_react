@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./index.module.scss";
 import Footer from "../../components/footer/index";
-import InsCard from "../../components/instagramCard/index";
 import HomePageCard from "../../components/homePageCard/index";
-import { insItem, cardInfo } from "../../content/index";
 import { ViewModel, LoadScript } from "../../utils/index";
 import { useParams } from "react-router-dom";
 import { getDetail } from "../../utils/api/product";
