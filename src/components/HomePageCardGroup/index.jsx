@@ -2,7 +2,7 @@
  * @Descripttion:
  * @Author: 热伊木
  * @Date: 2022-06-10 20:23:30
- * @LastEditTime: 2022-06-17 19:14:31
+ * @LastEditTime: 2022-07-14 02:21:02
  */
 import styles from "./index.module.scss";
 import HomePageCard from "../homePageCard";
@@ -29,6 +29,9 @@ const HomePageCardGroup = ({ sortCon }) => {
 
   useEffect(() => {
     document.addEventListener("scroll", trackScrolling);
+    return () => {
+      document.removeEventListener("scroll", trackScrolling);
+    };
   }, []);
 
   const trackScrolling = () => {
