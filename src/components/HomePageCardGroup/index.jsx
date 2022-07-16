@@ -6,56 +6,63 @@
  */
 import styles from "./index.module.scss";
 import HomePageCard from "../homePageCard";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { getList } from "../../utils/api/product";
 
 const HomePageCardGroup = ({ sortCon }) => {
   const [avars, setAvars] = useState([]);
-  const [curPage, setCurpage] = useState(1);
-  const [nextPageUrl, setNextPageUrl] = useState(null);
-
+  const [page, setPage] = useState(1);
+  const loading = useRef(false);
+  const hasMore = useRef(true);
   useEffect(() => {
-    fetchData(sortCon, curPage);
-    // eslint-disable-next-line
-  }, [curPage, sortCon]);
-
-  async function fetchData(sortConParam, page) {
-    getList({ ...sortConParam, page }).then((res) => {
-      setAvars([...res.data.data, ...avars]);
-      setNextPageUrl(res.data.next_page_url);
+    loading.current = true;
+    getList({ ...sortCon, page }).then((res) => {
+      loading.current = false;
+      setAvars([...avars, ...res.data.data]);
     });
-  }
+    // eslint-disable-next-line
+  }, [sortCon]);
 
-  const isBottom = (el) => {
-    return el.getBoundingClientRect().bottom <= window.innerHeight;
+  //懒加载
+  const handleScroll = () => {
+    const scrollTop = document.documentElement.scrollTop;
+    const clientHeight = document.documentElement.clientHeight;
+    const scrollHeight = document.documentElement.scrollHeight;
+    if (
+      scrollTop + clientHeight >= scrollHeight - 100 &&
+      !loading.current &&
+      hasMore.current
+    ) {
+      loading.current = true;
+      getList({ ...sortCon, page: page + 1 }).then((res) => {
+        loading.current = false;
+        setAvars((pre) => [...pre, ...res.data.data]);
+        hasMore.current = res.data.next_page_url != null ? true : false;
+        setPage(page + 1);
+      });
+    }
   };
 
   useEffect(() => {
-    document.addEventListener("scroll", trackScrolling);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      document.removeEventListener("scroll", trackScrolling);
+      window.removeEventListener("scroll", handleScroll);
     };
     // eslint-disable-next-line
   }, []);
 
-  const trackScrolling = () => {
-    const wrappedElement = document.getElementById("box");
-    // console.log("nextPageUrl", nextPageUrl);
-    // console.log("isBottom(wrappedElement)", isBottom(wrappedElement));
-    if (isBottom(wrappedElement) && nextPageUrl) {
-      setCurpage((prev) => prev + 1);
-      document.removeEventListener("scroll", trackScrolling);
-    }
-  };
-
   return (
     <div
       id="box"
-      className={avars.length > 0 ? styles.cardGroup : styles.cardGroupLoading}
+      className={
+        avars.length > 0 || !loading
+          ? styles.cardGroup
+          : styles.cardGroupLoading
+      }
     >
       {avars.length > 0 &&
         avars.map((item, index) => (
-          <HomePageCard style={{ width: "28%" }} key={index} item={item} />
+          <HomePageCard style={{ width: "20%" }} key={index} item={item} />
         ))}
       {avars.length === 0 && <div className={styles.loader}></div>}
     </div>

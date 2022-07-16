@@ -148,7 +148,7 @@ const About = ({ props }) => {
             {item.recommendation &&
               item.recommendation.map((item, index) => (
                 <HomePageCard
-                  style={{ width: "25%" }}
+                  style={{ width: "21%" }}
                   key={index}
                   item={item}
                 />
