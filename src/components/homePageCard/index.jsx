@@ -1,9 +1,3 @@
-/*
- * @Descripttion:
- * @Author: 热伊木
- * @Date: 2022-06-10 20:23:30
- * @LastEditTime: 2022-06-13 08:50:10
- */
 import styles from "./index.module.scss";
 import { Link } from "react-router-dom";
 
@@ -12,33 +6,17 @@ const HomePageCard = (props) => {
   const isSold = item.sales >= item.count;
 
   return (
-    <div className={styles.card}>
-      {!isSold && (
-        <Link to={`/avatar/${item.id}`}>
-          <div className={styles.imgWrapper}>
-            <img
-              className={styles.img}
-              priority="true"
-              src={item.cover}
-              width={244}
-              height={250}
-              alt="cardImg"
-            />
-          </div>
-        </Link>
-      )}
-      {isSold && (
+    <div className={styles.card} style={props.style}>
+      <Link to={`/avatar/${item.id}`}>
         <div className={styles.imgWrapper}>
           <img
             className={styles.img}
             priority="true"
             src={item.cover}
-            width={244}
-            height={250}
             alt="cardImg"
           />
         </div>
-      )}
+      </Link>
       <div className={styles.title}>
         <div>{item.name}</div>
         <div>Avar</div>

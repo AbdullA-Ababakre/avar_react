@@ -123,9 +123,9 @@ export default function SignIn() {
           >
             {type.typeAction}
           </button>
-          <div className={styles.privacy}>
+          {/* <div className={styles.privacy}>
             <span className={styles.privacyText}>隐私政策</span>
-          </div>
+          </div> */}
           <div className={styles.more}>
             <span className={styles.moreWarning}>还没有Avar账户?</span>
             <span className={styles.moreText} onClick={changeSignType}>

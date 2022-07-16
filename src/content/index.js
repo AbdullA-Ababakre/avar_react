@@ -629,33 +629,4 @@ export const cardInfo = [
             "avatar_url": ""
         }
     },
-    {
-        "id": 19,
-        "user_id": 10,
-        "category_id": 154,
-        "name": "Generic Frozen Tuna",
-        "cover": "http://placeimg.com/640/480/animals",
-        "tags": [
-            "invoice",
-            "Fiji"
-        ],
-        "description": "Asperiores tenetur porro quo.",
-        "price": 398,
-        "count": 179,
-        "sales": 849,
-        "images": [
-            "http://placeimg.com/640/480",
-            "http://placeimg.com/640/480"
-        ],
-        "view": 0,
-        "is_on": 1,
-        "is_recommend": 0,
-        "created_at": "2022-06-02 05:12:15",
-        "updated_at": "2022-06-02 05:12:15",
-        "user": {
-            "id": 10,
-            "name": "Destany.Johnson",
-            "avatar_url": ""
-        }
-    }
 ]

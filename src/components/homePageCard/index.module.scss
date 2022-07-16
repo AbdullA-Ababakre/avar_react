@@ -1,21 +1,14 @@
 .card {
-  width: 364px;
   height: 360px;
-  left: 0%;
-  right: -.36%;
-  top: 0%;
-  bottom: 0%;
   background: rgba(249, 249, 249, .5);
   box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
   border-radius: 20px;
   padding: 19px 18.88px 27px 17px;
-  margin-right: 30px;
   margin-bottom: 60px;
 
 
   .imgWrapper {
     background: url("../../images/homePage/homePageCard/background.png") no-repeat center center;
-    width: 316;
     height: 306px;
     position: relative;
     display: flex;
@@ -90,7 +83,3 @@
     }
   }
 }
-
-// .card:nth-child(3) {
-//   margin-right: 0;
-// }

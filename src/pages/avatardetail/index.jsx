@@ -8,20 +8,29 @@ import { ViewModel, LoadScript } from "../../utils/index";
 import { useParams } from "react-router-dom";
 import { getDetail } from "../../utils/api/product";
 import Battle from "../../images/avatars/battle/battle.glb";
-
 const About = ({ props }) => {
   const [item, setItem] = useState({});
   const { id } = useParams();
 
-  useEffect(() => {
-    getDetail({ id }).then((res) => {
-      const { data } = res;
-      setItem(data);
-      showModel(Battle);
-    });
+  const [isSold, setIsSold] = useState(false);
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    window.scrollTo(0, 0);
   }, []);
+
+  useEffect(() => {
+    getDetail({ id })
+      .then((data) => {
+        if (data) {
+          setItem(data.data);
+          setIsSold(data.data.sales >= data.data.count);
+        }
+      })
+      .then(() => {
+        showModel(Battle);
+      });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [id]);
 
   const showModel = (modelUrl) => {
     LoadScript(
@@ -69,7 +78,10 @@ const About = ({ props }) => {
                     </div>
                   </div>
                 </div>
-                <div className={styles.buyBtn}></div>
+                <div
+                  className={styles.buyBtn}
+                  style={{ cursor: isSold ? "not-allowed" : "" }}
+                ></div>
               </div>
             </div>
           </div>
@@ -122,7 +134,7 @@ const About = ({ props }) => {
                             </div>
                         </div> */}
           <div className={styles.horizonLine}></div>
-          <div className={styles.instagramCardGroup}>
+          {/* <div className={styles.instagramCardGroup}>
             {insItem.map((item, index) => (
               <InsCard
                 profile={item.profile}
@@ -132,8 +144,8 @@ const About = ({ props }) => {
                 key={index}
               />
             ))}
-          </div>
-          <div className={styles.horizonLine}></div>
+          </div> */}
+          {/* <div className={styles.horizonLine}></div> */}
           <div className={styles.homePageCards}>
             {item.recommendation &&
               item.recommendation.map((item, index) => (

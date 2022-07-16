@@ -159,6 +159,7 @@
   display: flex;
   justify-content: space-around;
   padding: 52px 0;
+
   .imgWraper {
     width: 454px;
     height: 454px;
@@ -211,6 +212,8 @@
 
 .homePageCards {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  // padding: 0 120px;
+  padding: 52px;
   margin-top: 80px;
 }
