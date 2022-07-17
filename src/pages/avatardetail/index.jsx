@@ -25,7 +25,7 @@ const About = ({ props }) => {
         }
       })
       .then(() => {
-        showModel(Battle);
+        // showModel(Battle);
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
@@ -47,7 +47,27 @@ const About = ({ props }) => {
       {item && (
         <div>
           <div className={styles.Detail}>
-            <div id="modelBox" className={styles.modelBox}></div>
+            <model-viewer
+              alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+              src={item.model}
+              ar
+              ar-modes="webxr scene-viewer quick-look"
+              poster={item.model}
+              seamless-poster
+              shadow-intensity="1"
+              camera-controls
+              enable-pan
+              amera-controls
+              autoplay
+              style={{
+                width: "570px",
+                height: "570px",
+                overflow: "hidden",
+                cursor: "pointer",
+                marginRight: "60px",
+              }}
+            ></model-viewer>
+
             <div className={styles.modelTextBox}>
               <div className={styles.title}>
                 <div className={styles.modelName}>{item.name}</div>
@@ -160,38 +180,5 @@ const About = ({ props }) => {
     </div>
   );
 };
-
-// export async function getStaticPaths() {
-//     let params = {
-//         created_at: 'desc',
-//         count: 'desc',
-//         price: 'desc'
-//     }
-
-//     const url = 'http://edit.atip.top/api/v1/product/list';
-
-//     const res = await fetch(fetchGetConvert(url, params)).then(data => data.json()).catch(function (error) { console.log('request failed', error) });
-//     const path = res.data.data.map((item) => ({
-//         params: { id: item.id.toString() },
-//     }));
-
-//     return {
-//         fallback: false,
-//         paths: res.data.data.map((item) => ({
-//             params: { id: item.id.toString() },
-//         })),
-//     };
-// }
-
-// export async function getStaticProps(context) {
-//     const id = context.params.id;
-//     const item = await fetch(`http://edit.atip.top/api/v1/product/detail/1?id=${id}`).then(res => res.json());
-//     return {
-//         props: {
-//             item: item.data || {}
-//         },
-//         revalidate: 1
-//     }
-// }
 
 export default About;
