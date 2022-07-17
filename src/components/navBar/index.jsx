@@ -8,7 +8,7 @@
 import React from "react";
 import styles from "./index.module.scss";
 // import user from "../../images/homePage/user.png";
-import logoSmall from "../../images/homePage/logosmall.png";
+import logoSmall from "../../images/public/logo.png";
 import { Link } from "react-router-dom";
 
 const NavBar = () => (
