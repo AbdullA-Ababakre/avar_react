@@ -79,7 +79,8 @@ export default function SignIn() {
 
   return (
     <>
-      <div className={styles.container}>
+      <div className="bg">
+        <div className={styles.container}>
         <div className={styles.box}>
           <div className={styles.logoImg}>
             <img priority="true" src={logo} alt="logo" />
@@ -133,7 +134,8 @@ export default function SignIn() {
             </span>
           </div>
         </div>
-      </div>
+      </div> 
+     </div>
     </>
   );
 }

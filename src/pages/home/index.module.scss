@@ -1,13 +1,12 @@
 .navImg {
   width: 100vw;
   height: 385px;
-  background: url('../../images/homePage/getAvatar.png') no-repeat;
+  background: url("../../images/homePage/banner.jpeg") no-repeat;
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .sortContainer {
   display: flex;
@@ -19,7 +18,6 @@
   margin: 0 auto;
   margin-top: 48px;
   margin-bottom: 48px;
-
 
   .tags {
     display: flex;

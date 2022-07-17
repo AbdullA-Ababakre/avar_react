@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  margin-top: 100px;
+  padding-top: 100px;
 
   .logoContainer {
     display: flex;
@@ -30,7 +30,6 @@
       width: 1216px;
       height: 469px;
     }
-
   }
 
   .starContainer {
@@ -45,8 +44,6 @@
       height: 99px;
     }
   }
-
-
 
   .content {
     text-align: center;
@@ -88,9 +85,5 @@
       margin-top: 24px;
       margin-bottom: 100px;
     }
-
-
   }
-
-
 }

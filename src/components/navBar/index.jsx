@@ -7,7 +7,7 @@
 // import Link from 'next/link';
 import React from "react";
 import styles from "./index.module.scss";
-import user from "../../images/homePage/user.png";
+// import user from "../../images/homePage/user.png";
 import logoSmall from "../../images/homePage/logosmall.png";
 import { Link } from "react-router-dom";
 
@@ -47,7 +47,7 @@ const NavBar = () => (
                 <a className={styles.item}>Digital Art Toy</a>
             </Link> */}
 
-      <Link to="/auth">
+      {/* <Link to="/auth">
         <img
           priority="true"
           src={user}
@@ -56,7 +56,7 @@ const NavBar = () => (
           width={42}
           alt="user"
         />
-      </Link>
+      </Link> */}
 
       {/* <img priority="true" src={card} className="" height={42} width={42} alt="card" />  */}
     </div>

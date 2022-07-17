@@ -28,7 +28,7 @@ const About = () => {
   }, [id]);
 
   return (
-    <div className="">
+    <div className="bg">
       {item && (
         <div>
           <div className={styles.Detail}>
@@ -153,7 +153,7 @@ const About = () => {
             {item.recommendation &&
               item.recommendation.map((item, index) => (
                 <HomePageCard
-                  style={{ width: "21%" }}
+                  style={{ width: "28%" }}
                   key={index}
                   item={item}
                 />
