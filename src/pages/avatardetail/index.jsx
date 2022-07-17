@@ -2,14 +2,13 @@ import React, { useEffect, useState } from "react";
 import styles from "./index.module.scss";
 import Footer from "../../components/footer/index";
 import HomePageCard from "../../components/homePageCard/index";
-import { ViewModel, LoadScript } from "../../utils/index";
 import { useParams } from "react-router-dom";
 import { getDetail } from "../../utils/api/product";
-import Battle from "../../images/avatars/battle/battle.glb";
-const About = ({ props }) => {
-  const [item, setItem] = useState({});
+const About = () => {
   const { id } = useParams();
-
+  //获取缓存
+  const localItem = JSON.parse(localStorage.getItem(`avar_${id}`)) || {};
+  const [item, setItem] = useState(localItem);
   const [isSold, setIsSold] = useState(false);
 
   useEffect(() => {
@@ -17,30 +16,16 @@ const About = ({ props }) => {
   }, []);
 
   useEffect(() => {
-    getDetail({ id })
-      .then((data) => {
-        if (data) {
-          setItem(data.data);
-          setIsSold(data.data.sales >= data.data.count);
-        }
-      })
-      .then(() => {
-        // showModel(Battle);
-      });
+    getDetail({ id }).then((data) => {
+      if (data) {
+        setItem(data.data);
+        //缓存数据
+        localStorage.setItem(`avar_${id}`, JSON.stringify(data.data));
+        setIsSold(data.data.sales >= data.data.count);
+      }
+    });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
-
-  const showModel = (modelUrl) => {
-    LoadScript(
-      "http://fs3.bimangle.net/js/three-gltf-viewer/gltf-viewer.js",
-      () => {
-        // success
-        // remove loading
-        ViewModel("modelBox", modelUrl);
-        document.getElementsByClassName("gui-wrap")[0].remove();
-      }
-    );
-  };
 
   return (
     <div className="">

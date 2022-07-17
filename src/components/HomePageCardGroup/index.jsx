@@ -11,7 +11,8 @@ import { getList } from "../../utils/api/product";
 import { throttle } from "lodash";
 
 const HomePageCardGroup = ({ sortCon }) => {
-  const [avars, setAvars] = useState([]);
+  const localAvars = JSON.parse(localStorage.getItem("avars")) || [];
+  const [avars, setAvars] = useState(localAvars);
   const [page, setPage] = useState(1);
   const loading = useRef(false);
   const hasMore = useRef(true);
@@ -19,7 +20,8 @@ const HomePageCardGroup = ({ sortCon }) => {
     loading.current = true;
     getList({ ...sortCon, page }).then((res) => {
       loading.current = false;
-      setAvars([...avars, ...res.data.data]);
+      setAvars([...res.data.data]);
+      localStorage.setItem("avars", JSON.stringify(res.data.data));
     });
     // eslint-disable-next-line
   }, [sortCon]);
