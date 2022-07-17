@@ -4,6 +4,7 @@ import Footer from "../../components/footer/index";
 import HomePageCard from "../../components/homePageCard/index";
 import { useParams } from "react-router-dom";
 import { getDetail } from "../../utils/api/product";
+// import Battle from "../../images/avatars/battle/battle.glb";
 const About = () => {
   const { id } = useParams();
   //获取缓存
@@ -45,11 +46,14 @@ const About = () => {
               amera-controls
               autoplay
               style={{
-                width: "570px",
-                height: "570px",
+                width: "562px",
+                height: "564px",
                 overflow: "hidden",
                 cursor: "pointer",
+                borderRadius: "20px",
                 marginRight: "60px",
+                background: "rgba(255, 255, 255, 0.3)",
+                boxShadow: "inset 0px 4px 4px rgba(0, 0, 0, 0.25)",
               }}
             ></model-viewer>
 

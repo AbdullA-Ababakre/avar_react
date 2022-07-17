@@ -11,7 +11,7 @@ import HomePageCardGroup from "../../components/HomePageCardGroup/index";
 import styles from "./index.module.scss";
 import asc from "../../images/homePage/asc.png";
 import desc from "../../images/homePage/desc.png";
-
+import bannerImg from "../../images/homePage/banner.jpeg";
 const Home = () => {
   const sortArr = ["Time", "Count", "Price"];
   const [sortCon, setSortCon] = useState({
@@ -29,7 +29,7 @@ const Home = () => {
 
   return (
     <div className="bg">
-      <div className={styles.navImg}></div>
+      <img className={styles.navImg} src={bannerImg} alt="banner" />
       <div className={styles.sortContainer}>
         <div className={styles.tags}>
           <div className={styles.tag}>#Fashion</div>
