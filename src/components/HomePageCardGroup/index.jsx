@@ -65,7 +65,7 @@ const HomePageCardGroup = ({ sortCon }) => {
     >
       {avars.length > 0 &&
         avars.map((item, index) => (
-          <HomePageCard style={{ width: "20%" }} key={index} item={item} />
+          <HomePageCard style={{ width: "28%" }} key={index} item={item} />
         ))}
       {avars.length === 0 && <div className={styles.loader}></div>}
     </div>
